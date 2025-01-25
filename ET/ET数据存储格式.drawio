@@ -1,9 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
   <diagram name="第 1 页" id="AbzxflRWPjA4LKSI205R">
-    <mxGraphModel>
+    <mxGraphModel dx="477" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-1" value="root offset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-2" value="struct Program" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-3" value="Programe_Size&lt;div&gt;(从Head中读取到)&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="230" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-4" value="这部分数据空间就针对程序中的executorch_flatbuffer::Program" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="237.5" y="310" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-5" value="uint32(4字节)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-6" value="Head" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-7" value="占用64字节&lt;div&gt;当存储了：&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;a.program_size&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;b.segment_base_offset&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="310" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="20" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

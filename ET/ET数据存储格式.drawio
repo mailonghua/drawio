@@ -130,6 +130,27 @@
         <mxCell id="Pcyh52-nce5U-sSyR8mO-52" value="executorch_flatbuffer::ExecutionPlan" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="360" y="388" width="145" height="22" as="geometry" />
         </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pcyh52-nce5U-sSyR8mO-53" target="Pcyh52-nce5U-sSyR8mO-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="Pcyh52-nce5U-sSyR8mO-53" target="Pcyh52-nce5U-sSyR8mO-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-53" value="Methord&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(如forward方法&lt;/font&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="108.64" y="570" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pcyh52-nce5U-sSyR8mO-54" target="Pcyh52-nce5U-sSyR8mO-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-54" value="Chain&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;类似llama.cpp中的DAG(有向无环图)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220.25" y="570" width="134.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-56" value="Instruction&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;(类似DAG中的一个节点的指令&lt;/font&gt;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="570" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pcyh52-nce5U-sSyR8mO-58" value="Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="570" width="82" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

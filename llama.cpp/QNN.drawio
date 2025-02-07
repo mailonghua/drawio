@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.0.11" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.0.11" pages="4">
   <diagram id="Sv_UfMXDKVhwG62TIzkl" name="QNN自定义算子">
     <mxGraphModel dx="3033" dy="2344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -890,8 +890,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="CXozrypUUiQnMjNHK9Yl" name="Genie">
-    <mxGraphModel dx="4522" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="CXozrypUUiQnMjNHK9Yl" name="Genie-kvcache">
+    <mxGraphModel dx="7390" dy="1887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2429,6 +2429,406 @@
         </mxCell>
         <mxCell id="d8vp8Gldha3MHZci0Koj-501" value="Genie中更新KV Cache的软件流程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-827" y="3140" width="467" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4CnEMibhxGDH0Yl3V7EV" name="Genie-流程图">
+    <mxGraphModel dx="258" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9JyvYj-clRWjy_c7PRln-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2465" y="1167" width="435" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="2051" y="1514.6" width="1079" height="1052.4" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2671.71" y="2307.56" width="428.25" height="142.92" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2669.96" y="1820.48" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2669.96" y="1923.29" width="408.25" height="197.19" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-7" target="9JyvYj-clRWjy_c7PRln-93">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2820" y="1537" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2308" y="1991" />
+              <mxPoint x="2583" y="1991" />
+              <mxPoint x="2583" y="1507" />
+              <mxPoint x="2815" y="1507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2103.48" y="1551" width="408.25" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-9" target="9JyvYj-clRWjy_c7PRln-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2685" y="1527" />
+              <mxPoint x="2308" y="1527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2484.96" y="1202" width="400" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-11" target="9JyvYj-clRWjy_c7PRln-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2131.75" y="1192" width="298.25" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-13" target="9JyvYj-clRWjy_c7PRln-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="847" width="300" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-15" target="9JyvYj-clRWjy_c7PRln-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2285" y="1137" />
+              <mxPoint x="2470" y="1137" />
+              <mxPoint x="2470" y="807" />
+              <mxPoint x="2650" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-15" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="477" width="310" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-17" target="9JyvYj-clRWjy_c7PRln-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-17" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="137" width="250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-19" target="9JyvYj-clRWjy_c7PRln-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2171.75" y="152" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-21" target="9JyvYj-clRWjy_c7PRln-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-21" value="main" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1741.75" y="90" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-23" target="9JyvYj-clRWjy_c7PRln-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-23" value="创建KvShareDialog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1741.75" y="128" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-25" target="9JyvYj-clRWjy_c7PRln-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-25" value="创建NspEngine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1741.75" y="168" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-27" target="9JyvYj-clRWjy_c7PRln-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-27" value="执行Load函数&lt;div&gt;(QNN所有初始化)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1741.75" y="206" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-29" target="9JyvYj-clRWjy_c7PRln-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-29" value="m_qnnApi-&amp;gt;initialize(...)&lt;div&gt;模型的加载&amp;amp;QNN的初始化&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1728" y="261" width="146" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-31" target="9JyvYj-clRWjy_c7PRln-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-31" value="创建NSPGraph&amp;amp;GraphVariants" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1727.75" y="324.25" width="147.5" height="37.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-33" target="9JyvYj-clRWjy_c7PRln-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-33" value="计算输入向量rope_sin&amp;amp;rope_cos" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1728" y="386" width="147.5" height="37.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-35" target="9JyvYj-clRWjy_c7PRln-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-35" value="填充输入向量(将data与Qnn_Tensor_t向量进行联合)" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="451" width="162" height="37.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-37" target="9JyvYj-clRWjy_c7PRln-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-37" value="开始执行QNN的推理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1741.75" y="521" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-38" value="唤醒Dispatch线程--更新KVCACHE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1741.75" y="575" width="120" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-40" target="9JyvYj-clRWjy_c7PRln-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-40" value="&lt;div&gt;通过dlopen打开&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;libQnnHtp.s&lt;/font&gt;返回了&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;m_backendLibraryHandle&lt;/font&gt;句柄并从中&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;获得getInterfaceProviders&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2201.75" y="164" width="190" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-42" target="9JyvYj-clRWjy_c7PRln-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-42" value="&lt;div&gt;利用getInterfaceProviders获取当前的backend支持的所有QNN API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2201.75" y="235.25" width="190" height="45.75" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-43" value="选择与当前想要使用的QNN API版本填充到&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;m_qnnInterface&lt;/font&gt;&lt;/b&gt;和&lt;b&gt;m_backendId&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2201.75" y="308" width="190" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-49" target="9JyvYj-clRWjy_c7PRln-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-45" value="&lt;font color=&quot;#ff33ff&quot;&gt;&lt;b&gt;loadFromCachedBinary==true&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9JyvYj-clRWjy_c7PRln-44">
+          <mxGeometry x="-0.3477" y="-1" relative="1" as="geometry">
+            <mxPoint x="3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-47" target="9JyvYj-clRWjy_c7PRln-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-47" value="通过dlopen打开&lt;br&gt;&lt;font style=&quot;font-weight: bold;&quot; color=&quot;#ff0000&quot;&gt;libQnnSystem.so&lt;/font&gt;返回了&lt;font style=&quot;font-weight: bold;&quot; color=&quot;#ff0000&quot;&gt;systemLibraryHandle&lt;/font&gt;句柄并获得QnnSystemInterface_getProviders" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="150" width="190" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-48" value="选择与当前想要使用的QNN API版本相符合的API填充到&lt;b&gt;m_qnnSystemInterface&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="332" width="190" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-49" value="&lt;div&gt;利用QnnSystemInterface_getProviders获取当前的backend支持的所有QNN API&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="230.69000000000005" width="190" height="62.63" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-51" target="9JyvYj-clRWjy_c7PRln-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-51" value="QnnApi::initialize" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2209.25" y="92" width="175" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-52" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;获取QNN-SystemAPI&lt;/font&gt;&lt;/div&gt;getQnnSystemInterface&lt;div&gt;根据QnnSystem.so获取qnn system API&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2815" y="233.13" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-54" target="9JyvYj-clRWjy_c7PRln-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-54" value="根据m_backendLibraryHandle和backendExtensionsConfig&lt;div&gt;(sharedLibraryPath:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;libQnnHtpNetRunExtensions.so&quot;,和configFilePath:&quot;htp_backend_ext_config.json&quot;)创建&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;后端自定义对象BackendExtensions&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2155" y="492" width="260" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-56" target="9JyvYj-clRWjy_c7PRln-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-56" value="通过m_qnnInterfacec创建后端的backend对象&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;m_backendHandle&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;m_qnnInterface.backendCreate(&lt;span style=&quot;background-color: initial;&quot;&gt;..., &amp;amp;m_backendHandle&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2528.63" y="944.1299999999999" width="232.75" height="60.87" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-58" target="9JyvYj-clRWjy_c7PRln-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-58" value="&lt;b&gt;&lt;font color=&quot;#ff33ff&quot;&gt;创建和初始化自定义后端对象BackendExtensions的初始化&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;1.通过dlopen打开&quot;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;libQnnHtpNetRunExtensions&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;.so&lt;/font&gt;&quot;&lt;/div&gt;&lt;div&gt;2.根据句柄获得&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;createBackendInterface&lt;/font&gt;&lt;/b&gt;的指针存在m_createBackendInterfaceFn&lt;/div&gt;&lt;div&gt;3.根据句柄获得&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;destroyBackendInterface&lt;/font&gt;&lt;/b&gt;的指针存在m_destroyBackendInterfaceFn&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2155" y="617" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-60" target="9JyvYj-clRWjy_c7PRln-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-60" value="&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff33ff&quot;&gt;创建QNN的后端对象&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;使用createBackendInterface创建QNN后端对象&lt;div&gt;&amp;nbsp;&lt;b&gt;m_backendInterface = m_createBackendInterfaceFn();&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2155" y="767" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-62" target="9JyvYj-clRWjy_c7PRln-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-62" value="&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff33ff&quot;&gt;QNN后端对象初始化&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;m_backendInterface&lt;/font&gt;&lt;/b&gt;-&amp;gt;initialize(m_backendLibHandle)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2155" y="867" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-63" value="&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff33ff&quot;&gt;QNN后端对象的可选设置&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;1.性能对象设置&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;m_backendInterface-&amp;gt;setPerfProfile(m_perfProfile)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2.为QNN后端对象加载配置&lt;/b&gt;&lt;/div&gt;&lt;div&gt;m_backendInterface-&amp;gt;loadConfig(m_backendExtensionsConfigPath)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;3.加载命令行参数&lt;/b&gt;&lt;/div&gt;&lt;div&gt;m_backendInterface-&amp;gt;loadCommandLineArgs(m_clManager)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2157" y="942" width="255" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-64" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;BackendExtension&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;初始化和设置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;&lt;/font&gt;initializeBackendExtensions(...)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1900" y="707" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-66" target="9JyvYj-clRWjy_c7PRln-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-66" value="&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;Backend初始化前的初始化&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;m_backendExtensions-&amp;gt;interface()-&amp;gt;beforeBackendInitialize&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2530.38" y="857.5" width="231.25" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-67" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;Backend初始化后的初始化&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;m_backendExtensions-&amp;gt;interface()-&amp;gt;afterBackendInitialize()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2528.63" y="1036.88" width="232.75" height="60.87" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-68" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;Backend&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(255, 0, 0); background-color: initial;&quot;&gt;初始化和设置&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QnnApi::initializeBackend()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2810" y="937" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-70" target="9JyvYj-clRWjy_c7PRln-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-70" value="&lt;div&gt;&lt;b&gt;通过backendExtension,&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;获取设备配置&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_backendExtensions-&amp;gt;interface()-&amp;gt;beforeCreateDevice(&amp;amp;&lt;font color=&quot;#ff0000&quot;&gt;deviceConfigs&lt;/font&gt;, &amp;amp;configCount)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2158.63" y="1212" width="232.75" height="60.87" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-72" target="9JyvYj-clRWjy_c7PRln-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-72" value="&lt;div&gt;&lt;b&gt;通过&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;m_qnnInterface创建设备对象&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;m_deviceHandle&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;div style=&quot;&quot;&gt;m_qnnInterface.deviceCreate(&lt;span style=&quot;background-color: initial;&quot;&gt;m_logHandle, &lt;b&gt;&lt;font color=&quot;#ff33ff&quot;&gt;deviceConfigPointers&lt;/font&gt;&lt;/b&gt;.data(),&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;amp;m_deviceHandle&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2155" y="1302.87" width="240" height="89.13" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-73" value="&lt;b&gt;完成设备对象的创建&lt;/b&gt;&lt;div&gt;m_backendExtensions-&amp;gt;interface()-&amp;gt;afterCreateDevice()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2155" y="1422" width="240" height="54.57" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-74" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;设备对象的创建&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QnnApi::createDevice()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1966.75" y="1294.5" width="165" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-76" target="9JyvYj-clRWjy_c7PRln-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-76" value="&lt;b&gt;固定设置Contex的配置,存储在&lt;/b&gt;&lt;font style=&quot;&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;contextConfigs&lt;/b&gt;&lt;/font&gt;&lt;div&gt;QnnApi::getContextConfigs&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2509.9700000000003" y="1308.0000000000005" width="240" height="54.57" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-77" value="&lt;b&gt;获得用户自定义配置存储在&lt;font color=&quot;#ff0000&quot;&gt;customConfigs&lt;/font&gt;&lt;/b&gt;&lt;div&gt;m_backendExtensions-&amp;gt;interface()-&amp;gt;beforeCreateFromBinary&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2509.96" y="1219.4299999999998" width="240" height="54.57" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-77" target="9JyvYj-clRWjy_c7PRln-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-79" value="&lt;b&gt;合并Config&lt;/b&gt;&lt;div&gt;&lt;b&gt;将customConfifs与contextConfigs进行合并到&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;allContextConfigs&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2509.96" y="1394.0000000000005" width="240" height="54.57" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-81" target="9JyvYj-clRWjy_c7PRln-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-81" value="&lt;b&gt;创建SystemContext,句柄为&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;sysCtxHandle&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;(每一个分割模型bin，单独对应一个)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;m_qnnSystemInterface.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;systemContextCreate(&amp;amp;sysCtxHandle)&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2136.73" y="1566" width="240" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-82" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2752.71" y="1237" width="40" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-83" value="&lt;div&gt;&lt;font&gt;Config的配置&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2794.96" y="1307" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-85" target="9JyvYj-clRWjy_c7PRln-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-85" value="&lt;b&gt;将当前的模型bin文件map到&lt;font color=&quot;#ff0000&quot;&gt;buffer&lt;/font&gt;中&lt;/b&gt;&lt;div&gt;mmapBinaryFile(binaryPath, &amp;amp;mappedBuffer, bufferSize)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2136.73" y="1681" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-87" target="9JyvYj-clRWjy_c7PRln-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-87" value="&lt;div&gt;&lt;b&gt;根据buffer获取当前的bin的信息存储在&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;binaryInfo&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;m_qnnSystemInterface.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;systemContextGetBinaryInfo&lt;/b&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2136.73" y="1771" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#009900;strokeWidth=2;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-89" target="9JyvYj-clRWjy_c7PRln-81">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2081.73" y="1921" />
+              <mxPoint x="2081.73" y="1604" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-89" value="&lt;b&gt;最终将binaryInfo存储在&lt;/b&gt;&lt;font style=&quot;&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;m_graphsInfo&lt;/b&gt;&lt;/font&gt;&lt;b&gt;数组中&lt;/b&gt;&lt;div&gt;&lt;b&gt;m_graphsInfo[m_graphsCount] = graphsInfo[gIdx]&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2136.73" y="1874" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-90" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2381.73" y="1596" width="40" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-91" value="&lt;div&gt;&lt;font&gt;模型文件的map&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&amp;amp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;模型信息的获取&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2415.38" y="1736" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-93" target="9JyvYj-clRWjy_c7PRln-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-93" value="&lt;div&gt;&lt;b&gt;根据m_graphsInfo的数据创建&lt;font color=&quot;#ff0000&quot;&gt;Qnn Tensors&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;amp;统计所有的输入和输出的tensor&lt;font color=&quot;#ff0000&quot;&gt;总占用空间&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;parseIOTensorsAndAccumulate&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -&amp;gt;qualla::QnnUtils::Tensor(...)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="1556.48" width="240" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-95" target="9JyvYj-clRWjy_c7PRln-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-95" value="&lt;div&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;config的进一步手动配置和合并&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;手动配置&lt;span style=&quot;background-color: initial;&quot;&gt;QnnContext_Config_t&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;并用上面的&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;allContextConfigs进行合并&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="1651.48" width="240" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-97" target="9JyvYj-clRWjy_c7PRln-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-97" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;用户自定义配置QnnHtpContext_CustomConfig_t&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;手动配置&lt;span style=&quot;background-color: initial;&quot;&gt;QnnContext_Config_t&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;并用上面的&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;allContextConfigs进行合并&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="1747.48" width="240" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-98" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2937.71" y="1674.48" width="40" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-99" value="&lt;div&gt;&lt;font&gt;进一步的&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;Config的配置&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2977.71" y="1710.48" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-101" target="9JyvYj-clRWjy_c7PRln-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-101" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;根据allContextConfigs&amp;amp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;后端对象&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;m_backendHandle&amp;amp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;设备对象&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;m_deviceHandle&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;创建Context----&amp;gt;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;contextHandle&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;m_qnnInterface.contextCreateFromBinary&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="1829.48" width="240" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-102" value="&lt;font&gt;创建Context&lt;/font&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2969.96" y="1840.48" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-104" target="9JyvYj-clRWjy_c7PRln-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-104" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;通过libcdsprpc.so文件获取rpcmem分配函数接口&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff33ff&quot;&gt;(仅运行一次)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;rpcmem_alloc&lt;br&gt;&lt;/div&gt;&lt;div&gt;rpcmem_free&lt;br&gt;&lt;/div&gt;&lt;div&gt;rpcmem_to_fd&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="1940.48" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-105" value="获得rpc内存&lt;div&gt;分配接口&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2966.71" y="1960.48" width="93.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-107" target="9JyvYj-clRWjy_c7PRln-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-107" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;通过rpcmem_alloc对Tenosr内存分配&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ff33ff&quot;&gt;(仅运行一次)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;m_ioBufferMgr-&amp;gt;allocateBuffers()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="2054.5400000000004" width="240" height="47.24" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-109" target="9JyvYj-clRWjy_c7PRln-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-109" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;保存当前的Context&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;m_contextVec.push_back(contextHandle);&lt;/b&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="2132.64" width="240" height="50.84" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-110" value="Tensor内存分配" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2967.96" y="2049.64" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-112" target="9JyvYj-clRWjy_c7PRln-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-112" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;从当前的ContextHandle和graphName获取当前的Graph对象&lt;/b&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Qnn_GraphHandle_t&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;cur_graph-&amp;gt;graph&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_qnnInterface.graphRetrieve(...)&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="2210.92" width="240" height="69.56" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-113" value="从Context获取当前的Graph对象" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2966.71" y="2224.6" width="153.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-116" target="9JyvYj-clRWjy_c7PRln-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#009900;strokeWidth=2;" edge="1" parent="1" source="9JyvYj-clRWjy_c7PRln-116" target="9JyvYj-clRWjy_c7PRln-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2629.96" y="2381.48" />
+              <mxPoint x="2629.96" y="1680.48" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-116" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;Qnn Tensor和内存空间的绑定&amp;amp;tensor注册到图中&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;registerTensorsWithBackend(graphIdx)&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;-&amp;gt;m_qnnInterface-&amp;gt;memRegister(contextHandle, &amp;amp;mem_descriptor, 1, &amp;amp;mem_handle);&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2694.96" y="2332.48" width="240" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-117" value="tensor和内存的绑定&amp;amp;&lt;div&gt;tensor注册到当前的图中(Context中)&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2955.84" y="2337.64" width="153.25" height="62.84" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-118" value="&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;Contex创建的收尾调用&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;m_backendExtensions-&amp;gt;interface()-&amp;gt;afterCreateFromBinary()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2742.46" y="2485.12" width="145" height="51.88" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-119" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;模型加载和Tensor的创建&amp;amp;注册&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;QnnApi::createFromBinary&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2270" y="2051.78" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9JyvYj-clRWjy_c7PRln-120" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;获取当前的QNN-API&lt;/font&gt;&lt;/div&gt;getQnnInterface&lt;div style=&quot;font-size: 14px;&quot;&gt;根据后端获取qnn API&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2021.75" y="215.69" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

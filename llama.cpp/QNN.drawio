@@ -2274,6 +2274,162 @@
         <mxCell id="d8vp8Gldha3MHZci0Koj-452" value="Genie中NPU产生完KV值填充到Genie维护的KV Cache中的形式" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-824" y="2300" width="777" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-454" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="3418" width="597" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-455" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-383" y="3198" width="1000" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-456" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-457" target="d8vp8Gldha3MHZci0Koj-460">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-457" value="主线程&lt;div&gt;NspEngine::load&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-793" y="3778" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-458" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-460" target="d8vp8Gldha3MHZci0Koj-462">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-459" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-460" target="d8vp8Gldha3MHZci0Koj-466">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-460" value="创建线程池&lt;div&gt;_model = std::make_unique&amp;lt;QnnNspModel&amp;gt;(_env, _params)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-625" y="3773" width="336" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-461" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-462" target="d8vp8Gldha3MHZci0Koj-485">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-462" value="线程池执行了ThreadPool中的_jobs的列表" style="whiteSpace=wrap;html=1;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-393" y="3528" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-463" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-466" target="d8vp8Gldha3MHZci0Koj-469">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-464" value="创建了线程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d8vp8Gldha3MHZci0Koj-463">
+          <mxGeometry x="0.0392" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-465" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-466" target="d8vp8Gldha3MHZci0Koj-472">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-466" value="创建了KVDispatcher对象-&amp;gt;同时会创建Dispatch线程" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-163" y="3778" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-467" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-469" target="d8vp8Gldha3MHZci0Koj-475">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-468" value="唤醒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d8vp8Gldha3MHZci0Koj-467">
+          <mxGeometry x="0.024" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-469" value="Dispatch线程" style="whiteSpace=wrap;html=1;align=left;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="3608" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-470" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-472" target="d8vp8Gldha3MHZci0Koj-469">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="47" y="3658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-471" value="唤醒该cache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d8vp8Gldha3MHZci0Koj-470">
+          <mxGeometry x="-0.0296" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-472" value="Clear cache&amp;nbsp;&lt;div&gt;||&amp;nbsp;&lt;/div&gt;&lt;div&gt;Update Cache(todo)&lt;/div&gt;&lt;div&gt;|| ....&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="3778" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-473" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-475" target="d8vp8Gldha3MHZci0Koj-477">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-474" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-475" target="d8vp8Gldha3MHZci0Koj-481">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-475" value="遍历DispatcherState确定是否有请求的任务" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="3618" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-476" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-477" target="d8vp8Gldha3MHZci0Koj-478">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-477" value="如果遍历的当前图没有待处理的Kvcache就释放或者唤醒当前图的锁，current.n_past == requested.n_past" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3618" width="202" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-478" value="主线程的推理逻辑&lt;div&gt;[todo]&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="502" y="3618" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-479" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-481" target="d8vp8Gldha3MHZci0Koj-462">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-480" value="将任务送人线程池执行列表中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d8vp8Gldha3MHZci0Koj-479">
+          <mxGeometry x="-0.3196" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-481" value="有待请求的任务(如更新KVCACHE)就将对应图信息和要执行的当前图对象的函数指针进行送入到线程池的执行列表中&lt;div&gt;_threadpool-&amp;gt;enqueue(_update_jobs)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="44" y="3438" width="242" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-482" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-485" target="d8vp8Gldha3MHZci0Koj-487">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-483" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-485" target="d8vp8Gldha3MHZci0Koj-487">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-484" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-485" target="d8vp8Gldha3MHZci0Koj-489">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-485" value="线程池任务列表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-333" y="3272" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-486" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-487" target="d8vp8Gldha3MHZci0Koj-490">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-487" value="&lt;div&gt;KVCACHE对应的tensor的内存注册&lt;/div&gt;registerPointerOffset" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="3220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-488" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-489" target="d8vp8Gldha3MHZci0Koj-492">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-489" value="runKVUpdateJob&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-133" y="3308" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-490" value="注册完的内存是CPU&amp;amp;HTP都可以访问的" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67" y="3220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-491" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-492" target="d8vp8Gldha3MHZci0Koj-493">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-492" value="更新KVCACHE&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67" y="3308" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-493" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="3298" width="312" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-494" value="&amp;nbsp;cache IN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287" y="3308" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-495" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d8vp8Gldha3MHZci0Koj-497" target="d8vp8Gldha3MHZci0Koj-494">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-496" value="Update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d8vp8Gldha3MHZci0Koj-495">
+          <mxGeometry x="-0.0578" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-497" value="cache OUT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="462" y="3308" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-498" value="KVCACHE相关操作，如更新、clear等" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-393" y="3190" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-499" value="Dispatch主要用于填充线程池需要做的KVCACHE更新的对应的图函数指针" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-104.5" y="3528" width="171.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-500" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="3130" width="1697" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="d8vp8Gldha3MHZci0Koj-501" value="Genie中更新KV Cache的软件流程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-827" y="3140" width="467" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

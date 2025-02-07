@@ -1,4 +1,91 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.0.11" pages="2">
+  <diagram id="Sv_UfMXDKVhwG62TIzkl" name="QNN自定义算子">
+    <mxGraphModel dx="2620" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;dashed=1;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry width="1270" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="743" y="60" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-3" target="DR4a6_bkU-ikUzdVwFBg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-3" value="LLaMAOpPackageHtp.xml" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-8" target="DR4a6_bkU-ikUzdVwFBg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-8" target="DR4a6_bkU-ikUzdVwFBg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-8" target="DR4a6_bkU-ikUzdVwFBg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-7" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DR4a6_bkU-ikUzdVwFBg-6">
+          <mxGeometry x="-0.7399" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-8" value="&lt;span style=&quot;font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;qnn-op-package-generator&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="213" y="130" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-9" value="&lt;pre&gt;&lt;div style=&quot;background-color: rgba(0, 0, 0, 0); font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px;&quot;&gt;$QNN_SDK_ROOT/bin/x86_64-linux-clang/qnn-op-package-generator -p ./LLaMAOpPackageHtp.xml -o .&lt;/div&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-11" target="DR4a6_bkU-ikUzdVwFBg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-11" value="&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;LLaMAPackageInterface.cpp&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="493" y="85" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-13" target="DR4a6_bkU-ikUzdVwFBg-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-13" value="&lt;span style=&quot;font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;op/*.cpp&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="493" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-15" target="DR4a6_bkU-ikUzdVwFBg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-15" value="&lt;span style=&quot;font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;Makefile&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="493" y="175" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-17" target="DR4a6_bkU-ikUzdVwFBg-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="752.9999999999998" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-17" value="&lt;span style=&quot;font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;用于添加算子实现&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="583" y="130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-20" target="DR4a6_bkU-ikUzdVwFBg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-20" target="DR4a6_bkU-ikUzdVwFBg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-20" value="&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;make htp_aarch64 &lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;&amp;amp;&amp;amp; &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;make htp_v75&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="753" y="119" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-21" value="&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;aarch64-android/libQnnLLaMAPackage.so&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="923" y="85" width="295" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-22" value="&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;hexagon-v75/libQnnLLaMAPackage.so&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="923" y="160" width="295" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-23" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 17px;&quot;&gt;当前执行的位置&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="953" y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DR4a6_bkU-ikUzdVwFBg-25" value="自定义算子的生成" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="模型转换" id="q1nRHni4aejiV3N0xTG-">
     <mxGraphModel dx="5736" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -412,90 +499,6 @@
         </mxCell>
         <mxCell id="eDtktl5VDvue2rG7Qb4u-127" value="LLama2-7B模型转换为QNN的模型" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="200" y="2598" width="390" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="Sv_UfMXDKVhwG62TIzkl" name="QNN自定义算子">
-    <mxGraphModel dx="2620" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-24" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;dashed=1;strokeWidth=2;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry width="1270" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="743" y="60" width="510" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-3" target="DR4a6_bkU-ikUzdVwFBg-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-3" value="LLaMAOpPackageHtp.xml" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="20" y="130" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-8" target="DR4a6_bkU-ikUzdVwFBg-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-8" target="DR4a6_bkU-ikUzdVwFBg-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-8" target="DR4a6_bkU-ikUzdVwFBg-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-7" value="生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DR4a6_bkU-ikUzdVwFBg-6">
-          <mxGeometry x="-0.7399" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-8" value="&lt;span style=&quot;font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;qnn-op-package-generator&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="213" y="130" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-9" value="&lt;pre&gt;&lt;div style=&quot;background-color: rgba(0, 0, 0, 0); font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px;&quot;&gt;$QNN_SDK_ROOT/bin/x86_64-linux-clang/qnn-op-package-generator -p ./LLaMAOpPackageHtp.xml -o .&lt;/div&gt;&lt;/pre&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="20" y="260" width="720" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-11" target="DR4a6_bkU-ikUzdVwFBg-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-11" value="&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;LLaMAPackageInterface.cpp&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="493" y="85" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-13" target="DR4a6_bkU-ikUzdVwFBg-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-13" value="&lt;span style=&quot;font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;op/*.cpp&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="493" y="130" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-15" target="DR4a6_bkU-ikUzdVwFBg-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-15" value="&lt;span style=&quot;font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;Makefile&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="493" y="175" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-17" target="DR4a6_bkU-ikUzdVwFBg-20">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="752.9999999999998" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-17" value="&lt;span style=&quot;font-family: Consolas, monospace-fallback, &amp;quot;monospace&amp;quot;; font-size: 14px; white-space: pre;&quot;&gt;用于添加算子实现&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="583" y="130" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-20" target="DR4a6_bkU-ikUzdVwFBg-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DR4a6_bkU-ikUzdVwFBg-20" target="DR4a6_bkU-ikUzdVwFBg-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-20" value="&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;make htp_aarch64 &lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;&amp;amp;&amp;amp; &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;make htp_v75&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="753" y="119" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-21" value="&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;aarch64-android/libQnnLLaMAPackage.so&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="923" y="85" width="295" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-22" value="&lt;font face=&quot;Consolas, monospace-fallback, monospace&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space: pre;&quot;&gt;hexagon-v75/libQnnLLaMAPackage.so&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="923" y="160" width="295" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DR4a6_bkU-ikUzdVwFBg-23" value="&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 17px;&quot;&gt;当前执行的位置&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="953" y="30" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

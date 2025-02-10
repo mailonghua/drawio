@@ -122,14 +122,31 @@
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-46" value="百万个监督微调数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="204" y="998" width="120" height="44" as="geometry" />
         </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624.7931034482758" y="1020.2758620689656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-47" value="基于第一阶段的模型进行微调" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="376.5" y="965" width="193.5" height="110" as="geometry" />
+          <mxGeometry x="376.5" y="965" width="183.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-49" value="Sparse Predictor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="409.5" y="975" width="131" height="39" as="geometry" />
+          <mxGeometry x="402" y="975" width="131" height="39" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-50" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="411.5" y="1026" width="129" height="39" as="geometry" />
+          <mxGeometry x="404" y="1026" width="129" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-52" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="181" y="971.5" width="20" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-53" value="多样化提示" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="975" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-54" value="指定任务和输入" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="91" y="1005" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-55" value="任务描述" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="98" y="1038.5" width="104" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

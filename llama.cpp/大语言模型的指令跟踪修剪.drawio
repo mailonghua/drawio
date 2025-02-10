@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-41" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="849" width="342" height="71" as="geometry" />
+        </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-1" target="FLRZDwi7_tAXWpCWDcj3-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -29,61 +32,104 @@
           <mxGeometry x="190" y="345" width="60" height="10" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-11" value="Sparsity predictor&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="312" y="542" width="136" height="35" as="geometry" />
+          <mxGeometry x="188" y="543" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-13" value="main" style="text;strokeColor=default;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="170" y="627" width="90" height="40" as="geometry" />
+          <mxGeometry x="46" y="628" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="452" y="499.5" width="32" height="99.5" as="geometry" />
+          <mxGeometry x="328" y="500.5" width="32" height="99.5" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-15" target="FLRZDwi7_tAXWpCWDcj3-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-15" value="&lt;div&gt;a&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;dense LLM to be dynamically pruned&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="312" y="712" width="136" height="35" as="geometry" />
+          <mxGeometry x="188" y="713" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
-          <mxGeometry x="256" y="557" width="49" height="172" as="geometry" />
+          <mxGeometry x="132" y="558" width="49" height="172" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-17" target="FLRZDwi7_tAXWpCWDcj3-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-17" value="&lt;div&gt;&amp;nbsp;a much smaller LLM back-&lt;span style=&quot;background-color: transparent;&quot;&gt;bone&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="487" y="483" width="90" height="35" as="geometry" />
+          <mxGeometry x="363" y="484" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-18" value="a mask prediction head" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="491" y="581" width="95" height="35" as="geometry" />
+          <mxGeometry x="367" y="582" width="95" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-19" value="用于提取用户提示的特征" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="611.5" y="483" width="136" height="35" as="geometry" />
+          <mxGeometry x="487.5" y="484" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-21" value="&lt;b&gt;结构：&lt;/b&gt;两层MLP" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="625.5" y="526" width="136" height="35" as="geometry" />
+          <mxGeometry x="501.5" y="527" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="591.5" y="542" width="26" height="99" as="geometry" />
+          <mxGeometry x="467.5" y="543" width="26" height="99" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-23" value="&lt;b&gt;INPUT:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;llm back-bone最后一层的&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;最后一个标记Xn的隐藏状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;作为输入&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620.5" y="568" width="197" height="48" as="geometry" />
+          <mxGeometry x="496.5" y="558" width="197" height="57" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-26" value="&lt;div&gt;&lt;b&gt;OUTPUT:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;输出剪枝掩码m&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620.5" y="610" width="191" height="48" as="geometry" />
+          <mxGeometry x="496.5" y="611" width="191" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-28" value="&lt;div&gt;&lt;b&gt;输入与剪枝操作：&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Dense LLM将剪枝掩码m作为输入，修剪FFN&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="593" y="682" width="355" height="35" as="geometry" />
+          <mxGeometry x="469" y="683" width="355" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="558" y="696" width="26" height="68" as="geometry" />
+          <mxGeometry x="434" y="697" width="26" height="68" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-31" value="&lt;b&gt;损失计算：&lt;/b&gt;通过比较模型预测的下一个词与实际的下一个&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; 词之间的差异来确定损失值&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="593" y="717" width="308" height="30" as="geometry" />
+          <mxGeometry x="469" y="718" width="308" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-32" value="&lt;b&gt;联合优化：&lt;/b&gt;对大语言模型和稀疏掩码预测器进行联合优化" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="593" y="747" width="308" height="30" as="geometry" />
+          <mxGeometry x="469" y="748" width="308" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-34" value="Training" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="484.5" y="712" width="73.5" height="35" as="geometry" />
+          <mxGeometry x="360.5" y="713" width="73.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-36" target="FLRZDwi7_tAXWpCWDcj3-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=0;endArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-36" target="FLRZDwi7_tAXWpCWDcj3-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="163.9310344827586" y="884.4137931034484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-36" value="使用预训练的密集模型初始化我们的模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="860" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-37" target="FLRZDwi7_tAXWpCWDcj3-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="612.2068965517242" y="884.4137931034484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-37" value="有监督的模型微调（SFT）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="860" width="120" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-42" value="Target LLM&lt;div&gt;+&lt;/div&gt;&lt;div&gt;SparsePredictor&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="74" y="861" width="123" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-44" value="IFPRUNING" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="588" y="868.25" width="79" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-45" value="模型训练的两个阶段" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="327" y="817" width="123" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-46" target="FLRZDwi7_tAXWpCWDcj3-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-46" value="百万个监督微调数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="998" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-47" value="基于第一阶段的模型进行微调" style="rounded=0;whiteSpace=wrap;html=1;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="376.5" y="965" width="193.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-49" value="Sparse Predictor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="409.5" y="975" width="131" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-50" value="LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="411.5" y="1026" width="129" height="39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

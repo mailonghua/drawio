@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="第 1 页" id="1eF0hRF-pGYvlpEf26P8">
-    <mxGraphModel dx="683" dy="337" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="488" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,6 +27,45 @@
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-8" value="OR" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="345" width="60" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-11" value="Sparsity predictor&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="542" width="136" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-13" value="main" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="602" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="452" y="499.5" width="49" height="99.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-15" value="&lt;div&gt;a&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;dense LLM to be dynamically pruned&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="671" width="136" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="266" y="570" width="49" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-17" target="FLRZDwi7_tAXWpCWDcj3-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-17" value="&lt;div&gt;&amp;nbsp;a much smaller LLM back-&lt;span style=&quot;background-color: transparent;&quot;&gt;bone&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="509" y="483" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-18" value="a mask prediction head" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="506.5" y="581" width="95" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-19" value="用于提取用户提示的特征" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="627" y="483" width="136" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-21" value="两层MLP" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="641" y="526" width="136" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="607" y="542" width="26" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-23" value="&lt;b&gt;INPUT:&lt;/b&gt;llm back-bone最后一层的最后一个标记Xn的隐藏状态作为输入" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="641" y="568" width="191" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-25" value="&lt;b&gt;OUTPUT:&lt;/b&gt;llm back-bone最后一层的最后一个标记Xn的隐藏状态作为输入" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="647" y="628" width="189" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

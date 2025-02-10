@@ -35,7 +35,7 @@
           <mxGeometry x="196" y="636" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="452" y="499.5" width="49" height="99.5" as="geometry" />
+          <mxGeometry x="452" y="499.5" width="32" height="99.5" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-15" value="&lt;div&gt;a&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;dense LLM to be dynamically pruned&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="312" y="712" width="136" height="35" as="geometry" />
@@ -47,22 +47,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-17" value="&lt;div&gt;&amp;nbsp;a much smaller LLM back-&lt;span style=&quot;background-color: transparent;&quot;&gt;bone&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="509" y="483" width="90" height="35" as="geometry" />
+          <mxGeometry x="487" y="483" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-18" value="a mask prediction head" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="506.5" y="581" width="95" height="35" as="geometry" />
+          <mxGeometry x="491" y="581" width="95" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-19" value="用于提取用户提示的特征" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="627" y="483" width="136" height="35" as="geometry" />
+          <mxGeometry x="611.5" y="483" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-21" value="&lt;b&gt;结构：&lt;/b&gt;两层MLP" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="641" y="526" width="136" height="35" as="geometry" />
+          <mxGeometry x="625.5" y="526" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="607" y="542" width="26" height="99" as="geometry" />
+          <mxGeometry x="591.5" y="542" width="26" height="99" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-23" value="&lt;b&gt;INPUT:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;llm back-bone最后一层的&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;最后一个标记Xn的隐藏状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;作为输入&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="636" y="568" width="197" height="48" as="geometry" />
+          <mxGeometry x="620.5" y="568" width="197" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-26" value="&lt;div&gt;&lt;b&gt;OUTPUT:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;输出剪枝掩码m&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="636" y="610" width="191" height="48" as="geometry" />

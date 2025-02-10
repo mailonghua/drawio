@@ -32,7 +32,7 @@
           <mxGeometry x="312" y="542" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-13" value="main" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="200" y="612" width="60" height="30" as="geometry" />
+          <mxGeometry x="196" y="636" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="452" y="499.5" width="49" height="99.5" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry x="312" y="712" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" vertex="1" parent="1">
-          <mxGeometry x="260" y="565" width="49" height="120" as="geometry" />
+          <mxGeometry x="256" y="557" width="49" height="172" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FLRZDwi7_tAXWpCWDcj3-17" target="FLRZDwi7_tAXWpCWDcj3-19">
           <mxGeometry relative="1" as="geometry" />
@@ -68,13 +68,16 @@
           <mxGeometry x="636" y="632" width="191" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-28" value="&lt;div&gt;&lt;b&gt;输入与剪枝操作：&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Dense LLM将剪枝掩码m作为输入，修剪FFN&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="487" y="680" width="355" height="35" as="geometry" />
+          <mxGeometry x="487" y="673" width="355" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="452" y="687" width="26" height="64" as="geometry" />
+          <mxGeometry x="452" y="687" width="26" height="68" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-31" value="&lt;b&gt;损失计算：&lt;/b&gt;通过比较模型预测的下一个词与实际的下一个&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; 词之间的差异来确定损失值&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="487" y="714.5" width="308" height="30" as="geometry" />
+          <mxGeometry x="487" y="708" width="308" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-32" value="&lt;b&gt;联合优化：&lt;/b&gt;对大语言模型和稀疏掩码预测器进行联合优化" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="487" y="738" width="308" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

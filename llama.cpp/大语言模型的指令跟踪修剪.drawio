@@ -59,13 +59,13 @@
           <mxGeometry x="641" y="526" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="607" y="542" width="26" height="116" as="geometry" />
+          <mxGeometry x="607" y="542" width="26" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="FLRZDwi7_tAXWpCWDcj3-23" value="&lt;b&gt;INPUT:&lt;/b&gt;&lt;div&gt;llm back-bone最后一层的最后一个标记Xn的隐藏状态作为输入&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="643" y="570" width="191" height="48" as="geometry" />
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-23" value="&lt;b&gt;INPUT:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;llm back-bone最后一层的&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;最后一个标记Xn的隐藏状态&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;作为输入&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="636" y="568" width="197" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="FLRZDwi7_tAXWpCWDcj3-26" value="&lt;div&gt;&lt;b&gt;OUTPUT:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;输出剪枝掩码m&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="636" y="632" width="191" height="48" as="geometry" />
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-26" value="&lt;div&gt;&lt;b&gt;OUTPUT:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;输出剪枝掩码m&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="636" y="610" width="191" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-28" value="&lt;div&gt;&lt;b&gt;输入与剪枝操作：&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Dense LLM将剪枝掩码m作为输入，修剪FFN&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="487" y="673" width="355" height="35" as="geometry" />

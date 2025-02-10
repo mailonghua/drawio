@@ -55,17 +55,20 @@
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-19" value="用于提取用户提示的特征" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="627" y="483" width="136" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="FLRZDwi7_tAXWpCWDcj3-21" value="两层MLP" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-21" value="&lt;b&gt;结构：&lt;/b&gt;两层MLP" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="641" y="526" width="136" height="35" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="607" y="542" width="26" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="FLRZDwi7_tAXWpCWDcj3-23" value="&lt;b&gt;INPUT:&lt;/b&gt;llm back-bone最后一层的最后一个标记Xn的隐藏状态作为输入" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="641" y="568" width="191" height="48" as="geometry" />
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-23" value="&lt;b&gt;INPUT:&lt;/b&gt;&lt;div&gt;llm back-bone最后一层的最后一个标记Xn的隐藏状态作为输入&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="643" y="570" width="191" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="FLRZDwi7_tAXWpCWDcj3-25" value="&lt;b&gt;OUTPUT:&lt;/b&gt;llm back-bone最后一层的最后一个标记Xn的隐藏状态作为输入" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="647" y="628" width="189" height="48" as="geometry" />
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-25" value="&lt;b&gt;&lt;span data-kimi-id=&quot;1739173273524&quot; data-kimi-disabled=&quot;false&quot; data-kimi-recommend=&quot;false&quot; style=&quot;cursor: pointer; border-bottom: 2px dotted rgb(51, 153, 255);&quot;&gt;OUTPUT:&lt;/span&gt;&lt;/b&gt;&lt;div&gt;&lt;span data-kimi-id=&quot;1739173273524&quot; data-kimi-disabled=&quot;false&quot; data-kimi-recommend=&quot;false&quot; style=&quot;cursor: pointer; border-bottom: 2px dotted rgb(51, 153, 255);&quot;&gt;llm back-bone最后一层的最后一个标记Xn的隐藏状态作为输入&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="970" y="467" width="189" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-26" value="&lt;div&gt;&lt;b&gt;OUTPUT:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;输出剪枝掩码&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="641" y="630" width="191" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

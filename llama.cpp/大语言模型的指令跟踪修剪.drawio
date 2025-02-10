@@ -65,7 +65,7 @@
           <mxGeometry x="620.5" y="568" width="197" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-26" value="&lt;div&gt;&lt;b&gt;OUTPUT:&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;输出剪枝掩码m&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="636" y="610" width="191" height="48" as="geometry" />
+          <mxGeometry x="620.5" y="610" width="191" height="48" as="geometry" />
         </mxCell>
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-28" value="&lt;div&gt;&lt;b&gt;输入与剪枝操作：&lt;/b&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Dense LLM将剪枝掩码m作为输入，修剪FFN&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="487" y="673" width="355" height="35" as="geometry" />

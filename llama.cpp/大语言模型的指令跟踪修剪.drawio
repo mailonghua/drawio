@@ -148,6 +148,9 @@
         <mxCell id="FLRZDwi7_tAXWpCWDcj3-55" value="任务描述" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="98" y="1038.5" width="104" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="FLRZDwi7_tAXWpCWDcj3-57" value="IFPRUNING" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="623.5" y="1006" width="79" height="32.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

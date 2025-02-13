@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="第 1 页" id="EIgx3NuULe5koJ4knHJA">
-    <mxGraphModel dx="2390" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -425,6 +425,42 @@
         </mxCell>
         <mxCell id="6YpHaPdydVzHJz5mBn-R-137" value="Genie的KV-CACHE转LLama.cpp的KV-CACHE" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1290" y="8.900000000000006" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-138" value="A车" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="634" y="990" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-140" value="B车" style="rounded=0;whiteSpace=wrap;html=1;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="1190" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-141" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endFill=1;startFill=1;startArrow=classic;" edge="1" parent="1" target="6YpHaPdydVzHJz5mBn-R-138">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659" y="1190" as="sourcePoint" />
+            <mxPoint x="660" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-142" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="673.23" y="1175.73" width="20" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-143" value="2.3m" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="1175.73" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-145" value="45°" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="639.5" y="1150" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-147" value="16KM/H" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="552.5" y="1205.73" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-149" value="" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="612.5" y="1169" as="sourcePoint" />
+            <mxPoint x="572.5" y="1119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-150" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1040" width="25" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="6YpHaPdydVzHJz5mBn-R-151" value="A车到B的时间为0.89秒" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="693.23" y="1093" width="136.77" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

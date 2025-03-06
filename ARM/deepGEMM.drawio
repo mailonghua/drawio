@@ -22,14 +22,14 @@
         <mxCell id="NCkq3VcNT3mjd71MVEYt-5" value="Global Mem" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="100" y="530" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NCkq3VcNT3mjd71MVEYt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="NCkq3VcNT3mjd71MVEYt-6" target="NCkq3VcNT3mjd71MVEYt-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NCkq3VcNT3mjd71MVEYt-6" value="TMA Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="465" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NCkq3VcNT3mjd71MVEYt-11" value="Tensor Memory Accelerator(TMA)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="260" y="395" width="240" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NCkq3VcNT3mjd71MVEYt-12" value="CUDA Cores" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="640" y="430" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NCkq3VcNT3mjd71MVEYt-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="470" y="420" width="120" height="140" as="geometry" />

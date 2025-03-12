@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5G6cpnaW76N7grAXLHWP-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="435" width="150" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="5G6cpnaW76N7grAXLHWP-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="110" y="335" width="300" height="70" as="geometry" />
         </mxCell>
@@ -18,10 +21,10 @@
         <mxCell id="5G6cpnaW76N7grAXLHWP-1" value="Weight Decomposition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="350" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5G6cpnaW76N7grAXLHWP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5G6cpnaW76N7grAXLHWP-5" target="5G6cpnaW76N7grAXLHWP-13">
+        <mxCell id="5G6cpnaW76N7grAXLHWP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="5G6cpnaW76N7grAXLHWP-5" target="5G6cpnaW76N7grAXLHWP-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5G6cpnaW76N7grAXLHWP-5" value="LUT Index" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="5G6cpnaW76N7grAXLHWP-5" value="Table Index" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="282.5" y="350" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5G6cpnaW76N7grAXLHWP-8" value="Ex:INT4 Weight Matrix W" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
@@ -37,10 +40,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5G6cpnaW76N7grAXLHWP-11" value="Precompute" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="137.5" y="441.25" width="95" height="37.5" as="geometry" />
+          <mxGeometry x="110" y="441.25" width="95" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5G6cpnaW76N7grAXLHWP-13" target="5G6cpnaW76N7grAXLHWP-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5G6cpnaW76N7grAXLHWP-13" value="Table" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="441.25" width="95" height="37.5" as="geometry" />
+          <mxGeometry x="250" y="441.25" width="70" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5G6cpnaW76N7grAXLHWP-16" target="5G6cpnaW76N7grAXLHWP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-16" value="LUT" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="441.25" width="44" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-19" value="ADD" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="441.25" width="44" height="37.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="VH_rKD5s51sGw98ud1Et">
-    <mxGraphModel dx="1646" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1413" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5G6cpnaW76N7grAXLHWP-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="940" width="330" height="90" as="geometry" />
+        </mxCell>
         <mxCell id="5G6cpnaW76N7grAXLHWP-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="790" width="370" height="60" as="geometry" />
         </mxCell>
@@ -142,6 +145,24 @@
         </mxCell>
         <mxCell id="5G6cpnaW76N7grAXLHWP-53" value="编译自动流程&lt;span style=&quot;background-color: transparent;&quot;&gt;(EX:gcc/g++)&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#00994D;" vertex="1" parent="1">
           <mxGeometry x="131.88" y="760" width="266.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-55" value="直接控制硬件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="950" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-56" value="逻辑特定优化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="950" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-57" value="并行化与向量化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="80" y="990" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-58" value="内存访问优化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="990" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-59" value="特定算法优化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="950" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5G6cpnaW76N7grAXLHWP-60" value="避免高级语言&lt;div&gt;开销&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="990" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

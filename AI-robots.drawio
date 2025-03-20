@@ -55,6 +55,15 @@
         <mxCell id="CI35cIFT2is_V0Kbj9Z2-24" value="实时控制小脑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="410" y="250" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CI35cIFT2is_V0Kbj9Z2-26" value="关节1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="410" y="330" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CI35cIFT2is_V0Kbj9Z2-27" value="..." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="330" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CI35cIFT2is_V0Kbj9Z2-28" value="关节n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="530" y="330" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

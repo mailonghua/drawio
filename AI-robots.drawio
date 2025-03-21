@@ -92,10 +92,10 @@
           <mxGeometry x="190" y="460" width="40" height="75" as="geometry" />
         </mxCell>
         <mxCell id="CI35cIFT2is_V0Kbj9Z2-44" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="1">
-          <mxGeometry x="320" y="480" width="30" height="50" as="geometry" />
+          <mxGeometry x="320" y="485" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CI35cIFT2is_V0Kbj9Z2-45" value="语音助理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="460" width="110" height="30" as="geometry" />
+          <mxGeometry x="430" y="460" width="94" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CI35cIFT2is_V0Kbj9Z2-46" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="302.5" y="400" width="65" height="50" as="geometry" />

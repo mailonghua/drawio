@@ -16,6 +16,15 @@
         <mxCell id="kkjiUycFQ8FsG8r4JRp8-4" value="每个nr个数据进行一组量化，存储sun使用int32" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="210" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="kkjiUycFQ8FsG8r4JRp8-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkjiUycFQ8FsG8r4JRp8-6" value="block" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="345" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kkjiUycFQ8FsG8r4JRp8-7" value="&amp;nbsp;Super block" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="340" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

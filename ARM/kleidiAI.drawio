@@ -4,14 +4,17 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kkjiUycFQ8FsG8r4JRp8-1" value="存储原始数据nr*(k_internal/2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kkjiUycFQ8FsG8r4JRp8-1" value="存储原始数据:nr*(k_internal/2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="240" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kkjiUycFQ8FsG8r4JRp8-2" value="kai_num_bytes_sum_rhs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kkjiUycFQ8FsG8r4JRp8-2" value="nr * kai_num_bytes_sum_rhs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="240" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kkjiUycFQ8FsG8r4JRp8-3" value="RHS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="240" width="40" height="30" as="geometry" />
+        <mxCell id="kkjiUycFQ8FsG8r4JRp8-3" value="RHS Pack" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kkjiUycFQ8FsG8r4JRp8-4" value="每个nr个数据进行一组量化，存储sun使用int32" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -10,6 +10,9 @@
         <mxCell id="kkjiUycFQ8FsG8r4JRp8-2" value="kai_num_bytes_sum_rhs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="240" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="kkjiUycFQ8FsG8r4JRp8-3" value="RHS" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -22,10 +22,20 @@
           <mxGeometry x="200" y="640" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cTW1m5KWHmEKyPAz_HN6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cTW1m5KWHmEKyPAz_HN6-5" target="cTW1m5KWHmEKyPAz_HN6-12">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="550" />
+              <mxPoint x="382" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="cTW1m5KWHmEKyPAz_HN6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cTW1m5KWHmEKyPAz_HN6-5" target="cTW1m5KWHmEKyPAz_HN6-10">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="550" />
+              <mxPoint x="279" y="550" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="cTW1m5KWHmEKyPAz_HN6-5" value="残差连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="560" width="120" height="20" as="geometry" />

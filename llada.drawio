@@ -164,6 +164,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="cTW1m5KWHmEKyPAz_HN6-49" value="x 32" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="480" y="361" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

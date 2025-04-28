@@ -15,7 +15,7 @@
         </mxCell>
         <mxCell id="lhn--kY6jADPYIsUBQdD-10" value="蓝牙" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="OEyQ0tjbLL6TsNNDfpWR-13">
           <mxGeometry x="0.0732" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lhn--kY6jADPYIsUBQdD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="OEyQ0tjbLL6TsNNDfpWR-14" target="OEyQ0tjbLL6TsNNDfpWR-17">

@@ -19,6 +19,17 @@
         <mxCell id="CTm-zYa0rUxEFgS59MSg-3" value="libaiboost.so&lt;br&gt;对应类：AiboostImp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="420" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CTm-zYa0rUxEFgS59MSg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CTm-zYa0rUxEFgS59MSg-9" target="CTm-zYa0rUxEFgS59MSg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CTm-zYa0rUxEFgS59MSg-9" value="libaiboost.so(包含的inteface)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="520" width="240" height="150" as="geometry">
+            <mxRectangle x="430" y="520" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CTm-zYa0rUxEFgS59MSg-10" value="AIBoostCreate&lt;div&gt;AIBoostGetInOutInfo&lt;br&gt;AIBoostRun&lt;br&gt;AIBoostGetInOutInfoWithGraphName&lt;br&gt;AIBoostRunWithGraphName&lt;br&gt;AIBoostDestroy&lt;br&gt;AIBoostSetPowLevel&lt;br&gt;AIBoostGetVersion&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="CTm-zYa0rUxEFgS59MSg-9">
+          <mxGeometry y="30" width="240" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

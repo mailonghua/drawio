@@ -130,7 +130,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CTm-zYa0rUxEFgS59MSg-52" value="当前so在aiboost_llm仓库中的/Inference/jni/Android_llm.mk进行生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1100" width="220" height="40" as="geometry" />
+          <mxGeometry x="570" y="1120" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CTm-zYa0rUxEFgS59MSg-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.522;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="CTm-zYa0rUxEFgS59MSg-52" target="CTm-zYa0rUxEFgS59MSg-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

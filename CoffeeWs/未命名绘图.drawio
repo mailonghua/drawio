@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="第 1 页" id="CgOIkav4w_OP4wh0ILER">
-    <mxGraphModel dx="586" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="825" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,7 +33,7 @@
         <mxCell id="exOdbHXadaTwi8HKsek1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fN2lq4c-GM9t14NMBywm-9" target="exOdbHXadaTwi8HKsek1-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fN2lq4c-GM9t14NMBywm-9" value="Main thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="fN2lq4c-GM9t14NMBywm-9" value="Main thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="110" y="570" width="104" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fN2lq4c-GM9t14NMBywm-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fN2lq4c-GM9t14NMBywm-10" target="fN2lq4c-GM9t14NMBywm-12" edge="1">
@@ -86,19 +86,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="exOdbHXadaTwi8HKsek1-9" value="LoadCell::LoadCell()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="110" y="770" width="120" height="30" as="geometry" />
+          <mxGeometry x="300" y="760" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="exOdbHXadaTwi8HKsek1-10" value="数码管调调暗检测Thread" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="770" width="170" height="30" as="geometry" />
+          <mxGeometry x="500" y="760" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OIjPk3Im4qvFR1PwSDpp-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OIjPk3Im4qvFR1PwSDpp-1" target="OIjPk3Im4qvFR1PwSDpp-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OIjPk3Im4qvFR1PwSDpp-1" value="PowerManager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="860" width="120" height="30" as="geometry" />
+          <mxGeometry x="300" y="850" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OIjPk3Im4qvFR1PwSDpp-2" value="电源管理thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="860" width="120" height="30" as="geometry" />
+          <mxGeometry x="500" y="850" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

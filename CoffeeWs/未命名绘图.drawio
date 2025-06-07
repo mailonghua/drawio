@@ -52,7 +52,7 @@
         <mxCell id="fN2lq4c-GM9t14NMBywm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fN2lq4c-GM9t14NMBywm-12" target="fN2lq4c-GM9t14NMBywm-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fN2lq4c-GM9t14NMBywm-12" value="M1NormalWeightState update" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="fN2lq4c-GM9t14NMBywm-12" value="M1NormalWeightState::update" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="470" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78TvmmtV1T8RvOppDeKb-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fN2lq4c-GM9t14NMBywm-18" target="78TvmmtV1T8RvOppDeKb-4">

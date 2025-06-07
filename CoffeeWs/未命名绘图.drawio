@@ -139,7 +139,7 @@
         <mxCell id="78TvmmtV1T8RvOppDeKb-11" value="创建蓝牙定时发送线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="110" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78TvmmtV1T8RvOppDeKb-13" value="定制蓝牙定时发送线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="78TvmmtV1T8RvOppDeKb-13" value="停止蓝牙定时发送线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="180" width="210" height="30" as="geometry" />
         </mxCell>
       </root>

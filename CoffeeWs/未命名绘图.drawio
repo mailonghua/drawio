@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="CgOIkav4w_OP4wh0ILER">
-    <mxGraphModel dx="825" dy="1583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="837" dy="2261" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,20 +127,35 @@
         <mxCell id="78TvmmtV1T8RvOppDeKb-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="78TvmmtV1T8RvOppDeKb-9" target="78TvmmtV1T8RvOppDeKb-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="78TvmmtV1T8RvOppDeKb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78TvmmtV1T8RvOppDeKb-9" target="78TvmmtV1T8RvOppDeKb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="78TvmmtV1T8RvOppDeKb-9" value="Mx OnEnter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="110" width="115" height="30" as="geometry" />
+          <mxGeometry x="235" y="40" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="78TvmmtV1T8RvOppDeKb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="78TvmmtV1T8RvOppDeKb-10" target="78TvmmtV1T8RvOppDeKb-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="78TvmmtV1T8RvOppDeKb-10" value="Mx OnExit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="180" width="115" height="30" as="geometry" />
+          <mxGeometry x="235" y="140" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78TvmmtV1T8RvOppDeKb-11" value="创建蓝牙定时发送线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="110" width="210" height="30" as="geometry" />
+        <mxCell id="78TvmmtV1T8RvOppDeKb-11" value="创建蓝牙定时接收线程[当前没有启用]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="430" y="70" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="78TvmmtV1T8RvOppDeKb-13" value="停止蓝牙定时发送线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="180" width="210" height="30" as="geometry" />
+        <mxCell id="78TvmmtV1T8RvOppDeKb-13" value="停止蓝牙定时发送线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78TvmmtV1T8RvOppDeKb-17" value="创建蓝牙定时发送线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="10" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="78TvmmtV1T8RvOppDeKb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78TvmmtV1T8RvOppDeKb-20" target="78TvmmtV1T8RvOppDeKb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78TvmmtV1T8RvOppDeKb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="78TvmmtV1T8RvOppDeKb-20" target="78TvmmtV1T8RvOppDeKb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78TvmmtV1T8RvOppDeKb-20" value="状态机切换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="90" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

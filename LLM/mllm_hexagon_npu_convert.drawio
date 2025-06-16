@@ -156,6 +156,9 @@
         <mxCell id="CIBBwUVnDgYIZ5RibIoT-13" value="输出文件" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CIBBwUVnDgYIZ5RibIoT-14" vertex="1">
           <mxGeometry x="90" y="100" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AaTzFZ3mEv86l7qf1KZA-1" value="aiboost所使用的encoding文件" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="920" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

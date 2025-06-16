@@ -162,6 +162,9 @@
         <mxCell id="AaTzFZ3mEv86l7qf1KZA-1" value="aiboost所使用的encoding文件" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="550" y="920" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="m-GEBrxuat_vmsXUOrmJ-2" value="LLM模型的转换以及aiboost使用的encoding weight文件的生成和转换" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="61.25" y="910" width="230" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

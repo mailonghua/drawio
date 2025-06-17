@@ -4,7 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="m-GEBrxuat_vmsXUOrmJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;fillColor=none;strokeColor=#FF00FF;" vertex="1" parent="1">
+        <mxCell id="-PmNTdWPsfK7SNFQjxvF-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#3333FF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="440" width="500" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="m-GEBrxuat_vmsXUOrmJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;fillColor=none;strokeColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry x="40" y="420" width="900" height="540" as="geometry" />
         </mxCell>
         <mxCell id="5IKl2JPv--NQccdHP97a-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5IKl2JPv--NQccdHP97a-1" target="5IKl2JPv--NQccdHP97a-2" edge="1">
@@ -162,8 +165,11 @@
         <mxCell id="AaTzFZ3mEv86l7qf1KZA-1" value="aiboost所使用的encoding文件" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="550" y="920" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m-GEBrxuat_vmsXUOrmJ-2" value="LLM模型的转换以及aiboost使用的encoding weight文件的生成和转换" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="61.25" y="910" width="230" height="30" as="geometry" />
+        <mxCell id="m-GEBrxuat_vmsXUOrmJ-2" value="LLM模型的转换以及aiboost使用的encoding weight文件的生成和转换" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="61.25" y="910" width="258.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-PmNTdWPsfK7SNFQjxvF-2" value="VIT" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="770" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

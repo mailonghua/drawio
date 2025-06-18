@@ -145,8 +145,26 @@
         <mxCell id="v-EcrwhODqZBku7ry2aD-47" value="&lt;div&gt;模型的封装:&lt;/div&gt;sim_fpm = LLMForwardPassManager(...)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="1780" y="690" width="230" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-50" target="v-EcrwhODqZBku7ry2aD-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-50" value="&amp;nbsp;quantsim = QuantizationSimModel(model=sim_fpm.model，....)&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="2090" y="690" width="300" height="40" as="geometry" />
+          <mxGeometry x="2050" y="690" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-52" target="v-EcrwhODqZBku7ry2aD-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-52" target="v-EcrwhODqZBku7ry2aD-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-52" value="特定量化&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="690" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-54" value="保存量化输出文件&lt;br&gt;kv_cl2048_sim.json&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-56" value="ONNX模型文件&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="710" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

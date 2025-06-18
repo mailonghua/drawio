@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="1yGRy3Rp8gqS7cy7YKH3">
-    <mxGraphModel dx="1778" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,19 +21,19 @@
         <mxCell id="v-EcrwhODqZBku7ry2aD-2" value="通过&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;AIMET&lt;/font&gt;&lt;/b&gt;的模拟仿真量化输出的量化文件(当中包含了所有参数的量化标准)&lt;br&gt;seqmse.json" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="160" y="340" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="v-EcrwhODqZBku7ry2aD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-4" target="v-EcrwhODqZBku7ry2aD-1">
+        <mxCell id="v-EcrwhODqZBku7ry2aD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-4" target="v-EcrwhODqZBku7ry2aD-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v-EcrwhODqZBku7ry2aD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-4" target="v-EcrwhODqZBku7ry2aD-6">
+        <mxCell id="v-EcrwhODqZBku7ry2aD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-4" target="v-EcrwhODqZBku7ry2aD-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-10" value="原始模型&lt;div&gt;(这里是qwen2模型的加载类，&lt;/div&gt;&lt;div&gt;但是加载的是qwen2vl的模型权重)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v-EcrwhODqZBku7ry2aD-8">
           <mxGeometry x="-0.0239" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-51" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-4" value="qwen2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="330" y="170" width="200" height="45" as="geometry" />
+          <mxGeometry x="330" y="170" width="560" height="45" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-6" target="v-EcrwhODqZBku7ry2aD-11">
           <mxGeometry relative="1" as="geometry" />
@@ -47,22 +47,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-6" value="step2.qc_qwen2_gptq.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="330" y="460" width="200" height="50" as="geometry" />
+          <mxGeometry x="375" y="470" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-11" value="模型量化权重&lt;br&gt;gptq_s100_cl2048.pth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="160" y="600" width="200" height="50" as="geometry" />
+          <mxGeometry x="205" y="610" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-13" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AIMET SIm是通过量化仿真最终生成每个权重适合的量化参数，其仅仅输出模型量化文件，而元模型没有得到改动" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-40" y="340" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-15" value="&lt;b&gt;&amp;nbsp;model = modeling_qwen2.Qwen2ForCausalLM.from_pretrained(model_id, config=llm_config)&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;当中的modeling_qwen2.Qwen2ForCausalLM.from_pretrained是源自transformers的qwen2模型下载函数&lt;/li&gt;&lt;li&gt;model_id：是Qwen2vl的模型路径&lt;/li&gt;&lt;li&gt;结果：也就是用了Qwen2的模型对象读取了只与LLM相关的权重。对vit相关的权重都进行了忽略&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="150" width="570" height="130" as="geometry" />
+          <mxGeometry x="300" y="60" width="570" height="100" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-17" value="gptq_s100_cl2048.encodings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="520" y="600" width="200" height="50" as="geometry" />
+          <mxGeometry x="565" y="610" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-19" value="实际量化的权重参数&lt;div&gt;(与seqmse.json高度相同，这里存储了模型实际的量化参数)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="590" y="540" as="geometry" />
+          <mxGeometry x="635" y="550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

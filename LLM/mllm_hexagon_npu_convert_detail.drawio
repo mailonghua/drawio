@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="1yGRy3Rp8gqS7cy7YKH3">
-    <mxGraphModel dx="1747" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1883" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,13 +108,45 @@
           <mxGeometry x="950" y="890" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-32" value="example2/qnn_model_prepare.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="685" y="1020" width="270" height="50" as="geometry" />
+          <mxGeometry x="655" y="1100" width="270" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-35" value="&lt;span style=&quot;text-align: left;&quot;&gt;qwen2_vl_2b_kvcache.py&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(由程序构建的模型执行图)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1210" y="890" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-39" value="kv_mha_prepared_model = model_preparer.prepare_model(...)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1330" y="840" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-40" target="v-EcrwhODqZBku7ry2aD-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-40" value="Qwen2/Qwen2vl weight" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="690" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-41" target="v-EcrwhODqZBku7ry2aD-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-41" target="v-EcrwhODqZBku7ry2aD-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1410" y="660" />
+              <mxPoint x="1895" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-41" value="kv_mha_prepared_model = model_preparer.prepare_model(...)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="690" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-44" value="&lt;div&gt;qwen2_vl_2b_kvcache.py&lt;/div&gt;&lt;div&gt;(由程序构建的模型执行图)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="690" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-47" target="v-EcrwhODqZBku7ry2aD-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-47" value="&lt;div&gt;模型的封装:&lt;/div&gt;sim_fpm = LLMForwardPassManager(...)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="690" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-50" value="&amp;nbsp;quantsim = QuantizationSimModel(model=sim_fpm.model，....)&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+          <mxGeometry x="2090" y="690" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

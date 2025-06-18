@@ -40,20 +40,29 @@
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-14" value="根据seqmse.json的量化参数量化原始模型的权重" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v-EcrwhODqZBku7ry2aD-12">
           <mxGeometry x="-0.2778" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-81" y="-15" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-6" target="v-EcrwhODqZBku7ry2aD-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-6" value="step2.qc_qwen2_gptq.py" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="330" y="460" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="v-EcrwhODqZBku7ry2aD-11" value="模型量化权重" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="330" y="570" width="200" height="50" as="geometry" />
+        <mxCell id="v-EcrwhODqZBku7ry2aD-11" value="模型量化权重&lt;br&gt;gptq_s100_cl2048.pth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-13" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; AIMET SIm是通过量化仿真最终生成每个权重适合的量化参数，其仅仅输出模型量化文件，而元模型没有得到改动" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-40" y="340" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="v-EcrwhODqZBku7ry2aD-15" value="&lt;b&gt;&amp;nbsp;model = modeling_qwen2.Qwen2ForCausalLM.from_pretrained(model_id, config=llm_config)&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;当中的modeling_qwen2.Qwen2ForCausalLM.from_pretrained是源自transformers的qwen2模型下载函数&lt;/li&gt;&lt;li&gt;model_id：是Qwen2vl的模型路径&lt;/li&gt;&lt;li&gt;结果：也就是用了Qwen2的模型对象读取了只与LLM相关的权重。对vit相关的权重都进行了忽略&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="580" y="150" width="570" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-17" value="gptq_s100_cl2048.encodings" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="600" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v-EcrwhODqZBku7ry2aD-19" value="实际量化的权重参数&lt;div&gt;(与seqmse.json高度相同，这里存储了模型实际的量化参数)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590" y="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

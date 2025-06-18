@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="00vnW5_zQpGbm6PfhXu3">
-    <mxGraphModel dx="3021" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,9 +181,6 @@
         </mxCell>
         <mxCell id="xvcRJKxB0s75yZ2I78Ap-2" value="将原始模型进行旋转量化&lt;div&gt;(后续的不需要了，直接使用原始模型)&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="B7KfmQ0N7GxUampcKLXH-1" value="LLM_sq_adaptive_mask" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
-          <mxGeometry x="1390" y="510" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

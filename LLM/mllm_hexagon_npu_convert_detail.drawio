@@ -73,7 +73,7 @@
         <mxCell id="v-EcrwhODqZBku7ry2aD-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v-EcrwhODqZBku7ry2aD-20" target="v-EcrwhODqZBku7ry2aD-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v-EcrwhODqZBku7ry2aD-28" value="再次进行了AIMET SIM" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v-EcrwhODqZBku7ry2aD-24">
+        <mxCell id="v-EcrwhODqZBku7ry2aD-28" value="再次进行了AIMET SIM/模型精度量化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v-EcrwhODqZBku7ry2aD-24">
           <mxGeometry x="0.284" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

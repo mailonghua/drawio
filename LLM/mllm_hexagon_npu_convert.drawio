@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="00vnW5_zQpGbm6PfhXu3">
-    <mxGraphModel dx="1223" dy="213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="-PmNTdWPsfK7SNFQjxvF-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#3333FF;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-480" y="440" width="500" height="390" as="geometry" />
+          <mxGeometry x="-480" y="420" width="500" height="390" as="geometry" />
         </mxCell>
         <mxCell id="m-GEBrxuat_vmsXUOrmJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;fillColor=none;strokeColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry x="40" y="420" width="900" height="540" as="geometry" />
@@ -135,7 +135,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQ6fHBEOFC6zaDwAzntE-1" value="注意要依据step4生成的qwen2_vl_2b_AR1023.encodings文件中的&lt;br&gt;inputs_embeds中的offset和scale进行参数的修改" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="CIBBwUVnDgYIZ5RibIoT-4">
+        <mxCell id="EQ6fHBEOFC6zaDwAzntE-1" value="注意要依据step4生成的qwen2_vl_2b_AR1023.encodings文件中的&lt;br&gt;inputs_embeds中的offset和scale进行参数的修改" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;fontStyle=1" parent="CIBBwUVnDgYIZ5RibIoT-4" vertex="1" connectable="0">
           <mxGeometry x="0.8158" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -170,11 +170,17 @@
         <mxCell id="AaTzFZ3mEv86l7qf1KZA-1" value="aiboost所使用的encoding文件" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="550" y="920" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m-GEBrxuat_vmsXUOrmJ-2" value="LLM模型的转换以及aiboost使用的encoding weight文件的生成和转换" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="m-GEBrxuat_vmsXUOrmJ-2" value="LLM模型的转换以及aiboost使用的encoding weight文件的生成和转换" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF00FF;" parent="1" vertex="1">
           <mxGeometry x="61.25" y="910" width="258.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-PmNTdWPsfK7SNFQjxvF-2" value="VIT" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="-460" y="770" width="40" height="30" as="geometry" />
+          <mxGeometry x="-470" y="760" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xvcRJKxB0s75yZ2I78Ap-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#3333FF;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="170" width="510" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="xvcRJKxB0s75yZ2I78Ap-2" value="将原始模型进行旋转量化&lt;div&gt;(后续的不需要了，直接使用原始模型)&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

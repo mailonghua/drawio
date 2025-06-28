@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="vWRY4IH4z8a33mPq5Ic4">
-    <mxGraphModel dx="487" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="278" dy="308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,6 +74,9 @@
             <mxPoint y="26" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-22" target="GszDSZ25MD777xlSxqRY-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-22" value="视觉编码器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="129" y="556" width="89" height="43" as="geometry" />
         </mxCell>
@@ -86,6 +89,9 @@
           <mxGeometry x="0.2031" relative="1" as="geometry">
             <mxPoint y="38" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-23" target="GszDSZ25MD777xlSxqRY-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-23" value="词嵌入矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="254" y="556" width="89" height="43" as="geometry" />
@@ -100,17 +106,20 @@
             <mxPoint x="-1" y="46" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-24" target="GszDSZ25MD777xlSxqRY-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-24" value="π0.5：线性映射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="376" y="556" width="89" height="43" as="geometry" />
         </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-32" value="图像token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="129" y="477" width="106" height="30" as="geometry" />
+          <mxGeometry x="118" y="477" width="113" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-33" value="文本token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="235" y="477" width="126" height="30" as="geometry" />
+          <mxGeometry x="231" y="477" width="134" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-34" value="动作去噪中间值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="361" y="477" width="105" height="30" as="geometry" />
+          <mxGeometry x="365" y="477" width="111" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

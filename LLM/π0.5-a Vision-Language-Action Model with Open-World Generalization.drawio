@@ -190,7 +190,7 @@
         <mxCell id="GszDSZ25MD777xlSxqRY-43" value="动作去噪中间值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="364.5" y="383" width="111" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GszDSZ25MD777xlSxqRY-44" value="Attention&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;（双向注意力：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;也就是会前后都会相互计算注意，&lt;br&gt;而在LLM中只关注当前token前方的token，&lt;br&gt;并不会关注未来的）&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="GszDSZ25MD777xlSxqRY-44" value="Attention&lt;br&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;（双向注意力：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;也就是会前后都会相互计算&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;注意力&lt;/font&gt;，&lt;br&gt;而在LLM中只关注当前token前方的token，&lt;br&gt;并不会关注未来的）&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-70" y="357" width="171" height="82" as="geometry" />
         </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-41" target="GszDSZ25MD777xlSxqRY-41">

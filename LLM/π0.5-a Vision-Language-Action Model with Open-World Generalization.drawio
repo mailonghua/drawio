@@ -127,6 +127,18 @@
         <mxCell id="GszDSZ25MD777xlSxqRY-39" value="Prompt token" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-40" y="477" width="111" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-40" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="368" width="394" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-41" value="图像token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="114.5" y="383" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-42" value="文本token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230.5" y="383" width="134" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-43" value="动作去噪中间值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364.5" y="383" width="111" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

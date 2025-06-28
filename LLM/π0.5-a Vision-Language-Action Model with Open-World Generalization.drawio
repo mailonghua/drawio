@@ -217,10 +217,10 @@
         <mxCell id="GszDSZ25MD777xlSxqRY-55" value="OUT" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-70" y="75" width="111" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GszDSZ25MD777xlSxqRY-59" value="文本输出(语言理解能力)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="129" y="-37" width="139" height="37" as="geometry" />
+        <mxCell id="GszDSZ25MD777xlSxqRY-59" value="文本输出(语言理解能力)&lt;br&gt;&lt;font style=&quot;font-size: 9px; color: rgb(102, 0, 204);&quot;&gt;依赖于Transformer的语言理解能力，由通用模块处理&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;(ex:用户问：桌子上有几个杯子)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="-55" width="139" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="GszDSZ25MD777xlSxqRY-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GszDSZ25MD777xlSxqRY-60" value="动作输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="-37" width="120" height="37" as="geometry" />
         </mxCell>
       </root>

@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="vWRY4IH4z8a33mPq5Ic4">
-    <mxGraphModel dx="278" dy="308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1314" dy="538" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GszDSZ25MD777xlSxqRY-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101.5" y="462" width="394" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="758" y="498" width="410" height="110" as="geometry" />
         </mxCell>
@@ -113,13 +116,16 @@
           <mxGeometry x="376" y="556" width="89" height="43" as="geometry" />
         </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-32" value="图像token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="118" y="477" width="113" height="30" as="geometry" />
+          <mxGeometry x="115" y="477" width="116" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-33" value="文本token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="231" y="477" width="134" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GszDSZ25MD777xlSxqRY-34" value="动作去噪中间值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="477" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-39" value="Prompt token" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="477" width="111" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

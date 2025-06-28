@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="第 1 页" id="vWRY4IH4z8a33mPq5Ic4">
-    <mxGraphModel>
+    <mxGraphModel dx="584" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GszDSZ25MD777xlSxqRY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-7" value="用户输入任务L&lt;br&gt;&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;（打扫厨房）&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GszDSZ25MD777xlSxqRY-4">
+          <mxGeometry x="0.1492" relative="1" as="geometry">
+            <mxPoint x="-70" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-8" value="机器人状态O(t)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GszDSZ25MD777xlSxqRY-6">
+          <mxGeometry x="0.1378" relative="1" as="geometry">
+            <mxPoint x="-79" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-2" target="GszDSZ25MD777xlSxqRY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-11" value="&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;预测：拿起盘子&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GszDSZ25MD777xlSxqRY-10">
+          <mxGeometry x="-0.1072" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-2" value="高层推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="307.53846153846155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-16" value="机器人状态O(t)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GszDSZ25MD777xlSxqRY-15">
+          <mxGeometry x="-0.0062" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GszDSZ25MD777xlSxqRY-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-19" value="关节值，夹爪值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GszDSZ25MD777xlSxqRY-18">
+          <mxGeometry x="0.0851" y="2" relative="1" as="geometry">
+            <mxPoint x="63" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GszDSZ25MD777xlSxqRY-3" value="低层推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

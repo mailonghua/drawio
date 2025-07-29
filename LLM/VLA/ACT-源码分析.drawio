@@ -147,8 +147,8 @@
         <mxCell id="XuMk4djl-JNo7iD4VEXT-61" value="目标位置关节" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="460" y="-240" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XuMk4djl-JNo7iD4VEXT-62" value="Decoder" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="660" y="-210" width="120" height="30" as="geometry" />
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-62" value="&lt;div&gt;&lt;span&gt;Transformer&lt;/span&gt;&lt;br&gt;&lt;/div&gt;Decoder" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="660" y="-230" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XuMk4djl-JNo7iD4VEXT-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-65" target="XuMk4djl-JNo7iD4VEXT-66">
           <mxGeometry relative="1" as="geometry" />
@@ -247,8 +247,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XuMk4djl-JNo7iD4VEXT-100" value="Encoder" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="200" y="-15" width="120" height="30" as="geometry" />
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-100" value="&lt;div&gt;Transformer&lt;/div&gt;Encoder" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="200" y="-40" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="CiCFkFMjwpyb_jTsHgdo">
-    <mxGraphModel dx="570" dy="286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="570" dy="1455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,6 +58,9 @@
         <mxCell id="XuMk4djl-JNo7iD4VEXT-21" value="encoder_out" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="120" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-23" target="XuMk4djl-JNo7iD4VEXT-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XuMk4djl-JNo7iD4VEXT-23" value="残差链接(ADD)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="30" width="160" height="20" as="geometry" />
         </mxCell>
@@ -69,6 +72,12 @@
         </mxCell>
         <mxCell id="XuMk4djl-JNo7iD4VEXT-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.279;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-10" target="XuMk4djl-JNo7iD4VEXT-23">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.728;entryY=1.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-16" target="XuMk4djl-JNo7iD4VEXT-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-35" value="normal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-10" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="CiCFkFMjwpyb_jTsHgdo">
-    <mxGraphModel dx="274" dy="138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="570" dy="286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,9 +37,6 @@
         <mxCell id="XuMk4djl-JNo7iD4VEXT-6" value="Dropout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="200" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XuMk4djl-JNo7iD4VEXT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-10" target="XuMk4djl-JNo7iD4VEXT-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="XuMk4djl-JNo7iD4VEXT-10" value="残差链接(ADD)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="160" width="180" height="20" as="geometry" />
         </mxCell>
@@ -56,13 +53,22 @@
           <mxGeometry x="294" y="380" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XuMk4djl-JNo7iD4VEXT-16" value="交叉注意力计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="268" y="80" width="112" height="20" as="geometry" />
+          <mxGeometry x="304" y="80" width="126" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="XuMk4djl-JNo7iD4VEXT-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-21" target="XuMk4djl-JNo7iD4VEXT-16">
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-21" value="encoder_out" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-23" value="残差链接(ADD)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.478;exitY=-0.028;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-10" target="XuMk4djl-JNo7iD4VEXT-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XuMk4djl-JNo7iD4VEXT-21" value="Dropout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="304" y="130" width="100" height="20" as="geometry" />
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-27" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.68;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-21" target="XuMk4djl-JNo7iD4VEXT-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XuMk4djl-JNo7iD4VEXT-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.279;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XuMk4djl-JNo7iD4VEXT-10" target="XuMk4djl-JNo7iD4VEXT-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

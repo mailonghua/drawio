@@ -363,6 +363,30 @@
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-47" value="action embedding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1232" y="-468" width="112" height="18" as="geometry" />
         </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-48" target="jW0QpqTyH7ULx-NOKeH0-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-48" value="Concat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="-520" width="336" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.104;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-45" target="jW0QpqTyH7ULx-NOKeH0-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.837;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-47" target="jW0QpqTyH7ULx-NOKeH0-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.461;entryY=1.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-46" target="jW0QpqTyH7ULx-NOKeH0-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-54" target="jW0QpqTyH7ULx-NOKeH0-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-54" value="vae_encoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="-555" width="154" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-58" value="输出潜在空间的概率密度函数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="-593" width="154" height="18" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

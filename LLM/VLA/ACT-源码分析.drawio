@@ -426,7 +426,10 @@
           <mxGeometry x="1132" y="-742" width="88" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-75" value="VAE" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1015" y="-740" width="60" height="30" as="geometry" />
+          <mxGeometry x="1258" y="-735" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-77" value="“学习数据的规律（分布）→ 用规律创造新内容（抽样生成）”" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="994" y="-730" width="133" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -354,8 +354,14 @@
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.82;entryY=0.931;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-42" target="jW0QpqTyH7ULx-NOKeH0-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jW0QpqTyH7ULx-NOKeH0-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1162" y="-476" width="79" height="32" as="geometry" />
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-45" value="CLS token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1008" y="-468" width="79" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-46" value="robot state embedding&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="-468" width="126" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-47" value="action embedding" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1232" y="-468" width="112" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

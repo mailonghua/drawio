@@ -304,6 +304,9 @@
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-15" value="ACT Encoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="-760" width="123" height="24" as="geometry" />
         </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-22" target="jW0QpqTyH7ULx-NOKeH0-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-22" value="ACT Encoder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1410" y="-810" width="249" height="24" as="geometry" />
         </mxCell>
@@ -315,6 +318,9 @@
         </mxCell>
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.237;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-15" target="jW0QpqTyH7ULx-NOKeH0-22">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-27" value="action_head&amp;nbsp;&lt;br&gt;dim_model--&amp;gt;action_feature.shape[0]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-861" width="249" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

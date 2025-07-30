@@ -319,7 +319,7 @@
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-27" value="action_head&amp;nbsp;&lt;br&gt;dim_model--&amp;gt;action_feature.shape[0]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1411" y="-822.5" width="249" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="jW0QpqTyH7ULx-NOKeH0-29" value="动作序列" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-29" value="动作序列" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1475.5" y="-870" width="120" height="25.5" as="geometry" />
         </mxCell>
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-31" target="jW0QpqTyH7ULx-NOKeH0-2">

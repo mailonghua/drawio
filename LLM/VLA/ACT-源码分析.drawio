@@ -259,8 +259,14 @@
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-1" value="Encoder输出" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="186" y="-937.5" width="79.5" height="15" as="geometry" />
         </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-2" target="jW0QpqTyH7ULx-NOKeH0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-2" value="VAE(变分自编码器)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="-490" width="120" height="60" as="geometry" />
+          <mxGeometry x="1410" y="-460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-3" value="VAE(变分自编码器)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-515" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

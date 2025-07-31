@@ -287,7 +287,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-9" value="observation.images" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="777" y="-1401" width="120" height="17" as="geometry" />
+          <mxGeometry x="780" y="-1358" width="120" height="17" as="geometry" />
         </mxCell>
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-11" value="拼接图像token" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="633" y="-1467" width="249" height="16" as="geometry" />
@@ -348,11 +348,16 @@
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.235;entryY=0.813;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="jW0QpqTyH7ULx-NOKeH0-7" target="jW0QpqTyH7ULx-NOKeH0-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jW0QpqTyH7ULx-NOKeH0-42" value="image encode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="777" y="-1431" width="120" height="16" as="geometry" />
+        <mxCell id="jW0QpqTyH7ULx-NOKeH0-42" value="image encode&lt;div&gt;ResNet(前4层)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="780" y="-1400" width="120" height="24" as="geometry" />
         </mxCell>
         <mxCell id="jW0QpqTyH7ULx-NOKeH0-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.82;entryY=0.931;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="jW0QpqTyH7ULx-NOKeH0-42" target="jW0QpqTyH7ULx-NOKeH0-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mipGeH8_65KmCLkXggT9-11" value="cam_features/cam_pos_embed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jW0QpqTyH7ULx-NOKeH0-44">
+          <mxGeometry x="-0.1094" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mipGeH8_65KmCLkXggT9-1" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="182" y="-1561" width="357" height="315" as="geometry" />
@@ -436,6 +441,14 @@
         </mxCell>
         <mxCell id="mipGeH8_65KmCLkXggT9-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.519;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-11" target="jW0QpqTyH7ULx-NOKeH0-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mipGeH8_65KmCLkXggT9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mipGeH8_65KmCLkXggT9-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1057.0571428571427" y="-1394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mipGeH8_65KmCLkXggT9-8" value="图像特征提取:ResNet&lt;font style=&quot;font-size: 10px;&quot;&gt;(前4层)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="966" y="-1431" width="182" height="16" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

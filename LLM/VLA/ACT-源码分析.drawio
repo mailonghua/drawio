@@ -526,6 +526,9 @@
         <mxCell id="mipGeH8_65KmCLkXggT9-53" value="&lt;span&gt;执行结束&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1498" y="-1578.5" width="140" height="33" as="geometry" />
         </mxCell>
+        <mxCell id="mipGeH8_65KmCLkXggT9-57" value="下面是ACT模型执行的主要流程图：&lt;div&gt;1.每次预测都是预测100步，循环执行结束后再预测下一步&lt;/div&gt;&lt;div&gt;2.每一步的执行都会有停止状态的返回和执行完动作的当前观测状态&lt;/div&gt;&lt;div&gt;3.当预测的100步执行完毕后，会基于最后一步，也就是第100步的返回观测的obs再次进行推理，知道执行返回的停止标志为true，结束整个流程&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;缺点：跨度太大了，需要执行完所有的预测动作后，再基于最后一步的obs进行预测，如果每隔10步预测一次，然后让预测的重复部分融合会有更好的效果&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1099" y="-1723.5" width="406" height="121" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

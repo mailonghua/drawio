@@ -431,14 +431,6 @@
         <mxCell id="mipGeH8_65KmCLkXggT9-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.519;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jW0QpqTyH7ULx-NOKeH0-11" target="jW0QpqTyH7ULx-NOKeH0-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mipGeH8_65KmCLkXggT9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="mipGeH8_65KmCLkXggT9-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1057.0571428571427" y="-1394" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mipGeH8_65KmCLkXggT9-8" value="图像特征提取:ResNet&lt;font style=&quot;font-size: 10px;&quot;&gt;(前4层)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="966" y="-1431" width="182" height="16" as="geometry" />
-        </mxCell>
         <mxCell id="mipGeH8_65KmCLkXggT9-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mipGeH8_65KmCLkXggT9-14" target="jW0QpqTyH7ULx-NOKeH0-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>

@@ -26,11 +26,20 @@
         <mxCell id="0AkeG1J8nlGMrkTWvW4z-9" value="CMD_VEL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="330" width="80" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="0AkeG1J8nlGMrkTWvW4z-10" value="CMD_VEL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0AkeG1J8nlGMrkTWvW4z-10" value="IMU" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="330" width="80" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="0AkeG1J8nlGMrkTWvW4z-11" value="CMD_VEL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0AkeG1J8nlGMrkTWvW4z-11" value="ODOM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="330" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0AkeG1J8nlGMrkTWvW4z-13" value="Camera" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0AkeG1J8nlGMrkTWvW4z-14" value="SLAM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0AkeG1J8nlGMrkTWvW4z-15" value="Track" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="140" width="80" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

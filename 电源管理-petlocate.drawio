@@ -125,7 +125,7 @@
         <mxCell id="EYiuDghIg9F262BSXGEl-35" value="ME6211C33M5G-N" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EYiuDghIg9F262BSXGEl-36" value="Camera" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EYiuDghIg9F262BSXGEl-36" value="Audio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="942.5" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EYiuDghIg9F262BSXGEl-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeColor=#FF00FF;strokeWidth=2;" edge="1" parent="1" source="EYiuDghIg9F262BSXGEl-35">

@@ -81,8 +81,10 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1120" y="395" />
-              <mxPoint x="1120" y="220" />
-              <mxPoint x="765" y="220" />
+              <mxPoint x="1120" y="240" />
+              <mxPoint x="810" y="240" />
+              <mxPoint x="810" y="320" />
+              <mxPoint x="735" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -121,6 +123,14 @@
         </mxCell>
         <mxCell id="fyIjxlocXbZwOK5UZx2q-48" value="减慢线速度" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="270" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fyIjxlocXbZwOK5UZx2q-77" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="fyIjxlocXbZwOK5UZx2q-67" target="fyIjxlocXbZwOK5UZx2q-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1065" y="600" />
+              <mxPoint x="735" y="600" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="fyIjxlocXbZwOK5UZx2q-67" value="下发跟随的cmd_vel" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="490" width="70" height="50" as="geometry" />

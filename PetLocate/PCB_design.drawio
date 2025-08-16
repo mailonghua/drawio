@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="第 1 页" id="6DvlaYPc_PcE8S8rzQUb">
-    <mxGraphModel>
+    <mxGraphModel dx="679" dy="354" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SLPIPM594WfPRtiuTuGn-1" value="电源部分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="510" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SLPIPM594WfPRtiuTuGn-2" value="4G/GPS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="470" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SLPIPM594WfPRtiuTuGn-3" value="CORE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SLPIPM594WfPRtiuTuGn-4" value="Camera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="480" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLPIPM594WfPRtiuTuGn-5" value="LED" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="470" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="SLPIPM594WfPRtiuTuGn-6" value="WIFI/BLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="530" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="SLPIPM594WfPRtiuTuGn-7" value="audio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="470" width="50" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -137,7 +137,7 @@
           <mxGeometry x="990" y="320" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-38" value="Expert Model" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="990" y="210" width="80" height="30" as="geometry" />
+          <mxGeometry x="1010" y="230" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

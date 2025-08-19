@@ -79,22 +79,28 @@
           <mxGeometry x="507.5" y="320" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-25" value="..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="240" width="120" height="20" as="geometry" />
+          <mxGeometry x="810" y="240" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="l6EJtao8Zm6sJSQqBp27-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="260" width="120" height="20" as="geometry" />
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-26" value="layer n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="260" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-27" value="...." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="280" width="120" height="20" as="geometry" />
+          <mxGeometry x="810" y="280" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="l6EJtao8Zm6sJSQqBp27-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="300" width="120" height="20" as="geometry" />
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-28" value="layer1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="300" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="l6EJtao8Zm6sJSQqBp27-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="320" width="120" height="20" as="geometry" />
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-29" value="layer 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="320" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-30" value="SmolVLM" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="750" y="210" width="60" height="30" as="geometry" />
+          <mxGeometry x="840" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-31" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="790" y="240" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-32" value="裁剪后的层数" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="275" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

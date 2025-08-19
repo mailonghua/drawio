@@ -75,6 +75,9 @@
         <mxCell id="l6EJtao8Zm6sJSQqBp27-21" value="expert_out 映射动作空间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="507.5" y="270" width="155" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-53" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l6EJtao8Zm6sJSQqBp27-23" target="l6EJtao8Zm6sJSQqBp27-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-23" value="计算loss" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="507.5" y="320" width="155" height="30" as="geometry" />
         </mxCell>
@@ -144,6 +147,9 @@
         </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-50" value="action out" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;strokeColor=#FF00FF;" vertex="1" parent="1">
           <mxGeometry x="990" y="225" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-52" value="Backward ...." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="507.5" y="370" width="155" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -60,7 +60,7 @@
         <mxCell id="l6EJtao8Zm6sJSQqBp27-22" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l6EJtao8Zm6sJSQqBp27-18" target="l6EJtao8Zm6sJSQqBp27-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l6EJtao8Zm6sJSQqBp27-18" value="Forward前向推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-18" value="参数冻结&amp;amp;Forward前向推理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="210" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.162;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="l6EJtao8Zm6sJSQqBp27-16" target="l6EJtao8Zm6sJSQqBp27-18">
@@ -150,6 +150,9 @@
         </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-52" value="Backward ...." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="507.5" y="370" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-54" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 将vlm和expert的层数进行穿插存放&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.如果vlm和expert的层数不一致，则将按照multiple_of的进行层数穿插存放&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.如果vlm和expert的层数一致，则将expert的层数进行逐层存放&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="790" y="145" width="320" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -30,7 +30,10 @@
         <mxCell id="l6EJtao8Zm6sJSQqBp27-4" value="从数据集中获取action" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="255" y="70" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l6EJtao8Zm6sJSQqBp27-6" value="得到轨迹速度，方向是加噪方向&amp;nbsp;&lt;div&gt;u_t = noise - actions&lt;br&gt;(Ground truth Velocity)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l6EJtao8Zm6sJSQqBp27-6" target="l6EJtao8Zm6sJSQqBp27-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l6EJtao8Zm6sJSQqBp27-6" value="得到轨迹速度，方向是加噪方向&amp;nbsp;&lt;div&gt;u_t = noise - actions&lt;br&gt;(Ground truth Velocity)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="240" y="220" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l6EJtao8Zm6sJSQqBp27-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l6EJtao8Zm6sJSQqBp27-9" target="l6EJtao8Zm6sJSQqBp27-10">

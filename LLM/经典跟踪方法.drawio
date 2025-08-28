@@ -115,6 +115,19 @@
         <mxCell id="ED7PRQC9bT03xKeIf9AB-30" value="Linear Map" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="100" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ED7PRQC9bT03xKeIf9AB-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ED7PRQC9bT03xKeIf9AB-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ED7PRQC9bT03xKeIf9AB-35" value="??" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ED7PRQC9bT03xKeIf9AB-34">
+          <mxGeometry x="0.2377" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ED7PRQC9bT03xKeIf9AB-33" value="避障??" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

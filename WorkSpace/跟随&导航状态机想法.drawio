@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="GIKNayzNPguGHVTuN4dD">
-    <mxGraphModel dx="1098" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#FF66B3;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="1070" height="530" as="geometry" />
+        </mxCell>
         <mxCell id="fyIjxlocXbZwOK5UZx2q-64" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="940" y="210" width="90" height="150" as="geometry" />
         </mxCell>
@@ -200,14 +203,41 @@
             <mxPoint x="750" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-G0JZo2BRGpT1_TPGYWq-1" value="" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=2;strokeColor=#00FFFF;" edge="1" parent="1">
+        <mxCell id="-G0JZo2BRGpT1_TPGYWq-1" value="" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=2;strokeColor=#00FFFF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="300" y="410" as="sourcePoint" />
             <mxPoint x="600" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-G0JZo2BRGpT1_TPGYWq-2" value="&amp;nbsp;twist_msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="-G0JZo2BRGpT1_TPGYWq-2" value="&amp;nbsp;twist_msg" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="460" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="-450" width="146" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="-410" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-4" value="Front Camera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YtKNbYVYWAdfvcXrogBT-8">
+          <mxGeometry width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-5" value="Back&lt;br&gt;Camera" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YtKNbYVYWAdfvcXrogBT-8">
+          <mxGeometry x="70" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="YtKNbYVYWAdfvcXrogBT-9" target="YtKNbYVYWAdfvcXrogBT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-9" value="Prompt&lt;br&gt;请带我去FindX9的站台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-340" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="YtKNbYVYWAdfvcXrogBT-10" target="YtKNbYVYWAdfvcXrogBT-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-10" value="Global Map&lt;br&gt;&amp;nbsp;或&lt;br&gt;&amp;nbsp;History Info" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtKNbYVYWAdfvcXrogBT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="YtKNbYVYWAdfvcXrogBT-5" target="YtKNbYVYWAdfvcXrogBT-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -252,7 +252,7 @@
           <mxGeometry x="1129" y="-650" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YtKNbYVYWAdfvcXrogBT-19" value="可能困难点：&lt;br&gt;1.经典导航的场景，关于数据不好采集&lt;br&gt;&lt;br&gt;VLN+Track：数据是可以采集的" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="1" vertex="1">
-          <mxGeometry x="1840" y="-620" width="380" height="130" as="geometry" />
+          <mxGeometry x="1810" y="-550" width="380" height="130" as="geometry" />
         </mxCell>
         <mxCell id="YtKNbYVYWAdfvcXrogBT-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;strokeColor=#FF66B3;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="107" y="-525" width="720" height="430" as="geometry" />
@@ -264,7 +264,7 @@
           <mxGeometry x="1120" y="-599.76" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YSCS5i0gIFwPZ1s_-ejM-3" value="DriveMOE" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1130" y="-327" width="170" height="30" as="geometry" />
+          <mxGeometry x="1109" y="-327" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

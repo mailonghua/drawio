@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="第 1 页" id="Ie8UYRb_jQ_-8dDy_p2L">
-    <mxGraphModel dx="1490" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,17 +129,31 @@
         <mxCell id="qVJVAJJJqDEDEzeefkRm-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVJVAJJJqDEDEzeefkRm-1" target="qVJVAJJJqDEDEzeefkRm-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qVJVAJJJqDEDEzeefkRm-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVJVAJJJqDEDEzeefkRm-1" target="qVJVAJJJqDEDEzeefkRm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qVJVAJJJqDEDEzeefkRm-1" value="避障" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="340" width="80" height="60" as="geometry" />
+          <mxGeometry x="580" y="340" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qVJVAJJJqDEDEzeefkRm-4" value="前置camera参与跟随" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="500" width="80" height="60" as="geometry" />
+          <mxGeometry x="580" y="570" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qVJVAJJJqDEDEzeefkRm-8" value="基于规则的方案&lt;br&gt;预设规则（如距离阈值、状态机）触发避障行为，逻辑简单直接。" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="750" y="310" width="360" height="30" as="geometry" />
+          <mxGeometry x="760" y="310" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVJVAJJJqDEDEzeefkRm-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qVJVAJJJqDEDEzeefkRm-10" target="qVJVAJJJqDEDEzeefkRm-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="495" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qVJVAJJJqDEDEzeefkRm-10" value="Retrack" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="500" width="80" height="60" as="geometry" />
+          <mxGeometry x="580" y="490" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVJVAJJJqDEDEzeefkRm-11" value="基于规则方案" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qVJVAJJJqDEDEzeefkRm-13" value="&lt;a style=&quot;box-sizing: border-box; background-color: rgb(246, 248, 250); display: flex; align-items: center; min-width: 3ch; line-height: var(--text-body-lineHeight-medium, 1.4285714286); border-radius: var(--borderRadius-medium); padding-inline: var(--base-size-6); padding-block: var(--base-size-4); font-weight: var(--base-text-weight-semibold); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 14px; text-align: start; text-decoration-line: none !important;&quot; class=&quot;AppHeader-context-item&quot; data-view-component=&quot;true&quot; id=&quot;contextregion-repositorycrumb-lv-dot-link&quot; aria-current=&quot;page&quot; href=&quot;https://github.com/Zhefan-Xu/LV-DOT&quot; data-analytics-event=&quot;{&amp;quot;category&amp;quot;:&amp;quot;SiteHeaderComponent&amp;quot;,&amp;quot;action&amp;quot;:&amp;quot;context_region_crumb&amp;quot;,&amp;quot;label&amp;quot;:&amp;quot;LV-DOT&amp;quot;,&amp;quot;screen_size&amp;quot;:&amp;quot;full&amp;quot;}&quot; data-target=&quot;context-region-crumb.linkElement&quot;&gt;&lt;span style=&quot;box-sizing: border-box; display: inline-block; overflow: hidden; text-overflow: ellipsis; text-wrap: nowrap;&quot; class=&quot;AppHeader-context-item-label&quot; data-target=&quot;context-region-crumb.labelElement&quot;&gt;LV-DOT&lt;/span&gt;&lt;/a&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="360" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

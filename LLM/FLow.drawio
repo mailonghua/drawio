@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="第 1 页" id="Lz7FnmI3OJWEokpmkhRt">
+    <mxGraphModel dx="617" dy="284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kFT8PFcNsTwMWZWpaxGe-1" value="电源设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kFT8PFcNsTwMWZWpaxGe-2" value="MCU电源域设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kFT8PFcNsTwMWZWpaxGe-3" value="传感器设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

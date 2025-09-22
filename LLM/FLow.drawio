@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="第 1 页" id="Lz7FnmI3OJWEokpmkhRt">
-    <mxGraphModel dx="713" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1019" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,28 +25,28 @@
         <mxCell id="9YTv9OodDndZO9QDBcR--4" value="原理图设计" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="290" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--5" target="9YTv9OodDndZO9QDBcR--6">
+        <mxCell id="9YTv9OodDndZO9QDBcR--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--5" target="9YTv9OodDndZO9QDBcR--6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--5" value="原理图设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9YTv9OodDndZO9QDBcR--5" value="原理图设计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="340" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--6" target="9YTv9OodDndZO9QDBcR--7">
+        <mxCell id="9YTv9OodDndZO9QDBcR--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--6" target="9YTv9OodDndZO9QDBcR--7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--6" value="原理图验证&amp;amp;检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9YTv9OodDndZO9QDBcR--6" value="原理图验证&amp;amp;检查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="220" y="340" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--7" target="9YTv9OodDndZO9QDBcR--10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--7" value="PCB布局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="340" width="70" height="40" as="geometry" />
+        <mxCell id="9YTv9OodDndZO9QDBcR--7" value="PCB布局" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--10" target="9YTv9OodDndZO9QDBcR--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9YTv9OodDndZO9QDBcR--10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="420" y="340" width="250" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--14" value="高速走线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -76,8 +76,14 @@
         <mxCell id="9YTv9OodDndZO9QDBcR--22" value="根据阻抗选择打板参数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="340" width="60" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--26" target="9YTv9OodDndZO9QDBcR--28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--26" value="焊接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="340" width="60" height="40" as="geometry" />
+          <mxGeometry x="880" y="340" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--28" value="验证&amp;amp;输出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="340" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

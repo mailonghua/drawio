@@ -22,16 +22,13 @@
         <mxCell id="9YTv9OodDndZO9QDBcR--2" value="...." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="210" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--4" value="原理图设计" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="290" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--5" target="9YTv9OodDndZO9QDBcR--6">
+        <mxCell id="9YTv9OodDndZO9QDBcR--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--5" target="9YTv9OodDndZO9QDBcR--6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--5" value="原理图设计" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="120" y="340" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--6" target="9YTv9OodDndZO9QDBcR--7">
+        <mxCell id="9YTv9OodDndZO9QDBcR--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--6" target="9YTv9OodDndZO9QDBcR--7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--6" value="原理图验证&amp;amp;检查" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -67,19 +64,29 @@
         <mxCell id="9YTv9OodDndZO9QDBcR--23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--20" target="9YTv9OodDndZO9QDBcR--22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--20" value="敷铜&amp;amp;检查" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9YTv9OodDndZO9QDBcR--20" value="敷铜&amp;amp;检查" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="700" y="340" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--22" target="9YTv9OodDndZO9QDBcR--26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--22" value="根据阻抗选择打板参数" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9YTv9OodDndZO9QDBcR--22" value="根据阻抗选择打板参数" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="790" y="340" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--26" target="9YTv9OodDndZO9QDBcR--28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9YTv9OodDndZO9QDBcR--26" value="焊接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9YTv9OodDndZO9QDBcR--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910.2857142857144" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--31" value="当前阶段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9YTv9OodDndZO9QDBcR--30">
+          <mxGeometry x="0.8456" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--26" value="焊接" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="880" y="340" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9YTv9OodDndZO9QDBcR--28" value="验证&amp;amp;输出" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">

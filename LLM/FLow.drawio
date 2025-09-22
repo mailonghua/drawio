@@ -25,6 +25,45 @@
         <mxCell id="9YTv9OodDndZO9QDBcR--4" value="原理图设计" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="290" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--5" target="9YTv9OodDndZO9QDBcR--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--5" value="原理图设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--6" target="9YTv9OodDndZO9QDBcR--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--6" value="原理图验证&amp;amp;检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YTv9OodDndZO9QDBcR--7" target="9YTv9OodDndZO9QDBcR--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--7" value="PCB布局" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="340" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="340" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--14" value="高速走线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--15" value="电源设计" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="440" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--16" value="低速走线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--17" value="电源走线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--18" value="天线走线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9YTv9OodDndZO9QDBcR--19" value="PCB布线" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

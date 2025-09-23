@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="JocW46uq9P6UCGH1JRsc">
-    <mxGraphModel dx="542" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="452" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,8 +47,18 @@
         <mxCell id="tgirtB-t3Bg2d2rDa6on-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tgirtB-t3Bg2d2rDa6on-10" target="tgirtB-t3Bg2d2rDa6on-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tgirtB-t3Bg2d2rDa6on-27" value="PUB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tgirtB-t3Bg2d2rDa6on-21">
+          <mxGeometry x="-0.0756" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-25" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tgirtB-t3Bg2d2rDa6on-10" target="tgirtB-t3Bg2d2rDa6on-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tgirtB-t3Bg2d2rDa6on-28" value="PUB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tgirtB-t3Bg2d2rDa6on-25">
+          <mxGeometry x="0.0362" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-10" value="dynamic_velocity_controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="290" width="150" height="60" as="geometry" />

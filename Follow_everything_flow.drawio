@@ -101,6 +101,9 @@
         <mxCell id="tgirtB-t3Bg2d2rDa6on-35" value="/tf &amp;amp; /tf_static &amp;amp; /odom" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="10" width="210" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="tgirtB-t3Bg2d2rDa6on-37" value="edestrian_to_goal_node → /move_base_simple/goal → goalCB() → Action Goal → executeCb() → 状态机 → 控制指令 → /cmd_vel → 机器人" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="130" width="780" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

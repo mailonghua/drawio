@@ -70,8 +70,8 @@
         <mxCell id="tgirtB-t3Bg2d2rDa6on-20" value="安全距离&lt;br&gt;/tracking_object/safety_distance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="200" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tgirtB-t3Bg2d2rDa6on-24" value="TEB动态参数&lt;br&gt;（最大速度限制）" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="282.5" width="170" height="75" as="geometry" />
+        <mxCell id="tgirtB-t3Bg2d2rDa6on-24" value="TEB局部路径规划器&lt;br&gt;动态参数&lt;br&gt;（最大速度限制）" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="282.5" width="160" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

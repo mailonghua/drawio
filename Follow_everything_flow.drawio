@@ -42,7 +42,18 @@
           <mxGeometry x="630" y="215" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="870" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tgirtB-t3Bg2d2rDa6on-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tgirtB-t3Bg2d2rDa6on-15" target="tgirtB-t3Bg2d2rDa6on-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tgirtB-t3Bg2d2rDa6on-17" value="SUB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tgirtB-t3Bg2d2rDa6on-16">
+          <mxGeometry x="0.0494" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tgirtB-t3Bg2d2rDa6on-15" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;odom&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;(也就是机器人的坐标)&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="330" width="130" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -156,6 +156,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="bKKhn9Pamj0dwOwQ77PS-18" value="不断接收&amp;amp;更新目标" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="bKKhn9Pamj0dwOwQ77PS-17">
+          <mxGeometry x="-0.2641" y="-9" relative="1" as="geometry">
+            <mxPoint x="9" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

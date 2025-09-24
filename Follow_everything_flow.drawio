@@ -173,10 +173,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-22" value="1.将全局路径设置到局部路径规划器中&lt;br&gt;tc_-&amp;gt;setPlan(*controller_plan_)&lt;br&gt;2.计算速度命令&lt;br&gt;tc_-&amp;gt;computeVelocityCommands(cmd_vel)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="420" width="250" height="60" as="geometry" />
+          <mxGeometry x="1560" y="460" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-26" value="executeCycle(CONTROLLING状态)&lt;br&gt;进行局部路径规划器" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3333FF;" vertex="1" parent="1">
-          <mxGeometry x="1550" y="390" width="220" height="30" as="geometry" />
+          <mxGeometry x="1560" y="430" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

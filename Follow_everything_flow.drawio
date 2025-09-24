@@ -110,13 +110,13 @@
         <mxCell id="tgirtB-t3Bg2d2rDa6on-37" value="edestrian_to_goal_node → /move_base_simple/goal → goalCB() → Action Goal → executeCb() → 状态机 → 控制指令 → /cmd_vel → 机器人" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="130" width="780" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bKKhn9Pamj0dwOwQ77PS-10" value="current_goal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bKKhn9Pamj0dwOwQ77PS-10" value="current_goal" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1380" y="173" width="80" height="37" as="geometry" />
         </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-32" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1280" y="330" width="1035" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="bKKhn9Pamj0dwOwQ77PS-30" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#FF00FF;" vertex="1" parent="bKKhn9Pamj0dwOwQ77PS-32">
+        <mxCell id="bKKhn9Pamj0dwOwQ77PS-30" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#FF00FF;fillColor=none;" vertex="1" parent="bKKhn9Pamj0dwOwQ77PS-32">
           <mxGeometry width="1035" height="300" as="geometry" />
         </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="bKKhn9Pamj0dwOwQ77PS-32" source="bKKhn9Pamj0dwOwQ77PS-2" target="bKKhn9Pamj0dwOwQ77PS-4">

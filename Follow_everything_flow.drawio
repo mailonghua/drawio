@@ -149,6 +149,11 @@
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bKKhn9Pamj0dwOwQ77PS-13" target="bKKhn9Pamj0dwOwQ77PS-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bKKhn9Pamj0dwOwQ77PS-27" value="全局路径点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bKKhn9Pamj0dwOwQ77PS-24">
+          <mxGeometry x="-0.2568" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-13" value="Planner Thread&lt;br&gt;makePlan(temp_goal, *planner_plan_)&lt;br&gt;全局路径规划(返回的是到目标的整个的路径点):std::vector&amp;lt;geometry_msgs::PoseStamped&amp;gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1550" y="290" width="330" height="62.5" as="geometry" />
         </mxCell>

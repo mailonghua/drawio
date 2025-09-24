@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="JocW46uq9P6UCGH1JRsc">
-    <mxGraphModel dx="542" dy="306" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="452" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,11 +137,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bKKhn9Pamj0dwOwQ77PS-23" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bKKhn9Pamj0dwOwQ77PS-7" target="bKKhn9Pamj0dwOwQ77PS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-7" value="MoveBase::executeCb&lt;br&gt;接收&amp;amp;更新目标&amp;amp;发布目标" style="ellipse;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="1350" y="352.5" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-10" value="current_goal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="173" width="80" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="bKKhn9Pamj0dwOwQ77PS-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bKKhn9Pamj0dwOwQ77PS-13" target="bKKhn9Pamj0dwOwQ77PS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKKhn9Pamj0dwOwQ77PS-25" value="全局变量got_plan_，全局规划失败则为False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bKKhn9Pamj0dwOwQ77PS-24">
+          <mxGeometry x="0.1219" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-13" value="Planner Thread&lt;br&gt;全局路径规划&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;(因为没有全局静态地图，因此该Plan应该没有什么用处)&lt;/font&gt;&lt;br&gt;makePlan(temp_goal, *planner_plan_)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="1550" y="292.5" width="330" height="60" as="geometry" />
@@ -160,6 +171,9 @@
           <mxGeometry x="-0.2641" y="-9" relative="1" as="geometry">
             <mxPoint x="19" y="-2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bKKhn9Pamj0dwOwQ77PS-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="420" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

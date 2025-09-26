@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="JocW46uq9P6UCGH1JRsc">
-    <mxGraphModel dx="1329" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3469" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-15" value="&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;odom&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap;&quot;&gt;(也就是机器人的坐标)&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="520" width="130" height="50" as="geometry" />
+          <mxGeometry x="190" y="516.25" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-19" value="目标位置的坐标/方向处理:" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="390" y="177" width="142" height="30" as="geometry" />
@@ -102,7 +102,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-33" value="/mid360_PointCloud2_filtered&lt;br&gt;Livox激光雷达 &lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;-&amp;gt;&lt;/font&gt;&lt;/b&gt; /mid360_PointCloud2_filtered &lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;-&amp;gt;&lt;/font&gt;&lt;/b&gt;代价地图" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="70" width="370" height="80" as="geometry" />
+          <mxGeometry x="-50" y="80" width="370" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="tgirtB-t3Bg2d2rDa6on-35" target="tgirtB-t3Bg2d2rDa6on-31" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -113,7 +113,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-35" value="/tf &amp;amp; /tf_static &amp;amp; /odom" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="10" width="210" height="50" as="geometry" />
+          <mxGeometry x="60" y="10" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tgirtB-t3Bg2d2rDa6on-37" value="edestrian_to_goal_node → /move_base_simple/goal → goalCB() → Action Goal → executeCb() → 状态机 → 控制指令 → /cmd_vel → 机器人" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="130" width="780" height="30" as="geometry" />
@@ -200,6 +200,19 @@
         </mxCell>
         <mxCell id="bKKhn9Pamj0dwOwQ77PS-28" value="cmd_vel" style="ellipse;whiteSpace=wrap;html=1;" parent="bKKhn9Pamj0dwOwQ77PS-32" vertex="1">
           <mxGeometry x="890" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AEK08nRjMtVqeQN0X3qT-4" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;curved=1;endArrow=none;endFill=0;strokeWidth=3;strokeColor=#FF00FF;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="581.6666666666666" as="sourcePoint" />
+            <mxPoint x="350" y="10" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AEK08nRjMtVqeQN0X3qT-5" value="ROS1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AEK08nRjMtVqeQN0X3qT-6" value="ROS2" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="290" y="10" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

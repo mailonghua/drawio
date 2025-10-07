@@ -114,7 +114,7 @@
             <mxPoint x="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="F2JvwN-gVUUHz0FbCov1-5" value="RL-PPO训练策略使机器人能跟踪模仿目标根据st输出at" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-5" value="RL-PPO训练策略使机器人能跟踪模仿目标根据St输出At" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="790" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F2JvwN-gVUUHz0FbCov1-8" value="RL-PPO训练策略使机器人能跟踪模仿目标根据St输出At" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">

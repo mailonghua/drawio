@@ -129,8 +129,8 @@
         <mxCell id="F2JvwN-gVUUHz0FbCov1-13" value="Stage a：运动跟踪预训练与真实轨迹收集" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-20" y="680" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="F2JvwN-gVUUHz0FbCov1-14" value="Stage b：Delta动作模型训练" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-20" y="850" width="290" height="30" as="geometry" />
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-14" value="Stage b：Delta动作模型训练(补偿仿真与现实动力学差异)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-20" y="850" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

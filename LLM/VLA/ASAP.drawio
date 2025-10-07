@@ -135,6 +135,11 @@
         <mxCell id="F2JvwN-gVUUHz0FbCov1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="F2JvwN-gVUUHz0FbCov1-15" target="F2JvwN-gVUUHz0FbCov1-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="F2JvwN-gVUUHz0FbCov1-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="F2JvwN-gVUUHz0FbCov1-15" value="Delta Model" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="200" y="910" width="120" height="60" as="geometry" />
         </mxCell>
@@ -155,6 +160,9 @@
         </mxCell>
         <mxCell id="F2JvwN-gVUUHz0FbCov1-22" value="+ 仿真动作 a --&amp;gt; 生成的状态更接近真实状态S&lt;sup&gt;T&lt;/sup&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="475" y="925" width="315" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-24" value="&lt;b&gt;&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;训练：&lt;/font&gt;&lt;/b&gt;用强化学习（PPO）优化 Delta 模型，最小化 “仿真状态” 与 “真实状态” 的差异" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1010" width="460" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

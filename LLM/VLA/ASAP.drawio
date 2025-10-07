@@ -132,6 +132,21 @@
         <mxCell id="F2JvwN-gVUUHz0FbCov1-14" value="Stage b：Delta动作模型训练(补偿仿真与现实动力学差异)" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-20" y="850" width="400" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-15" value="Delta Model" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="200" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2JvwN-gVUUHz0FbCov1-16" target="F2JvwN-gVUUHz0FbCov1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-16" value="(仿真) 当前状态s" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="910" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2JvwN-gVUUHz0FbCov1-17" target="F2JvwN-gVUUHz0FbCov1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2JvwN-gVUUHz0FbCov1-17" value="(仿真) 原始动作a" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="940" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

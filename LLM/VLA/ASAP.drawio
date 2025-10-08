@@ -8,7 +8,7 @@
           <mxGeometry x="2010" y="350" width="700" height="169" as="geometry" />
         </mxCell>
         <mxCell id="K9-Xg3PA785731zZO30d-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=4;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="2740" y="350" width="700" height="169" as="geometry" />
+          <mxGeometry x="2740" y="350" width="470" height="169" as="geometry" />
         </mxCell>
         <mxCell id="F2JvwN-gVUUHz0FbCov1-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="-20" y="680" width="860" height="160" as="geometry" />
@@ -274,10 +274,10 @@
         <mxCell id="K9-Xg3PA785731zZO30d-21" value="Step3:SIM2SIM" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="2740" y="350" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K9-Xg3PA785731zZO30d-23" value="" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+        <mxCell id="K9-Xg3PA785731zZO30d-23" value="Start Mujoco" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3060" y="380" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K9-Xg3PA785731zZO30d-25" value="" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
+        <mxCell id="K9-Xg3PA785731zZO30d-25" value="Start Policy" style="whiteSpace=wrap;html=1;fontSize=16;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="3060" y="470" width="120" height="30" as="geometry" />
         </mxCell>
       </root>

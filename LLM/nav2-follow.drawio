@@ -49,6 +49,9 @@
         <mxCell id="GNKil_ehPjm9dJlZcgDg-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GNKil_ehPjm9dJlZcgDg-14" target="GNKil_ehPjm9dJlZcgDg-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="GNKil_ehPjm9dJlZcgDg-14" target="GNKil_ehPjm9dJlZcgDg-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GNKil_ehPjm9dJlZcgDg-14" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;(必须启动)&lt;/font&gt;&lt;/b&gt;导航启动navigation_launch.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="240" width="200" height="30" as="geometry" />
         </mxCell>
@@ -75,6 +78,9 @@
         </mxCell>
         <mxCell id="GNKil_ehPjm9dJlZcgDg-25" value="跟随节点：&lt;br&gt;opennav_following" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontStyle=0;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="827" y="400" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-28" value="目标点 → 行为树导航器 → 全局路径规划器 → 路径平滑器 → 局部路径规划器(控制器) → 速度平滑器 → 机器人执行器" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="30" width="720" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

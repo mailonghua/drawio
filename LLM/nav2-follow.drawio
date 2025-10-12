@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="第 1 页" id="ej2JMTwUqACkT05rTPGu">
-    <mxGraphModel dx="674" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="347" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,11 +19,50 @@
         <mxCell id="GNKil_ehPjm9dJlZcgDg-2" value="RVIZ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="190" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GNKil_ehPjm9dJlZcgDg-4" target="GNKil_ehPjm9dJlZcgDg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GNKil_ehPjm9dJlZcgDg-4" target="GNKil_ehPjm9dJlZcgDg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GNKil_ehPjm9dJlZcgDg-4" value="导航节点：bringup_launch.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="250" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNKil_ehPjm9dJlZcgDg-5" value="Gazebo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-9" value="(条件启动)SLAM建图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="177.5" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-11" value="(条件启动)定位启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="212.5" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-12" value="(条件启动)障碍物区域" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="317.5" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-13" value="(条件启动)速度区域启动" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="200" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-14" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;(必须启动)&lt;/font&gt;&lt;/b&gt;导航启动navigation_launch.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-17" value="&lt;font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;控制服务&lt;/font&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;(局部路径规划器)&lt;/b&gt;&lt;br&gt;&lt;b&gt;nav2_controller&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="790" y="160" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-19" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;路径规划服务器&lt;/font&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;(全局路径规划&lt;/b&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;)&lt;/font&gt;&lt;br&gt;nav2_route&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="790" y="197.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-20" value="&lt;span&gt;路径平滑器服务器&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="790" y="235" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-21" value="&lt;span&gt;路径服务器&lt;br&gt;（只用于复杂场景，主要在最高层）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="790" y="273.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-22" value="行为树导航器节点：&lt;br&gt;nav2_bt_navigator" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="790" y="315" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNKil_ehPjm9dJlZcgDg-23" value="航点跟随器：nav2_waypoint_follower" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="790" y="360" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

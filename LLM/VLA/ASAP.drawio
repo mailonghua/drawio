@@ -296,7 +296,7 @@
         <mxCell id="5P7vP67ETEmodxvptvA_-5" value="1.存放模型&lt;br&gt;sim2real/models/myself_models/Myself_1026/model_23200.onnx" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="3280" y="375" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5P7vP67ETEmodxvptvA_-6" value="2.修改配置文件&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="5P7vP67ETEmodxvptvA_-6" value="2.修改配置文件&lt;div&gt;sim2real/config/g1_29dof_hist.yaml&lt;br&gt;a.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="3280" y="450" width="350" height="40" as="geometry" />
         </mxCell>
       </root>

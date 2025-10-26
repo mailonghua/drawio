@@ -294,10 +294,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5P7vP67ETEmodxvptvA_-5" value="1.存放模型&lt;br&gt;sim2real/models/myself_models/Myself_1026/model_23200.onnx" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="3280" y="375" width="350" height="40" as="geometry" />
+          <mxGeometry x="3280" y="375" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5P7vP67ETEmodxvptvA_-6" value="2.修改配置文件&lt;div&gt;sim2real/config/g1_29dof_hist.yaml&lt;br&gt;a.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="3280" y="450" width="350" height="40" as="geometry" />
+        <mxCell id="5P7vP67ETEmodxvptvA_-6" value="2.修改配置文件&lt;div&gt;sim2real/config/g1_29dof_hist.yaml&lt;br&gt;a.修改模型对应的机器人类型：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;”mimic_robot_types“：{&quot;Myself_1026&quot;: &quot;g1_29dof_anneal_23dof&quot;}&lt;br&gt;b.设置模型文件名称&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;mimic_models: {&lt;br/&gt;  &quot;Myself_1026&quot;:&quot;model_23200.onnx&quot;}&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3280" y="450" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

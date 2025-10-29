@@ -198,7 +198,7 @@
         <mxCell id="fi_pxs0ZPSU9Ah6yGTQ0-17" value="验证中，雷达+Camera的融合方案" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#6666FF;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="410" y="845" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fi_pxs0ZPSU9Ah6yGTQ0-18" value="验证中，待真机部署验证" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#6666FF;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="fi_pxs0ZPSU9Ah6yGTQ0-18" value="1029第一版本demo" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#6666FF;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="500" y="940" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fi_pxs0ZPSU9Ah6yGTQ0-20" value="2.带有规划路径的目标跟随" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">

@@ -11,7 +11,7 @@
           <mxGeometry x="830" y="760" width="430" height="220" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-29" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;dashed=1;dashPattern=8 8;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="846" y="780" width="240" height="180" as="geometry" />
+          <mxGeometry x="846" y="780" width="240" height="160" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fi_pxs0ZPSU9Ah6yGTQ0-19" target="xaRS0BPbyAZfQrNst-4e-2">
           <mxGeometry relative="1" as="geometry" />
@@ -292,13 +292,13 @@
         <mxCell id="xaRS0BPbyAZfQrNst-4e-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xaRS0BPbyAZfQrNst-4e-18" target="xaRS0BPbyAZfQrNst-4e-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1070" y="935" />
+              <mxPoint x="1070" y="915" />
               <mxPoint x="1070" y="870" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-18" value="?" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="900" y="920" width="70" height="30" as="geometry" />
+          <mxGeometry x="900" y="900" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-20" value="问题：&lt;br&gt;1.目标在视野，但存在目标丢失情况&lt;br&gt;2.ReTrack能力偶发无法触发&lt;br&gt;3.目标间断丢失会导致后续无法再识别" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="815" width="210" height="50" as="geometry" />
@@ -319,10 +319,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-37" value="BOX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="667" y="610" width="69" height="60" as="geometry" />
+          <mxGeometry x="670" y="580" width="69" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-38" value="MASK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="610" width="69" height="60" as="geometry" />
+          <mxGeometry x="811" y="640" width="69" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xaRS0BPbyAZfQrNst-4e-40" value="VLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="690" width="69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xaRS0BPbyAZfQrNst-4e-42" value="自我找寻能力" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="900" y="945" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

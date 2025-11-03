@@ -306,6 +306,9 @@
         <mxCell id="xaRS0BPbyAZfQrNst-4e-24" value="+" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="1100" y="855" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="xaRS0BPbyAZfQrNst-4e-30" value="目标识别优化" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="846" y="780" width="74" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

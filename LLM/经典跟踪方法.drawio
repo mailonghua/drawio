@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Ie8UYRb_jQ_-8dDy_p2L">
-    <mxGraphModel dx="1093" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="885" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -297,7 +297,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xaRS0BPbyAZfQrNst-4e-18" value="?" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="xaRS0BPbyAZfQrNst-4e-18" value="SAMURAI" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="900" y="900" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-20" value="问题：&lt;br&gt;1.目标在视野，但存在目标丢失情况&lt;br&gt;2.ReTrack能力偶发无法触发&lt;br&gt;3.目标间断丢失会导致后续无法再识别" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
@@ -322,7 +322,7 @@
           <mxGeometry x="670" y="580" width="69" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-38" value="MASK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="811" y="640" width="69" height="60" as="geometry" />
+          <mxGeometry x="801" y="580" width="69" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-40" value="VLM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="690" width="69" height="30" as="geometry" />

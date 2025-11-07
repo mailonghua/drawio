@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aMqWY2SgkGyNNrEa19_S-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="1000" width="140" height="140" as="geometry" />
+          <mxGeometry x="1850" y="1020" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="1850" y="890" width="140" height="100" as="geometry" />
+          <mxGeometry x="1850" y="890" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1850" y="750" width="140" height="130" as="geometry" />
@@ -357,10 +357,16 @@
         <mxCell id="xaRS0BPbyAZfQrNst-4e-57" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;交互功能（岩松，&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;需要春旭的测试支持&lt;/font&gt;）&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;用户app点击采集，那么会给track一个指令，此时机器人采集当前帧，采用固定的的point&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;（提供采集开始节点。&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;测试：测试频繁切换目标人物，后台的NAV2的稳定性&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;）&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;识别完成后会将当前的mask的图片传输到app端（&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;ROS2 topic&lt;/font&gt;&lt;/b&gt;或云服务（方维提供））&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;目标清除功能，一旦清除，那么track就结束，可以手动切换当前下一个目标&amp;nbsp; &amp;nbsp;（&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;复位节点（停止跟随），重新采集节点&lt;/font&gt;&lt;/b&gt;）&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 51), rgb(255, 255, 255));&quot;&gt;将track整体创建NameSpace与导航隔离&lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 51), rgb(255, 255, 255));&quot;&gt;（所有输出的节点均以/NavFollow/xxx为起点）&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;将镜像整体进行备份，便于刷机和部署（输出刷机包）&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1560" y="570" width="550" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="xaRS0BPbyAZfQrNst-4e-59" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;状态机(王家乐)&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;纯导航&lt;/li&gt;&lt;li&gt;纯跟随&lt;/li&gt;&lt;li&gt;导航+跟随&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1565" y="780" width="170" height="90" as="geometry" />
+        <mxCell id="aMqWY2SgkGyNNrEa19_S-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xaRS0BPbyAZfQrNst-4e-59" target="aMqWY2SgkGyNNrEa19_S-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xaRS0BPbyAZfQrNst-4e-60" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;整机移植（马博楠/倪协炜）&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;整体环境打包移植到自研本体上&lt;br&gt;a.验证/odom&lt;br&gt;b.查看雷达点云通信状态&lt;br&gt;c.查看&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="aMqWY2SgkGyNNrEa19_S-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xaRS0BPbyAZfQrNst-4e-59" target="aMqWY2SgkGyNNrEa19_S-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xaRS0BPbyAZfQrNst-4e-59" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;状态机(王家乐)&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;纯导航&lt;/li&gt;&lt;li&gt;纯跟随&lt;/li&gt;&lt;li&gt;导航+跟随&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="895" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xaRS0BPbyAZfQrNst-4e-60" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;整机移植（马博楠/倪协炜）&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;整体环境打包移植到自研本体上&lt;br&gt;a.验证/odom&lt;br&gt;b.查看雷达点云通信状态&lt;br&gt;&lt;/li&gt;&lt;li&gt;反向追踪（反向twist信息，将odom重新映射，发布反向odom）&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1560" y="1200" width="360" height="130" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-1" value="/track_control&lt;br&gt;（int32类型）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -376,10 +382,10 @@
           <mxGeometry x="2670" y="603" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-11" value="/跟随/cmd_vel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="1010" width="120" height="35" as="geometry" />
+          <mxGeometry x="1860" y="1030" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="aMqWY2SgkGyNNrEa19_S-12" value="/导航/stop_nav" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="950" width="120" height="35" as="geometry" />
+        <mxCell id="aMqWY2SgkGyNNrEa19_S-12" value="/导航/stop_nav&lt;br&gt;（目标丢失后，终止流程）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="950" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-14" value="/导航/cmd_vel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1860" y="905" width="120" height="35" as="geometry" />
@@ -397,10 +403,10 @@
           <mxGeometry x="2310" y="590" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-19" value="/跟随/target_exist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="1055" width="120" height="35" as="geometry" />
+          <mxGeometry x="1860" y="1075" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-20" value="/跟随/target_position" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="1100" width="120" height="35" as="geometry" />
+          <mxGeometry x="1860" y="1120" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-21" value="/switch_state&lt;br&gt;(int32)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1860" y="768.75" width="120" height="35" as="geometry" />
@@ -422,6 +428,12 @@
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-28" value="0x04:导航+跟随" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="2010" y="810" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aMqWY2SgkGyNNrEa19_S-34" value="方维" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2170" y="780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aMqWY2SgkGyNNrEa19_S-35" value="广平" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2160" y="950" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

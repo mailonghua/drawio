@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="Ie8UYRb_jQ_-8dDy_p2L">
-    <mxGraphModel dx="3565" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="798" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aMqWY2SgkGyNNrEa19_S-64" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#3333FF;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="490" width="630" height="230" as="geometry" />
+        </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-60" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#FF33FF;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="2140" y="1310" width="430" height="110" as="geometry" />
         </mxCell>
@@ -370,7 +373,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xaRS0BPbyAZfQrNst-4e-57" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;交互功能（岩松，&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;需要春旭的测试支持&lt;/font&gt;）&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;用户app点击采集，那么会给track一个指令，此时机器人采集当前帧，采用固定的的point&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;（提供采集开始节点。&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;测试：测试频繁切换目标人物，后台的NAV2的稳定性&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;）&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;识别完成后会将当前的mask的图片传输到app端（&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;ROS2 topic&lt;/font&gt;&lt;/b&gt;或云服务（方维提供））&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;目标清除功能，一旦清除，那么track就结束，可以手动切换当前下一个目标&amp;nbsp; &amp;nbsp;（&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;复位节点（停止跟随），重新采集节点&lt;/font&gt;&lt;/b&gt;）&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 51), rgb(255, 255, 255));&quot;&gt;将track整体创建NameSpace与导航隔离&lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 51), rgb(255, 255, 255));&quot;&gt;（所有输出的节点均以/NavFollow/xxx为起点）&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;将镜像整体进行备份，便于刷机和部署（输出刷机包）&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1780" y="570" width="550" height="190" as="geometry" />
+          <mxGeometry x="1780" y="573" width="550" height="170" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xaRS0BPbyAZfQrNst-4e-59" target="aMqWY2SgkGyNNrEa19_S-29">
           <mxGeometry relative="1" as="geometry" />
@@ -412,10 +415,10 @@
           <mxGeometry x="2530" y="543" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-17" value="0x03:停止跟随" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="2530" y="633" width="170" height="30" as="geometry" />
+          <mxGeometry x="2530" y="610" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-18" value="0x02:开始跟随" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="2530" y="590" width="160" height="30" as="geometry" />
+          <mxGeometry x="2530" y="573" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-19" value="/跟随/target_exist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2080" y="1075" width="120" height="35" as="geometry" />
@@ -495,7 +498,7 @@
         <mxCell id="aMqWY2SgkGyNNrEa19_S-57" value="False:开启" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2340" y="1570" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aMqWY2SgkGyNNrEa19_S-58" value="基础控制功能" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="aMqWY2SgkGyNNrEa19_S-58" value="基础控制功能" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="2180" y="1620" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-62" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#FF33FF;strokeWidth=4;" vertex="1" parent="1">
@@ -503,9 +506,6 @@
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-63" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#3333FF;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="2060" y="730" width="430" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="aMqWY2SgkGyNNrEa19_S-64" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;strokeColor=#3333FF;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="490" width="630" height="230" as="geometry" />
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-68" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aMqWY2SgkGyNNrEa19_S-67" target="xaRS0BPbyAZfQrNst-4e-55">
           <mxGeometry relative="1" as="geometry" />
@@ -515,6 +515,9 @@
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-67" value="科技展DEMO" style="rounded=1;whiteSpace=wrap;html=1;textDirection=vertical-rl;fontSize=29;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1490" y="900" width="50" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="aMqWY2SgkGyNNrEa19_S-70" value="0x04:清除目标人物" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="633" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

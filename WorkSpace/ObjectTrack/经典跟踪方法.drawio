@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="Ie8UYRb_jQ_-8dDy_p2L">
-    <mxGraphModel dx="970" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -500,6 +500,9 @@
         </mxCell>
         <mxCell id="aMqWY2SgkGyNNrEa19_S-70" value="0x04:清除目标人物" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="2530" y="633" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbNRpyJJ1dhG7MZyN8yb-1" value="测试结果&lt;br&gt;1.目标不在人的视野当中会产生较大概率的错误识别&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;a.调整samurai的卡尔曼参数&lt;br&gt;2.硬性规则：&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;a.在目标视野从左右视野走出后，&lt;strike&gt;在t此时增加z的角速度，&lt;/strike&gt;手动预测一个三维坐标点" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="260" width="463" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

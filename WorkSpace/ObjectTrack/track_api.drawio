@@ -1,29 +1,31 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.0.2">
   <diagram name="第 1 页" id="anjP8KHD19zgqn-YHxsl">
-    <mxGraphModel dx="1018" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="970" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AVyyKbzxtq_zxjhsbPqH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=3;" edge="1" parent="1" source="AVyyKbzxtq_zxjhsbPqH-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="260" y="20" />
-              <mxPoint x="260" y="20" />
-            </Array>
+        <mxCell id="AVyyKbzxtq_zxjhsbPqH-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AVyyKbzxtq_zxjhsbPqH-1" target="AVyyKbzxtq_zxjhsbPqH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AVyyKbzxtq_zxjhsbPqH-11" value="3～5秒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AVyyKbzxtq_zxjhsbPqH-9">
+          <mxGeometry x="-0.0902" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AVyyKbzxtq_zxjhsbPqH-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="80" width="340" height="110" as="geometry" />
+        <mxCell id="AVyyKbzxtq_zxjhsbPqH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;strokeWidth=2;endArrow=none;endFill=0;" edge="1" parent="1" source="AVyyKbzxtq_zxjhsbPqH-1" target="AVyyKbzxtq_zxjhsbPqH-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AVyyKbzxtq_zxjhsbPqH-1" value="注册" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AVyyKbzxtq_zxjhsbPqH-1" value="未注册状态&lt;br&gt;0x00" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="95" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AVyyKbzxtq_zxjhsbPqH-2" value="注册" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="350" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AVyyKbzxtq_zxjhsbPqH-7" value="PUB 0x01" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-30" width="110" height="30" as="geometry" />
+          <mxGeometry x="104" y="-30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AVyyKbzxtq_zxjhsbPqH-8" value="已注册状态&lt;br&gt;0x01" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="95" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

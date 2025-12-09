@@ -126,6 +126,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="1FSR_Rl3jDVah_jvoy6p-48" edge="1" parent="1" source="1FSR_Rl3jDVah_jvoy6p-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;dashed=1;" target="1FSR_Rl3jDVah_jvoy6p-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="159" />
+              <mxPoint x="1260" y="490" />
+              <mxPoint x="200" y="490" />
+              <mxPoint x="200" y="584" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1FSR_Rl3jDVah_jvoy6p-23" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-89;textDirection=vertical-rl;flipH=0;flipV=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" value="Mask&lt;br&gt;Encoder" vertex="1">
           <mxGeometry height="60" width="90" x="1110" y="128.5" as="geometry" />
         </mxCell>
@@ -164,7 +174,7 @@
           <mxGeometry height="30" width="283" x="867" y="70" as="geometry" />
         </mxCell>
         <mxCell id="1FSR_Rl3jDVah_jvoy6p-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Object Mask" vertex="1">
-          <mxGeometry height="60" width="120" x="250" y="555" as="geometry" />
+          <mxGeometry height="60" width="120" x="220" y="554" as="geometry" />
         </mxCell>
         <mxCell id="1FSR_Rl3jDVah_jvoy6p-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;fontColor=#FF3333;" value="EfficientTAM" vertex="1">
           <mxGeometry height="30" width="110" x="280" y="230" as="geometry" />

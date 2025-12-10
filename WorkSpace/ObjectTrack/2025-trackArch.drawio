@@ -406,7 +406,7 @@
         <mxCell id="RyTlr9DGX1itiMbQvebm-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="The little girl looks pained." vertex="1">
           <mxGeometry height="30" width="150" x="1580" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="RyTlr9DGX1itiMbQvebm-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=30;fontStyle=1;fontColor=#FF00FF;" value="Step1:&lt;br&gt;Current architecture" vertex="1">
+        <mxCell id="RyTlr9DGX1itiMbQvebm-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=30;fontStyle=1;fontColor=#FF00FF;" value="Step2:&lt;br&gt;Next stage of planning" vertex="1">
           <mxGeometry height="60" width="327" x="1486.5" y="-10" as="geometry" />
         </mxCell>
       </root>

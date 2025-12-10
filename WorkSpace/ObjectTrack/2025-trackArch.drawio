@@ -132,7 +132,8 @@
               <mxPoint x="1260" y="159" />
               <mxPoint x="1260" y="490" />
               <mxPoint x="120" y="490" />
-              <mxPoint x="120" y="584" />
+              <mxPoint x="120" y="537" />
+              <mxPoint x="140" y="537" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -177,14 +178,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1FSR_Rl3jDVah_jvoy6p-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Object Mask" vertex="1">
-          <mxGeometry height="35" width="120" x="170" y="567" as="geometry" />
+          <mxGeometry height="35" width="120" x="170" y="519" as="geometry" />
         </mxCell>
         <mxCell id="1FSR_Rl3jDVah_jvoy6p-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;fontColor=#FF3333;" value="EfficientTAM" vertex="1">
           <mxGeometry height="30" width="110" x="280" y="230" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-3" edge="1" parent="1" source="RyTlr9DGX1itiMbQvebm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="648" as="targetPoint" />
+            <mxPoint x="90" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-4" connectable="0" parent="RyTlr9DGX1itiMbQvebm-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=1" value="Intel D455" vertex="1">
@@ -196,13 +197,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Object Mask Depth" vertex="1">
-          <mxGeometry height="35" width="120" x="170" y="630" as="geometry" />
+          <mxGeometry height="35" width="120" x="170" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="RyTlr9DGX1itiMbQvebm-11" edge="1" parent="1" source="RyTlr9DGX1itiMbQvebm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RyTlr9DGX1itiMbQvebm-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Object 3D Position" vertex="1">
-          <mxGeometry height="35" width="120" x="354" y="595" as="geometry" />
+          <mxGeometry height="35" width="158" x="362" y="547" as="geometry" />
         </mxCell>
-        <mxCell id="RyTlr9DGX1itiMbQvebm-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Object 3D Position" vertex="1">
-          <mxGeometry height="35" width="124" x="350" y="700" as="geometry" />
+        <mxCell id="RyTlr9DGX1itiMbQvebm-12" edge="1" parent="1" source="RyTlr9DGX1itiMbQvebm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RyTlr9DGX1itiMbQvebm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RyTlr9DGX1itiMbQvebm-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Dynamic Kalman motion observation" vertex="1">
+          <mxGeometry height="35" width="158" x="362" y="617" as="geometry" />
+        </mxCell>
+        <mxCell id="RyTlr9DGX1itiMbQvebm-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Object 3D Position" vertex="1">
+          <mxGeometry height="35" width="158" x="590" y="582" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

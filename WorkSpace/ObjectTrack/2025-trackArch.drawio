@@ -7,6 +7,9 @@
         <mxCell id="RyTlr9DGX1itiMbQvebm-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;dashed=1;" value="" vertex="1">
           <mxGeometry height="590" width="600" x="1450" y="-10" as="geometry" />
         </mxCell>
+        <mxCell id="RyTlr9DGX1itiMbQvebm-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="86" width="330" x="1510" y="324" as="geometry" />
+        </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;dashed=1;" value="" vertex="1">
           <mxGeometry height="820" width="1260" x="50" y="-20" as="geometry" />
         </mxCell>
@@ -391,9 +394,6 @@
         <mxCell id="RyTlr9DGX1itiMbQvebm-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Low-Level" vertex="1">
           <mxGeometry height="60" width="170" x="1670" y="248.5" as="geometry" />
         </mxCell>
-        <mxCell id="RyTlr9DGX1itiMbQvebm-83" edge="1" parent="1" source="RyTlr9DGX1itiMbQvebm-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="RyTlr9DGX1itiMbQvebm-71">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;dashed=1;" value="Value Function" vertex="1">
           <mxGeometry height="45" width="472" x="1532.5" y="83.5" as="geometry" />
         </mxCell>
@@ -404,7 +404,7 @@
           <mxGeometry height="30" width="50" x="1587.5" y="201.5" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="The little girl looks pained." vertex="1">
-          <mxGeometry height="30" width="150" x="1510" y="430" as="geometry" />
+          <mxGeometry height="30" width="150" x="1510" y="440" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=30;fontStyle=1;fontColor=#FF00FF;" value="Step2:&lt;br&gt;Next stage of planning" vertex="1">
           <mxGeometry height="60" width="327" x="1480" y="10" as="geometry" />
@@ -444,6 +444,12 @@
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-94" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Keep the target person directly in front of you.&lt;br&gt;&lt;br&gt;Maintain a distance of 1 meter from the target person." vertex="1">
           <mxGeometry height="70" width="172.5" x="1673" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="RyTlr9DGX1itiMbQvebm-96" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" target="RyTlr9DGX1itiMbQvebm-71" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1925" y="130" as="sourcePoint" />
+            <mxPoint x="1950" y="90" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

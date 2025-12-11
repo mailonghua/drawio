@@ -451,8 +451,8 @@
         <mxCell id="RyTlr9DGX1itiMbQvebm-98" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;Go &amp;amp; Doing&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Clean the kitchen" vertex="1">
           <mxGeometry height="30" width="150" x="1510" y="609.5" as="geometry" />
         </mxCell>
-        <mxCell id="RyTlr9DGX1itiMbQvebm-99" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Go：到书房&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1.先到达客厅&lt;br&gt;2.从客厅传过走廊&lt;br&gt;3.传过走廊进入书房&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="51" width="150" x="1510" y="459" as="geometry" />
+        <mxCell id="RyTlr9DGX1itiMbQvebm-99" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-weight: bold; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Go：&lt;/font&gt;&lt;b&gt;Please go to the children&#39;s room.&lt;/b&gt;&lt;br&gt;&lt;div&gt;1. Arrive at the living room first.&lt;/div&gt;&lt;div&gt;2. From the living room, proceed to the hallway.&lt;/div&gt;&lt;div&gt;3. Walk through the hallway to enter the study.&lt;/div&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="71" width="170" x="1510" y="459" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

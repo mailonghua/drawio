@@ -403,9 +403,6 @@
         <mxCell id="RyTlr9DGX1itiMbQvebm-78" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="30" width="50" x="1587.5" y="201.5" as="geometry" />
         </mxCell>
-        <mxCell id="RyTlr9DGX1itiMbQvebm-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;Go&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Clean the kitchen" vertex="1">
-          <mxGeometry height="30" width="150" x="1510" y="450" as="geometry" />
-        </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=30;fontStyle=1;fontColor=#FF00FF;" value="Step2:&lt;br&gt;Next stage of planning" vertex="1">
           <mxGeometry height="60" width="327" x="1480" y="10" as="geometry" />
         </mxCell>
@@ -452,7 +449,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-98" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;Go &amp;amp; Doing&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Clean the kitchen" vertex="1">
-          <mxGeometry height="30" width="150" x="1515" y="570" as="geometry" />
+          <mxGeometry height="30" width="150" x="1510" y="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -7,6 +7,12 @@
         <mxCell id="RyTlr9DGX1itiMbQvebm-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;dashed=1;" value="" vertex="1">
           <mxGeometry height="730" width="600" x="1450" y="-10" as="geometry" />
         </mxCell>
+        <mxCell id="RyTlr9DGX1itiMbQvebm-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="106" width="330" x="1510" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="RyTlr9DGX1itiMbQvebm-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="106" width="330" x="1510" y="424" as="geometry" />
+        </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeWidth=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
           <mxGeometry height="86" width="330" x="1510" y="324" as="geometry" />
         </mxCell>

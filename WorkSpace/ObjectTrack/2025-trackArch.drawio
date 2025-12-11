@@ -376,8 +376,8 @@
         <mxCell id="RyTlr9DGX1itiMbQvebm-57" parent="RyTlr9DGX1itiMbQvebm-66" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEoklEQVR4nO2aaahVVRTHfz4zK2mAJpujIq3sUZma+cUGqDSiGQsMiybq0TxYBBlZUX0wC19WhJFCaplFg0X1qRntNWCF6EtLmyQzo2xQK9blfy6rwxnu8959DlzOHxa8u87wO3tae++1H1SqVKlSpUqVKuVrGDAZuB3opM01BdgE/CvbAjwIbEMb6lYV0go8E3gC+Eu+2UA/2kidKqi16DjnHwmsV6EnFfEhxwAzVPt7ZNy3uz76JOACoEvdcxrwGDAHmA+8DrwRs/eB71WoX5z/RT2zTNd6gW6999AQhe0PfOnG0wYFkss1rhYAnwC/unuKsh9CjOtL+vgBHwOvqTUfAu4AblYFXQScB5wKnJxj3XrnV8ALjvEbcCOwVr+tspcAS4FPgefF2qnRAlpQGAFM1cvihTLgT/p7FTAeOALYoYWVPEBd1xgT5RsLfCPfAg2BrMp/Jg+yt7rq8oSHezUeh6sL7evGmwWUVutKvftzDalI+wM/6lrUwtfru8yOAxbJPz0LYEFlc6xrPuqmg3MTnrlX1yyQtVLbAaszuPfFGsOCY6QO9+yoLMg611XGqRWvk++jlLnvbV3/Vj1grcbv/cBBTRS4UW5kV7hrJ8hnvTRTi3XjOaqZSa7r2BiN6+qc8WPz6MKcWt5ZXdSWkGOA04AJOdyrElgWwCI9Lt9deQV+OuXD302491jgzz5E7qVqlc8U5KIFRJYlcYencG/R9YHAz/INySvwbSngE2P3WahfUcD8GufumMGdqiEUtb711lydmfCitxLum11AYZvldjVS4M6EB0fH7plYQGG3hrtBQbNHm41tGynwrrGXvBy7fkhBS8e+ctdo/b5VelMv+Qc42vltivqwgMI2wl2nMfoUcDGwC01ohl76bMr+tBHbrEjpbbW6XK9WTktkH2g3tD6Hu1IVYdNYy3SAVlX2wYc7/1DgD9W+Teqt1oGOe1gCd0sgLrNUmzYfR7I17HvyPxICqq4Z53Y47sMhoEOUZfgbONj5bxD0u1Z3J9eKZXBZKIBlJCLto22g+c8OAXV73JlFckdofNp42c/556RME0VxXwrE5VUBLDMRabQ+5vcmdz1ZekXcaUVyRwlqXWhPFzAWB9rnRhqZw7XkexAtEsA21PH81fJGl2hN9KpCuUPVfTZqWYlyUmsEts1EO3G5VgALEpEmy/dOKChwTUlcpgjygH5v79I8lnkIpTtL4nK6ICuUKbhQv3sCn92Md2N1oBJwRXDpUMLNYHe7pHeoyOy5PSVwaxrjDq5WCnwp5XAvoyDdFNverWokARaA+7UieCGanpAy6Ypl/NuJSz8Xtb19AZzShty6zneHZN7mK0HQbtya9tIOKQ7fqGy+zZvtxK1rgjuU8mbz5xkB58yyuDUNAu5xJ4jebC49K9AHDNJpQtHcuo50i5S42XnR8YTRsJK49R3NvBT4Jh1Kh5CN3bklcGvqr/PjtJy0HaGG4j5XArfe0ssyavwowrV0Gdz/nbIn2ZOE09iSuDWl/QdN0E28S9AXzSXtf7e6S+LauVhQDXDJuMjs9HG3NuXWNViHb3ZiUKQG6/CtaG6lSpSs/wBGXA0xswDK7wAAAABJRU5ErkJggg==;" value="" vertex="1">
           <mxGeometry height="46" width="46" y="7" as="geometry" />
         </mxCell>
-        <mxCell id="RyTlr9DGX1itiMbQvebm-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;The girl I observe is wearing&lt;/div&gt;&lt;div&gt;a red top and a black pants.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="1510" y="328" as="geometry" />
+        <mxCell id="RyTlr9DGX1itiMbQvebm-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;Tracking:&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;The girl I observe is wearing&lt;/div&gt;&lt;div&gt;a red top and a black pants.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="160" x="1510" y="328" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-68" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="30" width="50" x="1532.5" y="201.5" as="geometry" />
@@ -404,7 +404,7 @@
           <mxGeometry height="30" width="50" x="1587.5" y="201.5" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="The little girl looks pained." vertex="1">
-          <mxGeometry height="30" width="150" x="1510" y="380" as="geometry" />
+          <mxGeometry height="30" width="150" x="1510" y="430" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=30;fontStyle=1;fontColor=#FF00FF;" value="Step2:&lt;br&gt;Next stage of planning" vertex="1">
           <mxGeometry height="60" width="327" x="1480" y="10" as="geometry" />
@@ -441,6 +441,9 @@
             <mxPoint x="50" y="34.549999999999955" as="sourcePoint" />
             <mxPoint x="126" y="70" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RyTlr9DGX1itiMbQvebm-94" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Keep the target person directly in front of you.&lt;br&gt;&lt;br&gt;Maintain a distance of 1 meter from the target person." vertex="1">
+          <mxGeometry height="70" width="172.5" x="1673" y="329" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

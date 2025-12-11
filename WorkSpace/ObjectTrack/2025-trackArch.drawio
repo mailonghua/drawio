@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.2.6">
   <diagram name="第 1 页" id="EL-RbNgsAebeD9NBks1o">
-    <mxGraphModel dx="1018" dy="1753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1131" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -452,7 +452,7 @@
           <mxGeometry height="30" width="150" x="1510" y="609.5" as="geometry" />
         </mxCell>
         <mxCell id="RyTlr9DGX1itiMbQvebm-99" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-weight: bold;&quot;&gt;Go：&lt;/font&gt;&lt;b&gt;Please go to the children&#39;s room.&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;1. Arrive at the living room first.&lt;/div&gt;&lt;div&gt;2. From the living room, proceed to the hallway.&lt;/div&gt;&lt;div&gt;3. Walk through the hallway to enter the study.&lt;/div&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="101" width="170" x="1510" y="459" as="geometry" />
+          <mxGeometry height="101" width="170" x="1510" y="434" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

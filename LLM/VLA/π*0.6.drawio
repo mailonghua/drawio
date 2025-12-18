@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="q4oftQuWJWJ36cqOWXKO">
-    <mxGraphModel dx="983" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="935" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="UjFaSe93PhariwOm5i0S-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="80" width="392.5" x="215" y="250" as="geometry" />
+          <mxGeometry height="80" width="445" x="215" y="250" as="geometry" />
         </mxCell>
         <mxCell id="SpN4SFDL3ZiSaRjsnkr_-29" edge="1" parent="1" source="SpN4SFDL3ZiSaRjsnkr_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SpN4SFDL3ZiSaRjsnkr_-33">
           <mxGeometry relative="1" as="geometry">
@@ -108,11 +108,11 @@
             <Array as="points">
               <mxPoint x="640" y="300" />
             </Array>
-            <mxPoint x="640" y="300" as="targetPoint" />
+            <mxPoint x="700" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UjFaSe93PhariwOm5i0S-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="优势条件训练" vertex="1">
-          <mxGeometry height="40" width="79" x="500" y="280" as="geometry" />
+        <mxCell id="UjFaSe93PhariwOm5i0S-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="添加优势条件(ValueFunction)VLA训练" vertex="1">
+          <mxGeometry height="40" width="150" x="500" y="280" as="geometry" />
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RECAP训练的三个阶段" vertex="1">
           <mxGeometry height="30" width="130" x="215" y="250" as="geometry" />

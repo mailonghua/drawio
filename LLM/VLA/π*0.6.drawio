@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UjFaSe93PhariwOm5i0S-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="140" width="580" x="120" y="380" as="geometry" />
+        </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="80" width="445" x="215" y="250" as="geometry" />
         </mxCell>
@@ -116,6 +119,48 @@
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RECAP训练的三个阶段" vertex="1">
           <mxGeometry height="30" width="130" x="215" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-16" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UjFaSe93PhariwOm5i0S-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-23" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="运行当前的策略&lt;br&gt;(也就是VLA执行任务)" vertex="1">
+          <mxGeometry height="40" width="125" x="140" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-18" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UjFaSe93PhariwOm5i0S-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据收集" vertex="1">
+          <mxGeometry height="40" width="75" x="305" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-20" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UjFaSe93PhariwOm5i0S-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="价值函数更新" vertex="1">
+          <mxGeometry height="40" width="80" x="414" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-21" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-24" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;strokeWidth=2;" target="UjFaSe93PhariwOm5i0S-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="608" y="510" />
+              <mxPoint x="203" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="使用更新后的价值函数重新计算动作优势&lt;br&gt;重新训练VLA模型" vertex="1">
+          <mxGeometry height="40" width="136" x="540" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="完整的经验学习循环" vertex="1">
+          <mxGeometry height="30" width="130" x="120" y="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

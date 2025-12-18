@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UjFaSe93PhariwOm5i0S-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="80" width="392.5" x="215" y="250" as="geometry" />
+        </mxCell>
         <mxCell id="SpN4SFDL3ZiSaRjsnkr_-29" edge="1" parent="1" source="SpN4SFDL3ZiSaRjsnkr_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SpN4SFDL3ZiSaRjsnkr_-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1157" y="70.0689655172414" as="targetPoint" />
@@ -85,25 +88,34 @@
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-6" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="300" />
+            </Array>
+            <mxPoint x="180" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="数据收集" vertex="1">
-          <mxGeometry height="60" width="79" x="241" y="260" as="geometry" />
+          <mxGeometry height="40" width="79" x="241" y="280" as="geometry" />
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-5" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UjFaSe93PhariwOm5i0S-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="价值函数训练" vertex="1">
-          <mxGeometry height="60" width="79" x="374" y="260" as="geometry" />
+          <mxGeometry height="40" width="79" x="374" y="280" as="geometry" />
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-7" edge="1" parent="1" source="UjFaSe93PhariwOm5i0S-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="300" />
+            </Array>
+            <mxPoint x="640" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="优势条件训练" vertex="1">
-          <mxGeometry height="60" width="79" x="500" y="260" as="geometry" />
+          <mxGeometry height="40" width="79" x="500" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UjFaSe93PhariwOm5i0S-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RECAP训练的三个阶段" vertex="1">
+          <mxGeometry height="30" width="130" x="215" y="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

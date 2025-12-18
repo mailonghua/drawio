@@ -108,7 +108,7 @@
             <Array as="points">
               <mxPoint x="640" y="300" />
             </Array>
-            <mxPoint x="700" y="300" as="targetPoint" />
+            <mxPoint x="690" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UjFaSe93PhariwOm5i0S-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="添加优势条件(ValueFunction)VLA训练" vertex="1">

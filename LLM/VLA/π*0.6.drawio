@@ -225,13 +225,13 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-10" value="Ground truth" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="155" y="820" width="95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jiiom02lUfAOHEvb2tyS-11" value="预测子任务ℓ&lt;sup&gt;^&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-11" value="预测子任务ℓ&lt;sup&gt;^&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="476.75" y="1044" width="73.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-12" target="Jiiom02lUfAOHEvb2tyS-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jiiom02lUfAOHEvb2tyS-12" value="预测离散动作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-12" value="预测离散动作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="560" y="1044" width="72.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-15" value="VLM损失计算&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;子任务损失+离散动作损失&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">

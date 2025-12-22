@@ -234,8 +234,19 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-12" value="预测离散动作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="560" y="993" width="72.25" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-15" target="Jiiom02lUfAOHEvb2tyS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-19" value="//&lt;div&gt;梯度停止(不回传)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontStyle=1;fontColor=#FF0000;" vertex="1" connectable="0" parent="Jiiom02lUfAOHEvb2tyS-18">
+          <mxGeometry x="-0.0049" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-15" value="VLM损失计算&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;子任务损失+离散动作损失&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="483.25" y="1050" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-17" value="动作专家网络&lt;div&gt;SigLIP(400M) + Gemma 270M&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1050" width="174.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

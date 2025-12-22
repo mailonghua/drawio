@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Jiiom02lUfAOHEvb2tyS-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="145" y="820" width="495" height="80" as="geometry" />
+          <mxGeometry x="145" y="814" width="495" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WG4YfiGeL8v38WxNW5QN-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="260" y="610" width="320" height="80" as="geometry" />
@@ -199,7 +199,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-1" value="输入数据&lt;br&gt;(观测状态+ProMPT)&lt;div&gt;O_t +&amp;nbsp;ℓ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="840" width="120" height="50" as="geometry" />
+          <mxGeometry x="160" y="834" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-2" target="Jiiom02lUfAOHEvb2tyS-4">
           <mxGeometry relative="1" as="geometry" />
@@ -207,8 +207,8 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-2" target="Jiiom02lUfAOHEvb2tyS-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="391" y="1000" />
-              <mxPoint x="247" y="1000" />
+              <mxPoint x="391" y="994" />
+              <mxPoint x="247" y="994" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -218,13 +218,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-2" value="演示数据处理&lt;br&gt;连续动作真值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="331" y="840" width="120" height="50" as="geometry" />
+          <mxGeometry x="331" y="834" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-4" target="Jiiom02lUfAOHEvb2tyS-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-4" value="FAST tokenizer&lt;br&gt;生成离散真值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="494.5" y="840" width="120" height="50" as="geometry" />
+          <mxGeometry x="494.5" y="834" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-6" target="Jiiom02lUfAOHEvb2tyS-11">
           <mxGeometry relative="1" as="geometry" />
@@ -233,28 +233,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-6" value="VLM主干网络&lt;br&gt;SigLIP(400M) + Gemma 4B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="476.75" y="919" width="155.5" height="30" as="geometry" />
+          <mxGeometry x="476.75" y="913" width="155.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-10" value="Ground truth" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="155" y="820" width="95" height="20" as="geometry" />
+          <mxGeometry x="155" y="814" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-11" target="Jiiom02lUfAOHEvb2tyS-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="513" y="1030" />
-              <mxPoint x="290" y="1030" />
-              <mxPoint x="290" y="1050" />
+              <mxPoint x="513" y="1024" />
+              <mxPoint x="290" y="1024" />
+              <mxPoint x="290" y="1044" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-11" value="预测子任务ℓ&lt;sup&gt;^&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="476.75" y="982" width="73.25" height="30" as="geometry" />
+          <mxGeometry x="476.75" y="976" width="73.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-12" target="Jiiom02lUfAOHEvb2tyS-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-12" value="预测离散动作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="560" y="982" width="72.25" height="30" as="geometry" />
+          <mxGeometry x="560" y="976" width="72.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-15" target="Jiiom02lUfAOHEvb2tyS-17">
           <mxGeometry relative="1" as="geometry" />
@@ -265,28 +265,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-15" value="VLM损失计算&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;子任务损失+离散动作损失&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="483.25" y="1050" width="150" height="30" as="geometry" />
+          <mxGeometry x="483.25" y="1044" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-17" target="Jiiom02lUfAOHEvb2tyS-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-17" value="动作专家网络&lt;div&gt;SigLIP(400M) + Gemma 270M&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1050" width="174.5" height="30" as="geometry" />
+          <mxGeometry x="160" y="1044" width="174.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-21" value="预测的子任务参与动作专家的指导和动作生成" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#FF00FF;" vertex="1" parent="1">
-          <mxGeometry x="287" y="1018" width="165" height="13" as="geometry" />
+          <mxGeometry x="287" y="1012" width="165" height="13" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-22" target="Jiiom02lUfAOHEvb2tyS-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-22" value="预测连续动作a_t:t+H" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="187.69" y="1100" width="119.13" height="20" as="geometry" />
+          <mxGeometry x="187.69" y="1094" width="119.13" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-24" value="动作专家损失计算&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;流匹配损失&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="172.26" y="1142" width="150" height="30" as="geometry" />
+          <mxGeometry x="172.26" y="1136" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-27" value="训练阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="145" y="780" width="495" height="30" as="geometry" />
+          <mxGeometry x="145" y="774" width="495" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

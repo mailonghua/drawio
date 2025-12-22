@@ -201,7 +201,7 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-1" target="Jiiom02lUfAOHEvb2tyS-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jiiom02lUfAOHEvb2tyS-1" value="输入数据&lt;br&gt;(观测状态+ProMPT)&lt;div&gt;O_t +&amp;nbsp;ℓ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-1" value="输入数据&lt;br&gt;(观测状态+Prompt)&lt;div&gt;O_t +&amp;nbsp;ℓ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="834" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-2" target="Jiiom02lUfAOHEvb2tyS-4">
@@ -290,6 +290,30 @@
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-27" value="训练阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="145" y="774" width="495" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-34" target="Jiiom02lUfAOHEvb2tyS-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-34" value="输入数据&lt;br&gt;(观测状态+Prompt)&lt;div&gt;O_t +&amp;nbsp;ℓ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="774.5" y="834" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-36" target="Jiiom02lUfAOHEvb2tyS-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-36" value="VLM主干网络&lt;br&gt;SigLIP+Gemma 4B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945.5" y="834" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-37" target="Jiiom02lUfAOHEvb2tyS-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-37" value="预测子任务&lt;span style=&quot;font-size: 11px;&quot;&gt;ℓ&lt;/span&gt;&lt;sup&gt;^&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="834" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-39" value="推理阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="759.5" y="774" width="495" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-40" value="动作专家网络&lt;br&gt;Action expert" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="913" width="120" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

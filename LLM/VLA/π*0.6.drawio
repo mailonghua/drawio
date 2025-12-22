@@ -225,6 +225,14 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-10" value="Ground truth" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="155" y="820" width="95" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-11" target="Jiiom02lUfAOHEvb2tyS-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="1030" />
+              <mxPoint x="247" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-11" value="预测子任务ℓ&lt;sup&gt;^&lt;/sup&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="476.75" y="993" width="73.25" height="30" as="geometry" />
         </mxCell>
@@ -247,6 +255,9 @@
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-17" value="动作专家网络&lt;div&gt;SigLIP(400M) + Gemma 270M&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1050" width="174.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-21" value="预测的子任务参与动作专家的指导和动作生成" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#FF00FF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1018" width="165" height="13" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

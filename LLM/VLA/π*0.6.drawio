@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.0.3">
   <diagram name="第 1 页" id="q4oftQuWJWJ36cqOWXKO">
-    <mxGraphModel dx="935" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-46" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="750" y="760" width="510" height="340" as="geometry" />
+        </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-31" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="130" y="760" width="520" height="420" as="geometry" />
         </mxCell>
@@ -294,13 +297,13 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-34" target="Jiiom02lUfAOHEvb2tyS-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jiiom02lUfAOHEvb2tyS-34" value="输入数据&lt;br&gt;(观测状态+Prompt)&lt;div&gt;O_t +&amp;nbsp;ℓ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-34" value="输入数据&lt;br&gt;(观测状态+Prompt)&lt;div&gt;O_t +&amp;nbsp;ℓ&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="774.5" y="834" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-36" target="Jiiom02lUfAOHEvb2tyS-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jiiom02lUfAOHEvb2tyS-36" value="VLM主干网络&lt;br&gt;SigLIP+Gemma 4B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-36" value="VLM主干网络&lt;br&gt;SigLIP+Gemma 4B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="945.5" y="834" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-37" target="Jiiom02lUfAOHEvb2tyS-40">
@@ -312,8 +315,20 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-39" value="推理阶段" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="759.5" y="774" width="495" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Jiiom02lUfAOHEvb2tyS-40" value="动作专家网络&lt;br&gt;Action expert" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-40" target="Jiiom02lUfAOHEvb2tyS-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-40" value="动作专家网络&lt;br&gt;Action expert" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1109" y="913" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-42" target="Jiiom02lUfAOHEvb2tyS-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-42" value="生成连续动作&lt;br&gt;a_t:t+H" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="980" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-44" value="机器人执行&lt;br&gt;50HZ关节+夹爪" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="1050" width="120" height="37" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

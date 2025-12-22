@@ -253,11 +253,23 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-15" value="VLM损失计算&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;子任务损失+离散动作损失&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="483.25" y="1050" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-17" target="Jiiom02lUfAOHEvb2tyS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-17" value="动作专家网络&lt;div&gt;SigLIP(400M) + Gemma 270M&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1050" width="174.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-21" value="预测的子任务参与动作专家的指导和动作生成" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#FF00FF;" vertex="1" parent="1">
           <mxGeometry x="250" y="1018" width="165" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jiiom02lUfAOHEvb2tyS-22" target="Jiiom02lUfAOHEvb2tyS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-22" value="预测连续动作a_t:t+H" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="187.69" y="1100" width="119.13" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jiiom02lUfAOHEvb2tyS-24" value="动作专家损失计算&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;流匹配损失&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="172.26" y="1142" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

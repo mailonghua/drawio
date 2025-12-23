@@ -67,6 +67,15 @@
         <mxCell id="QINzVDPMk8v8mg9tGCiR-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="由于目标人物膨胀距离的消失导致直接走到目标人物跟前" vertex="1">
           <mxGeometry height="30" width="339.37" x="189.56" y="630" as="geometry" />
         </mxCell>
+        <mxCell id="QINzVDPMk8v8mg9tGCiR-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="1.本体因为形态导致快速减速度无法完成" vertex="1">
+          <mxGeometry height="30" width="220" x="140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QINzVDPMk8v8mg9tGCiR-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="2.缺失RK板传递过来的雷达点云数据，导致目标人物膨胀半径消失" vertex="1">
+          <mxGeometry height="30" width="360.75" x="149.25" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="QINzVDPMk8v8mg9tGCiR-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;" value="3.光线较差，已经无法识别到目标人物，跟随点还停留在上一个时刻" vertex="1">
+          <mxGeometry height="30" width="360.75" x="159.25" y="720" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

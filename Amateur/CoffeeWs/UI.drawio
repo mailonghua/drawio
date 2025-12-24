@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="第 1 页" id="i1ctAU9QhWn3NEj9T2h8">
+    <mxGraphModel dx="1356" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kJXCTicvsAGWoS9zrTwC-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="350" width="350" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kJXCTicvsAGWoS9zrTwC-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=none;fillStyle=dots;sketch=1;" value="拿铁" vertex="1">
+          <mxGeometry height="60" width="60" x="230" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="kJXCTicvsAGWoS9zrTwC-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=none;fillStyle=dots;sketch=1;" value="卡布奇诺" vertex="1">
+          <mxGeometry height="60" width="60" x="210" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kJXCTicvsAGWoS9zrTwC-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=none;fillStyle=dots;sketch=1;" value="玛奇朵" vertex="1">
+          <mxGeometry height="60" width="60" x="250" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="kJXCTicvsAGWoS9zrTwC-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=none;fillStyle=dots;sketch=1;" value="自定义萃取" vertex="1">
+          <mxGeometry height="60" width="60" x="330" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="kJXCTicvsAGWoS9zrTwC-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=none;fillStyle=dots;sketch=1;" value="美式" vertex="1">
+          <mxGeometry height="60" width="60" x="290" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="kJXCTicvsAGWoS9zrTwC-9" parent="1" style="line;strokeWidth=4;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;rotation=-90;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="355" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="kJXCTicvsAGWoS9zrTwC-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="xxxxxxxxxxxxxxxxx" vertex="1">
+          <mxGeometry height="30" width="130" x="290" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="JruIU2XGJA0j2SPyyetq-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=none;fillStyle=dots;sketch=1;" value="自定义萃取" vertex="1">
+          <mxGeometry height="60" width="60" x="430" y="640" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

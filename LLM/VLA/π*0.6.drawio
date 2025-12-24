@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fE1OoOC1i1bKs5Li8PG0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="160" width="160" x="140" y="1370" as="geometry" />
+          <mxGeometry height="100" width="310" x="140" y="1370" as="geometry" />
         </mxCell>
         <mxCell id="Jiiom02lUfAOHEvb2tyS-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
           <mxGeometry height="340" width="510" x="750" y="760" as="geometry" />
@@ -333,11 +333,14 @@
         <mxCell id="Jiiom02lUfAOHEvb2tyS-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="机器人执行&lt;br&gt;50HZ关节+夹爪" vertex="1">
           <mxGeometry height="37" width="120" x="1109" y="1050" as="geometry" />
         </mxCell>
+        <mxCell id="fE1OoOC1i1bKs5Li8PG0-5" edge="1" parent="1" source="fE1OoOC1i1bKs5Li8PG0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="fE1OoOC1i1bKs5Li8PG0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fE1OoOC1i1bKs5Li8PG0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VLA的训练" vertex="1">
-          <mxGeometry height="40" width="120" x="160.5" y="1420" as="geometry" />
+          <mxGeometry height="40" width="120" x="150" y="1420" as="geometry" />
         </mxCell>
         <mxCell id="fE1OoOC1i1bKs5Li8PG0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ValueFunction的训练" vertex="1">
-          <mxGeometry height="40" width="120" x="160.5" y="1480" as="geometry" />
+          <mxGeometry height="40" width="120" x="322.26" y="1420" as="geometry" />
         </mxCell>
         <mxCell id="fE1OoOC1i1bKs5Li8PG0-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="Stage 1:第一阶段-预训练" vertex="1">
           <mxGeometry height="30" width="150" x="145.5" y="1379" as="geometry" />

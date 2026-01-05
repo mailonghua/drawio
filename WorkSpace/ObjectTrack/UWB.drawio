@@ -21,7 +21,7 @@
         </mxCell>
         <mxCell id="_qmjnuiglIZHb1-RWGZ7-11" connectable="0" parent="_qmjnuiglIZHb1-RWGZ7-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="X" vertex="1">
           <mxGeometry relative="1" x="0.7766" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-37" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_qmjnuiglIZHb1-RWGZ7-6" edge="1" parent="1" source="_qmjnuiglIZHb1-RWGZ7-2" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeColor=#FF3333;" value="">
@@ -44,7 +44,7 @@
         </mxCell>
         <mxCell id="_qmjnuiglIZHb1-RWGZ7-10" connectable="0" parent="_qmjnuiglIZHb1-RWGZ7-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Y" vertex="1">
           <mxGeometry relative="1" x="0.1741" as="geometry">
-            <mxPoint x="-24" as="offset" />
+            <mxPoint x="-84" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="D * cos(a)" vertex="1">

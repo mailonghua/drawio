@@ -30,10 +30,10 @@
             <mxPoint x="240" y="245" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_qmjnuiglIZHb1-RWGZ7-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="D" vertex="1">
+        <mxCell id="_qmjnuiglIZHb1-RWGZ7-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF3333;" value="D" vertex="1">
           <mxGeometry height="30" width="20" x="170" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="_qmjnuiglIZHb1-RWGZ7-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="a" vertex="1">
+        <mxCell id="_qmjnuiglIZHb1-RWGZ7-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF3333;" value="a" vertex="1">
           <mxGeometry height="30" width="20" x="220" y="380" as="geometry" />
         </mxCell>
         <mxCell id="_qmjnuiglIZHb1-RWGZ7-9" edge="1" parent="1" source="_qmjnuiglIZHb1-RWGZ7-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" value="">
@@ -44,7 +44,16 @@
         </mxCell>
         <mxCell id="_qmjnuiglIZHb1-RWGZ7-10" connectable="0" parent="_qmjnuiglIZHb1-RWGZ7-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Y" vertex="1">
           <mxGeometry relative="1" x="0.1741" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-24" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="D * cos(a)" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="_qmjnuiglIZHb1-RWGZ7-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="135" y="440" as="sourcePoint" />
+            <mxPoint x="140" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

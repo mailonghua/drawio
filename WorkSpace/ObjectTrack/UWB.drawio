@@ -160,6 +160,9 @@
             <mxPoint x="-39" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-28" parent="WGfhs3SG1_CbX8IGJXG1-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="base_link" vertex="1">
+          <mxGeometry height="30" width="60" x="40" y="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

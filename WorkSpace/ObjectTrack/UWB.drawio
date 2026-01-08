@@ -289,10 +289,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-79" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Navagation2" vertex="1">
-          <mxGeometry height="40" width="80" x="1180" y="340" as="geometry" />
+          <mxGeometry height="40" width="80" x="1280" y="315" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Track 命令控制" vertex="1">
-          <mxGeometry height="60" width="120" x="1370" y="445" as="geometry" />
+          <mxGeometry height="60" width="120" x="1470" y="420" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-83" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-81" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WGfhs3SG1_CbX8IGJXG1-79">
           <mxGeometry relative="1" as="geometry" />
@@ -311,7 +311,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UWB" vertex="1">
-          <mxGeometry height="60" width="120" x="980" y="430" as="geometry" />
+          <mxGeometry height="60" width="120" x="1080" y="405" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-90" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-89" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
           <mxGeometry relative="1" as="geometry">
@@ -394,7 +394,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="只在正前方做导航" vertex="1">
-          <mxGeometry height="30" width="130" x="1170" y="310" as="geometry" />
+          <mxGeometry height="30" width="130" x="1270" y="285" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-104" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;fontStyle=1;fontColor=#FF33FF;" value="跟随--&amp;gt;转向--&amp;gt;跟随-&amp;gt;....." vertex="1">
           <mxGeometry height="30" width="350" x="540" y="110" as="geometry" />
@@ -417,7 +417,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UWB" vertex="1">
-          <mxGeometry height="60" width="120" x="985" y="640" as="geometry" />
+          <mxGeometry height="60" width="120" x="1080" y="637.5" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-114" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="WGfhs3SG1_CbX8IGJXG1-113">
           <mxGeometry relative="1" as="geometry" />
@@ -436,16 +436,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Track 命令控制" vertex="1">
-          <mxGeometry height="60" width="120" x="1180" y="640" as="geometry" />
+          <mxGeometry height="60" width="120" x="1275" y="637.5" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-117" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="WGfhs3SG1_CbX8IGJXG1-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Navagation2" vertex="1">
-          <mxGeometry height="40" width="80" x="1450" y="565" as="geometry" />
+          <mxGeometry height="40" width="80" x="1545" y="562.5" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-116" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="cmd_vel" vertex="1">
-          <mxGeometry height="60" width="120" x="1630" y="690" as="geometry" />
+          <mxGeometry height="60" width="120" x="1725" y="687.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

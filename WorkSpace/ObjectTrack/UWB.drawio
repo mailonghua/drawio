@@ -280,7 +280,7 @@
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sup&gt;o&lt;/sup&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="30" x="640" y="600" as="geometry" />
         </mxCell>
-        <mxCell id="WGfhs3SG1_CbX8IGJXG1-85" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-79" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WGfhs3SG1_CbX8IGJXG1-80">
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-85" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-79" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WGfhs3SG1_CbX8IGJXG1-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-87" connectable="0" parent="WGfhs3SG1_CbX8IGJXG1-85" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="cmd_vel" vertex="1">
@@ -445,7 +445,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Navagation2" vertex="1">
-          <mxGeometry height="40" width="80" x="1545" y="562.5" as="geometry" />
+          <mxGeometry height="40" width="80" x="1520" y="560" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-116" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="cmd_vel" vertex="1">
           <mxGeometry height="60" width="120" x="1730" y="637.5" as="geometry" />

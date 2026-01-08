@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="3gWYynjCkm5DQv5GXBJH">
-    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,8 +396,8 @@
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="只在正前方做导航" vertex="1">
           <mxGeometry height="30" width="130" x="1170" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="WGfhs3SG1_CbX8IGJXG1-104" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跟随--&amp;gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="940" y="140" as="geometry" />
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-104" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;fontStyle=1;fontColor=#FF33FF;" value="跟随--&amp;gt;转向--&amp;gt;跟随-&amp;gt;....." vertex="1">
+          <mxGeometry height="30" width="350" x="540" y="110" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="锁定-&amp;gt;原地转向&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="880" y="490" as="geometry" />

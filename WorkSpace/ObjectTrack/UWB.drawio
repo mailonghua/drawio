@@ -396,6 +396,18 @@
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="只在正前方做导航" vertex="1">
           <mxGeometry height="30" width="130" x="1170" y="310" as="geometry" />
         </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-104" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="跟随" vertex="1">
+          <mxGeometry height="30" width="60" x="940" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="锁定-&amp;gt;原地转向&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="880" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-107" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="锁定-&amp;gt;原地转向&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="680" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-108" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="锁定-&amp;gt;原地转向&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="430" y="485" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

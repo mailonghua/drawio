@@ -408,6 +408,45 @@
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-108" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="锁定-&amp;gt;原地转向&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="90" x="430" y="485" as="geometry" />
         </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-111" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-109" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WGfhs3SG1_CbX8IGJXG1-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-112" connectable="0" parent="WGfhs3SG1_CbX8IGJXG1-111" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Text" vertex="1">
+          <mxGeometry relative="1" x="0.0311" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UWB" vertex="1">
+          <mxGeometry height="60" width="120" x="985" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-114" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="WGfhs3SG1_CbX8IGJXG1-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-115" connectable="0" parent="WGfhs3SG1_CbX8IGJXG1-114" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(x,y) 和 Valid" vertex="1">
+          <mxGeometry relative="1" x="-0.0298" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-118" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="WGfhs3SG1_CbX8IGJXG1-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-119" connectable="0" parent="WGfhs3SG1_CbX8IGJXG1-118" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(0,0,yaw)" vertex="1">
+          <mxGeometry relative="1" x="0.0272" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Track 命令控制" vertex="1">
+          <mxGeometry height="60" width="120" x="1180" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-117" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="WGfhs3SG1_CbX8IGJXG1-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Navagation2" vertex="1">
+          <mxGeometry height="40" width="80" x="1450" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-116" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="cmd_vel" vertex="1">
+          <mxGeometry height="60" width="120" x="1630" y="690" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

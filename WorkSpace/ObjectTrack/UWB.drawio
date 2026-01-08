@@ -393,8 +393,8 @@
             <mxPoint x="860" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WGfhs3SG1_CbX8IGJXG1-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="只在正前方做导航" vertex="1">
-          <mxGeometry height="30" width="60" x="1170" y="290" as="geometry" />
+        <mxCell id="WGfhs3SG1_CbX8IGJXG1-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="只在正前方做导航" vertex="1">
+          <mxGeometry height="30" width="130" x="1170" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

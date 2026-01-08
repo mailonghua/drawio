@@ -292,7 +292,7 @@
           <mxGeometry height="40" width="80" x="1280" y="315" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Track 命令控制" vertex="1">
-          <mxGeometry height="60" width="120" x="1470" y="420" as="geometry" />
+          <mxGeometry height="60" width="120" x="1510" y="405" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-83" edge="1" parent="1" source="WGfhs3SG1_CbX8IGJXG1-81" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WGfhs3SG1_CbX8IGJXG1-79">
           <mxGeometry relative="1" as="geometry" />
@@ -445,7 +445,7 @@
           <mxGeometry height="40" width="80" x="1545" y="562.5" as="geometry" />
         </mxCell>
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-116" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="cmd_vel" vertex="1">
-          <mxGeometry height="60" width="120" x="1725" y="687.5" as="geometry" />
+          <mxGeometry height="60" width="120" x="1730" y="637.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

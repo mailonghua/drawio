@@ -453,8 +453,8 @@
         <mxCell id="WGfhs3SG1_CbX8IGJXG1-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="cmd_vel" vertex="1">
           <mxGeometry height="60" width="120" x="1670" y="405" as="geometry" />
         </mxCell>
-        <mxCell id="K0W_qQDRSYRlKhtokdvF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.距离过近，不做控制&lt;br&gt;2.通过三边的距离直接计算目标点--》纯导航" vertex="1">
-          <mxGeometry height="30" width="255" x="1485" y="295" as="geometry" />
+        <mxCell id="K0W_qQDRSYRlKhtokdvF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;fontSize=17;" value="1.距离过近，不做控制&lt;br&gt;2.通过三边的距离直接计算目标点--&amp;gt;纯导航" vertex="1">
+          <mxGeometry height="30" width="425" x="1485" y="295" as="geometry" />
         </mxCell>
         <mxCell id="K0W_qQDRSYRlKhtokdvF-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="110" x="1040" y="110" as="geometry" />

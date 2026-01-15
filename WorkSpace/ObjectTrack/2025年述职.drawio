@@ -264,9 +264,6 @@
         <mxCell id="aWiBPgjwfEscswGIdMfI-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" value="达秒双轮腿组装" vertex="1">
           <mxGeometry height="30" width="44.62" x="365.38" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="aWiBPgjwfEscswGIdMfI-91" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
-          <mxGeometry height="30" width="60" x="460" y="500" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.3.0">
   <diagram name="第 1 页" id="stoK0Yp7IYbwB8u21f0v">
-    <mxGraphModel dx="1426" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="634" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aWiBPgjwfEscswGIdMfI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="下半年(具身智能团队)" vertex="1">
+          <mxGeometry height="50" width="120" x="210" y="276.17" as="geometry" />
+        </mxCell>
+        <mxCell id="aWiBPgjwfEscswGIdMfI-2" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=offPageConnector;rounded=0;size=0.23413869420877945;rotation=-90;" value="" vertex="1">
+          <mxGeometry height="93.05" width="44.85" x="378.47" y="254.65" as="geometry" />
+        </mxCell>
+        <mxCell id="aWiBPgjwfEscswGIdMfI-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;" value="第一节段&lt;br&gt;达秒双轮腿功能开发" vertex="1">
+          <mxGeometry height="30" width="92.18" x="350" y="286.17" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

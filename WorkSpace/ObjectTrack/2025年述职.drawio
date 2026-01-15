@@ -33,19 +33,19 @@
         <mxCell id="aWiBPgjwfEscswGIdMfI-15" edge="1" parent="1" source="aWiBPgjwfEscswGIdMfI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=8;" target="aWiBPgjwfEscswGIdMfI-14" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aWiBPgjwfEscswGIdMfI-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" value="达秒STM32&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;&lt;b&gt;串口控制信息逻辑开发&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="aWiBPgjwfEscswGIdMfI-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" value="达秒STM32&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;串口控制信息逻辑开发&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="74.62" x="429.46999999999997" y="360" as="geometry" />
         </mxCell>
         <mxCell id="aWiBPgjwfEscswGIdMfI-18" edge="1" parent="1" source="aWiBPgjwfEscswGIdMfI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aWiBPgjwfEscswGIdMfI-17" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aWiBPgjwfEscswGIdMfI-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" value="达秒STM32 &lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;&lt;b&gt;里程计开发&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="aWiBPgjwfEscswGIdMfI-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" value="达秒STM32 &lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;里程计开发&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="520" y="360" as="geometry" />
         </mxCell>
         <mxCell id="aWiBPgjwfEscswGIdMfI-69" edge="1" parent="1" source="aWiBPgjwfEscswGIdMfI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="aWiBPgjwfEscswGIdMfI-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aWiBPgjwfEscswGIdMfI-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" value="&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;&lt;b&gt;ROS2 /cmd_vel&lt;/b&gt;&lt;/font&gt;的节点信息开发" vertex="1">
+        <mxCell id="aWiBPgjwfEscswGIdMfI-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;ROS2 /cmd_vel&lt;/b&gt;&lt;/font&gt;的节点信息开发" vertex="1">
           <mxGeometry height="30" width="60" x="610" y="360" as="geometry" />
         </mxCell>
         <mxCell id="aWiBPgjwfEscswGIdMfI-24" edge="1" parent="1" source="aWiBPgjwfEscswGIdMfI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aWiBPgjwfEscswGIdMfI-22">
@@ -267,7 +267,7 @@
         <mxCell id="aWiBPgjwfEscswGIdMfI-116" edge="1" parent="1" source="aWiBPgjwfEscswGIdMfI-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aWiBPgjwfEscswGIdMfI-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aWiBPgjwfEscswGIdMfI-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;" value="智能跟随方案调研" vertex="1">
+        <mxCell id="aWiBPgjwfEscswGIdMfI-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" value="智能跟随方案调研" vertex="1">
           <mxGeometry height="30" width="74.62" x="369.73" y="670" as="geometry" />
         </mxCell>
         <mxCell id="aWiBPgjwfEscswGIdMfI-98" edge="1" parent="1" source="aWiBPgjwfEscswGIdMfI-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="aWiBPgjwfEscswGIdMfI-97" value="">

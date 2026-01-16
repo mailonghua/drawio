@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.9">
   <diagram name="第 1 页" id="eGXDPjjkfaZ0McU01EOW">
-    <mxGraphModel dx="1937" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry height="40" width="210" x="355" y="380" as="geometry" />
         </mxCell>
         <mxCell id="KVyN68zpA0nv9TB6Lqhg-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="发现的标签容器&lt;br&gt;find_exist_tag_addr64_list_" vertex="1">
-          <mxGeometry height="60" width="200" x="610" y="220" as="geometry" />
+          <mxGeometry height="60" width="200" x="740" y="230" as="geometry" />
         </mxCell>
         <mxCell id="KVyN68zpA0nv9TB6Lqhg-6" edge="1" parent="1" source="KVyN68zpA0nv9TB6Lqhg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="KVyN68zpA0nv9TB6Lqhg-3">
           <mxGeometry relative="1" as="geometry" />
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="KVyN68zpA0nv9TB6Lqhg-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="定时器发送getDlist" vertex="1">
           <mxGeometry height="40" width="210" x="355" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="g_pT-ie9clVBBnuxEI8i-10" edge="1" parent="1" source="KVyN68zpA0nv9TB6Lqhg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="g_pT-ie9clVBBnuxEI8i-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KVyN68zpA0nv9TB6Lqhg-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="串口发送getdlist" vertex="1">
           <mxGeometry height="60" width="130" x="395" y="230" as="geometry" />
@@ -54,6 +57,12 @@
         </mxCell>
         <mxCell id="g_pT-ie9clVBBnuxEI8i-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=23;fontStyle=1" value="获取标签列表&amp;amp;&amp;amp;已经绑定的标签" vertex="1">
           <mxGeometry height="30" width="350" x="110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g_pT-ie9clVBBnuxEI8i-11" edge="1" parent="1" source="g_pT-ie9clVBBnuxEI8i-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="KVyN68zpA0nv9TB6Lqhg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g_pT-ie9clVBBnuxEI8i-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="NewTag" vertex="1">
+          <mxGeometry height="60" width="130" x="560" y="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

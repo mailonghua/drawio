@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.3.3">
   <diagram name="第 1 页" id="3gWYynjCkm5DQv5GXBJH">
-    <mxGraphModel dx="1397" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1131" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -464,7 +464,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dfupP3Uh7bYEwGuA74GL-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UWB主基站" vertex="1">
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UWB主基站&lt;br&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;(基站滤波&lt;/font&gt;&lt;/b&gt;)&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="220" y="980" as="geometry" />
         </mxCell>
         <mxCell id="dfupP3Uh7bYEwGuA74GL-4" edge="1" parent="1" source="dfupP3Uh7bYEwGuA74GL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="dfupP3Uh7bYEwGuA74GL-1">

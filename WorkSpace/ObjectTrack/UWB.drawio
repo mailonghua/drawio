@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.3.3">
   <diagram name="第 1 页" id="3gWYynjCkm5DQv5GXBJH">
-    <mxGraphModel dx="219" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="452" dy="1429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -709,7 +709,7 @@
         <mxCell id="dfupP3Uh7bYEwGuA74GL-100" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="510" y="2000" as="sourcePoint" />
-            <mxPoint x="510" y="1860" as="targetPoint" />
+            <mxPoint x="510" y="1890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dfupP3Uh7bYEwGuA74GL-101" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;rotation=90;" value="" vertex="1">
@@ -717,6 +717,9 @@
         </mxCell>
         <mxCell id="dfupP3Uh7bYEwGuA74GL-102" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#FFB366;" value="滤波产生的延迟" vertex="1">
           <mxGeometry height="10" width="59" x="434.5" y="2027" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-103" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=8;fontColor=#FF3333;" value="当前时间" vertex="1">
+          <mxGeometry height="10" width="59" x="480.5" y="1880" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

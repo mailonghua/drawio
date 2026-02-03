@@ -456,6 +456,50 @@
         <mxCell id="K0W_qQDRSYRlKhtokdvF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;fontSize=17;" value="1.距离过近，不做控制&lt;br&gt;2.前向跟随，其他状态做旋转调整（2）&lt;br&gt;3.通过三边的距离直接计算目标点--&amp;gt;纯导航（1）" vertex="1">
           <mxGeometry height="50" width="425" x="1390" y="90" as="geometry" />
         </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-6" edge="1" parent="1" source="dfupP3Uh7bYEwGuA74GL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dfupP3Uh7bYEwGuA74GL-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-7" connectable="0" parent="dfupP3Uh7bYEwGuA74GL-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="UART" vertex="1">
+          <mxGeometry relative="1" x="-0.0639" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UWB主基站" vertex="1">
+          <mxGeometry height="50" width="120" x="220" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-4" edge="1" parent="1" source="dfupP3Uh7bYEwGuA74GL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="dfupP3Uh7bYEwGuA74GL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UWB从基站" vertex="1">
+          <mxGeometry height="50" width="120" x="220" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-9" edge="1" parent="1" source="dfupP3Uh7bYEwGuA74GL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="dfupP3Uh7bYEwGuA74GL-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ROS2 MSG Parser Node" vertex="1">
+          <mxGeometry height="50" width="120" x="420" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-13" edge="1" parent="1" source="dfupP3Uh7bYEwGuA74GL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dfupP3Uh7bYEwGuA74GL-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ROS2 &lt;br&gt;时间同步" vertex="1">
+          <mxGeometry height="125" width="70" x="590" y="973" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-11" edge="1" parent="1" source="dfupP3Uh7bYEwGuA74GL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="dfupP3Uh7bYEwGuA74GL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ODOM" vertex="1">
+          <mxGeometry height="40" width="120" x="420" y="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-15" edge="1" parent="1" source="dfupP3Uh7bYEwGuA74GL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dfupP3Uh7bYEwGuA74GL-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ROS2 &lt;br&gt;位置解算" vertex="1">
+          <mxGeometry height="125" width="70" x="710" y="973" as="geometry" />
+        </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Navagation2" vertex="1">
+          <mxGeometry height="125" width="83" x="827" y="973" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

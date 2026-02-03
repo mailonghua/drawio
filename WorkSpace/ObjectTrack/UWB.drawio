@@ -580,6 +580,9 @@
         <mxCell id="dfupP3Uh7bYEwGuA74GL-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Track 命令控制" vertex="1">
           <mxGeometry height="125" width="83" x="1130" y="1191" as="geometry" />
         </mxCell>
+        <mxCell id="dfupP3Uh7bYEwGuA74GL-52" parent="1" style="shape=corner;whiteSpace=wrap;html=1;dx=80;dy=70;" value="" vertex="1">
+          <mxGeometry height="210" width="230" x="250" y="1500" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

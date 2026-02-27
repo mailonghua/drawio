@@ -13,7 +13,7 @@
         <mxCell id="ZfkO5bAba6AxOlsboeHB-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CMD_LEN&lt;br&gt;（2B）" vertex="1">
           <mxGeometry height="40" width="70" x="210" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="wmODB4DJ2BbZmpBUl9iy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="msg_type&lt;br&gt;(1B)" vertex="1">
+        <mxCell id="wmODB4DJ2BbZmpBUl9iy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="cmd_type&lt;br&gt;(1B)" vertex="1">
           <mxGeometry height="40" width="60" x="150" y="480" as="geometry" />
         </mxCell>
         <mxCell id="wmODB4DJ2BbZmpBUl9iy-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
@@ -27,6 +27,12 @@
         </mxCell>
         <mxCell id="wmODB4DJ2BbZmpBUl9iy-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="check sum&lt;br&gt;(1B)" vertex="1">
           <mxGeometry height="40" width="60" x="400" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="wmODB4DJ2BbZmpBUl9iy-7" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=89;" value="" vertex="1">
+          <mxGeometry height="120" width="20" x="330" y="406.65" as="geometry" />
+        </mxCell>
+        <mxCell id="wmODB4DJ2BbZmpBUl9iy-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF00FF;" value="CMD_LEN Byte" vertex="1">
+          <mxGeometry height="30" width="60" x="310" y="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -164,7 +164,7 @@
         <mxCell id="LW7SI0gk3JkEk94tFt96-9" edge="1" parent="1" source="LW7SI0gk3JkEk94tFt96-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="LW7SI0gk3JkEk94tFt96-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LW7SI0gk3JkEk94tFt96-10" connectable="0" parent="LW7SI0gk3JkEk94tFt96-9" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="1.进入页面发送消息获取指令&lt;br&gt;2.返回按键触发信息发送" vertex="1">
+        <mxCell id="LW7SI0gk3JkEk94tFt96-10" connectable="0" parent="LW7SI0gk3JkEk94tFt96-9" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;0x0:&lt;/font&gt;&lt;/b&gt;1.进入页面发送消息获取指令&lt;br&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;0x1:&lt;/font&gt;&lt;/b&gt;2.返回按键触发信息发送" vertex="1">
           <mxGeometry relative="1" x="-0.0226" y="1" as="geometry">
             <mxPoint x="-78" y="1" as="offset" />
           </mxGeometry>

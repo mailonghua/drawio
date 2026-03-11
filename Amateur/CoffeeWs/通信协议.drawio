@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="946" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,7 +240,7 @@
         <mxCell id="QHgMQiRaE8kp91t9TFko-15" edge="1" parent="1" source="J33PR6cPvQYWGb48CCDG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="QHgMQiRaE8kp91t9TFko-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J33PR6cPvQYWGb48CCDG-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="每种咖啡维持&lt;br&gt;一套保存参数阈值&lt;br&gt;machine_params_" vertex="1">
+        <mxCell id="J33PR6cPvQYWGb48CCDG-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="每种咖啡维持&lt;br&gt;一套保存参数阈值&lt;br&gt;machine_params_" vertex="1">
           <mxGeometry height="50" width="120" x="400" y="1340" as="geometry" />
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;dashed=1;" value="NVS 保存&amp;amp;加载" vertex="1">
@@ -276,7 +276,7 @@
         <mxCell id="QHgMQiRaE8kp91t9TFko-17" edge="1" parent="1" source="QHgMQiRaE8kp91t9TFko-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="QHgMQiRaE8kp91t9TFko-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QHgMQiRaE8kp91t9TFko-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="HAL::GetSensors" vertex="1">
+        <mxCell id="QHgMQiRaE8kp91t9TFko-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="HAL::GetSensors" vertex="1">
           <mxGeometry height="50" width="110" x="580" y="1420" as="geometry" />
         </mxCell>
       </root>

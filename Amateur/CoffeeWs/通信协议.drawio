@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.5.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.3.6">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="550" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -241,6 +241,12 @@
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;dashed=1;" value="NVS 保存&amp;amp;加载" vertex="1">
           <mxGeometry height="30" width="120" x="400" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="9MY9XchGhbJzdbUOc_TD-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="创建单独线程根据接收的最新页面类型选择发送的数据" vertex="1">
+          <mxGeometry height="60" width="92" x="150" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="9MY9XchGhbJzdbUOc_TD-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="每种咖啡维持&lt;br&gt;一套保存参数阈值&lt;br&gt;machine_params_" vertex="1">
+          <mxGeometry height="50" width="120" x="400" y="1560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="29.3.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="1018" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="560" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,9 +195,9 @@
         <mxCell id="J33PR6cPvQYWGb48CCDG-5" edge="1" parent="1" source="J33PR6cPvQYWGb48CCDG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="100" y="1450" />
+              <mxPoint x="100" y="1440" />
             </Array>
-            <mxPoint x="100" y="1450" as="targetPoint" />
+            <mxPoint x="100" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-8" edge="1" parent="1" source="J33PR6cPvQYWGb48CCDG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="J33PR6cPvQYWGb48CCDG-7">
@@ -205,7 +205,7 @@
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-9" connectable="0" parent="J33PR6cPvQYWGb48CCDG-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="根据页面(MAIN_CMD)更新变量" vertex="1">
           <mxGeometry relative="1" x="0.0044" y="-3" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="63" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-11" edge="1" parent="1" source="J33PR6cPvQYWGb48CCDG-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="J33PR6cPvQYWGb48CCDG-10">
@@ -213,40 +213,53 @@
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-12" connectable="0" parent="J33PR6cPvQYWGb48CCDG-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="大师模式的咖啡" vertex="1">
           <mxGeometry relative="1" x="-0.0542" y="-3" as="geometry">
-            <mxPoint x="25" y="-3" as="offset" />
+            <mxPoint x="17" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UART Receive&lt;br&gt;CallBack" vertex="1">
-          <mxGeometry height="60" width="90" x="150" y="1420" as="geometry" />
+          <mxGeometry height="60" width="100" x="180" y="1410" as="geometry" />
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="咖啡机控制板的数据传递" vertex="1">
           <mxGeometry height="30" width="190" x="10" y="1270" as="geometry" />
         </mxCell>
-        <mxCell id="J33PR6cPvQYWGb48CCDG-6" edge="1" parent="1" source="J33PR6cPvQYWGb48CCDG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="1705" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UART Send" vertex="1">
-          <mxGeometry height="30" width="94" x="150" y="1690" as="geometry" />
+          <mxGeometry height="30" width="94" x="570" y="1610" as="geometry" />
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="全局变量暂存每个页面的最新通信数据&lt;br&gt;CommucateData_t" vertex="1">
-          <mxGeometry height="50" width="120" x="400" y="1300" as="geometry" />
+          <mxGeometry height="50" width="120" x="400" y="1480" as="geometry" />
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-14" edge="1" parent="1" source="J33PR6cPvQYWGb48CCDG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="J33PR6cPvQYWGb48CCDG-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="每种咖啡维持&lt;br&gt;一套保存参数阈值&lt;br&gt;machine_params_" vertex="1">
-          <mxGeometry height="50" width="120" x="400" y="1480" as="geometry" />
+          <mxGeometry height="50" width="120" x="400" y="1340" as="geometry" />
         </mxCell>
         <mxCell id="J33PR6cPvQYWGb48CCDG-13" parent="1" style="whiteSpace=wrap;html=1;rounded=1;dashed=1;" value="NVS 保存&amp;amp;加载" vertex="1">
-          <mxGeometry height="30" width="120" x="400" y="1430" as="geometry" />
+          <mxGeometry height="30" width="120" x="400" y="1290" as="geometry" />
         </mxCell>
-        <mxCell id="9MY9XchGhbJzdbUOc_TD-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="创建单独线程根据接收的最新页面类型选择发送的数据" vertex="1">
-          <mxGeometry height="60" width="92" x="150" y="1560" as="geometry" />
+        <mxCell id="QHgMQiRaE8kp91t9TFko-3" edge="1" parent="1" source="9MY9XchGhbJzdbUOc_TD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="9MY9XchGhbJzdbUOc_TD-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9MY9XchGhbJzdbUOc_TD-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="每种咖啡维持&lt;br&gt;一套保存参数阈值&lt;br&gt;machine_params_" vertex="1">
-          <mxGeometry height="50" width="120" x="400" y="1560" as="geometry" />
+        <mxCell id="QHgMQiRaE8kp91t9TFko-4" edge="1" parent="1" source="9MY9XchGhbJzdbUOc_TD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="QHgMQiRaE8kp91t9TFko-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MY9XchGhbJzdbUOc_TD-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="New Thread&lt;br&gt;UpdateLCDParamsTask" vertex="1">
+          <mxGeometry height="60" width="130" x="180" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="QHgMQiRaE8kp91t9TFko-5" edge="1" parent="1" source="9MY9XchGhbJzdbUOc_TD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="J33PR6cPvQYWGb48CCDG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9MY9XchGhbJzdbUOc_TD-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="单次发送" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="QHgMQiRaE8kp91t9TFko-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;创建单独线程根据接收的最新页面类型选择发送的数据&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="180" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="QHgMQiRaE8kp91t9TFko-6" edge="1" parent="1" source="QHgMQiRaE8kp91t9TFko-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="J33PR6cPvQYWGb48CCDG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QHgMQiRaE8kp91t9TFko-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="循环发送" vertex="1">
+          <mxGeometry height="40" width="120" x="400" y="1640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

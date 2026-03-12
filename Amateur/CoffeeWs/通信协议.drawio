@@ -401,6 +401,21 @@
         <mxCell id="2UAaex6_is9iRHGtf3RM-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="咖啡机控制板的数据传递（第二阶段）" vertex="1">
           <mxGeometry height="30" width="300" x="10" y="1880" as="geometry" />
         </mxCell>
+        <mxCell id="2UAaex6_is9iRHGtf3RM-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="main_page" vertex="1">
+          <mxGeometry height="120" width="70" x="100" y="2480" as="geometry" />
+        </mxCell>
+        <mxCell id="2UAaex6_is9iRHGtf3RM-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="咖啡机控制板" vertex="1">
+          <mxGeometry height="30" width="100" x="100" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="2UAaex6_is9iRHGtf3RM-7" edge="1" parent="1" source="2UAaex6_is9iRHGtf3RM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;" target="2UAaex6_is9iRHGtf3RM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UAaex6_is9iRHGtf3RM-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="50" x="340" y="2480" as="geometry" />
+        </mxCell>
+        <mxCell id="2UAaex6_is9iRHGtf3RM-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="触摸板" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="2410" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

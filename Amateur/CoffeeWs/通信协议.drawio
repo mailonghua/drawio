@@ -432,7 +432,7 @@
         <mxCell id="2UAaex6_is9iRHGtf3RM-11" edge="1" parent="1" source="2UAaex6_is9iRHGtf3RM-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="2UAaex6_is9iRHGtf3RM-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2UAaex6_is9iRHGtf3RM-12" connectable="0" parent="2UAaex6_is9iRHGtf3RM-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="完成时发送响应&lt;br&gt;MachineStatus_Publish" vertex="1">
+        <mxCell id="2UAaex6_is9iRHGtf3RM-12" connectable="0" parent="2UAaex6_is9iRHGtf3RM-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="循环发送状态" vertex="1">
           <mxGeometry relative="1" x="0.0235" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

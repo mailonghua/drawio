@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="355" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="293" dy="816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -401,6 +401,14 @@
         <mxCell id="2UAaex6_is9iRHGtf3RM-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="咖啡机控制板的数据传递（第二阶段）" vertex="1">
           <mxGeometry height="30" width="300" x="10" y="1880" as="geometry" />
         </mxCell>
+        <mxCell id="2UAaex6_is9iRHGtf3RM-9" edge="1" parent="1" source="2UAaex6_is9iRHGtf3RM-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="2UAaex6_is9iRHGtf3RM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UAaex6_is9iRHGtf3RM-10" connectable="0" parent="2UAaex6_is9iRHGtf3RM-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="完成时发送完成" vertex="1">
+          <mxGeometry relative="1" x="0.0235" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2UAaex6_is9iRHGtf3RM-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="main_page" vertex="1">
           <mxGeometry height="120" width="70" x="100" y="2480" as="geometry" />
         </mxCell>
@@ -409,6 +417,11 @@
         </mxCell>
         <mxCell id="2UAaex6_is9iRHGtf3RM-7" edge="1" parent="1" source="2UAaex6_is9iRHGtf3RM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;" target="2UAaex6_is9iRHGtf3RM-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UAaex6_is9iRHGtf3RM-8" connectable="0" parent="2UAaex6_is9iRHGtf3RM-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="按键触发" vertex="1">
+          <mxGeometry relative="1" x="-0.0162" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2UAaex6_is9iRHGtf3RM-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="120" width="50" x="340" y="2480" as="geometry" />

@@ -438,7 +438,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2UAaex6_is9iRHGtf3RM-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ManualPage" vertex="1">
-          <mxGeometry height="60" width="70" x="100" y="2590" as="geometry" />
+          <mxGeometry height="110" width="70" x="100" y="2590" as="geometry" />
         </mxCell>
         <mxCell id="2UAaex6_is9iRHGtf3RM-14" edge="1" parent="1" source="2UAaex6_is9iRHGtf3RM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;" target="2UAaex6_is9iRHGtf3RM-13">
           <mxGeometry relative="1" as="geometry" />
@@ -449,7 +449,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2UAaex6_is9iRHGtf3RM-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ManualPage" vertex="1">
-          <mxGeometry height="60" width="70" x="340" y="2590" as="geometry" />
+          <mxGeometry height="110" width="70" x="340" y="2590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

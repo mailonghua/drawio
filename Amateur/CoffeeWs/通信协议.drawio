@@ -475,7 +475,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="So0UA55S36cV1F2LpzZS-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ManualPage" vertex="1">
+        <mxCell id="So0UA55S36cV1F2LpzZS-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="CurerDesign" vertex="1">
           <mxGeometry height="140" width="70" x="100" y="2760" as="geometry" />
         </mxCell>
         <mxCell id="So0UA55S36cV1F2LpzZS-7" edge="1" parent="1" source="So0UA55S36cV1F2LpzZS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;" target="So0UA55S36cV1F2LpzZS-6">
@@ -486,7 +486,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="So0UA55S36cV1F2LpzZS-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="ManualPage" vertex="1">
+        <mxCell id="So0UA55S36cV1F2LpzZS-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="CurerDesign" vertex="1">
           <mxGeometry height="140" width="70" x="340" y="2760" as="geometry" />
         </mxCell>
       </root>

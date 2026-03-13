@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="301" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="969" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,34 +8,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通电" vertex="1">
-          <mxGeometry height="40" width="90" x="60" y="80" as="geometry" />
+          <mxGeometry height="40" width="60" x="150" y="80" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-5" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进水" vertex="1">
-          <mxGeometry height="40" width="90" x="190" y="80" as="geometry" />
+          <mxGeometry height="40" width="50" x="250" y="80" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-9" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-8" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水位" vertex="1">
-          <mxGeometry height="40" width="90" x="530" y="80" as="geometry" />
+          <mxGeometry height="40" width="90" x="520" y="80" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="时间可调(1-5分钟)" vertex="1">
-          <mxGeometry height="20" width="100" x="310" y="80" as="geometry" />
+          <mxGeometry height="20" width="100" x="300" y="80" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.水泵、电磁阀打开&lt;br&gt;&lt;div&gt;2.在调节时间内，补水未到达低水位探针，&lt;/div&gt;&lt;div&gt;水泵与进水电磁阀停止工作，机器待机&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="240" x="290" y="100" as="geometry" />
+          <mxGeometry height="50" width="230" x="300" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="锅炉到达指定温度" vertex="1">
-          <mxGeometry height="40" width="70" x="850" y="80" as="geometry" />
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-13" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="锅炉到达指定温度&lt;br&gt;(0-130度)" vertex="1">
+          <mxGeometry height="40" width="110" x="820" y="80" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.水泵&amp;amp;进水阀停止工作" vertex="1">
-          <mxGeometry height="20" width="130" x="630" y="80" as="geometry" />
+          <mxGeometry height="20" width="130" x="610" y="80" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2.蒸汽锅炉可控硅吸合开始加热，到达设定温度后停止加热，蒸汽锅炉不需要做PiD的渐进式加热" vertex="1">
-          <mxGeometry height="50" width="210" x="630" y="100" as="geometry" />
+          <mxGeometry height="50" width="210" x="610" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止" vertex="1">
+          <mxGeometry height="40" width="60" x="970" y="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

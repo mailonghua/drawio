@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="617" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="510" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;p class=&quot;western&quot; align=&quot;left&quot; style=&quot;line-height: 13.3333px; text-align: justify; margin-bottom: 0in; direction: ltr; background: transparent; font-size: 10pt;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font style=&quot;font-size: 12pt;&quot;&gt;每次开机单片机自检&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12pt;&quot;&gt;2&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font style=&quot;font-size: 12pt;&quot;&gt;公斤的压力点以及电磁阀自动打开。&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="440" x="240" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;p class=&quot;western&quot; style=&quot;line-height: 13.3333px; margin-bottom: 0in; direction: ltr; background: transparent;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;咖啡锅炉没有进水流程吗？&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="250" y="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

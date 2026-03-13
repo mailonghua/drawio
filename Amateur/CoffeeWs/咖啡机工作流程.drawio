@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="469" dy="1305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="404" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,7 +190,7 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-59" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发自动咖啡" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
           <mxGeometry height="40" width="60" x="170" y="800" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
@@ -201,6 +201,45 @@
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="流量计，记录水量反馈主板，到达设定水量后咖啡按键断电。" vertex="1">
           <mxGeometry height="30" width="330" x="240" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="手动制作咖啡" vertex="1">
+          <mxGeometry height="30" width="160" x="50" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="分段萃取功能的详细介绍" vertex="1">
+          <mxGeometry height="30" width="170" x="50" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-66" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="50" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-70" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="阶段1 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="390" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;p class=&quot;western&quot; align=&quot;left&quot; style=&quot;line-height: 13.3333px; text-align: justify; margin-bottom: 0in; direction: ltr; background: transparent;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font&gt;水泵&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font&gt;+&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font&gt;出水电磁阀&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font&gt;+&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font&gt;流量计＋称 ＋压力传感器&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="140" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0-60秒" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-74" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-73" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="阶段2&lt;br&gt;结束" vertex="1">
+          <mxGeometry height="40" width="80" x="720" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="开始工作水泵+出水电磁阀+流量计 ＋称&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="220" x="480" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0-60秒" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止工作" vertex="1">
+          <mxGeometry height="40" width="80" x="880" y="1050" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

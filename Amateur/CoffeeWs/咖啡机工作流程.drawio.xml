@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
+    <mxGraphModel dx="977" dy="2718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-3" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通电" vertex="1">
+          <mxGeometry height="40" width="60" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-5" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进水" vertex="1">
+          <mxGeometry height="40" width="50" x="130" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-9" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水位" vertex="1">
+          <mxGeometry height="40" width="90" x="400" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="时间可调(1-5分钟)" vertex="1">
+          <mxGeometry height="20" width="100" x="180" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.水泵、电磁阀打开&lt;br&gt;&lt;div&gt;2.在调节时间内，补水未到达低水位探针，&lt;/div&gt;&lt;div&gt;水泵与进水电磁阀停止工作，机器待机&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="230" x="180" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-13" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="锅炉加热到指定温度&lt;br&gt;(0-130度)" vertex="1">
+          <mxGeometry height="40" width="110" x="630" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.水泵&amp;amp;进水阀停止工作" vertex="1">
+          <mxGeometry height="20" width="130" x="490" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2.蒸汽锅炉可控硅吸合开始加热，到达设定温度后停止加热，蒸汽锅炉不需要做PiD的渐进式加热" vertex="1">
+          <mxGeometry height="50" width="140" x="760" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-15" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="70" />
+              <mxPoint x="155" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-19" connectable="0" parent="_P9jYmqXWWuWMUU2pL9c-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="缺水" vertex="1">
+          <mxGeometry relative="1" x="0.133" y="3" as="geometry">
+            <mxPoint x="4" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-17" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止加热" vertex="1">
+          <mxGeometry height="40" width="60" x="910" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-20" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="220" />
+              <mxPoint x="685" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-21" connectable="0" parent="_P9jYmqXWWuWMUU2pL9c-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="温度低于阈值" vertex="1">
+          <mxGeometry relative="1" x="0.0776" y="2" as="geometry">
+            <mxPoint x="19" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="机器正常工作" vertex="1">
+          <mxGeometry height="40" width="60" x="1000" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="锅炉补水&amp;amp;加热" vertex="1">
+          <mxGeometry height="30" width="160" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="咖啡锅炉加热" vertex="1">
+          <mxGeometry height="30" width="160" x="30" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-26" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通电" vertex="1">
+          <mxGeometry height="40" width="60" x="40" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-28" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="冲泡头加热" vertex="1">
+          <mxGeometry height="40" width="80" x="140" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-31" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="冲泡头加热完成" vertex="1">
+          <mxGeometry height="40" width="100" x="420" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="冲泡电磁阀断续打开&lt;br&gt;&lt;br&gt;（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;只要T2工作电磁阀就点动打开），&lt;br&gt;（温度达到后工作停止，打开2秒）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="230" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-34" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉开始加热" vertex="1">
+          <mxGeometry height="40" width="100" x="640" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;咖啡锅炉传感器&lt;/font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;感应2公斤以上压力&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="540" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-36" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达设定温度&lt;br&gt;(0-100度)" vertex="1">
+          <mxGeometry height="40" width="100" x="770" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-37" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="310" />
+              <mxPoint x="690" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-38" connectable="0" parent="_P9jYmqXWWuWMUU2pL9c-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="温度保持" vertex="1">
+          <mxGeometry relative="1" x="-0.0238" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="锅炉停止加热" vertex="1">
+          <mxGeometry height="40" width="60" x="910" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;p class=&quot;western&quot; align=&quot;left&quot; style=&quot;line-height: 13.3333px; text-align: justify; margin-bottom: 0in; direction: ltr; background: transparent; font-size: 10pt;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font style=&quot;font-size: 12pt;&quot;&gt;每次开机单片机自检&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12pt;&quot;&gt;2&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font style=&quot;font-size: 12pt;&quot;&gt;公斤的压力点以及电磁阀自动打开。&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="440" x="240" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;p class=&quot;western&quot; style=&quot;line-height: 13.3333px; margin-bottom: 0in; direction: ltr; background: transparent;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;咖啡锅炉没有进水流程吗？&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="250" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="咖啡制作" vertex="1">
+          <mxGeometry height="30" width="160" x="40" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-44" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度" vertex="1">
+          <mxGeometry height="40" width="80" x="50" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-46" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发自动咖啡" vertex="1">
+          <mxGeometry height="40" width="60" x="170" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-50" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="540" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感工作 +电子秤" vertex="1">
+          <mxGeometry height="30" width="280" x="230" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;1.压力传感记录锅炉压力（1-16BAR），只显示在屏上，&lt;br&gt;&amp;nbsp; &amp;nbsp; 不做控制功能。&lt;/div&gt;&lt;div&gt;2.称通过蓝牙与单片机链接&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="240" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="110" x="820" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="先水泵+出水电磁阀+流量+压力传感器+称同时关闭" vertex="1">
+          <mxGeometry height="30" width="150" x="660" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;p class=&quot;western&quot; style=&quot;line-height: 13.3333px; margin-bottom: 0in; direction: ltr; background: transparent;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;每种咖啡的&lt;br&gt;时间，压力曲线，流速，温度，参数？&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="240" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="自动咖啡" vertex="1">
+          <mxGeometry height="30" width="160" x="40" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="流量计咖啡" vertex="1">
+          <mxGeometry height="30" width="160" x="40" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-57" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度" vertex="1">
+          <mxGeometry height="40" width="80" x="50" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-59" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="60" x="170" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="570" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计&amp;nbsp; +压力传感器" vertex="1">
+          <mxGeometry height="30" width="220" x="240" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="流量计，记录水量反馈主板，到达设定水量后咖啡按键断电。" vertex="1">
+          <mxGeometry height="30" width="330" x="240" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="手动制作咖啡" vertex="1">
+          <mxGeometry height="30" width="160" x="50" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="分段萃取功能的详细介绍" vertex="1">
+          <mxGeometry height="30" width="170" x="50" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-66" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="50" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-70" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="阶段1 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="390" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;p class=&quot;western&quot; align=&quot;left&quot; style=&quot;line-height: 13.3333px; text-align: justify; margin-bottom: 0in; direction: ltr; background: transparent;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font&gt;水泵&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font&gt;+&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font&gt;出水电磁阀&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;font&gt;+&lt;/font&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span lang=&quot;zh-CN&quot;&gt;&lt;font&gt;流量计＋称 ＋压力传感器&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="20" width="240" x="140" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0-60秒" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-74" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-73" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="阶段2&lt;br&gt;结束" vertex="1">
+          <mxGeometry height="40" width="80" x="720" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="开始工作水泵+出水电磁阀+流量计 ＋称&amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="220" x="480" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0-60秒" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止工作" vertex="1">
+          <mxGeometry height="40" width="80" x="880" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="自动清洗功能" vertex="1">
+          <mxGeometry height="30" width="160" x="50" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-78" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-77" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="自动清洗&lt;br&gt;按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="60" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-81" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-80" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="关闭" vertex="1">
+          <mxGeometry height="40" width="80" x="310" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" x="160" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-84" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-85" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="642.4999999999998" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="..." vertex="1">
+          <mxGeometry height="40" width="45" x="555" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" x="400" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="自动停止" vertex="1">
+          <mxGeometry height="40" width="50" x="660" y="1270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

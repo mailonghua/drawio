@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="163" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="195" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -598,6 +598,28 @@
           <mxGeometry relative="1" x="-0.1701" y="-1" as="geometry">
             <mxPoint x="10" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="So0UA55S36cV1F2LpzZS-50" edge="1" parent="1" source="So0UA55S36cV1F2LpzZS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="So0UA55S36cV1F2LpzZS-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="So0UA55S36cV1F2LpzZS-51" connectable="0" parent="So0UA55S36cV1F2LpzZS-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SET" vertex="1">
+          <mxGeometry relative="1" x="-0.0389" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So0UA55S36cV1F2LpzZS-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AutoSleep" vertex="1">
+          <mxGeometry height="60" width="70" x="550" y="2760" as="geometry" />
+        </mxCell>
+        <mxCell id="So0UA55S36cV1F2LpzZS-48" edge="1" parent="1" source="So0UA55S36cV1F2LpzZS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="So0UA55S36cV1F2LpzZS-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="So0UA55S36cV1F2LpzZS-49" connectable="0" parent="So0UA55S36cV1F2LpzZS-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET" vertex="1">
+          <mxGeometry relative="1" x="0.05" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So0UA55S36cV1F2LpzZS-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AutoSleep" vertex="1">
+          <mxGeometry height="60" width="70" x="740" y="2760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="510" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="469" dy="1305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,41 +139,68 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;p class=&quot;western&quot; style=&quot;line-height: 13.3333px; margin-bottom: 0in; direction: ltr; background: transparent;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;咖啡锅炉没有进水流程吗？&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="250" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="咖啡锅炉加热" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="咖啡制作" vertex="1">
           <mxGeometry height="30" width="160" x="40" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-44" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-43" value="">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-44" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-43" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度" vertex="1">
-          <mxGeometry height="40" width="80" x="40" y="600" as="geometry" />
+          <mxGeometry height="40" width="80" x="50" y="660" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-46" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-45" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发自动咖啡" vertex="1">
-          <mxGeometry height="40" width="60" x="170" y="600" as="geometry" />
+          <mxGeometry height="40" width="60" x="170" y="660" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-50" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-49" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
-          <mxGeometry height="40" width="110" x="540" y="600" as="geometry" />
+          <mxGeometry height="40" width="110" x="540" y="660" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感工作 +电子秤" vertex="1">
-          <mxGeometry height="30" width="280" x="230" y="590" as="geometry" />
+          <mxGeometry height="30" width="280" x="230" y="650" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;1.压力传感记录锅炉压力（1-16BAR），只显示在屏上，&lt;br&gt;&amp;nbsp; &amp;nbsp; 不做控制功能。&lt;/div&gt;&lt;div&gt;2.称通过蓝牙与单片机链接&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="300" x="240" y="630" as="geometry" />
+          <mxGeometry height="30" width="300" x="240" y="690" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
-          <mxGeometry height="40" width="110" x="820" y="600" as="geometry" />
+          <mxGeometry height="40" width="110" x="820" y="660" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="先水泵+出水电磁阀+流量+压力传感器+称同时关闭" vertex="1">
-          <mxGeometry height="30" width="150" x="660" y="590" as="geometry" />
+          <mxGeometry height="30" width="150" x="660" y="650" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;p class=&quot;western&quot; style=&quot;line-height: 13.3333px; margin-bottom: 0in; direction: ltr; background: transparent;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;每种咖啡的&lt;br&gt;时间，压力曲线，流速，温度，参数？&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="30" width="300" x="240" y="550" as="geometry" />
+          <mxGeometry height="30" width="300" x="240" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="自动咖啡" vertex="1">
+          <mxGeometry height="30" width="160" x="40" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="流量计咖啡" vertex="1">
+          <mxGeometry height="30" width="160" x="40" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-57" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度" vertex="1">
+          <mxGeometry height="40" width="80" x="50" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-59" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发自动咖啡" vertex="1">
+          <mxGeometry height="40" width="60" x="170" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="570" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计&amp;nbsp; +压力传感器" vertex="1">
+          <mxGeometry height="30" width="220" x="230" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="流量计，记录水量反馈主板，到达设定水量后咖啡按键断电。" vertex="1">
+          <mxGeometry height="30" width="330" x="230" y="820" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -76,10 +76,10 @@
           <mxGeometry height="40" width="60" x="1000" y="140" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="锅炉补水&amp;amp;加热" vertex="1">
-          <mxGeometry height="30" width="160" x="40" y="20" as="geometry" />
+          <mxGeometry height="30" width="160" x="30" y="30" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="咖啡锅炉加热" vertex="1">
-          <mxGeometry height="30" width="160" x="40" y="250" as="geometry" />
+          <mxGeometry height="30" width="160" x="30" y="290" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-26" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-25" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -138,6 +138,18 @@
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="&lt;p class=&quot;western&quot; style=&quot;line-height: 13.3333px; margin-bottom: 0in; direction: ltr; background: transparent;&quot;&gt;&lt;font face=&quot;宋体&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;咖啡锅炉没有进水流程吗？&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="30" width="210" x="250" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="咖啡锅炉加热" vertex="1">
+          <mxGeometry height="30" width="160" x="40" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-44" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度" vertex="1">
+          <mxGeometry height="40" width="80" x="40" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键触发自动咖啡" vertex="1">
+          <mxGeometry height="40" width="60" x="170" y="600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

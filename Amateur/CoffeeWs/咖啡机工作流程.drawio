@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="689" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="279" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -243,6 +243,35 @@
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="自动清洗功能" vertex="1">
           <mxGeometry height="30" width="160" x="50" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-78" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-77" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="自动清洗&lt;br&gt;按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="60" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-81" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-80" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="关闭" vertex="1">
+          <mxGeometry height="40" width="80" x="310" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" x="160" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-84" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-85" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="642.4999999999998" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="..." vertex="1">
+          <mxGeometry height="40" width="45" x="555" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="140" x="400" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="自动停止" vertex="1">
+          <mxGeometry height="40" width="50" x="660" y="1270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

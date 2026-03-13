@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="1172" dy="3262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="977" dy="2718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -767,6 +767,12 @@
           <mxGeometry relative="1" x="0.05" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="So0UA55S36cV1F2LpzZS-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="咖啡机控制板" vertex="1">
+          <mxGeometry height="30" width="100" x="550" y="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="So0UA55S36cV1F2LpzZS-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="触摸板" vertex="1">
+          <mxGeometry height="30" width="60" x="755" y="2390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

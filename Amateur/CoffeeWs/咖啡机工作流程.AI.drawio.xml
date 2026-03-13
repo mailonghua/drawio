@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="192" dy="3382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="2712" dy="4528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -387,19 +386,6 @@
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入休眠（低功耗）" vertex="1">
           <mxGeometry height="40" width="120" x="480" y="1400" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-158" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-91" value="">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="540" y="1370" />
-              <mxPoint x="60" y="1370" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-159" connectable="0" parent="_P9jYmqXWWuWMUU2pL9c-158" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="触发任意按键唤醒" vertex="1">
-          <mxGeometry relative="1" x="0.2" y="2" as="geometry">
-            <mxPoint x="19" y="-2" as="offset" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

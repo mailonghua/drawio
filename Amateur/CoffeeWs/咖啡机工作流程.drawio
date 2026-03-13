@@ -197,10 +197,10 @@
           <mxGeometry height="40" width="110" x="570" y="800" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计&amp;nbsp; +压力传感器" vertex="1">
-          <mxGeometry height="30" width="220" x="230" y="790" as="geometry" />
+          <mxGeometry height="30" width="220" x="240" y="790" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="流量计，记录水量反馈主板，到达设定水量后咖啡按键断电。" vertex="1">
-          <mxGeometry height="30" width="330" x="230" y="820" as="geometry" />
+          <mxGeometry height="30" width="330" x="240" y="820" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="2712" dy="4528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="3874" dy="5183" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,31 +17,31 @@
           <mxGeometry height="40" width="100" x="130" y="100" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-94" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.压力/温度传感器校准&lt;br&gt;2.水泵/电磁阀自检&lt;br&gt;3.水路排气（泵运行5秒）&lt;br&gt;4.2kg压力基准检测&lt;br&gt;5.缺水探针检测" vertex="1">
-          <mxGeometry height="80" width="200" x="240" y="80" as="geometry" />
+          <mxGeometry height="80" width="200" x="240" y="40" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-95" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-96" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;" value="自检异常" vertex="1">
-          <mxGeometry height="40" width="80" x="380" y="100" as="geometry" />
+          <mxGeometry height="40" width="80" x="450" y="100" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-97" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-98" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;" value="报警停机" vertex="1">
-          <mxGeometry height="40" width="80" x="500" y="100" as="geometry" />
+          <mxGeometry height="40" width="80" x="590" y="100" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-99" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-2" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进水" vertex="1">
-          <mxGeometry height="40" width="50" x="130" y="180" as="geometry" />
+          <mxGeometry height="40" width="50" x="155" y="180" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="时间可调(1-5分钟)" vertex="1">
-          <mxGeometry height="20" width="100" x="180" y="180" as="geometry" />
+          <mxGeometry height="20" width="100" x="230" y="180" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.水泵、电磁阀打开&lt;br&gt;&lt;div&gt;2.在调节时间内，补水未到达低水位探针，&lt;/div&gt;&lt;div&gt;水泵与进水电磁阀停止工作，机器待机&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="230" x="180" y="200" as="geometry" />
+          <mxGeometry height="50" width="190" x="210" y="220" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-5" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-4" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry height="40" width="150" x="630" y="180" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2.蒸汽锅炉可控硅吸合加热，到达设定温度停止&lt;br&gt;3.冲泡锅炉PID精准控温（±0.5℃）" vertex="1">
-          <mxGeometry height="50" width="200" x="790" y="160" as="geometry" />
+          <mxGeometry height="50" width="200" x="780" y="130" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-13" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-12" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -70,14 +70,12 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-17" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-16" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="机器正常工作" vertex="1">
-          <mxGeometry height="40" width="60" x="1000" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-15" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-2">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-15" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1030" y="40" />
-              <mxPoint x="155" y="40" />
+              <mxPoint x="1030" y="10" />
+              <mxPoint x="110" y="10" />
+              <mxPoint x="110" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -86,11 +84,14 @@
             <mxPoint x="4" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="机器正常工作" vertex="1">
+          <mxGeometry height="40" width="60" x="1000" y="180" as="geometry" />
+        </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-20" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1030" y="260" />
-              <mxPoint x="685" y="260" />
+              <mxPoint x="1030" y="310" />
+              <mxPoint x="705" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -236,7 +237,7 @@
           <mxGeometry height="30" width="180" x="750" y="730" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
-          <mxGeometry height="40" width="110" x="880" y="740" as="geometry" />
+          <mxGeometry height="40" width="110" x="960" y="740" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="流量计咖啡" vertex="1">
           <mxGeometry height="30" width="160" x="40" y="830" as="geometry" />
@@ -281,7 +282,12 @@
           <mxGeometry height="40" width="100" x="400" y="1020" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-135" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-64" value="">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1110" />
+              <mxPoint x="100" y="1110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="分段萃取功能" vertex="1">
           <mxGeometry height="30" width="170" x="50" y="1080" as="geometry" />

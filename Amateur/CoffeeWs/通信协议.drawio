@@ -832,6 +832,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NuW3Zga8PzYkLoYC-sN2-35" edge="1" parent="1" source="NuW3Zga8PzYkLoYC-sN2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="NuW3Zga8PzYkLoYC-sN2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BLEPeripheralTablet.cpp&lt;br&gt;蓝牙外围设备" vertex="1">
           <mxGeometry height="60" width="140" x="1070" y="2080" as="geometry" />
         </mxCell>
@@ -871,6 +874,9 @@
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="电子秤" vertex="1">
           <mxGeometry height="30" width="100" x="940" y="1945" as="geometry" />
+        </mxCell>
+        <mxCell id="NuW3Zga8PzYkLoYC-sN2-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="安卓APP" vertex="1">
+          <mxGeometry height="30" width="100" x="940" y="2095" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

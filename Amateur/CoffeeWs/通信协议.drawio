@@ -866,6 +866,12 @@
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AndroidTablet&lt;div&gt;订阅&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="80" x="1608" y="2105.5" as="geometry" />
         </mxCell>
+        <mxCell id="NuW3Zga8PzYkLoYC-sN2-33" edge="1" parent="1" source="NuW3Zga8PzYkLoYC-sN2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NuW3Zga8PzYkLoYC-sN2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NuW3Zga8PzYkLoYC-sN2-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="电子秤" vertex="1">
+          <mxGeometry height="30" width="100" x="940" y="1945" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

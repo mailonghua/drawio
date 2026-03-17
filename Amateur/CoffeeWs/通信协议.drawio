@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="320" dy="178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="792" dy="439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -812,8 +812,8 @@
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Account::&lt;/font&gt;&lt;/b&gt;&lt;br&gt;ElecScaleCaliHandler.cpp" vertex="1">
           <mxGeometry height="60" width="150" x="1320" y="1930" as="geometry" />
         </mxCell>
-        <mxCell id="NuW3Zga8PzYkLoYC-sN2-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Account::&lt;/font&gt;&lt;/b&gt;&lt;br&gt;BLE_Scale" vertex="1">
-          <mxGeometry height="60" width="150" x="1510" y="1930" as="geometry" />
+        <mxCell id="NuW3Zga8PzYkLoYC-sN2-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Account::&lt;/font&gt;&lt;/b&gt;&lt;br&gt;BLE_Scale&lt;br&gt;该账户用于内部消息传递" vertex="1">
+          <mxGeometry height="60" width="150" x="1505" y="1930" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="接收数据" vertex="1">
           <mxGeometry height="30" width="60" x="1090" y="1900" as="geometry" />
@@ -824,8 +824,8 @@
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="将解析好的数据进行PUB" vertex="1">
           <mxGeometry height="30" width="140" x="1510" y="1900" as="geometry" />
         </mxCell>
-        <mxCell id="NuW3Zga8PzYkLoYC-sN2-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BLECentralScale.cpp&lt;br&gt;蓝牙外围设备" vertex="1">
-          <mxGeometry height="60" width="120" x="1070" y="2070" as="geometry" />
+        <mxCell id="NuW3Zga8PzYkLoYC-sN2-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BLEPeripheralTablet.cpp&lt;br&gt;蓝牙外围设备" vertex="1">
+          <mxGeometry height="60" width="140" x="1070" y="2070" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

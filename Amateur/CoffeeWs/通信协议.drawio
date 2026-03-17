@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="663" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="951" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -775,7 +775,7 @@
           <mxGeometry height="30" width="60" x="755" y="2390" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=17;" value="蓝牙传递" vertex="1">
-          <mxGeometry height="30" width="80" x="1070" y="1830" as="geometry" />
+          <mxGeometry height="30" width="80" x="950" y="1830" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-5" edge="1" parent="1" source="NuW3Zga8PzYkLoYC-sN2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="NuW3Zga8PzYkLoYC-sN2-3">
           <mxGeometry relative="1" as="geometry" />
@@ -794,14 +794,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BLECentralScale.cpp&lt;br&gt;蓝牙中心设备" vertex="1">
-          <mxGeometry height="60" width="120" x="1070" y="1930" as="geometry" />
+          <mxGeometry height="60" width="120" x="1090" y="1920" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-10" edge="1" parent="1" source="NuW3Zga8PzYkLoYC-sN2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="NuW3Zga8PzYkLoYC-sN2-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-15" edge="1" parent="1" source="NuW3Zga8PzYkLoYC-sN2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1320" y="2010" as="targetPoint" />
+            <mxPoint x="1340" y="2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-16" connectable="0" parent="NuW3Zga8PzYkLoYC-sN2-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="串口" vertex="1">
@@ -810,19 +810,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Account::&lt;/font&gt;&lt;/b&gt;&lt;br&gt;ElecScaleCaliHandler.cpp" vertex="1">
-          <mxGeometry height="60" width="150" x="1320" y="1930" as="geometry" />
+          <mxGeometry height="60" width="150" x="1340" y="1920" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;Account::&lt;/font&gt;&lt;/b&gt;&lt;br&gt;BLE_Scale&lt;br&gt;该账户用于内部消息传递" vertex="1">
-          <mxGeometry height="60" width="150" x="1505" y="1930" as="geometry" />
+          <mxGeometry height="60" width="150" x="1525" y="1920" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="接收数据" vertex="1">
-          <mxGeometry height="30" width="60" x="1090" y="1900" as="geometry" />
+          <mxGeometry height="30" width="60" x="1110" y="1890" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;业务逻辑&lt;/b&gt;&lt;br&gt;UART调用触发&amp;amp;发布pub" vertex="1">
-          <mxGeometry height="30" width="140" x="1330" y="1900" as="geometry" />
+          <mxGeometry height="30" width="140" x="1350" y="1890" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="将解析好的数据进行PUB" vertex="1">
-          <mxGeometry height="30" width="140" x="1510" y="1900" as="geometry" />
+          <mxGeometry height="30" width="140" x="1530" y="1890" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-19" edge="1" parent="1" source="NuW3Zga8PzYkLoYC-sN2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="NuW3Zga8PzYkLoYC-sN2-17">
           <mxGeometry relative="1" as="geometry" />
@@ -836,7 +836,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="BLEPeripheralTablet.cpp&lt;br&gt;蓝牙外围设备" vertex="1">
-          <mxGeometry height="60" width="140" x="1070" y="2080" as="geometry" />
+          <mxGeometry height="60" width="140" x="1090" y="2075" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-22" edge="1" parent="1" source="NuW3Zga8PzYkLoYC-sN2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NuW3Zga8PzYkLoYC-sN2-21">
           <mxGeometry relative="1" as="geometry" />
@@ -858,25 +858,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;AndroidTablet文件夹&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="1320" y="2080" as="geometry" />
+          <mxGeometry height="60" width="150" x="1340" y="2075" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;业务逻辑a&lt;/b&gt;&lt;br&gt;消息的解析&amp;amp;话题的发布" vertex="1">
           <mxGeometry height="30" width="140" x="1330" y="2045" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DataParams" vertex="1">
-          <mxGeometry height="25" width="75" x="1520" y="2082.5" as="geometry" />
+          <mxGeometry height="25" width="75" x="1540" y="2077.5" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AndroidTablet&lt;div&gt;订阅&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="80" x="1608" y="2105.5" as="geometry" />
+          <mxGeometry height="40" width="80" x="1628" y="2100.5" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-33" edge="1" parent="1" source="NuW3Zga8PzYkLoYC-sN2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NuW3Zga8PzYkLoYC-sN2-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="电子秤" vertex="1">
-          <mxGeometry height="30" width="100" x="940" y="1945" as="geometry" />
+          <mxGeometry height="30" width="100" x="960" y="1935" as="geometry" />
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="安卓APP" vertex="1">
-          <mxGeometry height="30" width="100" x="940" y="2095" as="geometry" />
+          <mxGeometry height="30" width="100" x="960" y="2090" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.6.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="YS_H6mL25fh3fKIpdfkU">
-    <mxGraphModel dx="951" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="663" dy="346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,10 +11,10 @@
           <mxGeometry height="720" width="120" x="725" y="2430" as="geometry" />
         </mxCell>
         <mxCell id="So0UA55S36cV1F2LpzZS-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="670" width="120" x="320" y="2460" as="geometry" />
+          <mxGeometry height="830" width="120" x="320" y="2460" as="geometry" />
         </mxCell>
         <mxCell id="So0UA55S36cV1F2LpzZS-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="670" width="110" x="89" y="2460" as="geometry" />
+          <mxGeometry height="840" width="110" x="89" y="2460" as="geometry" />
         </mxCell>
         <mxCell id="2UAaex6_is9iRHGtf3RM-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="500" width="690" x="120" y="1280" as="geometry" />
@@ -877,6 +877,36 @@
         </mxCell>
         <mxCell id="NuW3Zga8PzYkLoYC-sN2-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="安卓APP" vertex="1">
           <mxGeometry height="30" width="100" x="960" y="2090" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VR383OikTZTNNrx68A-3" edge="1" parent="1" source="c8VR383OikTZTNNrx68A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="c8VR383OikTZTNNrx68A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VR383OikTZTNNrx68A-5" connectable="0" parent="c8VR383OikTZTNNrx68A-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="通知页面切换&lt;br&gt;SUB_CMD_GET" vertex="1">
+          <mxGeometry relative="1" x="0.0148" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VR383OikTZTNNrx68A-6" edge="1" parent="1" source="c8VR383OikTZTNNrx68A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="c8VR383OikTZTNNrx68A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VR383OikTZTNNrx68A-7" connectable="0" parent="c8VR383OikTZTNNrx68A-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Start/Stop/Save" vertex="1">
+          <mxGeometry relative="1" x="0.1604" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VR383OikTZTNNrx68A-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ManualRecord" vertex="1">
+          <mxGeometry height="120" width="90" x="340" y="3160" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VR383OikTZTNNrx68A-8" edge="1" parent="1" source="c8VR383OikTZTNNrx68A-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="c8VR383OikTZTNNrx68A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c8VR383OikTZTNNrx68A-9" connectable="0" parent="c8VR383OikTZTNNrx68A-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="当时start状态循环发送&lt;br&gt;压力值" vertex="1">
+          <mxGeometry relative="1" x="-0.0301" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8VR383OikTZTNNrx68A-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="ManualRecord" vertex="1">
+          <mxGeometry height="120" width="90" x="100" y="3160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

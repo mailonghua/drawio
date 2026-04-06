@@ -820,7 +820,7 @@
           <mxGeometry height="60" width="200" x="-3727.5" y="220" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-182" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;流量制作咖啡功能&lt;/font&gt;" vertex="1">
-          <mxGeometry height="50" width="200" x="-3677.5" y="2340" as="geometry" />
+          <mxGeometry height="50" width="200" x="-3697.5" y="2260" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-183" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
           <mxGeometry height="60" width="120" x="-3717.5" y="360" as="geometry" />

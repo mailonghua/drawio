@@ -770,7 +770,7 @@
             <mxPoint x="-3047.5" y="-980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达时间后关闭水泵，混水电磁阀，热水电磁阀，到达设定时间" vertex="1">
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达时间后关闭水泵，&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;混水电磁阀，热水电磁阀&lt;/font&gt;，到达设定时间" vertex="1">
           <mxGeometry height="60" width="120" x="-3047.5" y="-1000" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-142" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发热水阀" vertex="1">
@@ -999,7 +999,7 @@
             <mxPoint x="-3047.5" y="-680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lgWbKkXzePmSplhIxeYr-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达时间后关闭水泵，混水电磁阀，到达设定时间" vertex="1">
+        <mxCell id="lgWbKkXzePmSplhIxeYr-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达时间后关闭水泵，&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;混水电磁阀&lt;/font&gt;，到达设定时间" vertex="1">
           <mxGeometry height="60" width="120" x="-3047.5" y="-700" as="geometry" />
         </mxCell>
         <mxCell id="lgWbKkXzePmSplhIxeYr-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发热水阀" vertex="1">
@@ -1463,6 +1463,9 @@
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="app:热水的计时&lt;br&gt;触摸屏上是手动的" vertex="1">
           <mxGeometry height="40" width="120" x="-3256.25" y="-1060" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="冷热水是有独立的管子输出" vertex="1">
+          <mxGeometry height="30" width="60" x="-2690" y="-850" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

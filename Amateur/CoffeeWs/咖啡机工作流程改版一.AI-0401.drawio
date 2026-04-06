@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="4975" dy="3512" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="5885" dy="3991" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -909,7 +909,7 @@
           <mxGeometry height="60" width="120" x="-3645" y="730" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-238" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="变压程序：按键1或者按键2可以任意调取&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;分阶段变压？&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="240" x="-3635" y="970" as="geometry" />
+          <mxGeometry height="60" width="240" x="-3717.5" y="940" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-239" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" value="程序一：有待探讨" vertex="1">
           <mxGeometry height="30" width="160" x="-3635" y="1050" as="geometry" />

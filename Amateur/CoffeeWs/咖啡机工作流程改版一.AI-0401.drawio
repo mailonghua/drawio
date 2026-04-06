@@ -174,8 +174,8 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-28" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-27" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="冲泡头加热完成到达设定温度1-100度" vertex="1">
-          <mxGeometry height="40" width="100" x="-3227.5" y="-1540" as="geometry" />
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="冲泡头加热完成到达设定温度1-100度&lt;div&gt;(&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;咖啡锅炉的温度&lt;/font&gt;)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="-3225" y="-1550" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-31" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-30" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -1456,7 +1456,7 @@
           <mxGeometry height="70" width="325" x="-3055" y="-2000" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#7F00FF;" value="1.T1：蒸汽锅炉&lt;br&gt;2.T2咖啡锅炉&lt;br&gt;3.T3冲泡头" vertex="1">
-          <mxGeometry height="60" width="130" x="-3860" y="-1560" as="geometry" />
+          <mxGeometry height="60" width="130" x="-3777.5" y="-1550" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

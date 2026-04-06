@@ -1,0 +1,1619 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
+  <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
+    <mxGraphModel dx="5571" dy="3826" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I0rIjMPQqkQqQYyNlasD-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="140" width="715" x="5" y="6080" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="1150" width="2020" x="-40" y="4380" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="345" width="2100" x="-100" y="3515" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="260" width="2100" x="-90" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="900" width="1330" x="-100" y="2330" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="830" width="1250" x="-60" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="220" width="1105" x="5" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="OjalCZGyZe0Cus6Rz-vr-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="460" width="830" x="-10" y="3890" as="geometry" />
+        </mxCell>
+        <mxCell id="OjalCZGyZe0Cus6Rz-vr-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="280" width="892.5" x="20" y="-510" as="geometry" />
+        </mxCell>
+        <mxCell id="OjalCZGyZe0Cus6Rz-vr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="500" width="960" x="-25" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="OjalCZGyZe0Cus6Rz-vr-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="280" width="1590" x="25" y="5710" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-90" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1" value="商用手动咖啡机完整工作流程" vertex="1">
+          <mxGeometry height="40" width="300" x="145" y="-1040" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f7ff;" value="通电" vertex="1">
+          <mxGeometry height="40" width="60" x="25" y="-880" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-92" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-93" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f7ff;" value="开机全量自检" vertex="1">
+          <mxGeometry height="40" width="100" x="125" y="-880" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-94" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.压力/温度传感器校准&lt;br&gt;2.水泵/电磁阀自检&lt;br&gt;3.水路排气（泵运行5秒）&lt;br&gt;4.2kg压力基准检测&lt;br&gt;5.缺水探针检测" vertex="1">
+          <mxGeometry height="80" width="200" x="235" y="-940" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-95" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-96" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;" value="自检异常" vertex="1">
+          <mxGeometry height="40" width="80" x="445" y="-880" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-97" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-98" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;" value="报警停机" vertex="1">
+          <mxGeometry height="40" width="80" x="585" y="-880" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-99" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进水" vertex="1">
+          <mxGeometry height="40" width="50" x="150" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="ROr1tPp7Zhurker6Y36_-3" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-94" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1-5分钟可以调节额，超过时间机器停止工作" vertex="1">
+          <mxGeometry height="20" width="100" x="225" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.水泵、电磁阀打开&lt;br&gt;&lt;div&gt;2.在调节时间内，补水未到达低水位探针，&lt;/div&gt;&lt;div&gt;水泵与进水电磁阀停止工作，机器待机&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="190" x="205" y="-760" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-5" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水位" vertex="1">
+          <mxGeometry height="40" width="90" x="395" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.水泵&amp;amp;进水阀停止工作" vertex="1">
+          <mxGeometry height="20" width="130" x="485" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-9" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="锅炉加热到指定温度&lt;br&gt;(蒸汽炉:1--140泡炉:1--100℃)" vertex="1">
+          <mxGeometry height="40" width="150" x="625" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="2.蒸汽锅炉可控硅吸合加热，到达设定温度停止&lt;br&gt;3.冲泡锅炉PID精准控温（±0.5℃）" vertex="1">
+          <mxGeometry height="50" width="200" x="775" y="-850" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-13" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROr1tPp7Zhurker6Y36_-1" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROr1tPp7Zhurker6Y36_-2" connectable="0" parent="ROr1tPp7Zhurker6Y36_-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8429" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止加热" vertex="1">
+          <mxGeometry height="40" width="60" x="905" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-17" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-15" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="-970" />
+              <mxPoint x="105" y="-970" />
+              <mxPoint x="105" y="-780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-19" connectable="0" parent="_P9jYmqXWWuWMUU2pL9c-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="缺水" vertex="1">
+          <mxGeometry relative="1" x="0.133" y="3" as="geometry">
+            <mxPoint x="4" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="机器正常工作" vertex="1">
+          <mxGeometry height="40" width="60" x="995" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-20" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1025" y="-670" />
+              <mxPoint x="700" y="-670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-21" connectable="0" parent="_P9jYmqXWWuWMUU2pL9c-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="温度低于阈值" vertex="1">
+          <mxGeometry relative="1" x="0.0776" y="2" as="geometry">
+            <mxPoint x="19" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-100" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;" value="超温/超压" vertex="1">
+          <mxGeometry height="40" width="80" x="795" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-102" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-103" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;" value="泄压/停机保护" vertex="1">
+          <mxGeometry height="40" width="100" x="915" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="咖啡锅炉加热" vertex="1">
+          <mxGeometry height="30" width="160" x="25" y="-650" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="通电" vertex="1">
+          <mxGeometry height="40" width="60" x="35" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-26" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="冲泡头加热" vertex="1">
+          <mxGeometry height="40" width="80" x="135" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="冲泡电磁阀断续打开&lt;br&gt;&lt;br&gt;（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;只要T2工作电磁阀就点动打开），&lt;br&gt;（温度达到后工作停止，每60秒打开3秒）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="225" y="-599" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-28" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="冲泡头加热完成到达设定温度1-100度" vertex="1">
+          <mxGeometry height="40" width="100" x="415" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-31" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉开始加热" vertex="1">
+          <mxGeometry height="40" width="100" x="635" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-34" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达设定温度&lt;br&gt;(1--100度)" vertex="1">
+          <mxGeometry height="40" width="100" x="765" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-36" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="锅炉停止加热" vertex="1">
+          <mxGeometry height="40" width="60" x="905" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-37" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="-630" />
+              <mxPoint x="685" y="-630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-38" connectable="0" parent="_P9jYmqXWWuWMUU2pL9c-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="温度保持" vertex="1">
+          <mxGeometry relative="1" x="-0.0238" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="蒸汽功能" vertex="1">
+          <mxGeometry height="30" width="160" x="25" y="-470" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="蒸汽锅炉达到设定温度" vertex="1">
+          <mxGeometry height="40" width="140" x="35" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-112" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-113" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发蒸汽阀" vertex="1">
+          <mxGeometry height="40" width="120" x="215" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-114" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-115" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-115" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="蒸汽：排放冷凝水(0-30秒可调)，0即关闭。再次触发蒸汽开关，排气阀也会关闭" vertex="1">
+          <mxGeometry height="60" width="140" x="375" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-116" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-117" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-117" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="触发按键，关闭蒸汽阀" vertex="1">
+          <mxGeometry height="40" width="120" x="555" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-118" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-119" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="关闭蒸汽阀" vertex="1">
+          <mxGeometry height="40" width="120" x="715" y="-420" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-120" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-44" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="180" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="280" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;1.压力传感记录咖啡锅炉压力，水泵压力保持在8-10BAR即可，只显示在屏上，（显示触摸屏和平板）&lt;br&gt;&amp;nbsp; &amp;nbsp; 不做控制功能。可以在不同压力下工作，也可以稳定在一个压力下工作。&lt;/div&gt;&lt;div&gt;2.称通过蓝牙与单片机链接&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="300" x="280" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="590" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-50" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-49" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+电磁阀+流量+压力+称同时关闭" vertex="1">
+          <mxGeometry height="30" width="180" x="720" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
+          <mxGeometry height="40" width="110" x="930" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度" vertex="1">
+          <mxGeometry height="40" width="120" x="35" y="4460" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-57" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="60" x="195" y="4460" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计 +压力传感器" vertex="1">
+          <mxGeometry height="30" width="220" x="285" y="4450" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="流量计记录水量反馈主板，到达设定水量后断电" vertex="1">
+          <mxGeometry height="30" width="330" x="285" y="4480" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-59" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="635" y="4460" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="手动制作咖啡" vertex="1">
+          <mxGeometry height="30" width="160" x="55" y="4530" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-130" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="开关打开" vertex="1">
+          <mxGeometry height="40" width="160" x="65" y="4580" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-131" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-132" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-132" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="水泵，电磁阀，压力传感器，电子秤工作" vertex="1">
+          <mxGeometry height="40" width="100" x="265" y="4580" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-133" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-134" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-134" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="预浸泡设置(0-10秒)" vertex="1">
+          <mxGeometry height="40" width="100" x="405" y="4580" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-135" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-64" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="4670" />
+              <mxPoint x="105" y="4670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;fontStyle=1" value="分段萃取功能" vertex="1">
+          <mxGeometry height="30" width="170" x="15" y="4630" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键触发萃取" vertex="1">
+          <mxGeometry height="40" width="80" x="65" y="4690" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-66" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-65" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵压力可调阶段1&lt;div&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="245" y="4680" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="185" y="4710" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段1 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="395" y="4690" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-70" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段2 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="725" y="4690" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-74" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="4710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止萃取" vertex="1">
+          <mxGeometry height="40" width="80" x="1025" y="4690" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="清洁维护流程" vertex="1">
+          <mxGeometry height="30" width="160" x="35" y="5770" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="自动清洗&lt;br&gt;按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="45" y="5820" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-78" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-77" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒" vertex="1">
+          <mxGeometry height="30" width="140" x="145" y="5810" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第一次冲洗，停顿20秒" vertex="1">
+          <mxGeometry height="40" width="80" x="295" y="5820" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-81" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-80" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒" vertex="1">
+          <mxGeometry height="30" width="140" x="385" y="5810" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第二次冲洗，停顿20秒" vertex="1">
+          <mxGeometry height="40" width="80" x="540" y="5820" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="自动停止" vertex="1">
+          <mxGeometry height="40" width="80" x="1495" y="5910" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-140" edge="1" parent="1" source="lgWbKkXzePmSplhIxeYr-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.406;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="_P9jYmqXWWuWMUU2pL9c-85" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="5890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-141" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="手动反冲清洗（每周）" vertex="1">
+          <mxGeometry height="40" width="120" x="1255" y="5920" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-142" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-143" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-143" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="水路除垢（每月）" vertex="1">
+          <mxGeometry height="40" width="120" x="970" y="5920" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="待机/休眠流程" vertex="1">
+          <mxGeometry height="30" width="160" x="20" y="6100" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="30分钟无操作" vertex="1">
+          <mxGeometry height="40" width="100" x="30" y="6150" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-152" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-153" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入待机（保温）" vertex="1">
+          <mxGeometry height="40" width="100" x="170" y="6150" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-154" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-155" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-155" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="2小时无操作" vertex="1">
+          <mxGeometry height="40" width="100" x="310" y="6150" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-156" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-157" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入休眠（低功耗）" vertex="1">
+          <mxGeometry height="40" width="120" x="450" y="6150" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-5" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="335" y="-330.71000000000004" as="sourcePoint" />
+            <mxPoint x="385" y="-330.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达设定温度0-80度，自动关闭" vertex="1">
+          <mxGeometry height="60" width="120" x="395" y="-355" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-7" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="-340" />
+            </Array>
+            <mxPoint x="525" y="-340" as="sourcePoint" />
+            <mxPoint x="575" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="蒸汽：排放冷凝水(0-30秒可调)，0即关闭。再次触发蒸汽开关，排气阀也会关闭" vertex="1">
+          <mxGeometry height="60" width="120" x="575" y="-360" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="xD5JS4Ofd663jAq8a2iz-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="515" y="4600" as="sourcePoint" />
+            <mxPoint x="565" y="4600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="关闭开关即结束" vertex="1">
+          <mxGeometry height="60" width="120" x="565" y="4570" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="80" width="120" x="205" y="4720" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="80" width="130" x="535" y="4720" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-18" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;水泵压力可调阶段2&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="555" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-19" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(236, 236, 236);&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="865" y="4670" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="855" y="4720" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-21" parent="1" style="whiteSpace=wrap;html=1;" value="分段萃取1" vertex="1">
+          <mxGeometry height="45" width="30" x="15" y="4687.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-22" parent="1" style="whiteSpace=wrap;html=1;" value="分段萃取2" vertex="1">
+          <mxGeometry height="45" width="30" x="15" y="4890" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键触发萃取" vertex="1">
+          <mxGeometry height="40" width="80" x="65" y="4880" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-24" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xD5JS4Ofd663jAq8a2iz-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵压力可调阶段1&lt;div&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="210" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="185" y="4900" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段1 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="395" y="4880" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-28" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xD5JS4Ofd663jAq8a2iz-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段2 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="725" y="4880" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-30" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="4900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止萃取" vertex="1">
+          <mxGeometry height="40" width="80" x="1285" y="4880" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="80" width="120" x="205" y="4910" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="80" width="130" x="535" y="4910" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="855" y="4910" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-35" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;水泵压力可调阶段2&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="560" y="4850" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-36" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(236, 236, 236);&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="865" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键触发萃取" vertex="1">
+          <mxGeometry height="40" width="80" x="75" y="5090" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-38" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xD5JS4Ofd663jAq8a2iz-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵压力可调阶段1&lt;div&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="220" y="5070" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="195" y="5110" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段1 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="405" y="5090" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-42" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xD5JS4Ofd663jAq8a2iz-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段2 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="735" y="5090" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-44" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="5110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止萃取" vertex="1">
+          <mxGeometry height="40" width="80" x="1565" y="5095" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="80" width="120" x="215" y="5120" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="80" width="130" x="545" y="5120" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="865" y="5120" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-49" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;水泵压力可调阶段2&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="570" y="5060" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-50" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(236, 236, 236);&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="875" y="5070" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-51" parent="1" style="whiteSpace=wrap;html=1;" value="分段萃取3" vertex="1">
+          <mxGeometry height="45" width="30" x="15" y="5090" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段3 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="1025" y="4880" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-53" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="4900" as="sourcePoint" />
+            <mxPoint x="1275" y="4900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-54" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34));&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="1145" y="4860" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="1135" y="4910" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段3 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="1035" y="5092.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-57" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="5112.5" as="sourcePoint" />
+            <mxPoint x="1285" y="5112.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-58" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34));&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="1155" y="5072.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="1145" y="5122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段4 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="1295" y="5095" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-61" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1395" y="5111.79" as="sourcePoint" />
+            <mxPoint x="1555" y="5111.79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-62" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34));&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="1415" y="5070" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="1415" y="5132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="备注：分段萃取1，分段萃取2，分段萃取3是由3个按键分别控制的，只有进入萃茶模式，才会显示分段萃取页面，页面上有5个按键，分段萃取1由按键1控制，分段萃取2由按键2控制，分段萃取3由按键3控制，分段萃取4由按键4控制&lt;div&gt;按键1-4的功能介绍：&lt;/div&gt;&lt;div&gt;1.图标要有茶叶的标志&lt;/div&gt;&lt;div&gt;2.每个按键都可以自定义名称（比如：红茶拿铁）&lt;/div&gt;&lt;div&gt;3.可以自主设定每段的时间和压力&lt;/div&gt;&lt;div&gt;4.每个按键都可以调节萃取温度&lt;br&gt;&lt;div&gt;按键5功能是&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;按键打开后，水泵+出水电磁阀+压力传感器（设定压力为9BAR）工作，再次点击按键5，关闭工作&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="690" x="45" y="5550" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键触发萃取" vertex="1">
+          <mxGeometry height="40" width="80" x="75" y="5310" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-67" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xD5JS4Ofd663jAq8a2iz-70" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵压力可调阶段1&lt;div&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="220" y="5290" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="195" y="5330" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段1 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="405" y="5310" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-71" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xD5JS4Ofd663jAq8a2iz-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-72" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段2 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="735" y="5310" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-73" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="5330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停止萃取" vertex="1">
+          <mxGeometry height="40" width="80" x="1835" y="5310" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="80" width="120" x="215" y="5340" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-76" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="80" width="130" x="545" y="5340" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="865" y="5340" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-78" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;水泵压力可调阶段2&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="545" y="5280" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-79" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(236, 236, 236); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(236, 236, 236);&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="875" y="5290" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-80" parent="1" style="whiteSpace=wrap;html=1;" value="分段萃取4" vertex="1">
+          <mxGeometry height="45" width="30" x="15" y="5307.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段3 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="1035" y="5312.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-82" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="5332.5" as="sourcePoint" />
+            <mxPoint x="1285" y="5332.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-83" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34));&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="1150" y="5292.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="1145" y="5342.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段4 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="1295" y="5315" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-86" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1395" y="5331.79" as="sourcePoint" />
+            <mxPoint x="1555" y="5331.79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-87" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34));&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="1415" y="5290" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="1415" y="5352.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-89" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="205" y="5000" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-90" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="5000" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-91" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="860" y="5000" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-92" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="1140" y="5000" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-93" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="5215" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-94" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="5215" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-95" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="865" y="5217.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-96" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="1150" y="5215" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-97" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="1425" y="5230" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-98" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="1425" y="5450" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-99" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="1155" y="5437.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-100" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="870" y="5437.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-101" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-102" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="215" y="5430" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液体重量到阶段5 结束" vertex="1">
+          <mxGeometry height="40" width="80" x="1575" y="5312.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-105" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1665" y="5331.79" as="sourcePoint" />
+            <mxPoint x="1825" y="5331.79" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-106" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34)); float: none; display: inline !important;&quot;&gt;水泵压力可调阶段3&lt;/span&gt;&lt;div data-mx-given-colors=&quot;{&amp;quot;color&amp;quot;:&amp;quot;rgb(0, 0, 0)&amp;quot;,&amp;quot;background-color&amp;quot;:&amp;quot;rgb(236, 236, 236)&amp;quot;}&quot; style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: light-dark(rgb(236, 236, 236), rgb(34, 34, 34));&quot;&gt;工作时间1-120秒可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="1685" y="5280" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，带压力监控，显示时间，流量变化，同时要有明显的工作计时" vertex="1">
+          <mxGeometry height="85" width="130" x="1675" y="5350" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-108" parent="1" style="whiteSpace=wrap;html=1;" value="压力可以调控及电机转速可调可控" vertex="1">
+          <mxGeometry height="60" width="120" x="1685" y="5447.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-111" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;开水功能&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="30" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="蒸汽锅炉达到设定温度" vertex="1">
+          <mxGeometry height="40" width="140" x="50" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-114" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="-30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-123" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="355" y="-30.710000000000036" as="sourcePoint" />
+            <mxPoint x="405" y="-30.710000000000036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵在5-10BAR的压力范围工作，并且可调。混水电磁阀打开，开水电磁阀打开。工作时间可调0-120秒" vertex="1">
+          <mxGeometry height="85" width="120" x="415" y="-55" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-125" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="-40" />
+            </Array>
+            <mxPoint x="545" y="-40" as="sourcePoint" />
+            <mxPoint x="595" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达时间后关闭水泵，混水电磁阀，热水电磁阀，到达设定时间" vertex="1">
+          <mxGeometry height="60" width="120" x="595" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-142" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发热水阀" vertex="1">
+          <mxGeometry height="40" width="120" x="235" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-143" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发蒸汽阀" vertex="1">
+          <mxGeometry height="40" width="120" x="205" y="-350" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-144" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="120" x="785" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-145" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="725" y="-40" as="sourcePoint" />
+            <mxPoint x="775" y="-40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-146" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;咖啡功能&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="25" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-147" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;经典咖啡&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="20" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-148" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="触摸屏界面有3个咖啡按键：按键1是单份咖啡，按键2是双份咖啡，按键3是手动按键。&lt;div&gt;1：每个按键都有咖啡标识，并可以自定义名称&lt;/div&gt;&lt;div&gt;2：每个按键都要有计时功能，并且停止后会保留当前按键工作时长，再次工作重新开始计时。（比如，按键1工作45秒停止工作，屏幕则显示按键1为45秒，再次工作可以用任意键工作，工作时间重新计算，以此循环。&lt;/div&gt;&lt;div&gt;3：经典咖啡制作中，水泵压力保持8-10BAR可调，并显示制作曲线，水泵压力由水泵转速控制&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;4：时间单位为0.1秒&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="825" x="15" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-149" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;称重制作咖啡功能&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="165" x="25" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="3.在制作过程当中，重量到即停止工作，单片机要计算出，从水箱抽出多少重量的水，记住并在以后的制作中复刻它。即使不用称也可以达到很准确的重量（抽水的重量见水箱控制做详细介绍）" vertex="1">
+          <mxGeometry height="70" width="320" x="280" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-154" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键一" vertex="1">
+          <mxGeometry height="40" width="90" x="30" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-155" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="4.工作时长在1-600秒可调" vertex="1">
+          <mxGeometry height="30" width="320" x="-850" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-156" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键二" vertex="1">
+          <mxGeometry height="40" width="90" x="22.5" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
+          <mxGeometry height="60" width="120" x="17.5" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-158" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xD5JS4Ofd663jAq8a2iz-159" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-159" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="177.5" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-160" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;1.压力传感记录咖啡锅炉压力，水泵压力保持在8-10BAR即可，只显示在屏上，（显示触摸屏和平板）&lt;br&gt;&amp;nbsp; &amp;nbsp; 不做控制功能。可以在不同压力下工作，也可以稳定在一个压力下工作。&lt;/div&gt;&lt;div&gt;2.称通过蓝牙与单片机链接&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="300" x="277.5" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-161" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="587.5" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-162" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="717.5" y="1620" as="sourcePoint" />
+            <mxPoint x="927.5" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-163" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
+          <mxGeometry height="50" width="110" x="927.5" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-164" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="3.在制作过程当中，重量到即停止工作，单片机要计算出，从水箱抽出多少重量的水，记住并在以后的制作中复刻它。即使不用称也可以达到很准确的重量（抽水的重量见水箱控制做详细介绍）" vertex="1">
+          <mxGeometry height="70" width="320" x="277.5" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-165" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="4.工作时长在1-600秒可调" vertex="1">
+          <mxGeometry height="30" width="320" x="277.5" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-166" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="287.5" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-167" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+电磁阀+流量+压力+称同时关闭" vertex="1">
+          <mxGeometry height="30" width="180" x="727.5" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-168" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键三：也是按键一和按键二的停止键，在任何情况下都可以终止操作" vertex="1">
+          <mxGeometry height="60" width="210" x="10" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-169" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
+          <mxGeometry height="50" width="120" x="10" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-170" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xD5JS4Ofd663jAq8a2iz-171" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-171" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="170" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-172" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="_P9jYmqXWWuWMUU2pL9c-48" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="1390" as="sourcePoint" />
+            <mxPoint x="360" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-173" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="272.5" y="1628.89" as="sourcePoint" />
+            <mxPoint x="582.5" y="1628.89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-174" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="1929.44" as="sourcePoint" />
+            <mxPoint x="580" y="1929.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-175" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="290" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-177" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="触发按键停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="590" y="1910" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-178" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
+          <mxGeometry height="50" width="110" x="940" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-179" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+电磁阀+压力关闭" vertex="1">
+          <mxGeometry height="30" width="180" x="715" y="1890" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-180" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1930" as="sourcePoint" />
+            <mxPoint x="930" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-181" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;手动变压制作咖啡功能&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="15" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-182" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;流量制作咖啡功能&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="15" y="4400" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-183" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
+          <mxGeometry height="60" width="120" x="25" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-184" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="电位器" vertex="1">
+          <mxGeometry height="40" width="90" x="40" y="2160" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-186" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="145" y="2249.44" as="sourcePoint" />
+            <mxPoint x="190" y="2249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-187" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="旋转电位器触发" vertex="1">
+          <mxGeometry height="60" width="110" x="200" y="2220" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-188" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="2240" as="sourcePoint" />
+            <mxPoint x="620" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-189" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="330" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-191" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="调节电机转速，让水泵压力从0-16BAR" vertex="1">
+          <mxGeometry height="30" width="260" x="330" y="2260" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-192" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="反转电位器，电机转速到0，即结束工作。反转电机会越转越慢" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-193" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
+          <mxGeometry height="50" width="110" x="980" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-194" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="2240" as="sourcePoint" />
+            <mxPoint x="970" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-195" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;水泵+电磁阀+压力+称同时关闭&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="200" x="780" y="2215" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-196" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;自动变压制作咖啡功能&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="5" y="2350" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-199" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" value="变压程序：（就是改变电机转速的一个过程）&lt;div&gt;1.机器内部内存要15-20个变压制作的程序，可以供按键1和按键2读取（&lt;/div&gt;&lt;div&gt;2.可以通过电位器手动制作咖啡，改变电机转速的流程，单片机记录下来，并储存供按键1和按键2读取。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="840" x="20" y="2460" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-200" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xD5JS4Ofd663jAq8a2iz-201" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="2640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-201" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="165" y="2610" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-202" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="265" y="2600" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-203" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.水泵转速可调，从最低到最高转速，压力也会从小变大&lt;div&gt;2.水泵变速时间可调，时间从0-120秒可调&lt;/div&gt;&lt;div&gt;3.水泵稳定的在某个点的转速可调，时间从0-60秒可调。具体调控需要压力传感器传送的压力来决定&lt;/div&gt;&lt;div&gt;4.同时显示变压曲线，包含压力，时间，流量预浸泡时间等&lt;/div&gt;&lt;div&gt;5.要计算出从水箱抽出的水量，保存记录，供下次制作使用&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="320" x="245" y="2640" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-204" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="575" y="2610" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-205" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xD5JS4Ofd663jAq8a2iz-207" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-206" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+电磁阀+流量+压力+称同时关闭" vertex="1">
+          <mxGeometry height="30" width="180" x="705" y="2600" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-207" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
+          <mxGeometry height="40" width="110" x="915" y="2610" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-209" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键一" vertex="1">
+          <mxGeometry height="40" width="90" x="15" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-211" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="xD5JS4Ofd663jAq8a2iz-203" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="255" y="2640" as="sourcePoint" />
+            <mxPoint x="345" y="2640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-212" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="2610" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-213" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键二" vertex="1">
+          <mxGeometry height="40" width="90" x="20" y="2760" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-214" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xD5JS4Ofd663jAq8a2iz-215" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="2870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-215" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="170" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-216" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.水泵转速可调，从最低到最高转速，压力也会从小变大&lt;div&gt;2.水泵变速时间可调，时间从0-120秒可调&lt;/div&gt;&lt;div&gt;3.水泵稳定的在某个点的转速可调，时间从0-60秒可调。具体调控需要压力传感器传送的压力来决定&lt;/div&gt;&lt;div&gt;4.同时显示变压曲线，包含压力，时间，流量预浸泡时间等&lt;/div&gt;&lt;div&gt;5.要计算出从水箱抽出的水量，保存记录，供下次制作使用&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="320" x="250" y="2870" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-217" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="580" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-218" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xD5JS4Ofd663jAq8a2iz-219" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-219" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
+          <mxGeometry height="40" width="110" x="920" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-220" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="xD5JS4Ofd663jAq8a2iz-216" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="2870" as="sourcePoint" />
+            <mxPoint x="350" y="2870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-221" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
+          <mxGeometry height="60" width="120" x="15" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-222" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="285" y="2830" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-224" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键三：也是按键一和按键二的停止键，在任何情况下都可以终止操作" vertex="1">
+          <mxGeometry height="60" width="210" x="15" y="2980" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-225" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
+          <mxGeometry height="50" width="120" x="20" y="3090" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-226" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xD5JS4Ofd663jAq8a2iz-227" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-227" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="180" y="3090" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-228" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="3109.44" as="sourcePoint" />
+            <mxPoint x="590" y="3109.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-229" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+压力传感并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="305" y="3070" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-230" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="触发按键停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="600" y="3090" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-231" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
+          <mxGeometry height="50" width="110" x="950" y="3080" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-233" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="3110" as="sourcePoint" />
+            <mxPoint x="940" y="3110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-234" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+电磁阀+流量+压力+称同时关闭" vertex="1">
+          <mxGeometry height="30" width="180" x="715" y="2830" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-235" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+电磁阀+压力关闭" vertex="1">
+          <mxGeometry height="30" width="180" x="740" y="3070" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-236" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="水泵转速可调，从最低到最高转速，压力也会从小变大，压力在8-10BAR可调&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="320" x="277.5" y="3120" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-238" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="变压程序：按键1或者按键2可以任意调取" vertex="1">
+          <mxGeometry height="60" width="240" x="30" y="3280" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-239" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" value="程序一：有待探讨" vertex="1">
+          <mxGeometry height="30" width="160" x="30" y="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-240" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键1或者按键2 触发" vertex="1">
+          <mxGeometry height="60" width="120" x="25" y="3410" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-242" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="150" y="3440" as="sourcePoint" />
+            <mxPoint x="400" y="3440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-243" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="电机转速增加到4公斤，时间可以调节0-60秒" vertex="1">
+          <mxGeometry height="60" width="145" x="405" y="3400" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-246" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="140" y="3400" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-247" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;2公斤压力工作3秒，电机稳定在一个转速，这个过程是压力传感器反馈的，电机转速可调，时间可调&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="227.5" x="152.5" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-248" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="555" y="3440" as="sourcePoint" />
+            <mxPoint x="860" y="3440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-249" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="4公斤压力工作10秒，电机稳定在一个转速，这个过程是压力传感器反馈的，电机转速可调，时间可调。" vertex="1">
+          <mxGeometry height="60" width="227.5" x="591.25" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-250" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="585" y="3400" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-251" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="电机转速增加到8公斤，时间可以调节0-60秒" vertex="1">
+          <mxGeometry height="60" width="145" x="870" y="3410" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-252" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="8公斤压力工作10秒，电机稳定在一个转速，这个过程是压力传感器反馈的，电机转速可调，时间可调。" vertex="1">
+          <mxGeometry height="60" width="227.5" x="1057.5" y="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-253" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="1035" y="3400" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-254" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1020" y="3440" as="sourcePoint" />
+            <mxPoint x="1325" y="3440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-255" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="电机转速增加到12公斤，时间可以调节0-60秒" vertex="1">
+          <mxGeometry height="60" width="145" x="1340" y="3410" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-256" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
+          <mxGeometry height="30" width="280" x="1510" y="3400" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-257" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="12公斤压力工作10秒，电机稳定在一个转速，这个过程是压力传感器反馈的，电机转速可调，时间可调。" vertex="1">
+          <mxGeometry height="60" width="227.5" x="1536.25" y="3450" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-258" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1497.5" y="3440" as="sourcePoint" />
+            <mxPoint x="1802.5" y="3440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-259" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="电机转速增加到16公斤，时间可以调节0-60秒，结束工作" vertex="1">
+          <mxGeometry height="60" width="145" x="1810" y="3410" as="geometry" />
+        </mxCell>
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-260" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1879.375" y="3670" as="sourcePoint" />
+            <mxPoint x="1880" y="3680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;冷水功能&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="35" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-10" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="355" y="269.28999999999996" as="sourcePoint" />
+            <mxPoint x="405" y="269.28999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵在5-10BAR的压力范围工作，并且可调。混水电磁阀打开。工作时间可调0-120秒" vertex="1">
+          <mxGeometry height="85" width="120" x="415" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-12" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="565" y="260" />
+            </Array>
+            <mxPoint x="545" y="260" as="sourcePoint" />
+            <mxPoint x="595" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达时间后关闭水泵，混水电磁阀，到达设定时间" vertex="1">
+          <mxGeometry height="60" width="120" x="595" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发热水阀" vertex="1">
+          <mxGeometry height="40" width="120" x="235" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="120" x="785" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-17" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="725" y="260" as="sourcePoint" />
+            <mxPoint x="775" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;" value="1.手动变压制作咖啡的电机转速和制作流程可以自动保存，供按键1和按键2调取使用&lt;div&gt;2.程序需要8-20条，可以供按键1和按键2调取&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="570" x="20" y="3520" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="美式咖啡" vertex="1">
+          <mxGeometry height="30" width="120" x="20" y="3600" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度" vertex="1">
+          <mxGeometry height="40" width="120" x="20" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-21" edge="1" parent="1" source="lgWbKkXzePmSplhIxeYr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lgWbKkXzePmSplhIxeYr-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="60" x="180" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-23" edge="1" parent="1" source="lgWbKkXzePmSplhIxeYr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lgWbKkXzePmSplhIxeYr-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+          <mxGeometry height="40" width="110" x="620" y="3660" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-25" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;水泵+出水电磁阀+流量计 +压力传感器&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="325" y="3650" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="流量计记录水量反馈主板，到达设定水量后断电" vertex="1">
+          <mxGeometry height="30" width="330" x="265" y="3690" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵在5-10BAR的压力范围工作，并且可调。混水电磁阀打开，开水电磁阀打开。工作时间可调0-120秒" vertex="1">
+          <mxGeometry height="85" width="120" x="435" y="3775" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-31" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="3790" />
+            </Array>
+            <mxPoint x="565" y="3790" as="sourcePoint" />
+            <mxPoint x="615" y="3790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到达时间后关闭水泵，混水电磁阀，热水电磁阀，到达设定时间" vertex="1">
+          <mxGeometry height="60" width="120" x="615" y="3770" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="120" x="805" y="3780" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-35" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="100" as="geometry">
+            <Array as="points" />
+            <mxPoint x="745" y="3790" as="sourcePoint" />
+            <mxPoint x="795" y="3790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-37" edge="1" parent="1" source="lgWbKkXzePmSplhIxeYr-24" style="endArrow=classic;html=1;rounded=0;exitX=0.082;exitY=1.075;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="3670" as="sourcePoint" />
+            <mxPoint x="480" y="3770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-38" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="617.5" y="5839" as="sourcePoint" />
+            <mxPoint x="782.5" y="5839" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒" vertex="1">
+          <mxGeometry height="30" width="140" x="635" y="5810" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第三次冲洗，停顿20秒" vertex="1">
+          <mxGeometry height="40" width="80" x="785" y="5820" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-41" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lgWbKkXzePmSplhIxeYr-43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="5840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒" vertex="1">
+          <mxGeometry height="30" width="140" x="1120" y="5810" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第五次冲洗，停顿20秒" vertex="1">
+          <mxGeometry height="40" width="80" x="1275" y="5820" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="862.5" y="5840" as="sourcePoint" />
+            <mxPoint x="1027.5" y="5840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒" vertex="1">
+          <mxGeometry height="30" width="140" x="865" y="5810" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第四次冲洗，停顿20秒" vertex="1">
+          <mxGeometry height="40" width="80" x="1030" y="5820" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-47" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lgWbKkXzePmSplhIxeYr-49" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1357.5" y="5840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="泵+出水电磁阀打开20秒" vertex="1">
+          <mxGeometry height="30" width="140" x="1367.5" y="5810" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="第六次冲洗，停顿20秒" vertex="1">
+          <mxGeometry height="40" width="80" x="1522.5" y="5820" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.983;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" target="_P9jYmqXWWuWMUU2pL9c-141" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1490" y="5930" as="sourcePoint" />
+            <mxPoint x="1130" y="5900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="清洗提醒" vertex="1">
+          <mxGeometry height="30" width="160" x="30" y="6010" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="所有按键工作0-500杯就要提醒清洗工作" vertex="1">
+          <mxGeometry height="30" width="590" x="30" y="6040" as="geometry" />
+        </mxCell>
+        <mxCell id="lgWbKkXzePmSplhIxeYr-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="关于其他功能：&lt;div&gt;1.参数设定&lt;/div&gt;&lt;div&gt;2.故障代码，显示提醒，诊断&lt;/div&gt;&lt;div&gt;3.关于上面设置参数等&lt;/div&gt;&lt;div&gt;4.水箱水位变成重量有何问题5&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="660" x="40" y="6250" as="geometry" />
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;默认程序咖啡功能&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="5" y="3860" as="geometry" />
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="单份浓缩" vertex="1">
+          <mxGeometry height="50" width="110" x="10" y="3920" as="geometry" />
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="3920" as="geometry" />
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-4" edge="1" parent="1" source="riORpZrSyDfUIBfQNrKo-2" style="endArrow=classic;html=1;rounded=0;exitX=1.01;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" target="riORpZrSyDfUIBfQNrKo-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="4090" as="sourcePoint" />
+            <mxPoint x="150" y="3945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-5" edge="1" parent="1" source="riORpZrSyDfUIBfQNrKo-3" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="4050" as="sourcePoint" />
+            <mxPoint x="280" y="3940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="预浸泡阶段：压力3BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="280" y="3915" as="geometry" />
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="3939.71" as="sourcePoint" />
+            <mxPoint x="428.5" y="3939.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="主萃取阶段：压力9BAR，时间18秒" vertex="1">
+          <mxGeometry height="50" width="110" x="430" y="3915" as="geometry" />
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="3939.71" as="sourcePoint" />
+            <mxPoint x="577" y="3939.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="尾段降压：压力5BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="575" y="3915" as="geometry" />
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="75" x="725" y="3920" as="geometry" />
+        </mxCell>
+        <mxCell id="riORpZrSyDfUIBfQNrKo-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="686.5" y="3939.71" as="sourcePoint" />
+            <mxPoint x="723.5" y="3939.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="双份浓缩" vertex="1">
+          <mxGeometry height="50" width="110" x="10" y="3985" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="3985" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-3" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-1" style="endArrow=classic;html=1;rounded=0;exitX=1.01;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" target="0SS8FHruJlp0RhGvm0XP-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="4155" as="sourcePoint" />
+            <mxPoint x="150" y="4010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-4" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-2" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="4115" as="sourcePoint" />
+            <mxPoint x="280" y="4005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="预浸泡阶段：压力3BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="280" y="3980" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="4004.71" as="sourcePoint" />
+            <mxPoint x="428.5" y="4004.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="主萃取阶段：压力9BAR，时间20秒" vertex="1">
+          <mxGeometry height="50" width="110" x="430" y="3980" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="4004.71" as="sourcePoint" />
+            <mxPoint x="577" y="4004.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="尾段降压：压力5BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="575" y="3980" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="75" x="725" y="3985" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="686.5" y="4004.71" as="sourcePoint" />
+            <mxPoint x="723.5" y="4004.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="美式咖啡" vertex="1">
+          <mxGeometry height="50" width="110" x="10" y="4045" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="4045" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-14" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-12" style="endArrow=classic;html=1;rounded=0;exitX=1.01;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" target="0SS8FHruJlp0RhGvm0XP-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="4215" as="sourcePoint" />
+            <mxPoint x="150" y="4070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-15" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-13" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="4175" as="sourcePoint" />
+            <mxPoint x="280" y="4065" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="预浸泡阶段：压力3BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="280" y="4040" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="4064.71" as="sourcePoint" />
+            <mxPoint x="428.5" y="4064.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="主萃取阶段：压力9BAR，时间20秒" vertex="1">
+          <mxGeometry height="50" width="110" x="430" y="4040" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="4064.71" as="sourcePoint" />
+            <mxPoint x="577" y="4064.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="尾段降压：压力4BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="575" y="4040" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="75" x="725" y="4045" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="686.5" y="4064.71" as="sourcePoint" />
+            <mxPoint x="723.5" y="4064.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="浅烘焙" vertex="1">
+          <mxGeometry height="50" width="110" x="10" y="4115" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="4115" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-25" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-23" style="endArrow=classic;html=1;rounded=0;exitX=1.01;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" target="0SS8FHruJlp0RhGvm0XP-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="4285" as="sourcePoint" />
+            <mxPoint x="150" y="4140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-26" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-24" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="4245" as="sourcePoint" />
+            <mxPoint x="280" y="4135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="预浸泡阶段：压力3BAR，时间9秒" vertex="1">
+          <mxGeometry height="50" width="110" x="280" y="4110" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="4134.71" as="sourcePoint" />
+            <mxPoint x="428.5" y="4134.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="主萃取阶段：压力9BAR，时间22秒" vertex="1">
+          <mxGeometry height="50" width="110" x="430" y="4110" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="4134.71" as="sourcePoint" />
+            <mxPoint x="577" y="4134.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="尾段降压：压力4BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="575" y="4110" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="75" x="725" y="4115" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="686.5" y="4134.71" as="sourcePoint" />
+            <mxPoint x="723.5" y="4134.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="中烘焙" vertex="1">
+          <mxGeometry height="50" width="110" x="10" y="4185" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="4185" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-36" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-34" style="endArrow=classic;html=1;rounded=0;exitX=1.01;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" target="0SS8FHruJlp0RhGvm0XP-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="4355" as="sourcePoint" />
+            <mxPoint x="150" y="4210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-37" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-35" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="4315" as="sourcePoint" />
+            <mxPoint x="280" y="4205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="预浸泡阶段：压力3BAR，时间7秒" vertex="1">
+          <mxGeometry height="50" width="110" x="280" y="4180" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-39" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="4204.71" as="sourcePoint" />
+            <mxPoint x="428.5" y="4204.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="主萃取阶段：压力9BAR，时间20秒" vertex="1">
+          <mxGeometry height="50" width="110" x="430" y="4180" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-41" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="4204.71" as="sourcePoint" />
+            <mxPoint x="577" y="4204.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="尾段降压：压力4BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="575" y="4180" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="75" x="725" y="4185" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="686.5" y="4204.71" as="sourcePoint" />
+            <mxPoint x="723.5" y="4204.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="深烘焙" vertex="1">
+          <mxGeometry height="50" width="110" x="10" y="4255" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
+          <mxGeometry height="40" width="80" x="160" y="4255" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-47" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-45" style="endArrow=classic;html=1;rounded=0;exitX=1.01;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" target="0SS8FHruJlp0RhGvm0XP-46" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="4425" as="sourcePoint" />
+            <mxPoint x="150" y="4280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-48" edge="1" parent="1" source="0SS8FHruJlp0RhGvm0XP-46" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="4385" as="sourcePoint" />
+            <mxPoint x="280" y="4275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="预浸泡阶段：压力3BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="280" y="4250" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="391.5" y="4274.71" as="sourcePoint" />
+            <mxPoint x="428.5" y="4274.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="主萃取阶段：压力9BAR，时间18秒" vertex="1">
+          <mxGeometry height="50" width="110" x="430" y="4250" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="4274.71" as="sourcePoint" />
+            <mxPoint x="577" y="4274.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="尾段降压：压力3BAR，时间5秒" vertex="1">
+          <mxGeometry height="50" width="110" x="575" y="4250" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
+          <mxGeometry height="40" width="75" x="725" y="4255" as="geometry" />
+        </mxCell>
+        <mxCell id="0SS8FHruJlp0RhGvm0XP-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1.043;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="686.5" y="4274.71" as="sourcePoint" />
+            <mxPoint x="723.5" y="4274.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OjalCZGyZe0Cus6Rz-vr-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;fontColor=#FF0000;" value="没有定时时间，全部手动，出水压力由电阻器调整,不区分热水还是冷水" vertex="1">
+          <mxGeometry height="30" width="415" x="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OjalCZGyZe0Cus6Rz-vr-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;fontColor=#FF0000;" value="冷凝水从那个电磁阀进行输出》程序采用注释后续进行补充，没有时间可调的设置，固定时间" vertex="1">
+          <mxGeometry height="30" width="415" x="72.5" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="完成" vertex="1">
+          <mxGeometry height="30" width="60" x="740" y="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontColor=#FF0000;" value="重叠，并没有看出有什么区别&lt;br&gt;意思是总控是重量是吗？" vertex="1">
+          <mxGeometry height="30" width="300" x="640" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="目前滑动变阻器录制的数据可以被任意咖啡设置" vertex="1">
+          <mxGeometry height="30" width="520" x="610" y="2380" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="与下面的分阶段变压力重复" vertex="1">
+          <mxGeometry height="30" width="520" x="855" y="3320" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="这部分的含义是什么" vertex="1">
+          <mxGeometry height="30" width="520" x="820" y="3570" as="geometry" />
+        </mxCell>
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="这部分相当于阶段变压力流程了，阶段切换采用重量&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="520" x="1005" y="4480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

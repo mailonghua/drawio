@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="I0rIjMPQqkQqQYyNlasD-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="140" width="715" x="-3762.5" y="1520" as="geometry" />
+          <mxGeometry height="140" width="302.5" x="-3762.5" y="1520" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="400" width="1250" x="-3740" y="-250" as="geometry" />
@@ -306,16 +306,8 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-152" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-153" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入待机（保温）&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="高压部分全关掉" vertex="1">
           <mxGeometry height="40" width="100" x="-3597.5" y="1590" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-156" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-157" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3500" y="1610" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入休眠（低功耗）" vertex="1">
-          <mxGeometry height="40" width="120" x="-3452.5" y="1590" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-5" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
@@ -894,6 +886,18 @@
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF0000;" value="缺少关机按键" vertex="1">
           <mxGeometry height="30" width="80" x="-3752.5" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="140" width="302.5" x="-3415" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="关机按键" vertex="1">
+          <mxGeometry height="40" width="55" x="-3395" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="高压部分全关掉" vertex="1">
+          <mxGeometry height="40" width="100" x="-3322.5" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LCD" vertex="1">
+          <mxGeometry height="40" width="60" x="-3192.5" y="1590" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

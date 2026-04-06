@@ -1459,7 +1459,7 @@
           <mxGeometry height="30" width="157.5" x="-3275" y="-1420" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="蒸汽锅炉温度:110--140" vertex="1">
-          <mxGeometry height="30" width="147.5" x="-3122.5" y="-1480" as="geometry" />
+          <mxGeometry height="30" width="147.5" x="-3281.25" y="-1210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

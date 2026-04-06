@@ -1449,7 +1449,7 @@
         <mxCell id="IilmvoyfG79s7OAyW8Hz-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="这部分相当于阶段变压力流程了，阶段切换采用重量&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="520" x="-2687.5" y="2420" as="geometry" />
         </mxCell>
-        <mxCell id="DRQTxW7p1hNPi4zCKs6T-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="&lt;br&gt;1.使用气压传感器能够得到实际存量的水，实际根据水量减少，获得对应的电压值(红色模块)&lt;br&gt;2.两个探针一个是水箱一个是锅炉" vertex="1">
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="&lt;br&gt;1.使用气压传感器能够得到实际存量的水，实际根据水量减少，获得对应的电压值(红色模块)--水箱，和探针不会同时使用&lt;br&gt;2.两个探针一个是水箱一个是蒸汽锅炉" vertex="1">
           <mxGeometry height="80" width="207.5" x="-3227.5" y="-1680" as="geometry" />
         </mxCell>
       </root>

@@ -256,7 +256,7 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;1.压力传感记录咖啡锅炉压力，水泵压力保持在8-10BAR即可，只显示在屏上，（显示触摸屏和平板）&lt;br&gt;&amp;nbsp; &amp;nbsp; 不做控制功能。可以在不同压力下工作，也可以稳定在一个压力下工作。&lt;/div&gt;&lt;div&gt;2.称通过蓝牙与单片机链接&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="300" x="-3400" y="-70" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;水量&lt;/font&gt;后停止工作" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;重量&lt;/font&gt;后停止工作" vertex="1">
           <mxGeometry height="40" width="110" x="-3090" y="-100" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-50" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-49" value="">

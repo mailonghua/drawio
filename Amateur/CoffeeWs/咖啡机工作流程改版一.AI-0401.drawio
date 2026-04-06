@@ -300,26 +300,22 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-150" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="待机/休眠流程" vertex="1">
           <mxGeometry height="30" width="160" x="-3747.5" y="1540" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="30分钟无操作" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-151" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="15分钟无操作" vertex="1">
           <mxGeometry height="40" width="100" x="-3737.5" y="1590" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-152" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-153" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入待机（保温）" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入待机（保温）&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="-3597.5" y="1590" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-154" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-155" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-155" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="2小时无操作" vertex="1">
-          <mxGeometry height="40" width="100" x="-3457.5" y="1590" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-156" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-157" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-156" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-157" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3500" y="1610" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进入休眠（低功耗）" vertex="1">
-          <mxGeometry height="40" width="120" x="-3317.5" y="1590" as="geometry" />
+          <mxGeometry height="40" width="120" x="-3452.5" y="1590" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-5" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
           <mxGeometry relative="1" width="100" as="geometry">
@@ -555,10 +551,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lgWbKkXzePmSplhIxeYr-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="清洗提醒" vertex="1">
-          <mxGeometry height="30" width="160" x="-3737.5" y="1450" as="geometry" />
+          <mxGeometry height="30" width="160" x="-3730" y="1410" as="geometry" />
         </mxCell>
-        <mxCell id="lgWbKkXzePmSplhIxeYr-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="所有按键工作0-500杯就要提醒清洗工作" vertex="1">
-          <mxGeometry height="30" width="590" x="-3737.5" y="1480" as="geometry" />
+        <mxCell id="lgWbKkXzePmSplhIxeYr-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;rounded=0;" value="所有按键工作0-500杯就要提醒清洗工作" vertex="1">
+          <mxGeometry height="30" width="257.5" x="-3730" y="1440" as="geometry" />
         </mxCell>
         <mxCell id="lgWbKkXzePmSplhIxeYr-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="关于其他功能：&lt;div&gt;1.参数设定&lt;/div&gt;&lt;div&gt;2.故障代码，显示提醒，诊断&lt;/div&gt;&lt;div&gt;3.关于上面设置参数等&lt;/div&gt;&lt;div&gt;4.水箱水位变成重量有何问题5&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="660" x="-3727.5" y="1690" as="geometry" />
@@ -895,6 +891,9 @@
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontSize=20;" value="只有正向清洗" vertex="1">
           <mxGeometry height="30" width="142.5" x="-3455" y="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF0000;" value="缺少关机按键" vertex="1">
+          <mxGeometry height="30" width="80" x="-3752.5" y="1490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

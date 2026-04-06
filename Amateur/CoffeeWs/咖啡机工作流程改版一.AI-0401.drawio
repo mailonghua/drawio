@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="5061" dy="3479" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="5265" dy="3572" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -878,8 +878,8 @@
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="萃取时间，三位数，只显示描述，字体调大，强调明显" vertex="1">
           <mxGeometry height="30" width="290" x="-2355" y="-250" as="geometry" />
         </mxCell>
-        <mxCell id="DRQTxW7p1hNPi4zCKs6T-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontStyle=1" value="1.蒸汽锅炉温度和咖啡锅炉的温度都按照0.1度的温控进行控制&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;蒸汽锅炉的范围：110-140&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;咖啡锅炉1-98度&lt;br&gt;&lt;div&gt;2.液晶屏咖啡主控制页面---两个锅炉的温度&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;3.温度，可以跟电阻值&lt;br&gt;4.压力传感器，好坏的判断(咨询厂家)&lt;br&gt;在IPDA上的维修测试进行弹窗提醒&lt;br&gt;5.液晶屏的添加氛围灯，添加灯珠&lt;br&gt;&amp;nbsp; &amp;nbsp;咖啡锅炉：a.30度白色，60度蓝色。88度后都是红色&lt;br&gt;&amp;nbsp; &amp;nbsp;做咖啡：跑马灯&lt;br&gt;6.增加泡茶模式，开始---》停顿---开始》---》开始，单独用一个模式记录&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="345" x="-2352.5" y="-210" as="geometry" />
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontStyle=1" value="1.蒸汽锅炉温度和咖啡锅炉的温度都按照0.1度的温控进行控制&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;蒸汽锅炉的范围：110-140&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;咖啡锅炉1-98度&lt;br&gt;&lt;div&gt;2.液晶屏咖啡主控制页面---两个锅炉的温度&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;3.温度，可以跟电阻值&lt;br&gt;4.压力传感器，好坏的判断(咨询厂家)&lt;br&gt;在IPDA上的维修测试进行弹窗提醒&lt;br&gt;5.液晶屏的添加氛围灯，添加灯珠&lt;br&gt;&amp;nbsp; &amp;nbsp;咖啡锅炉：a.30度白色，60度蓝色。88度后都是红色&lt;br&gt;&amp;nbsp; &amp;nbsp;做咖啡：跑马灯&lt;br&gt;6.增加泡茶模式，开始---》停顿---开始》---》开始，单独用一个模式记录&lt;br&gt;7.水位探针--蒸汽锅炉--检测水位需要做延迟(大概0.5秒的延迟)。因为沸腾的水接触水会进行误判，&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="345" x="-2352.5" y="-210" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontSize=20;" value="只有正向清洗" vertex="1">
           <mxGeometry height="30" width="142.5" x="-3455" y="1090" as="geometry" />

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="6193" dy="3991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="5828" dy="3826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="冲泡头加热" vertex="1">
           <mxGeometry height="40" width="80" x="-3507.5" y="-1540" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="冲泡电磁阀断续打开()&lt;br&gt;&lt;br&gt;（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;只要T2工作电磁阀就点动打开），&lt;br&gt;（温度达到后工作停止，每60秒打开3秒）&lt;/font&gt;" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="冲泡电磁阀断续打开()&lt;br&gt;&lt;br&gt;（&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;只要T2工作电磁阀就点动打开），&lt;br&gt;（温度达到后工作停止，每60秒打开3秒，用于避免超压）&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="200" x="-3425" y="-1540" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-28" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-27" value="">

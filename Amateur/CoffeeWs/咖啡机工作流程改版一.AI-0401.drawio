@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="4940" dy="3425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="6193" dy="3991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry height="460" width="830" x="-3727.5" y="560" as="geometry" />
         </mxCell>
         <mxCell id="OjalCZGyZe0Cus6Rz-vr-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
-          <mxGeometry height="280" width="892.5" x="-3622.5" y="-1450" as="geometry" />
+          <mxGeometry height="140" width="892.5" x="-3633.75" y="-1260" as="geometry" />
         </mxCell>
         <mxCell id="OjalCZGyZe0Cus6Rz-vr-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="500" width="960" x="-3667.5" y="-1070" as="geometry" />
@@ -197,37 +197,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=22;fontStyle=1" value="蒸汽功能" vertex="1">
-          <mxGeometry height="30" width="160" x="-3617.5" y="-1410" as="geometry" />
+          <mxGeometry height="30" width="160" x="-3623.75" y="-1240" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="蒸汽锅炉达到设定温度" vertex="1">
-          <mxGeometry height="40" width="140" x="-3607.5" y="-1360" as="geometry" />
+          <mxGeometry height="40" width="140" x="-3613.75" y="-1190" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-112" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-113" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-113" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发蒸汽阀" vertex="1">
-          <mxGeometry height="40" width="120" x="-3427.5" y="-1360" as="geometry" />
+          <mxGeometry height="40" width="120" x="-3433.75" y="-1190" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-114" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-115" value="">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-114" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DRQTxW7p1hNPi4zCKs6T-31" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3276.25" y="-1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-33" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DRQTxW7p1hNPi4zCKs6T-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-115" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#7F00FF;" value="蒸汽阀关闭后，开启气泵工作30秒，如果这个阶段蒸汽阀再开启，蒸汽阀优先" vertex="1">
-          <mxGeometry height="60" width="140" x="-3267.5" y="-1380" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-116" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-117" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-117" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="触发按键，关闭蒸汽阀" vertex="1">
-          <mxGeometry height="40" width="120" x="-3087.5" y="-1360" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-118" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-119" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="关闭蒸汽阀" vertex="1">
-          <mxGeometry height="40" width="120" x="-2927.5" y="-1360" as="geometry" />
-        </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-120" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-16" value="">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-117" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="触发按键，关闭蒸汽阀" vertex="1">
+          <mxGeometry height="40" width="120" x="-3163.75" y="-1190" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
           <mxGeometry height="60" width="120" x="-3660" y="-100" as="geometry" />
@@ -309,9 +299,6 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="高压部分全关掉" vertex="1">
           <mxGeometry height="40" width="100" x="-3597.5" y="1590" as="geometry" />
         </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="蒸汽：排放冷凝水(0-30秒可调)，0即关闭。再次触发蒸汽开关，排气阀也会关闭" vertex="1">
-          <mxGeometry height="60" width="120" x="-3067.5" y="-1300" as="geometry" />
-        </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-111" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;开水功能&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="-3612.5" y="-1070" as="geometry" />
         </mxCell>
@@ -347,9 +334,6 @@
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-142" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发热水阀" vertex="1">
           <mxGeometry height="40" width="120" x="-3407.5" y="-990" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-143" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="手动触发蒸汽阀" vertex="1">
-          <mxGeometry height="40" width="120" x="-3437.5" y="-1290" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-144" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束" vertex="1">
           <mxGeometry height="40" width="120" x="-2857.5" y="-990" as="geometry" />
@@ -839,10 +823,7 @@
           <mxGeometry height="60" width="130" x="-3777.5" y="-1550" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="冷凝水：气泵，排放冷凝水，工作30秒" vertex="1">
-          <mxGeometry height="30" width="157.5" x="-3275" y="-1420" as="geometry" />
-        </mxCell>
-        <mxCell id="DRQTxW7p1hNPi4zCKs6T-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="蒸汽锅炉温度:110--140" vertex="1">
-          <mxGeometry height="30" width="147.5" x="-3281.25" y="-1210" as="geometry" />
+          <mxGeometry height="30" width="157.5" x="-3281.25" y="-1250" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="app:热水的计时&lt;br&gt;触摸屏上是手动的" vertex="1">
           <mxGeometry height="40" width="120" x="-3256.25" y="-1060" as="geometry" />
@@ -885,6 +866,15 @@
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LCD" vertex="1">
           <mxGeometry height="40" width="60" x="-3192.5" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#7F00FF;" value="蒸汽阀关闭后，开启气泵工作30秒，如果这个阶段蒸汽阀再开启，蒸汽阀优先" vertex="1">
+          <mxGeometry height="60" width="140" x="-2956.25" y="-1200" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-32" edge="1" parent="1" source="DRQTxW7p1hNPi4zCKs6T-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_P9jYmqXWWuWMUU2pL9c-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="开启蒸汽阀" vertex="1">
+          <mxGeometry height="40" width="73.75" x="-3275.62" y="-1190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

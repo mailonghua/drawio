@@ -1428,9 +1428,6 @@
         <mxCell id="OjalCZGyZe0Cus6Rz-vr-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;fontColor=#FF0000;" value="没有定时时间，全部手动，出水压力由电阻器调整,不区分热水还是冷水" vertex="1">
           <mxGeometry height="30" width="415" x="-3342.5" y="-820" as="geometry" />
         </mxCell>
-        <mxCell id="OjalCZGyZe0Cus6Rz-vr-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;fontColor=#FF0000;" value="冷凝水从那个电磁阀进行输出》程序采用注释后续进行补充，没有时间可调的设置，固定时间" vertex="1">
-          <mxGeometry height="30" width="415" x="-3570" y="-1210" as="geometry" />
-        </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="完成" vertex="1">
           <mxGeometry height="30" width="60" x="-3002.5" y="250" as="geometry" />
         </mxCell>
@@ -1460,6 +1457,9 @@
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="冷凝水：气泵，排放冷凝水，工作30秒" vertex="1">
           <mxGeometry height="30" width="157.5" x="-3275" y="-1420" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="蒸汽锅炉温度:110--140" vertex="1">
+          <mxGeometry height="30" width="147.5" x="-3122.5" y="-1480" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

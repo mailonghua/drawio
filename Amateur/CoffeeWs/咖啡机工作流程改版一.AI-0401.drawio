@@ -1425,9 +1425,6 @@
             <mxPoint x="-3006.5" y="2154.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OjalCZGyZe0Cus6Rz-vr-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=19;fontColor=#FF0000;" value="没有定时时间，全部手动，出水压力由电阻器调整,不区分热水还是冷水" vertex="1">
-          <mxGeometry height="30" width="415" x="-3342.5" y="-820" as="geometry" />
-        </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="完成" vertex="1">
           <mxGeometry height="30" width="60" x="-3002.5" y="250" as="geometry" />
         </mxCell>
@@ -1465,7 +1462,7 @@
           <mxGeometry height="40" width="120" x="-3256.25" y="-1060" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="冷热水是有独立的管子输出" vertex="1">
-          <mxGeometry height="30" width="60" x="-2690" y="-850" as="geometry" />
+          <mxGeometry height="30" width="60" x="-3136.25" y="-820" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

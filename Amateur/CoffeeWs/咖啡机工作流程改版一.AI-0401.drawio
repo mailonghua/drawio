@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="5285" dy="3675" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="4416" dy="3219" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1429,7 +1429,7 @@
           <mxGeometry height="30" width="60" x="-3002.5" y="250" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontColor=#7F00FF;" value="总控是重量" vertex="1">
-          <mxGeometry height="30" width="300" x="-3040" y="-180" as="geometry" />
+          <mxGeometry height="30" width="175" x="-3325" y="-220" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="目前滑动变阻器录制的数据可以被任意咖啡设置" vertex="1">
           <mxGeometry height="30" width="520" x="-3045" y="500" as="geometry" />
@@ -1465,13 +1465,16 @@
           <mxGeometry height="30" width="60" x="-3136.25" y="-820" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;fontStyle=1" value="只要拨杆变动，就弹出手动萃取功能，保存-液晶显示屏，安卓app上只显示曲线" vertex="1">
-          <mxGeometry height="30" width="240" x="-2422.5" y="-50" as="geometry" />
+          <mxGeometry height="30" width="240" x="-2340" y="-190" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#7F00FF;" value="只要做咖啡的过程的过程中，进水电磁阀无论如何都是关闭的，直到咖啡做完结束，时间保存到下一次咖啡开始" vertex="1">
-          <mxGeometry height="60" width="280" x="-2417.5" y="30" as="geometry" />
+          <mxGeometry height="60" width="280" x="-2335" y="-110" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="萃取时间，三位数，只显示描述，字体调大，强调明显" vertex="1">
-          <mxGeometry height="30" width="290" x="-2420" y="120" as="geometry" />
+          <mxGeometry height="30" width="290" x="-2337.5" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontStyle=1" value="1.蒸汽锅炉温度和咖啡锅炉的温度都按照0.1度的温控进行控制&lt;div&gt;2.液晶屏咖啡主控制页面---两个锅炉的温度&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;3.温度，可以跟电阻值&lt;br&gt;4.压力传感器，好坏的判断(咨询厂家)&lt;br&gt;在IPDA上的维修测试进行弹窗提醒&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="-2335" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

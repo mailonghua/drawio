@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="5371" dy="3619" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="9178" dy="3619" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -795,7 +795,7 @@
         <mxCell id="xD5JS4Ofd663jAq8a2iz-147" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;经典咖啡&lt;/span&gt;" vertex="1">
           <mxGeometry height="50" width="120" x="-3660" y="-450" as="geometry" />
         </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-148" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="触摸屏界面有3个咖啡按键：按键1是单份咖啡，按键2是双份咖啡，按键3是手动按键。&lt;div&gt;1：&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;每个按键都有咖啡标识，并可以自定义名称(目前是固定名称，该问题已经沟通过)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;2：每个按键都要有计时功能，并且停止后会保留当前按键工作时长，再次工作重新开始计时。（比如，按键1工作45秒停止工作，屏幕则显示按键1为45秒，再次工作可以用任意键工作，工作时间重新计算，以此循环。&lt;/div&gt;&lt;div&gt;3：经典咖啡制作中，水泵压力保持8-10BAR可调，并显示制作曲线，水泵压力由水泵转速控制&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;4：时间单位为0.1秒&lt;/font&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-148" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="触摸屏界面有3个咖啡按键：按键1是单份咖啡，按键2是双份咖啡，按键3是手动按键。&lt;div&gt;1：&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;每个按键都有咖啡标识，&lt;/font&gt;&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;并可以自定义名称(目前是固定名称，该问题已经沟通过)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;2：每个按键都要有计时功能，并且停止后会保留当前按键工作时长，再次工作重新开始计时。（比如，按键1工作45秒停止工作，屏幕则显示按键1为45秒，再次工作可以用任意键工作，工作时间重新计算，以此循环。&lt;/div&gt;&lt;div&gt;3：经典咖啡制作中，水泵压力保持8-10BAR可调，并显示制作曲线，水泵压力由水泵转速控制&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;4：时间单位为0.1秒&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="130" width="825" x="-3665" y="-390" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-149" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;称重制作咖啡功能&lt;/font&gt;" vertex="1">
@@ -1463,6 +1463,15 @@
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="冷热水是有独立的管子输出" vertex="1">
           <mxGeometry height="30" width="60" x="-3136.25" y="-820" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="方案" vertex="1">
+          <mxGeometry height="80" width="80" x="-4270" y="-450" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="液晶" vertex="1">
+          <mxGeometry height="60" width="120" x="-4120" y="-610" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="APP" vertex="1">
+          <mxGeometry height="60" width="120" x="-4470" y="-600" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

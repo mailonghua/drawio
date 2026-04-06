@@ -758,7 +758,7 @@
             <mxPoint x="-3237.5" y="-970.71" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵在5-10BAR的压力范围工作，并且可调。混水电磁阀打开，开水电磁阀打开。工作时间可调0-120秒" vertex="1">
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="水泵在&lt;font style=&quot;color: rgb(127, 0, 255);&quot;&gt;9BAR&lt;/font&gt;的压力范围工作，并且可调。混水电磁阀打开，开水电磁阀打开。&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;工作时间可调0-120秒&lt;/font&gt;" vertex="1">
           <mxGeometry height="85" width="120" x="-3227.5" y="-995" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-125" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" value="">
@@ -1460,6 +1460,9 @@
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="蒸汽锅炉温度:110--140" vertex="1">
           <mxGeometry height="30" width="147.5" x="-3281.25" y="-1210" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="app:热水的计时&lt;br&gt;触摸屏上是手动的" vertex="1">
+          <mxGeometry height="40" width="120" x="-3256.25" y="-1060" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

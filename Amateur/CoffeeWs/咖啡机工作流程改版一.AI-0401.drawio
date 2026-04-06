@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="5178" dy="3619" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="5664" dy="3874" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry height="900" width="1330" x="-3780" y="870" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="830" width="1250" x="-3740" y="-250" as="geometry" />
+          <mxGeometry height="400" width="1250" x="-3740" y="-250" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="220" width="1105" x="-3675" y="610" as="geometry" />
@@ -256,7 +256,7 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;1.压力传感记录咖啡锅炉压力，水泵压力保持在8-10BAR即可，只显示在屏上，（显示触摸屏和平板）&lt;br&gt;&amp;nbsp; &amp;nbsp; 不做控制功能。可以在不同压力下工作，也可以稳定在一个压力下工作。&lt;/div&gt;&lt;div&gt;2.称通过蓝牙与单片机链接&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="300" x="-3400" y="-70" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;水量&lt;/font&gt;后停止工作" vertex="1">
           <mxGeometry height="40" width="110" x="-3090" y="-100" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-50" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-49" value="">
@@ -804,94 +804,16 @@
         <mxCell id="xD5JS4Ofd663jAq8a2iz-153" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="3.在制作过程当中，重量到即停止工作，单片机要计算出，从水箱抽出多少重量的水，记住并在以后的制作中复刻它。即使不用称也可以达到很准确的重量（抽水的重量见水箱控制做详细介绍）" vertex="1">
           <mxGeometry height="70" width="320" x="-3400" y="20" as="geometry" />
         </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-154" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键一" vertex="1">
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-154" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键1~3" vertex="1">
           <mxGeometry height="40" width="90" x="-3650" y="-150" as="geometry" />
         </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-156" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键二" vertex="1">
-          <mxGeometry height="40" width="90" x="-3657.5" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
-          <mxGeometry height="60" width="120" x="-3662.5" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-158" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xD5JS4Ofd663jAq8a2iz-159" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-159" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
-          <mxGeometry height="40" width="80" x="-3502.5" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-160" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;1.压力传感记录咖啡锅炉压力，水泵压力保持在8-10BAR即可，只显示在屏上，（显示触摸屏和平板）&lt;br&gt;&amp;nbsp; &amp;nbsp; 不做控制功能。可以在不同压力下工作，也可以稳定在一个压力下工作。&lt;/div&gt;&lt;div&gt;2.称通过蓝牙与单片机链接&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="300" x="-3402.5" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-161" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="到达水量后停止工作" vertex="1">
-          <mxGeometry height="40" width="110" x="-3092.5" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-162" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2962.5" y="160" as="sourcePoint" />
-            <mxPoint x="-2752.5" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-163" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
-          <mxGeometry height="50" width="110" x="-2752.5" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-164" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="3.在制作过程当中，重量到即停止工作，单片机要计算出，从水箱抽出多少重量的水，记住并在以后的制作中复刻它。即使不用称也可以达到很准确的重量（抽水的重量见水箱控制做详细介绍）" vertex="1">
-          <mxGeometry height="70" width="320" x="-3402.5" y="260" as="geometry" />
-        </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-165" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="4.工作时长在1-600秒可调" vertex="1">
-          <mxGeometry height="30" width="320" x="-3402.5" y="330" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-166" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
-          <mxGeometry height="30" width="280" x="-3392.5" y="130" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-167" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+电磁阀+流量+压力+称同时关闭" vertex="1">
-          <mxGeometry height="30" width="180" x="-2952.5" y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-168" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="按键三：也是按键一和按键二的停止键，在任何情况下都可以终止操作" vertex="1">
-          <mxGeometry height="60" width="210" x="-3670" y="370" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-169" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
-          <mxGeometry height="50" width="120" x="-3670" y="450" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-170" edge="1" parent="1" source="xD5JS4Ofd663jAq8a2iz-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xD5JS4Ofd663jAq8a2iz-171" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-171" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="按键触发" vertex="1">
-          <mxGeometry height="40" width="80" x="-3510" y="450" as="geometry" />
+          <mxGeometry height="30" width="320" x="-3400" y="90" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-172" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="_P9jYmqXWWuWMUU2pL9c-48" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-3410" y="-70" as="sourcePoint" />
             <mxPoint x="-3320" y="-70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-173" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-3407.5" y="168.8900000000001" as="sourcePoint" />
-            <mxPoint x="-3097.5" y="168.8900000000001" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-174" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-3410" y="469.44000000000005" as="sourcePoint" />
-            <mxPoint x="-3100" y="469.44000000000005" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-175" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感并且需要时间显示，显示要特别明显" vertex="1">
-          <mxGeometry height="30" width="280" x="-3390" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-177" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="触发按键停止工作" vertex="1">
-          <mxGeometry height="40" width="110" x="-3090" y="450" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-178" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="结束，保留本次工作时间，下次启动重新计时。" vertex="1">
-          <mxGeometry height="50" width="110" x="-2740" y="440" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-179" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+电磁阀+压力关闭" vertex="1">
-          <mxGeometry height="30" width="180" x="-2965" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-180" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2960" y="470" as="sourcePoint" />
-            <mxPoint x="-2750" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-181" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;手动变压制作咖啡功能&lt;/font&gt;" vertex="1">

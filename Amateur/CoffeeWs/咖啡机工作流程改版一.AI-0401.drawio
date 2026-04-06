@@ -223,7 +223,7 @@
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-114" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-115" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_P9jYmqXWWuWMUU2pL9c-115" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="蒸汽：排放冷凝水(0-30秒可调)，0即关闭。再次触发蒸汽开关，排气阀也会关闭" vertex="1">
+        <mxCell id="_P9jYmqXWWuWMUU2pL9c-115" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#7F00FF;" value="蒸汽阀关闭后，开启气泵工作30秒，如果这个阶段蒸汽阀再开启，蒸汽阀优先" vertex="1">
           <mxGeometry height="60" width="140" x="-3267.5" y="-1380" as="geometry" />
         </mxCell>
         <mxCell id="_P9jYmqXWWuWMUU2pL9c-116" edge="1" parent="1" source="_P9jYmqXWWuWMUU2pL9c-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_P9jYmqXWWuWMUU2pL9c-117" value="">
@@ -1457,6 +1457,9 @@
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#7F00FF;" value="1.T1：蒸汽锅炉&lt;br&gt;2.T2咖啡锅炉&lt;br&gt;3.T3冲泡头" vertex="1">
           <mxGeometry height="60" width="130" x="-3777.5" y="-1550" as="geometry" />
+        </mxCell>
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="冷凝水：气泵，排放冷凝水，工作30秒" vertex="1">
+          <mxGeometry height="30" width="157.5" x="-3275" y="-1420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

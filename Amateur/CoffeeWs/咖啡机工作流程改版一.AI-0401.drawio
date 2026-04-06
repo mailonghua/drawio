@@ -1488,7 +1488,7 @@
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="7种咖啡" vertex="1">
           <mxGeometry height="30" width="60" x="-4260" y="-400" as="geometry" />
         </mxCell>
-        <mxCell id="DRQTxW7p1hNPi4zCKs6T-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="只要拨杆变动，就弹出手动萃取功能，保存" vertex="1">
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="只要拨杆变动，就弹出手动萃取功能，保存-液晶显示屏" vertex="1">
           <mxGeometry height="30" width="240" x="-4210" y="-310" as="geometry" />
         </mxCell>
       </root>

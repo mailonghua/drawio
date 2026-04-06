@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="5664" dy="3874" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="4975" dy="3512" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry height="345" width="2100" x="-3780" y="2055" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="260" width="2100" x="-3770" y="1780" as="geometry" />
+          <mxGeometry height="260" width="2100" x="-3755" y="930" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
           <mxGeometry height="430" width="1330" x="-3755" y="450" as="geometry" />
@@ -908,74 +908,74 @@
         <mxCell id="xD5JS4Ofd663jAq8a2iz-212" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="咖啡锅炉加热到设定温度或者不到设定温度" vertex="1">
           <mxGeometry height="60" width="120" x="-3645" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="xD5JS4Ofd663jAq8a2iz-238" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="变压程序：按键1或者按键2可以任意调取" vertex="1">
-          <mxGeometry height="60" width="240" x="-3650" y="1820" as="geometry" />
+        <mxCell id="xD5JS4Ofd663jAq8a2iz-238" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="变压程序：按键1或者按键2可以任意调取&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;分阶段变压？&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="-3635" y="970" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-239" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" value="程序一：有待探讨" vertex="1">
-          <mxGeometry height="30" width="160" x="-3650" y="1900" as="geometry" />
+          <mxGeometry height="30" width="160" x="-3635" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-240" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="按键1或者按键2 触发" vertex="1">
-          <mxGeometry height="60" width="120" x="-3655" y="1950" as="geometry" />
+          <mxGeometry height="60" width="120" x="-3640" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-242" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-3530" y="1980" as="sourcePoint" />
-            <mxPoint x="-3280" y="1980" as="targetPoint" />
+            <mxPoint x="-3515" y="1130" as="sourcePoint" />
+            <mxPoint x="-3265" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-243" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="电机转速增加到4公斤，时间可以调节0-60秒" vertex="1">
-          <mxGeometry height="60" width="145" x="-3275" y="1940" as="geometry" />
+          <mxGeometry height="60" width="145" x="-3260" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-246" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
-          <mxGeometry height="30" width="280" x="-3540" y="1940" as="geometry" />
+          <mxGeometry height="30" width="280" x="-3525" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-247" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;2公斤压力工作3秒，电机稳定在一个转速，这个过程是压力传感器反馈的，电机转速可调，时间可调&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="227.5" x="-3527.5" y="1980" as="geometry" />
+          <mxGeometry height="60" width="227.5" x="-3512.5" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-248" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-3125" y="1980" as="sourcePoint" />
-            <mxPoint x="-2820" y="1980" as="targetPoint" />
+            <mxPoint x="-3110" y="1130" as="sourcePoint" />
+            <mxPoint x="-2805" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-249" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="4公斤压力工作10秒，电机稳定在一个转速，这个过程是压力传感器反馈的，电机转速可调，时间可调。" vertex="1">
-          <mxGeometry height="60" width="227.5" x="-3088.75" y="1980" as="geometry" />
+          <mxGeometry height="60" width="227.5" x="-3073.75" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-250" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
-          <mxGeometry height="30" width="280" x="-3095" y="1940" as="geometry" />
+          <mxGeometry height="30" width="280" x="-3080" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-251" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="电机转速增加到8公斤，时间可以调节0-60秒" vertex="1">
-          <mxGeometry height="60" width="145" x="-2810" y="1950" as="geometry" />
+          <mxGeometry height="60" width="145" x="-2795" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-252" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="8公斤压力工作10秒，电机稳定在一个转速，这个过程是压力传感器反馈的，电机转速可调，时间可调。" vertex="1">
-          <mxGeometry height="60" width="227.5" x="-2622.5" y="1980" as="geometry" />
+          <mxGeometry height="60" width="227.5" x="-2607.5" y="1130" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-253" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
-          <mxGeometry height="30" width="280" x="-2645" y="1940" as="geometry" />
+          <mxGeometry height="30" width="280" x="-2630" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-254" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-2660" y="1980" as="sourcePoint" />
-            <mxPoint x="-2355" y="1980" as="targetPoint" />
+            <mxPoint x="-2645" y="1130" as="sourcePoint" />
+            <mxPoint x="-2340" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-255" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="电机转速增加到12公斤，时间可以调节0-60秒" vertex="1">
-          <mxGeometry height="60" width="145" x="-2340" y="1950" as="geometry" />
+          <mxGeometry height="60" width="145" x="-2325" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-256" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水泵+出水电磁阀+流量计+压力传感+电子秤工作，并且需要时间显示，显示要特别明显" vertex="1">
-          <mxGeometry height="30" width="280" x="-2170" y="1940" as="geometry" />
+          <mxGeometry height="30" width="280" x="-2155" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-257" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="12公斤压力工作10秒，电机稳定在一个转速，这个过程是压力传感器反馈的，电机转速可调，时间可调。" vertex="1">
           <mxGeometry height="60" width="227.5" x="-2143.75" y="1990" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-258" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="-2182.5" y="1980" as="sourcePoint" />
-            <mxPoint x="-1877.5" y="1980" as="targetPoint" />
+            <mxPoint x="-2167.5" y="1130" as="sourcePoint" />
+            <mxPoint x="-1862.5" y="1130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-259" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="电机转速增加到16公斤，时间可以调节0-60秒，结束工作" vertex="1">
-          <mxGeometry height="60" width="145" x="-1870" y="1950" as="geometry" />
+          <mxGeometry height="60" width="145" x="-1855" y="1100" as="geometry" />
         </mxCell>
         <mxCell id="xD5JS4Ofd663jAq8a2iz-260" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -1447,7 +1447,7 @@
           <mxGeometry height="30" width="520" x="-3045" y="500" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="与下面的分阶段变压力重复" vertex="1">
-          <mxGeometry height="30" width="520" x="-2825" y="1860" as="geometry" />
+          <mxGeometry height="30" width="520" x="-2810" y="1010" as="geometry" />
         </mxCell>
         <mxCell id="IilmvoyfG79s7OAyW8Hz-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="这部分的含义是什么" vertex="1">
           <mxGeometry height="30" width="520" x="-2860" y="2110" as="geometry" />

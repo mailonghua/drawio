@@ -822,11 +822,11 @@
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#7F00FF;" value="1.T1：蒸汽锅炉&lt;br&gt;2.T2咖啡锅炉&lt;br&gt;3.T3冲泡头" vertex="1">
           <mxGeometry height="60" width="130" x="-3777.5" y="-1550" as="geometry" />
         </mxCell>
-        <mxCell id="DRQTxW7p1hNPi4zCKs6T-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="&lt;b&gt;冷凝水：气泵，排放冷凝水，工作30秒 （完成）&lt;/b&gt;" vertex="1">
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="&lt;b&gt;&lt;strike&gt;冷凝水：气泵，排放冷凝水，工作30秒 &lt;/strike&gt;（完成）&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="157.5" x="-3507.5" y="-1240" as="geometry" />
         </mxCell>
-        <mxCell id="DRQTxW7p1hNPi4zCKs6T-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="app:热水的计时&lt;br&gt;触摸屏上是手动的" vertex="1">
-          <mxGeometry height="40" width="120" x="-3256.25" y="-1060" as="geometry" />
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="app:热水的计时&lt;br&gt;&lt;strike&gt;&lt;b&gt;触摸屏上是手动的,区分冷热水，完成&lt;/b&gt;&lt;/strike&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="-3537.5" y="-870" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="冷热水是有独立的管子输出" vertex="1">
           <mxGeometry height="30" width="60" x="-3136.25" y="-820" as="geometry" />

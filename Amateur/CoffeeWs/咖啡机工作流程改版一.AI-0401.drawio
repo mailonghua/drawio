@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="4943" dy="3527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="5285" dy="3719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -887,6 +887,9 @@
         </mxCell>
         <mxCell id="ZUajw9Qya9S-GGl7peik-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF33FF;fontSize=15;" value="完成-待测试-20260410" vertex="1">
           <mxGeometry height="30" width="160" x="-3657.5" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="沟通记录：只有正向清洗的流程，反向清洗是需要人手动对的装配件，还是执行正向清洗的流程进而执行反向冲洗" vertex="1">
+          <mxGeometry height="30" width="616.25" x="-3723.75" y="1305" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

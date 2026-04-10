@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="4912" dy="3510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="5178" dy="3659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -810,8 +810,8 @@
         <mxCell id="IilmvoyfG79s7OAyW8Hz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=24;fontStyle=1;fontColor=#FF0000;" value="完成" vertex="1">
           <mxGeometry height="30" width="60" x="-3002.5" y="250" as="geometry" />
         </mxCell>
-        <mxCell id="IilmvoyfG79s7OAyW8Hz-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontColor=#7F00FF;" value="总控是重量" vertex="1">
-          <mxGeometry height="30" width="175" x="-3325" y="-220" as="geometry" />
+        <mxCell id="IilmvoyfG79s7OAyW8Hz-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontColor=#7F00FF;" value="总控是重量（当前的分段调整已经覆盖了）" vertex="1">
+          <mxGeometry height="30" width="415" x="-3325" y="-220" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#7F00FF;" value="&lt;br&gt;1.使用气压传感器能够得到实际存量的水，实际根据水量减少，获得对应的电压值(红色模块)--水箱，和探针不会同时使用&lt;br&gt;2.两个探针一个是水箱一个是蒸汽锅炉&lt;br&gt;(&lt;br&gt;a.水位探针---是外接水,比如使用大桶水&lt;br&gt;b.气压传感器---水箱&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="227.5" x="-2430" y="-1915" as="geometry" />
@@ -883,7 +883,7 @@
           <mxGeometry height="30" width="160" x="-3312.5" y="-1230" as="geometry" />
         </mxCell>
         <mxCell id="ZUajw9Qya9S-GGl7peik-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF33FF;fontSize=15;" value="完成-待测试-20260410" vertex="1">
-          <mxGeometry height="30" width="160" x="-3472.5" y="-1060" as="geometry" />
+          <mxGeometry height="30" width="202.5" x="-3472.5" y="-1060" as="geometry" />
         </mxCell>
         <mxCell id="ZUajw9Qya9S-GGl7peik-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF33FF;fontSize=15;" value="完成-待测试-20260410" vertex="1">
           <mxGeometry height="30" width="160" x="-3657.5" y="1520" as="geometry" />
@@ -932,6 +932,9 @@
         </mxCell>
         <mxCell id="ZUajw9Qya9S-GGl7peik-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="热水/冷水输出" vertex="1">
           <mxGeometry height="30" width="90" x="-920" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontColor=#FF33FF;" value="&lt;font style=&quot;&quot;&gt;只要滑动变阻器从0开始变动，那么就会触发手动变压流程，弹窗(完成，待测试)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="415" x="-3470" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

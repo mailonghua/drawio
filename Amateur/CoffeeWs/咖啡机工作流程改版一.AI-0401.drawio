@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="5285" dy="3719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="4912" dy="3510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -890,6 +890,48 @@
         </mxCell>
         <mxCell id="ZUajw9Qya9S-GGl7peik-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="沟通记录：只有正向清洗的流程，反向清洗是需要人手动对的装配件，还是执行正向清洗的流程进而执行反向冲洗" vertex="1">
           <mxGeometry height="30" width="616.25" x="-3723.75" y="1305" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-12" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="热水电磁阀" vertex="1">
+          <mxGeometry height="30" width="70" x="-1410" y="-510" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-15" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="混水电磁阀" vertex="1">
+          <mxGeometry height="30" width="70" x="-1280" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-11" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="冷水" vertex="1">
+          <mxGeometry height="30" width="60" x="-1410" y="-620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-13" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="咖啡锅炉" vertex="1">
+          <mxGeometry height="30" width="60" x="-1530" y="-510" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-17" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUajw9Qya9S-GGl7peik-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="24v水泵" vertex="1">
+          <mxGeometry height="30" width="70" x="-1170" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-19" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="气压传感器" vertex="1">
+          <mxGeometry height="30" width="70" x="-1070" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="萃取输出电磁阀" vertex="1">
+          <mxGeometry height="30" width="70" x="-920" y="-620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZUajw9Qya9S-GGl7peik-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="热水/冷水输出" vertex="1">
+          <mxGeometry height="30" width="90" x="-920" y="-530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

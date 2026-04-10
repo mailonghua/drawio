@@ -846,8 +846,8 @@
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontSize=20;" value="只有正向清洗" vertex="1">
           <mxGeometry height="30" width="142.5" x="-3455" y="1090" as="geometry" />
         </mxCell>
-        <mxCell id="DRQTxW7p1hNPi4zCKs6T-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF0000;" value="缺少关机按键" vertex="1">
-          <mxGeometry height="30" width="80" x="-3752.5" y="1490" as="geometry" />
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF0000;" value="缺少关机按键(已经完成)" vertex="1">
+          <mxGeometry height="30" width="142.5" x="-3752.5" y="1490" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
           <mxGeometry height="140" width="302.5" x="-3415" y="1520" as="geometry" />

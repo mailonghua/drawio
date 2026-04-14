@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="5178" dy="3659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="4867" dy="3493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -840,7 +840,7 @@
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;" value="萃取时间，三位数，只显示描述，字体调大，强调明显" vertex="1">
           <mxGeometry height="30" width="290" x="-2420" y="-1530" as="geometry" />
         </mxCell>
-        <mxCell id="DRQTxW7p1hNPi4zCKs6T-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontStyle=1" value="&lt;strike&gt;1.蒸汽锅炉温度和咖啡锅炉的温度都按照0.1度的温控进行控制&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;蒸汽锅炉的范围：110-140&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;咖啡锅炉1-98度&lt;/strike&gt;&lt;div&gt;&lt;strike&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/strike&gt;&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;&lt;strike&gt;&amp;nbsp;a.控制板已经修改完成&amp;nbsp; b.触摸屏显示精度已经修改完成&lt;/strike&gt;&amp;nbsp; c.安卓端还没有同步&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;strike&gt;2.液晶屏咖啡主控制页面---两个锅炉的温度&lt;/strike&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;3.温度，可以根据电阻值的大小判断好坏&lt;br&gt;4.压力传感器，好坏的判断(咨询厂家)&lt;br&gt;在IPDA上的维修测试进行弹窗提醒&lt;br&gt;5&lt;strike&gt;.液晶屏的添加氛围灯，添加灯珠&lt;br&gt;&amp;nbsp; &amp;nbsp;咖啡锅炉：a.30度白色，60度蓝色。88度后都是红色&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(0-30:)&lt;br&gt;&amp;nbsp; &amp;nbsp;做咖啡：跑马灯&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;/strike&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 255), rgb(255, 144, 144));&quot;&gt;&lt;strike&gt;8颗灯环，咖啡机控制板程序已经写好，详细的灯色变化可以见代码的readme&lt;/strike&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 255), rgb(255, 144, 144));&quot;&gt;6.增加泡茶模式，开始---》停顿---开始》---》开始，单独用一个模式记录&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 255), rgb(255, 144, 144));&quot;&gt;7.水位探针--蒸汽锅炉--检测水位需要做延迟(大概0.5秒的延迟。前后各测试一次，数值一样就有效)。因为沸腾的水接触水会进行误判&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="DRQTxW7p1hNPi4zCKs6T-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontStyle=1" value="&lt;strike&gt;1.蒸汽锅炉温度和咖啡锅炉的温度都按照0.1度的温控进行控制&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;蒸汽锅炉的范围：110-140&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;咖啡锅炉1-98度&lt;/strike&gt;&lt;div&gt;&lt;strike&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/strike&gt;&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;&lt;strike&gt;&amp;nbsp;a.控制板已经修改完成&amp;nbsp; b.触摸屏显示精度已经修改完成&lt;/strike&gt;&amp;nbsp; c.安卓端还没有同步&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;strike&gt;2.液晶屏咖啡主控制页面---两个锅炉的温度&lt;/strike&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;3.温度，可以根据电阻值的大小判断好坏&lt;br&gt;4.压力传感器，好坏的判断(咨询厂家)&lt;br&gt;在IPDA上的维修测试进行弹窗提醒&lt;br&gt;5&lt;strike&gt;.液晶屏的添加氛围灯，添加灯珠&lt;br&gt;&amp;nbsp; &amp;nbsp;咖啡锅炉：a.30度白色，60度蓝色。88度后都是红色&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(0-30:)&lt;br&gt;&amp;nbsp; &amp;nbsp;做咖啡：跑马灯&lt;br&gt;&amp;nbsp; &amp;nbsp;&lt;/strike&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 255), rgb(255, 144, 144));&quot;&gt;&lt;strike&gt;8颗灯环，咖啡机控制板程序已经写好，详细的灯色变化可以见代码的readme&lt;/strike&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 255), rgb(255, 144, 144));&quot;&gt;&lt;strike&gt;6.增加泡茶模式，开始---》停顿---开始》---》开始，单独用一个模式记录&lt;/strike&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;color: light-dark(rgb(255, 51, 255), rgb(255, 144, 144));&quot;&gt;7.&lt;strike&gt;水位探针--蒸汽锅炉--检测水位需要做延迟(大概0.5秒的延迟。前后各测试一次，数值一样就有效)。因为沸腾的水接触水会进行误判&lt;/strike&gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="220" width="617.5" x="-2417.5" y="-1490" as="geometry" />
         </mxCell>
         <mxCell id="DRQTxW7p1hNPi4zCKs6T-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF0000;fontSize=20;" value="只有正向清洗(程序上目前只开启了正向清洗)" vertex="1">
@@ -891,50 +891,17 @@
         <mxCell id="ZUajw9Qya9S-GGl7peik-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="沟通记录：只有正向清洗的流程，反向清洗是需要人手动对的装配件，还是执行正向清洗的流程进而执行反向冲洗" vertex="1">
           <mxGeometry height="30" width="616.25" x="-3723.75" y="1305" as="geometry" />
         </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-12" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="热水电磁阀" vertex="1">
-          <mxGeometry height="30" width="70" x="-1410" y="-510" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-15" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="混水电磁阀" vertex="1">
-          <mxGeometry height="30" width="70" x="-1280" y="-560" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-11" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="冷水" vertex="1">
-          <mxGeometry height="30" width="60" x="-1410" y="-620" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-13" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="咖啡锅炉" vertex="1">
-          <mxGeometry height="30" width="60" x="-1530" y="-510" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-17" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ZUajw9Qya9S-GGl7peik-16" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="24v水泵" vertex="1">
-          <mxGeometry height="30" width="70" x="-1170" y="-560" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-19" edge="1" parent="1" source="ZUajw9Qya9S-GGl7peik-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZUajw9Qya9S-GGl7peik-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="气压传感器" vertex="1">
-          <mxGeometry height="30" width="70" x="-1070" y="-560" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="萃取输出电磁阀" vertex="1">
-          <mxGeometry height="30" width="70" x="-920" y="-620" as="geometry" />
-        </mxCell>
-        <mxCell id="ZUajw9Qya9S-GGl7peik-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="热水/冷水输出" vertex="1">
-          <mxGeometry height="30" width="90" x="-920" y="-530" as="geometry" />
-        </mxCell>
         <mxCell id="ZUajw9Qya9S-GGl7peik-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontColor=#FF33FF;" value="&lt;font style=&quot;&quot;&gt;只要滑动变阻器从0开始变动，那么就会触发手动变压流程，弹窗(完成，待测试)&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="415" x="-3470" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-4" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xMCVGNCgj0dfd0qS_nJt-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="外部水/水箱" vertex="1">
+          <mxGeometry height="30" width="80" x="-1470" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-3" parent="1" style="whiteSpace=wrap;html=1;" value="24V电机" vertex="1">
+          <mxGeometry height="60" width="120" x="-1330" y="-575" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

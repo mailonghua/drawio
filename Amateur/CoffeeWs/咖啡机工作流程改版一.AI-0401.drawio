@@ -901,7 +901,7 @@
           <mxGeometry height="30" width="80" x="-1470" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="xMCVGNCgj0dfd0qS_nJt-3" parent="1" style="whiteSpace=wrap;html=1;" value="24V电机" vertex="1">
-          <mxGeometry height="60" width="120" x="-1330" y="-575" as="geometry" />
+          <mxGeometry height="35" width="70" x="-1340" y="-562.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

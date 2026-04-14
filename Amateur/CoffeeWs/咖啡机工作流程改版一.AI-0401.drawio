@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="PMNbjTTgIml5Qdtd_ilu">
-    <mxGraphModel dx="4867" dy="3493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="4602" dy="4208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -894,11 +894,11 @@
         <mxCell id="ZUajw9Qya9S-GGl7peik-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=22;fontColor=#FF33FF;" value="&lt;font style=&quot;&quot;&gt;只要滑动变阻器从0开始变动，那么就会触发手动变压流程，弹窗(完成，待测试)&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="415" x="-3470" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="xMCVGNCgj0dfd0qS_nJt-4" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xMCVGNCgj0dfd0qS_nJt-3" value="">
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-33" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xMCVGNCgj0dfd0qS_nJt-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="外部水/水箱" vertex="1">
-          <mxGeometry height="30" width="80" x="-1470" y="-560" as="geometry" />
+          <mxGeometry height="30" width="80" x="-1560" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="xMCVGNCgj0dfd0qS_nJt-7" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-6" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -909,7 +909,7 @@
         <mxCell id="xMCVGNCgj0dfd0qS_nJt-11" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xMCVGNCgj0dfd0qS_nJt-3" parent="1" style="whiteSpace=wrap;html=1;" value="24V电机" vertex="1">
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-3" parent="1" style="whiteSpace=wrap;html=1;" value="压力传感器" vertex="1">
           <mxGeometry height="35" width="70" x="-1340" y="-562.5" as="geometry" />
         </mxCell>
         <mxCell id="xMCVGNCgj0dfd0qS_nJt-18" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-17">
@@ -965,6 +965,12 @@
         </mxCell>
         <mxCell id="xMCVGNCgj0dfd0qS_nJt-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="蒸汽输出" vertex="1">
           <mxGeometry height="30" width="60" x="-850" y="-702.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-32" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-30" parent="1" style="whiteSpace=wrap;html=1;" value="24V电机" vertex="1">
+          <mxGeometry height="35" width="70" x="-1450" y="-562.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

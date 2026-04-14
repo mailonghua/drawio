@@ -900,8 +900,44 @@
         <mxCell id="xMCVGNCgj0dfd0qS_nJt-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="外部水/水箱" vertex="1">
           <mxGeometry height="30" width="80" x="-1470" y="-560" as="geometry" />
         </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-7" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-9" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-11" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xMCVGNCgj0dfd0qS_nJt-3" parent="1" style="whiteSpace=wrap;html=1;" value="24V电机" vertex="1">
           <mxGeometry height="35" width="70" x="-1340" y="-562.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-6" parent="1" style="whiteSpace=wrap;html=1;" value="混水电磁阀" vertex="1">
+          <mxGeometry height="35" width="70" x="-980" y="-562.5" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-13" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xMCVGNCgj0dfd0qS_nJt-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-8" parent="1" style="whiteSpace=wrap;html=1;" value="蒸汽输入电磁阀" vertex="1">
+          <mxGeometry height="35" width="70" x="-1200" y="-705" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-10" parent="1" style="whiteSpace=wrap;html=1;" value="咖啡锅炉" vertex="1">
+          <mxGeometry height="35" width="70" x="-1190" y="-485" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-15" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xMCVGNCgj0dfd0qS_nJt-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-12" parent="1" style="whiteSpace=wrap;html=1;" value="蒸汽锅炉" vertex="1">
+          <mxGeometry height="35" width="70" x="-1080" y="-705" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-16" edge="1" parent="1" source="xMCVGNCgj0dfd0qS_nJt-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xMCVGNCgj0dfd0qS_nJt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-14" parent="1" style="whiteSpace=wrap;html=1;" value="热水电磁阀" vertex="1">
+          <mxGeometry height="35" width="70" x="-1080" y="-650" as="geometry" />
+        </mxCell>
+        <mxCell id="xMCVGNCgj0dfd0qS_nJt-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水路输出" vertex="1">
+          <mxGeometry height="30" width="60" x="-850" y="-560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

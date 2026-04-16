@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8uAygAgR7DF40HWwl34I-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="90" width="390" x="200" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="80" width="340" x="200" y="70" as="geometry" />
+        </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="以视觉为中心的跨本体的多模态记忆&lt;br&gt;(语义，视觉，空间信息)" vertex="1">
           <mxGeometry height="30" width="130" x="20" y="260" as="geometry" />
         </mxCell>

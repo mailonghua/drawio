@@ -37,8 +37,8 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="根据信息密度和场景新颖性对视频帧进行压缩" vertex="1">
           <mxGeometry height="30" width="130" x="300" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;b&gt;场景：总结探索轨迹&lt;/b&gt;&lt;br&gt;（根据相机参数，和时间戳顺序以及对应的视觉快照，能够重新访问先前的视角，&lt;br&gt;&amp;nbsp; &amp;nbsp; 以及重建跨多个机器人的探索历史）" vertex="1">
-          <mxGeometry height="30" width="420" x="200" y="170" as="geometry" />
+        <mxCell id="8uAygAgR7DF40HWwl34I-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;场景：总结探索轨迹&lt;/font&gt;&lt;/b&gt;&lt;br&gt;（根据相机参数，和时间戳顺序以及对应的视觉快照，能够重新访问先前的视角，&lt;br&gt;&amp;nbsp; &amp;nbsp; 以及重建跨多个机器人的探索历史）" vertex="1">
+          <mxGeometry height="40" width="420" x="200" y="170" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="视觉快照&lt;br&gt;&lt;span style=&quot;&quot;&gt;照相机参数&lt;/span&gt;&lt;div style=&quot;&quot;&gt;时间戳&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="70" x="460" y="200" as="geometry" />

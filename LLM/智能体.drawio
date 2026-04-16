@@ -130,7 +130,7 @@
           <mxGeometry height="55" width="230" x="1220" y="270" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" value="不同机器本体共享同一个内存，能够有效的减少重复区域的探索" vertex="1">
-          <mxGeometry height="30" width="450" x="180" y="20" as="geometry" />
+          <mxGeometry height="30" width="400" x="200" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

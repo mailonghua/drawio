@@ -29,19 +29,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="Camera" vertex="1">
-          <mxGeometry height="30" width="60" x="210" y="190" as="geometry" />
+          <mxGeometry height="30" width="60" x="210" y="210" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-14" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="根据信息密度和场景新颖性对视频帧进行压缩" vertex="1">
-          <mxGeometry height="30" width="130" x="300" y="190" as="geometry" />
+          <mxGeometry height="30" width="130" x="300" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="场景：总结探索轨迹" vertex="1">
-          <mxGeometry height="30" width="110" x="200" y="160" as="geometry" />
+        <mxCell id="8uAygAgR7DF40HWwl34I-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=11;" value="场景：总结探索轨迹&lt;br&gt;（根据相机参数，和时间戳顺序以及对应的视觉快照，能够重新访问先前的视角，&lt;br&gt;&amp;nbsp; &amp;nbsp; 以及重建跨多个机器人的探索历史）" vertex="1">
+          <mxGeometry height="30" width="420" x="200" y="170" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="视觉快照&lt;br&gt;&lt;span style=&quot;&quot;&gt;照相机参数&lt;/span&gt;&lt;div style=&quot;&quot;&gt;时间戳&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="70" x="470" y="180" as="geometry" />
+          <mxGeometry height="50" width="70" x="460" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

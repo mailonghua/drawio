@@ -1,17 +1,31 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="ri1UiOSOw__C7K71Jf-3">
-    <mxGraphModel dx="4347" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="4310" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8uAygAgR7DF40HWwl34I-37" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-28" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="8uAygAgR7DF40HWwl34I-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
-          <mxGeometry height="80" width="210" x="200" y="440" as="geometry" />
+          <mxGeometry height="80" width="340" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-36" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-24" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
           <mxGeometry height="120" width="370" x="200" y="280" as="geometry" />
         </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-35" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-17" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
           <mxGeometry height="100" width="390" x="200" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-34" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-16" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="80" width="340" x="200" y="60" as="geometry" />
@@ -90,6 +104,12 @@
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF3333;" value="场景：&lt;span style=&quot;text-align: left;&quot;&gt;位置-锚点记忆&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;strokeWidth=2;" value="检索机制" vertex="1">
+          <mxGeometry height="40" width="80" x="720" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="图像语义记忆：空间跨模态检索" vertex="1">
+          <mxGeometry height="30" width="180" x="810" y="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

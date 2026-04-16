@@ -1,10 +1,13 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="ri1UiOSOw__C7K71Jf-3">
-    <mxGraphModel dx="4184" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="4347" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8uAygAgR7DF40HWwl34I-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="80" width="210" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
           <mxGeometry height="120" width="370" x="200" y="280" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
@@ -13,8 +16,20 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
           <mxGeometry height="80" width="340" x="200" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="以视觉为中心的跨本体的多模态记忆&lt;br&gt;(语义，视觉，空间信息)" vertex="1">
-          <mxGeometry height="30" width="130" x="-40" y="280" as="geometry" />
+        <mxCell id="8uAygAgR7DF40HWwl34I-29" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-1" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-30" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-1" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-31" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-1" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-32" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-1" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="以视觉为中心的跨本体的多模态记忆&lt;br&gt;(语义，视觉，空间信息)" vertex="1">
+          <mxGeometry height="30" width="180" x="-120" y="260" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="观测场景的图像特征" vertex="1">
           <mxGeometry height="30" width="110" x="410" y="100" as="geometry" />
@@ -52,6 +67,9 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;" value="视觉快照&lt;br&gt;&lt;span style=&quot;&quot;&gt;照相机参数&lt;/span&gt;&lt;div style=&quot;&quot;&gt;时间戳&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="70" x="460" y="210" as="geometry" />
         </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-25" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="Camera" vertex="1">
           <mxGeometry height="30" width="60" x="210" y="350" as="geometry" />
         </mxCell>
@@ -61,11 +79,17 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="CV检测" vertex="1">
           <mxGeometry height="30" width="45" x="315" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="识别到的对象信息:&lt;div&gt;1.类型标签&lt;br&gt;2.空间信息，eg:3d姿态&lt;/div&gt;" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="识别到的对象信息:&lt;div&gt;1.类型标签&lt;br&gt;2.空间信息，eg:3d姿态&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="420" y="335" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;场景：以目标为中心的记忆&lt;/font&gt;&lt;br&gt;(这种记忆机制对于诸如抓取和放置之类的任务尤其有用，因为运行时需要对象级别的锚定信息，并且能够恢复目标的最后已知观测结果)" vertex="1">
           <mxGeometry height="50" width="370" x="200" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Ex:厨房-(坐标)，沙发-(坐标)" vertex="1">
+          <mxGeometry height="40" width="170" x="210" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF3333;" value="场景：&lt;span style=&quot;text-align: left;&quot;&gt;位置-锚点记忆&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="200" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

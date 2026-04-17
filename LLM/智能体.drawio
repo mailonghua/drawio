@@ -238,6 +238,9 @@
             <mxPoint x="950" y="749.83" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="由于计算量巨大，因此服务层一般房子啊带有GPU的资源上" vertex="1">
+          <mxGeometry height="60" width="160" x="980" y="858.57" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

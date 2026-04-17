@@ -220,6 +220,9 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Next" vertex="1">
           <mxGeometry height="25" width="50" x="470" y="710" as="geometry" />
         </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF3333;" value="记忆/评估/技能都在服务层" vertex="1">
+          <mxGeometry height="30" width="155" x="725" y="840" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

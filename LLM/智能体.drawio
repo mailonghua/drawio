@@ -299,8 +299,8 @@
         <mxCell id="y-bZ_FgTC4l-9oONl33H-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="反向恢复动作" vertex="1">
           <mxGeometry height="40" width="80" x="180" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="y-bZ_FgTC4l-9oONl33H-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF3333;" value="Entangled Action Pairs (EAP)" vertex="1">
-          <mxGeometry height="30" width="160" x="40" y="20" as="geometry" />
+        <mxCell id="y-bZ_FgTC4l-9oONl33H-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=#FF3333;" value="Entangled Action Pairs (EAP)&lt;div&gt;用于自主数据收集&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="50" y="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

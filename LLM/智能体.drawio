@@ -239,7 +239,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="1.由于计算量巨大，因此服务层一般房子啊带有GPU的资源上&lt;div&gt;2.多机器人平台共享服务层&lt;br&gt;（如：技能，记忆，感知）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="170" x="890" y="890" as="geometry" />
+          <mxGeometry height="60" width="170" x="890" y="900" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-88" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FF3333;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">

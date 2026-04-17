@@ -160,9 +160,9 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-64" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-53" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-65" connectable="0" parent="8uAygAgR7DF40HWwl34I-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="位置/目标对象等记忆" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-65" connectable="0" parent="8uAygAgR7DF40HWwl34I-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="位置/目标对象/关键帧等记忆&lt;br&gt;协助SKILL的执行" vertex="1">
           <mxGeometry relative="1" x="-0.1048" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="15" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Memory" vertex="1">

@@ -161,7 +161,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="OpenClaw&lt;br&gt;Runtime" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="OpenClaw&lt;br&gt;Runtime" vertex="1">
           <mxGeometry height="40" width="100" x="300" y="675" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-69" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;dashed=1;" target="8uAygAgR7DF40HWwl34I-66">
@@ -172,7 +172,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SKILL" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="SKILL" vertex="1">
           <mxGeometry height="40" width="60" x="510" y="675" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-64" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-53" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-51">
@@ -183,7 +183,7 @@
             <mxPoint x="15" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Memory" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Memory" vertex="1">
           <mxGeometry height="25" width="100" x="300" y="590" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-74" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-49">
@@ -194,7 +194,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="技能执行&lt;br&gt;评估模块" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="技能执行&lt;br&gt;评估模块" vertex="1">
           <mxGeometry height="30" width="70" x="505" y="790" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-73" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-66">

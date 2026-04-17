@@ -146,7 +146,7 @@
             <mxPoint x="355" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-63" connectable="0" parent="8uAygAgR7DF40HWwl34I-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="如果任务需要之前的观察位置&lt;br&gt;或者目标" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-63" connectable="0" parent="8uAygAgR7DF40HWwl34I-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="IF:如果任务需要之前的观察位置&lt;br&gt;或者目标" vertex="1">
           <mxGeometry relative="1" x="0.053" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

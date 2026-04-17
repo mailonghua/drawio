@@ -146,9 +146,9 @@
             <mxPoint x="355" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-63" connectable="0" parent="8uAygAgR7DF40HWwl34I-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="IF:如果任务需要之前的观察位置&lt;br&gt;或者目标" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-63" connectable="0" parent="8uAygAgR7DF40HWwl34I-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" value="IF:如果任务需要之前的&lt;br&gt;观察位置或者目标" vertex="1">
           <mxGeometry relative="1" x="0.053" y="2" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-23" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-67" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-66">
@@ -163,6 +163,14 @@
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-77" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=entityRelationEdgeStyle;" target="8uAygAgR7DF40HWwl34I-76">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-78" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-79" connectable="0" parent="8uAygAgR7DF40HWwl34I-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="更新记忆" vertex="1">
+          <mxGeometry relative="1" x="-0.1829" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="OpenClaw&lt;br&gt;Runtime" vertex="1">
           <mxGeometry height="40" width="100" x="300" y="675" as="geometry" />
@@ -206,7 +214,7 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="当前观测" vertex="1">
           <mxGeometry height="30" width="60" x="400" y="740" as="geometry" />
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Next" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Next" vertex="1">
           <mxGeometry height="25" width="50" x="470" y="710" as="geometry" />
         </mxCell>
       </root>

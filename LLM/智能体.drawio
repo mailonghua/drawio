@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="ABot-Claw" id="ri1UiOSOw__C7K71Jf-3">
-    <mxGraphModel dx="524" dy="284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="975" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -223,10 +223,19 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;ol&gt;&lt;li&gt;感知服务&lt;br&gt;&lt;/li&gt;&lt;li&gt;记忆服务&lt;/li&gt;&lt;li&gt;评估服务&lt;/li&gt;&lt;/ol&gt;" vertex="1">
           <mxGeometry height="50" width="100" x="1170" y="900" as="geometry" />
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-84" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+        <mxCell id="8uAygAgR7DF40HWwl34I-84" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FF3333;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="1230" y="900" as="sourcePoint" />
             <mxPoint x="1230" y="849.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这些技能脚本都是根据提供的skill进行编排的" vertex="1">
+          <mxGeometry height="30" width="130" x="760" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-86" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#FF3333;fillColor=#FF3333;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="890" y="749.83" as="sourcePoint" />
+            <mxPoint x="950" y="749.83" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

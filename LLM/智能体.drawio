@@ -151,6 +151,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-67" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8uAygAgR7DF40HWwl34I-68" connectable="0" parent="8uAygAgR7DF40HWwl34I-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Prompt" vertex="1">
+          <mxGeometry relative="1" x="-0.3811" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="OpenClaw&lt;br&gt;Runtime" vertex="1">
           <mxGeometry height="40" width="100" x="300" y="675" as="geometry" />
         </mxCell>
@@ -169,7 +179,7 @@
           <mxGeometry height="25" width="100" x="300" y="590" as="geometry" />
         </mxCell>
         <mxCell id="8uAygAgR7DF40HWwl34I-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="技能执行评估模块" vertex="1">
-          <mxGeometry height="30" width="100" x="440" y="780" as="geometry" />
+          <mxGeometry height="50" width="100" x="400" y="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

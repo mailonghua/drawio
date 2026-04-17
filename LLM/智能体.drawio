@@ -189,7 +189,7 @@
         <mxCell id="8uAygAgR7DF40HWwl34I-74" edge="1" parent="1" source="8uAygAgR7DF40HWwl34I-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="8uAygAgR7DF40HWwl34I-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8uAygAgR7DF40HWwl34I-75" connectable="0" parent="8uAygAgR7DF40HWwl34I-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="信号:反馈执行任务是接近完成" vertex="1">
+        <mxCell id="8uAygAgR7DF40HWwl34I-75" connectable="0" parent="8uAygAgR7DF40HWwl34I-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="信号:反馈执行任务是否接近完成&lt;br&gt;Retray?" vertex="1">
           <mxGeometry relative="1" x="-0.1644" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>

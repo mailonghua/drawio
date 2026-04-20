@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="ABot-Claw" id="ri1UiOSOw__C7K71Jf-3">
-    <mxGraphModel dx="260" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="947" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -281,7 +281,7 @@
           <mxGeometry height="24" width="70" x="140" y="2010" as="geometry" />
         </mxCell>
         <mxCell id="ieObh5fQN5MKXZr4hPrm-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: memory_id,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;memory_type&quot;: &quot;object&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: req.object_name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;robot_id&quot;: req.robot_id,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;robot_type&quot;: req.robot_type,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;source&quot;: req.source,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;timestamp&quot;: ts,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;timestamp_ns&quot;: int(ts * 1e9),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; **self._pose_to_cols(req.object_pose),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;robot_pose&quot;:req.robot_pose.model_dump(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;tags&quot;: req.tags,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;note&quot;: req.note,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;image_path&quot;: image_path,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;confidence&quot;: req.detect_confidence,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;embedding&quot;: emb.tolist(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;extra&quot;: {&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;bbox_xyxy&quot;: req.bbox_xyxy,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;},&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="260" width="290" x="125" y="1700" as="geometry" />
+          <mxGeometry height="260" width="290" x="1060" y="2020" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-7" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nSHX8_UCRuCiXVqtQgQF-6" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -293,10 +293,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="text" vertex="1">
-          <mxGeometry height="24" width="70" x="140" y="2070" as="geometry" />
+          <mxGeometry height="24" width="70" x="135" y="2180" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="向量化:编码成固定长度的16进制" vertex="1">
-          <mxGeometry height="24" width="180" x="310" y="2070" as="geometry" />
+          <mxGeometry height="24" width="180" x="305" y="2180" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-13" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-6" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="向量化：固定维度的颜色向量" vertex="1">
           <mxGeometry height="24" width="160" x="310" y="2010" as="geometry" />
@@ -305,13 +308,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="编码" vertex="1">
-          <mxGeometry height="24" width="40" x="240" y="2070" as="geometry" />
+          <mxGeometry height="24" width="40" x="235" y="2180" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQLite数据库" vertex="1">
-          <mxGeometry height="60" width="120" x="610" y="2070" as="geometry" />
+          <mxGeometry height="60" width="120" x="910" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-14" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-12" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&quot;name&quot;:&lt;/b&gt; req.object_name,#目标的名称&lt;br&gt;&lt;b&gt;&quot;memory_type&quot;: &lt;/b&gt;&quot;object&quot;,#存储的是目标对象&lt;br&gt;&lt;b&gt;&quot;image_path&quot;&lt;/b&gt;: image_path,#本地路径的图片&lt;br&gt;&lt;div&gt;&lt;b&gt;&quot;extra&quot;&lt;/b&gt;: {&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;bbox_xyxy&quot;: req.bbox_xyxy,&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;&amp;nbsp;},#目标在&lt;br&gt;&lt;/font&gt;&lt;b&gt;&quot;embedding&quot;&lt;/b&gt;: emb.tolist(),#图像编码的向量，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 该向量应该是查找对象的关键字&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="260" x="540" y="1890" as="geometry" />
+          <mxGeometry height="100" width="260" x="540" y="1960" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

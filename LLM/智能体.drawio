@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="ABot-Claw" id="ri1UiOSOw__C7K71Jf-3">
-    <mxGraphModel dx="619" dy="1255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="435" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,7 +275,16 @@
           <mxGeometry height="30" width="260" x="760" y="1380" as="geometry" />
         </mxCell>
         <mxCell id="ieObh5fQN5MKXZr4hPrm-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;id&quot;: memory_id,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;memory_type&quot;: &quot;object&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;name&quot;: req.object_name,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;robot_id&quot;: req.robot_id,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;robot_type&quot;: req.robot_type,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;source&quot;: req.source,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;timestamp&quot;: ts,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;timestamp_ns&quot;: int(ts * 1e9),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; **self._pose_to_cols(req.object_pose),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;robot_pose&quot;:req.robot_pose.model_dump(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;tags&quot;: req.tags,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;note&quot;: req.note,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;image_path&quot;: image_path,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;confidence&quot;: req.detect_confidence,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;embedding&quot;: emb.tolist(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;extra&quot;: {&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;bbox_xyxy&quot;: req.bbox_xyxy,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;},&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="260" width="290" x="850" y="2320" as="geometry" />
+          <mxGeometry height="260" width="290" x="860" y="2385" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-62" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-11" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-63" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-11" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-74" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-11" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-64">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" value="SQLite数据库" vertex="1">
           <mxGeometry height="60" width="120" x="930" y="2250" as="geometry" />
@@ -423,11 +432,35 @@
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="本地保存" vertex="1">
           <mxGeometry height="24" width="65.76" x="280" y="2030" as="geometry" />
         </mxCell>
-        <mxCell id="nSHX8_UCRuCiXVqtQgQF-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;query_by_name&lt;/b&gt;&lt;br&gt;按照名称的的模糊查找" vertex="1">
-          <mxGeometry height="40" width="160" x="1180" y="2050" as="geometry" />
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;query_by_name&lt;/b&gt;&lt;br&gt;按照名称的的模糊查找" vertex="1">
+          <mxGeometry height="40" width="160" x="1160" y="2160" as="geometry" />
         </mxCell>
-        <mxCell id="nSHX8_UCRuCiXVqtQgQF-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;query_by_position&lt;/b&gt;&lt;br&gt;根据输入的(x,y)以传入的参数radius为半径，查找符合的条目" vertex="1">
-          <mxGeometry height="50" width="180" x="1180" y="2130" as="geometry" />
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;query_by_position&lt;/b&gt;&lt;br&gt;根据输入的(x,y)以传入的参数radius为半径，查找符合的条目" vertex="1">
+          <mxGeometry height="50" width="180" x="1160" y="2255" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="105" width="390" x="1160" y="2330" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="text" vertex="1">
+          <mxGeometry height="32" width="40" x="1170" y="2353" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-71" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-67" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="enbedding" vertex="1">
+          <mxGeometry height="32" width="70" x="1230" y="2353" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-72" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-69" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="根据传入的mem_type获取所有的数据" vertex="1">
+          <mxGeometry height="32" width="130" x="1170" y="2398" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="对非空向量进行余弦相似度计算，从高到低排序，&lt;br&gt;选取传入的前n个resulty的结果" vertex="1">
+          <mxGeometry height="58" width="170" x="1370" y="2368" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-73" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="semantic_text_query根据语义进行搜索" vertex="1">
+          <mxGeometry height="30" width="220" x="1170" y="2320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

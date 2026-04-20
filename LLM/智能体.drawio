@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="ABot-Claw" id="ri1UiOSOw__C7K71Jf-3">
-    <mxGraphModel dx="805" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="555" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,41 +280,38 @@
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQLite数据库" vertex="1">
           <mxGeometry height="60" width="120" x="910" y="2162" as="geometry" />
         </mxCell>
-        <mxCell id="nSHX8_UCRuCiXVqtQgQF-14" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-12" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-19" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-17" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-22" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="100" width="670" x="140" y="1960" as="geometry" />
+          <mxGeometry height="130" width="705" x="135" y="1960" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-16" parent="nSHX8_UCRuCiXVqtQgQF-22" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="100" width="670" as="geometry" />
+          <mxGeometry height="100" width="695.8152388472166" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-2" edge="1" parent="nSHX8_UCRuCiXVqtQgQF-22" source="ieObh5fQN5MKXZr4hPrm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nSHX8_UCRuCiXVqtQgQF-1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ieObh5fQN5MKXZr4hPrm-1" parent="nSHX8_UCRuCiXVqtQgQF-22" style="rounded=1;whiteSpace=wrap;html=1;" value="图片" vertex="1">
-          <mxGeometry height="24" width="70" x="10" y="38" as="geometry" />
+          <mxGeometry height="24" width="72.69711450642562" x="10.385302072346517" y="38" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-7" edge="1" parent="nSHX8_UCRuCiXVqtQgQF-22" source="nSHX8_UCRuCiXVqtQgQF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nSHX8_UCRuCiXVqtQgQF-6" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-1" parent="nSHX8_UCRuCiXVqtQgQF-22" style="rounded=1;whiteSpace=wrap;html=1;" value="编码" vertex="1">
-          <mxGeometry height="24" width="40" x="110" y="38" as="geometry" />
+          <mxGeometry height="24" width="41.54120828938607" x="114.23832279581171" y="38" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-13" edge="1" parent="nSHX8_UCRuCiXVqtQgQF-22" source="nSHX8_UCRuCiXVqtQgQF-6" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-6" parent="nSHX8_UCRuCiXVqtQgQF-22" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="向量化：固定维度的颜色向量" vertex="1">
-          <mxGeometry height="24" width="160" x="180" y="38" as="geometry" />
+          <mxGeometry height="24" width="143.57277684563758" x="186.9394616067904" y="38" as="geometry" />
         </mxCell>
-        <mxCell id="nSHX8_UCRuCiXVqtQgQF-12" parent="nSHX8_UCRuCiXVqtQgQF-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&quot;name&quot;:&lt;/b&gt; req.object_name&lt;/font&gt;,#目标的名称&lt;br&gt;&lt;b&gt;&quot;memory_type&quot;: &lt;/b&gt;&quot;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;object&lt;/font&gt;&quot;,#存储的是目标对象&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&quot;image_path&quot;&lt;/b&gt;: image_path,#本地路径的图片&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&quot;extra&quot;&lt;/b&gt;: {&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;bbox_xyxy&quot;: req.bbox_xyxy,&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;},#目标在&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&quot;embedding&quot;&lt;/b&gt;: emb.tolist()&lt;/font&gt;,#图像编码的向量，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 该向量应该是查找对象的关键字&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="260" x="400" as="geometry" />
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-12" parent="nSHX8_UCRuCiXVqtQgQF-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 144, 144));&quot;&gt;id:&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;req.object_id or f&quot;obj_{uuid.uuid4().hex[:12]}&quot;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;&quot;name&quot;:&lt;/b&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 144, 144));&quot;&gt; &lt;/font&gt;&lt;/font&gt;,#目标的名称&lt;br&gt;&lt;b&gt;&quot;memory_type&quot;: &lt;/b&gt;&quot;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;object&lt;/font&gt;&quot;,#存储的是目标对象&lt;br&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&quot;image_path&quot;&lt;/b&gt;: image_path,#本地路径的图片&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;b&gt;&quot;extra&quot;&lt;/b&gt;: {&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;bbox_xyxy&quot;: req.bbox_xyxy,&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;},#目标在&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&quot;embedding&quot;&lt;/b&gt;: emb.tolist()&lt;/font&gt;,#图像编码的向量，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 该向量应该是查找对象的关键字&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="348.3946900908014" x="356.6053099091986" y="-15" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-15" parent="nSHX8_UCRuCiXVqtQgQF-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="识别目标对象的存储(upsert_object)" vertex="1">
-          <mxGeometry height="30" width="240" x="10" as="geometry" />
+          <mxGeometry height="30" width="249.24724973631643" x="10.385302072346517" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-23" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="102" width="670" x="140" y="2140" as="geometry" />

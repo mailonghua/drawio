@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="ABot-Claw" id="ri1UiOSOw__C7K71Jf-3">
-    <mxGraphModel dx="460" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="290" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,7 +278,7 @@
           <mxGeometry height="260" width="290" x="1060" y="2020" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQLite数据库" vertex="1">
-          <mxGeometry height="60" width="120" x="910" y="2162" as="geometry" />
+          <mxGeometry height="60" width="120" x="910" y="2166.08" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-19" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-17" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-11">
           <mxGeometry relative="1" as="geometry" />
@@ -290,6 +290,9 @@
           <mxGeometry height="100" width="695.8152388472166" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-2" edge="1" parent="nSHX8_UCRuCiXVqtQgQF-22" source="ieObh5fQN5MKXZr4hPrm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="nSHX8_UCRuCiXVqtQgQF-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-27" edge="1" parent="nSHX8_UCRuCiXVqtQgQF-22" source="ieObh5fQN5MKXZr4hPrm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="nSHX8_UCRuCiXVqtQgQF-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ieObh5fQN5MKXZr4hPrm-1" parent="nSHX8_UCRuCiXVqtQgQF-22" style="rounded=1;whiteSpace=wrap;html=1;" value="图片" vertex="1">
@@ -313,6 +316,9 @@
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-15" parent="nSHX8_UCRuCiXVqtQgQF-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="识别目标对象的存储(upsert_object)" vertex="1">
           <mxGeometry height="30" width="249.24724973631643" x="-0.004697927653483092" as="geometry" />
         </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-25" parent="nSHX8_UCRuCiXVqtQgQF-22" style="rounded=1;whiteSpace=wrap;html=1;" value="本地保存" vertex="1">
+          <mxGeometry height="24" width="65.76" x="114.24" y="70" as="geometry" />
+        </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-23" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="110" width="670" x="140" y="2140" as="geometry" />
         </mxCell>
@@ -334,14 +340,20 @@
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-10" edge="1" parent="nSHX8_UCRuCiXVqtQgQF-23" source="nSHX8_UCRuCiXVqtQgQF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nSHX8_UCRuCiXVqtQgQF-8" parent="nSHX8_UCRuCiXVqtQgQF-23" style="rounded=1;whiteSpace=wrap;html=1;" value="编码" vertex="1">
-          <mxGeometry height="25.88235294117647" width="40" x="110" y="43.13725490196078" as="geometry" />
-        </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-17" parent="nSHX8_UCRuCiXVqtQgQF-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;&quot;id&quot;:&quot;plc_{uuid.uuid4().hex[:12]}&quot;&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;color: light-dark(rgb(255, 0, 0), rgb(255, 144, 144));&quot;&gt;&quot;name&quot;:&lt;/b&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt; req.place_name&lt;/font&gt;&lt;/font&gt;,#位置的名称(如厨房)&lt;br&gt;&lt;b&gt;&quot;memory_type&quot;: &lt;/b&gt;&quot;&lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;place&lt;/font&gt;&quot;,#位置&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;**self._pose_to_cols(req.place_pose),#位置信息&lt;br&gt;&lt;/font&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;(x,y,z,roll,pitch,yaw,qx,qy,qz,qw)&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;&quot;embedding&quot;&lt;/b&gt;: emb.tolist()&lt;/font&gt;,#位置编码的向量，&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 该向量应该是查找对象的关键字&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="107.84313725490196" width="260" x="405" y="2.156862745098039" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-21" parent="nSHX8_UCRuCiXVqtQgQF-23" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;fontStyle=1" value="插入位置信息到记忆体(upsert_place)" vertex="1">
           <mxGeometry height="32.35294117647059" width="240" x="10" y="2.156862745098039" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-28" parent="nSHX8_UCRuCiXVqtQgQF-23" style="rounded=1;whiteSpace=wrap;html=1;" value="本地保存" vertex="1">
+          <mxGeometry height="24" width="65.76" x="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-30" edge="1" parent="nSHX8_UCRuCiXVqtQgQF-23" source="nSHX8_UCRuCiXVqtQgQF-3" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.038;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;" target="nSHX8_UCRuCiXVqtQgQF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-8" parent="nSHX8_UCRuCiXVqtQgQF-23" style="rounded=1;whiteSpace=wrap;html=1;" value="编码" vertex="1">
+          <mxGeometry height="25.88235294117647" width="40" x="110" y="43.13725490196078" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

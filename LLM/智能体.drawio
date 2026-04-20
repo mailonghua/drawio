@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="ABot-Claw" id="ri1UiOSOw__C7K71Jf-3">
-    <mxGraphModel dx="452" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="374" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -295,10 +295,10 @@
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="text" vertex="1">
           <mxGeometry height="24" width="70" x="140" y="2070" as="geometry" />
         </mxCell>
-        <mxCell id="nSHX8_UCRuCiXVqtQgQF-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="向量化:编码成固定长度的16进制" vertex="1">
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="向量化:编码成固定长度的16进制" vertex="1">
           <mxGeometry height="24" width="180" x="310" y="2070" as="geometry" />
         </mxCell>
-        <mxCell id="nSHX8_UCRuCiXVqtQgQF-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="向量化：固定维度的颜色向量" vertex="1">
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="向量化：固定维度的颜色向量" vertex="1">
           <mxGeometry height="24" width="160" x="310" y="2010" as="geometry" />
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-10" edge="1" parent="1" source="nSHX8_UCRuCiXVqtQgQF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nSHX8_UCRuCiXVqtQgQF-4">
@@ -306,6 +306,12 @@
         </mxCell>
         <mxCell id="nSHX8_UCRuCiXVqtQgQF-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="编码" vertex="1">
           <mxGeometry height="24" width="40" x="240" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQLite数据库" vertex="1">
+          <mxGeometry height="60" width="120" x="610" y="2070" as="geometry" />
+        </mxCell>
+        <mxCell id="nSHX8_UCRuCiXVqtQgQF-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&quot;name&quot;: req.object_name,#目标的名称&lt;br&gt;&quot;memory_type&quot;: &quot;object&quot;,#存储的是目标对象&lt;br&gt;&quot;image_path&quot;: image_path,#本地路径的图片&lt;br&gt;&lt;div&gt;&quot;extra&quot;: {&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;bbox_xyxy&quot;: req.bbox_xyxy,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;},#目标在图像的框位置&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="340" x="540" y="1930" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

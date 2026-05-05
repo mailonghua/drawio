@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="LVHpOpJ-Ul805D1Rx75B">
-    <mxGraphModel dx="1324" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -296,6 +296,27 @@
         </mxCell>
         <mxCell id="Rde5bV1TokF2WCDQFZQG-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="链接滑杆电位器" vertex="1">
           <mxGeometry height="18" width="170" x="-100" y="742" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-94" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="110" width="40" x="-70" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-95" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="" vertex="1">
+          <mxGeometry height="15" width="15" x="-57.5" y="783" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-96" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" value="" vertex="1">
+          <mxGeometry height="15" width="15" x="-57.5" y="819" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-97" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="" vertex="1">
+          <mxGeometry height="15" width="15" x="-57.5" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-98" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GND" vertex="1">
+          <mxGeometry height="30" width="40" x="-20" y="775.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-99" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="链接滑杆中间的触点" vertex="1">
+          <mxGeometry height="30" width="130" x="-20" y="812" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VCC" vertex="1">
+          <mxGeometry height="30" width="40" x="-20" y="844.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

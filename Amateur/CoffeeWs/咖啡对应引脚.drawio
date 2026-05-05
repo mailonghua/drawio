@@ -18,6 +18,9 @@
         <mxCell id="Rde5bV1TokF2WCDQFZQG-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;dashed=1;dashPattern=8 8;" value="" vertex="1">
           <mxGeometry height="50" width="30" x="970" y="220" as="geometry" />
         </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="萃取阀门" vertex="1">
+          <mxGeometry height="18" width="60" x="910" y="318" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

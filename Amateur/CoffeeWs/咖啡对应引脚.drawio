@@ -377,7 +377,7 @@
           <mxGeometry height="30" width="110" x="22.5" y="522" as="geometry" />
         </mxCell>
         <mxCell id="Rde5bV1TokF2WCDQFZQG-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水箱水位探针" vertex="1">
-          <mxGeometry height="30" width="110" x="22.5" y="574" as="geometry" />
+          <mxGeometry height="30" width="82.5" x="50" y="574" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

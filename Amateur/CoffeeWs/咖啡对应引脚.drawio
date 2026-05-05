@@ -391,6 +391,9 @@
         <mxCell id="Rde5bV1TokF2WCDQFZQG-132" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="火线 地 零线" vertex="1">
           <mxGeometry height="30" width="90" x="710" y="-10" as="geometry" />
         </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GND&lt;br&gt;24v" vertex="1">
+          <mxGeometry height="30" width="40" x="85" y="101.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

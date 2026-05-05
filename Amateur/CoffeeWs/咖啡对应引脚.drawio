@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="LVHpOpJ-Ul805D1Rx75B">
-    <mxGraphModel dx="1196" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -393,6 +393,12 @@
         </mxCell>
         <mxCell id="Rde5bV1TokF2WCDQFZQG-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GND&lt;br&gt;24v" vertex="1">
           <mxGeometry height="30" width="40" x="85" y="101.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-134" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GND&lt;br&gt;信号&lt;br&gt;VCC-5" vertex="1">
+          <mxGeometry height="30" width="60" x="75" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-135" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GND&lt;br&gt;信号" vertex="1">
+          <mxGeometry height="30" width="60" x="72.5" y="306" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

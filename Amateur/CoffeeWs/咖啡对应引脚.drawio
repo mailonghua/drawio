@@ -364,6 +364,15 @@
         <mxCell id="Rde5bV1TokF2WCDQFZQG-122" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VCC-5v" vertex="1">
           <mxGeometry height="30" width="40" x="50" y="668" as="geometry" />
         </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GND" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="469" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-125" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.3v" vertex="1">
+          <mxGeometry height="30" width="30" x="100" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.3v" vertex="1">
+          <mxGeometry height="30" width="30" x="102.5" y="550" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

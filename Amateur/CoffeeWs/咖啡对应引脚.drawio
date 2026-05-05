@@ -373,6 +373,12 @@
         <mxCell id="Rde5bV1TokF2WCDQFZQG-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.3v" vertex="1">
           <mxGeometry height="30" width="30" x="102.5" y="550" as="geometry" />
         </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="蒸汽锅炉水位探针" vertex="1">
+          <mxGeometry height="30" width="110" x="22.5" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="Rde5bV1TokF2WCDQFZQG-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="水箱水位探针" vertex="1">
+          <mxGeometry height="30" width="110" x="22.5" y="574" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

@@ -205,6 +205,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <UserObject label="# VLASkillAction.action&#xa;goal&#xa;  string skill_name           # 技能路由标识&#xa;  string skill_params         # JSON格式业务参数&#xa;&#xa;result&#xa;  bool success&#xa;  string message&#xa;  float64 execution_duration&#xa;&#xa;feedback&#xa;  float32 progress_percent&#xa;  string current_phase&#xa;  string status_detail&#xa;  builtin_interfaces/Time timestamp" link="# VLASkillAction.action&#xa;goal&#xa;  string skill_name           # 技能路由标识&#xa;  string skill_params         # JSON格式业务参数&#xa;&#xa;result&#xa;  bool success&#xa;  string message&#xa;  float64 execution_duration&#xa;&#xa;feedback&#xa;  float32 progress_percent&#xa;  string current_phase&#xa;  string status_detail&#xa;  builtin_interfaces/Time timestamp" id="qzNTs-UY0wei0addMZY_-68">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
+            <mxGeometry height="240" width="250" x="1404" y="-90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="qzNTs-UY0wei0addMZY_-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;fontSize=14;" value="SKILL-VLA 动作消息定义" vertex="1">
+          <mxGeometry height="30" width="200" x="1404" y="-120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

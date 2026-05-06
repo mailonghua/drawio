@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="DzcLTyVgVoUWEzhdv1gV">
-    <mxGraphModel dx="1178" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="958" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -215,6 +215,28 @@
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-76" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;fontSize=14;" value="笛卡儿空间位置话题消息定义" vertex="1">
           <mxGeometry height="30" width="200" x="840" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-81" edge="1" parent="1" source="qzNTs-UY0wei0addMZY_-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="qzNTs-UY0wei0addMZY_-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-82" connectable="0" parent="qzNTs-UY0wei0addMZY_-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="IK" vertex="1">
+          <mxGeometry relative="1" x="-0.2635" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="1140" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-80" edge="1" parent="1" source="qzNTs-UY0wei0addMZY_-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="qzNTs-UY0wei0addMZY_-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-83" connectable="0" parent="qzNTs-UY0wei0addMZY_-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="FK" vertex="1">
+          <mxGeometry relative="1" x="0.2381" y="-1" as="geometry">
+            <mxPoint x="3" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="1140" y="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="DzcLTyVgVoUWEzhdv1gV">
-    <mxGraphModel dx="1131" dy="1782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2175" dy="2347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,11 +10,8 @@
         <mxCell id="qzNTs-UY0wei0addMZY_-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
           <mxGeometry height="40" width="190" x="950" y="-120" as="geometry" />
         </mxCell>
-        <mxCell id="3TUa6k41WnPCvsEETGqd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="运动控制模型（SONIC/...)" vertex="1">
-          <mxGeometry height="30" width="609" x="541" y="310" as="geometry" />
-        </mxCell>
         <mxCell id="3TUa6k41WnPCvsEETGqd-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="86" width="620" x="530" y="224" as="geometry" />
+          <mxGeometry height="126" width="620" x="530" y="224" as="geometry" />
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="" vertex="1">
           <mxGeometry height="65" width="470" x="670" y="235" as="geometry" />
@@ -80,27 +77,27 @@
         </mxCell>
         <UserObject label="# SonicDance.action&#xa;# 用于封装 Sonic 角色的舞蹈动作执行任务&#xa;&#xa;# ============================================================================&#xa;# GOAL: 客户端提交舞蹈任务请求&#xa;# ============================================================================&#xa;goal&#xa;  # --- 核心任务标识 ---&#xa;  string dance_type           # 舞蹈类型: &quot;moonwalk&quot;|&quot;spin&quot;|&quot;freestyle&quot;|...&#xa;  string dance_id             # 自定义任务ID，用于日志追踪和结果查询&#xa;    &#xa;  # --- 高级控制参数 ---&#xa;  geometry_msgs/Pose start_pose  # 起始位姿（可选，用于定位校准）&#xa;  float32 max_duration_sec    # 最大执行时长(秒)，0表示无限制，用于安全兜底&#xa;  &#xa;  # --- 行为标志位 ---&#xa;  bool preemptible            # 是否允许中途被新目标抢占&#xa;&#xa;# ============================================================================&#xa;# RESULT: 任务完成后的最终结果&#xa;# ============================================================================&#xa;result&#xa;  # --- 执行状态 ---&#xa;  int8 execution_status       # 标准状态码: 1=SUCCESS, 2=ABORTED, 3=CANCELED&#xa;  string status_message       # 人类可读的状态描述&#xa;  &#xa;  # --- 执行统计 ---&#xa;  float32 actual_duration     # 实际执行时长(秒)&#xa;&#xa;&#xa;# ============================================================================&#xa;# FEEDBACK: 执行过程中的周期性状态反馈&#xa;# ============================================================================&#xa;feedback&#xa;  # --- 进度信息 ---&#xa;  float32 progress_percent    # 整体进度: 0.0~100.0&#xa;  string current_motion       # 当前正在执行的动作片段名称&#xa;  &#xa;  # --- 时序同步 ---&#xa;  float32 beat_position       # 当前节拍位置: 0.0~1.0 (一个节拍内的相对位置)&#xa;  int64 music_timestamp_ms    # 同步的音乐时间戳(毫秒)，用于音画同步校准&#xa;  &#xa;  # --- 执行状态 ---&#xa;  int8 motion_state           # 动作状态: 0=IDLE, 1=STARTING, 2=EXECUTING, 3=TRANSITIONING, 4=FINISHING&#xa;  &#xa;  # --- 诊断信息 ---&#xa;  string[] active_warnings    # 当前激活的警告列表: [&quot;joint_limit_near&quot;, &quot;slip_detected&quot;, ...]" link="# SonicDance.action&#xa;# 用于封装 Sonic 角色的舞蹈动作执行任务&#xa;&#xa;# ============================================================================&#xa;# GOAL: 客户端提交舞蹈任务请求&#xa;# ============================================================================&#xa;goal&#xa;  # --- 核心任务标识 ---&#xa;  string dance_type           # 舞蹈类型: &quot;moonwalk&quot;|&quot;spin&quot;|&quot;freestyle&quot;|...&#xa;  string dance_id             # 自定义任务ID，用于日志追踪和结果查询&#xa;    &#xa;  # --- 高级控制参数 ---&#xa;  geometry_msgs/Pose start_pose  # 起始位姿（可选，用于定位校准）&#xa;  float32 max_duration_sec    # 最大执行时长(秒)，0表示无限制，用于安全兜底&#xa;  &#xa;  # --- 行为标志位 ---&#xa;  bool preemptible            # 是否允许中途被新目标抢占&#xa;&#xa;# ============================================================================&#xa;# RESULT: 任务完成后的最终结果&#xa;# ============================================================================&#xa;result&#xa;  # --- 执行状态 ---&#xa;  int8 execution_status       # 标准状态码: 1=SUCCESS, 2=ABORTED, 3=CANCELED&#xa;  string status_message       # 人类可读的状态描述&#xa;  &#xa;  # --- 执行统计 ---&#xa;  float32 actual_duration     # 实际执行时长(秒)&#xa;&#xa;&#xa;# ============================================================================&#xa;# FEEDBACK: 执行过程中的周期性状态反馈&#xa;# ============================================================================&#xa;feedback&#xa;  # --- 进度信息 ---&#xa;  float32 progress_percent    # 整体进度: 0.0~100.0&#xa;  string current_motion       # 当前正在执行的动作片段名称&#xa;  &#xa;  # --- 时序同步 ---&#xa;  float32 beat_position       # 当前节拍位置: 0.0~1.0 (一个节拍内的相对位置)&#xa;  int64 music_timestamp_ms    # 同步的音乐时间戳(毫秒)，用于音画同步校准&#xa;  &#xa;  # --- 执行状态 ---&#xa;  int8 motion_state           # 动作状态: 0=IDLE, 1=STARTING, 2=EXECUTING, 3=TRANSITIONING, 4=FINISHING&#xa;  &#xa;  # --- 诊断信息 ---&#xa;  string[] active_warnings    # 当前激活的警告列表: [&quot;joint_limit_near&quot;, &quot;slip_detected&quot;, ...]" id="qzNTs-UY0wei0addMZY_-2">
           <mxCell parent="qzNTs-UY0wei0addMZY_-17" style="text;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="800" width="560" x="10" y="30" as="geometry" />
+            <mxGeometry height="720" width="560" x="40" y="-10" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="qzNTs-UY0wei0addMZY_-15" parent="qzNTs-UY0wei0addMZY_-17" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;fontSize=14;" value="Dance_action的消息定义" vertex="1">
-          <mxGeometry height="30" width="200" as="geometry" />
+          <mxGeometry height="30" width="200" x="30" y="-40" as="geometry" />
         </mxCell>
         <UserObject label="# DualArmCartesianCmd.msg&#xa;# 用于 VLA 输出双臂末端执行器（EEF）位姿目标，供逆运动学或阻抗控制器消费&#xa;&#xa;std_msgs/Header header          # header.stamp 同上&#xa;                                # header.frame_id 必须明确：通常为 &quot;base_link&quot; 或 &quot;world&quot;&#xa;&#xa;# --- 左臂末端位姿 ---&#xa;geometry_msgs/Pose left_ee_pose # position(x,y,z) [m], orientation(quaternion)&#xa;float64 left_gripper_command&#xa;&#xa;# --- 右臂末端位姿 ---&#xa;geometry_msgs/Pose right_ee_pose&#xa;float64 right_gripper_command&#xa;&#xa;# --- 运动学约束与参考模式 ---&#xa;bool use_relative_pose          # true: 位姿为相对于当前 EEF 的增量(delta)；false: 绝对全局坐标&#xa;float64 max_linear_velocity     # [m/s] 控制器插值时的线速度上限，0.0 表示使用默认值&#xa;float64 max_angular_velocity    # [rad/s] 控制器插值时的角速度上限&#xa;bool is_valid&#xa;float64 confidence_score" link="# DualArmCartesianCmd.msg&#xa;# 用于 VLA 输出双臂末端执行器（EEF）位姿目标，供逆运动学或阻抗控制器消费&#xa;&#xa;std_msgs/Header header          # header.stamp 同上&#xa;                                # header.frame_id 必须明确：通常为 &quot;base_link&quot; 或 &quot;world&quot;&#xa;&#xa;# --- 左臂末端位姿 ---&#xa;geometry_msgs/Pose left_ee_pose # position(x,y,z) [m], orientation(quaternion)&#xa;float64 left_gripper_command&#xa;&#xa;# --- 右臂末端位姿 ---&#xa;geometry_msgs/Pose right_ee_pose&#xa;float64 right_gripper_command&#xa;&#xa;# --- 运动学约束与参考模式 ---&#xa;bool use_relative_pose          # true: 位姿为相对于当前 EEF 的增量(delta)；false: 绝对全局坐标&#xa;float64 max_linear_velocity     # [m/s] 控制器插值时的线速度上限，0.0 表示使用默认值&#xa;float64 max_angular_velocity    # [rad/s] 控制器插值时的角速度上限&#xa;bool is_valid&#xa;float64 confidence_score" id="qzNTs-UY0wei0addMZY_-18">
           <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="310" width="510" x="980" y="460" as="geometry" />
+            <mxGeometry height="310" width="510" x="1010" y="420" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="# DualArmJointCmd.msg&#xa;# 用于 VLA 输出双臂关节角度目标值，供底层位置/混合控制器消费&#xa;&#xa;std_msgs/Header header          # header.stamp 为 VLA 生成该指令的基准时间&#xa;                                # header.frame_id 通常留空或设为 &quot;base_link&quot;&#xa;&#xa;# --- 左臂关节目标 ---&#xa;float64[] left_joint_positions  # 长度必须与左臂 DOF 严格一致，单位：rad&#xa;float64[] left_joint_velocities # 可选前馈速度，单位：rad/s。若 VLA 不输出可填空数组&#xa;float64 left_gripper_command    #  gripper 目标：0.0(闭合)~1.0(完全张开)，或实际宽度(m)&#xa;&#xa;# --- 右臂关节目标 ---&#xa;float64[] right_joint_positions # 长度必须与右臂 DOF 严格一致，单位：rad&#xa;float64[] right_joint_velocities# 可选前馈速度&#xa;float64 right_gripper_command&#xa;&#xa;# --- 控制模式与安全标志 ---&#xa;string control_mode             # 枚举：&quot;position&quot; | &quot;velocity&quot; | &quot;impedance&quot;&#xa;bool is_valid                   # VLA 自检标志：false 表示输出越界/置信度低，控制器应维持当前状态或触发安全策略&#xa;float64 confidence_score        # [0.0, 1.0] VLA 输出置信度，用于控制器动态调整插值平滑系数" link="# DualArmJointCmd.msg&#xa;# 用于 VLA 输出双臂关节角度目标值，供底层位置/混合控制器消费&#xa;&#xa;std_msgs/Header header          # header.stamp 为 VLA 生成该指令的基准时间&#xa;                                # header.frame_id 通常留空或设为 &quot;base_link&quot;&#xa;&#xa;# --- 左臂关节目标 ---&#xa;float64[] left_joint_positions  # 长度必须与左臂 DOF 严格一致，单位：rad&#xa;float64[] left_joint_velocities # 可选前馈速度，单位：rad/s。若 VLA 不输出可填空数组&#xa;float64 left_gripper_command    #  gripper 目标：0.0(闭合)~1.0(完全张开)，或实际宽度(m)&#xa;&#xa;# --- 右臂关节目标 ---&#xa;float64[] right_joint_positions # 长度必须与右臂 DOF 严格一致，单位：rad&#xa;float64[] right_joint_velocities# 可选前馈速度&#xa;float64 right_gripper_command&#xa;&#xa;# --- 控制模式与安全标志 ---&#xa;string control_mode             # 枚举：&quot;position&quot; | &quot;velocity&quot; | &quot;impedance&quot;&#xa;bool is_valid                   # VLA 自检标志：false 表示输出越界/置信度低，控制器应维持当前状态或触发安全策略&#xa;float64 confidence_score        # [0.0, 1.0] VLA 输出置信度，用于控制器动态调整插值平滑系数" id="qzNTs-UY0wei0addMZY_-19">
           <mxCell parent="1" style="text;whiteSpace=wrap;html=1;" vertex="1">
-            <mxGeometry height="330" width="560" x="980" y="830" as="geometry" />
+            <mxGeometry height="330" width="560" x="1010" y="790" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="qzNTs-UY0wei0addMZY_-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;fontSize=14;" value="关节角度话题消息定义" vertex="1">
-          <mxGeometry height="30" width="200" x="980" y="430" as="geometry" />
+          <mxGeometry height="30" width="200" x="1010" y="390" as="geometry" />
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;fontSize=14;" value="笛卡儿空间位置话题消息定义" vertex="1">
-          <mxGeometry height="30" width="200" x="980" y="800" as="geometry" />
+          <mxGeometry height="30" width="200" x="1010" y="760" as="geometry" />
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#000000;fontSize=12;" value="关节角度话题消息定义&lt;br&gt;(如下)" vertex="1">
           <mxGeometry height="30" width="65" x="940" y="140" as="geometry" />
@@ -212,6 +209,12 @@
         </UserObject>
         <mxCell id="qzNTs-UY0wei0addMZY_-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#FF3333;fontSize=14;" value="SKILL-VLA 动作消息定义" vertex="1">
           <mxGeometry height="30" width="200" x="1404" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF3333;fontStyle=1" value="（反馈消息都通过定向log文件）" vertex="1">
+          <mxGeometry height="30" width="170" x="1110" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="3TUa6k41WnPCvsEETGqd-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="运动控制模型（SONIC/...)" vertex="1">
+          <mxGeometry height="30" width="579" x="550.5" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

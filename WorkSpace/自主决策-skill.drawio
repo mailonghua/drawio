@@ -20,7 +20,7 @@
           <mxGeometry height="65" width="470" x="670" y="235" as="geometry" />
         </mxCell>
         <mxCell id="3TUa6k41WnPCvsEETGqd-3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" value="ROS2 interface" vertex="1">
-          <mxGeometry height="30" width="130" x="1150" y="255" as="geometry" />
+          <mxGeometry height="30" width="130" x="1155" y="255" as="geometry" />
         </mxCell>
         <mxCell id="3TUa6k41WnPCvsEETGqd-4" edge="1" parent="1" source="3TUa6k41WnPCvsEETGqd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.098;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" target="qzNTs-UY0wei0addMZY_-26">
           <mxGeometry relative="1" as="geometry">
@@ -112,7 +112,7 @@
           <mxGeometry height="60" width="620" x="530" y="10" as="geometry" />
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-27" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" value="技能对应的可执行程序" vertex="1">
-          <mxGeometry height="30" width="170" x="1150" y="20" as="geometry" />
+          <mxGeometry height="30" width="170" x="1160" y="20" as="geometry" />
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-57" edge="1" parent="1" source="qzNTs-UY0wei0addMZY_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" target="qzNTs-UY0wei0addMZY_-52">
           <mxGeometry relative="1" as="geometry" />
@@ -160,7 +160,7 @@
           <mxGeometry height="40" width="90" x="843" y="20" as="geometry" />
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-34" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" value="SKILL描述文件" vertex="1">
-          <mxGeometry height="30" width="120" x="1175" y="-120" as="geometry" />
+          <mxGeometry height="30" width="120" x="1160" y="-120" as="geometry" />
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="导航SKILL" vertex="1">
           <mxGeometry height="40" width="150" x="660" y="-120" as="geometry" />
@@ -195,8 +195,15 @@
         <mxCell id="qzNTs-UY0wei0addMZY_-63" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="..." vertex="1">
           <mxGeometry height="30" width="30" x="530" y="-120" as="geometry" />
         </mxCell>
-        <mxCell id="qzNTs-UY0wei0addMZY_-65" edge="1" parent="1" source="qzNTs-UY0wei0addMZY_-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.098;entryY=0.96;entryDx=0;entryDy=0;entryPerimeter=0;" target="qzNTs-UY0wei0addMZY_-26">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qzNTs-UY0wei0addMZY_-65" edge="1" parent="1" source="qzNTs-UY0wei0addMZY_-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="591" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-66" connectable="0" parent="qzNTs-UY0wei0addMZY_-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="调用action" vertex="1">
+          <mxGeometry relative="1" x="-0.4448" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

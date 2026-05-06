@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="DzcLTyVgVoUWEzhdv1gV">
-    <mxGraphModel dx="943" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="329" dy="1347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="qzNTs-UY0wei0addMZY_-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="65" width="470" x="670" y="235" as="geometry" />
         </mxCell>
-        <mxCell id="3TUa6k41WnPCvsEETGqd-3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=0" value="ROS2 interface" vertex="1">
+        <mxCell id="3TUa6k41WnPCvsEETGqd-3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" value="ROS2 interface" vertex="1">
           <mxGeometry height="30" width="130" x="1150" y="255" as="geometry" />
         </mxCell>
         <mxCell id="3TUa6k41WnPCvsEETGqd-4" edge="1" parent="1" source="3TUa6k41WnPCvsEETGqd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.098;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" target="qzNTs-UY0wei0addMZY_-26">
@@ -103,10 +103,45 @@
           <mxGeometry height="30" width="110" x="1010" y="140" as="geometry" />
         </mxCell>
         <mxCell id="qzNTs-UY0wei0addMZY_-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="120" width="620" x="530" y="-50" as="geometry" />
+          <mxGeometry height="60" width="620" x="530" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="qzNTs-UY0wei0addMZY_-27" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=0" value="技能对应的可执行程序" vertex="1">
-          <mxGeometry height="30" width="170" x="1150" y="-5" as="geometry" />
+        <mxCell id="qzNTs-UY0wei0addMZY_-27" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" value="技能对应的可执行程序" vertex="1">
+          <mxGeometry height="30" width="170" x="1150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="EX:倒水：VLA/WAM/VA" vertex="1">
+          <mxGeometry height="40" width="100" x="1025" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-40" edge="1" parent="1" source="qzNTs-UY0wei0addMZY_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="697.4257425742575" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-41" connectable="0" parent="qzNTs-UY0wei0addMZY_-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="目标topic&lt;div&gt;&amp;amp;&amp;amp;&lt;div&gt;开始/停止topic&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4384" as="geometry">
+            <mxPoint x="3" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-42" edge="1" parent="1" source="qzNTs-UY0wei0addMZY_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.647;entryY=1.052;entryDx=0;entryDy=0;entryPerimeter=0;" target="qzNTs-UY0wei0addMZY_-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="772" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-43" connectable="0" parent="qzNTs-UY0wei0addMZY_-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="执行状态topic&lt;br&gt;(错误/成功)" vertex="1">
+          <mxGeometry relative="1" x="-0.0045" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="导航" vertex="1">
+          <mxGeometry height="40" width="150" x="660" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="跟随" vertex="1">
+          <mxGeometry height="40" width="70" x="870" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-34" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontStyle=1" value="SKILL描述" vertex="1">
+          <mxGeometry height="30" width="90" x="1150" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="qzNTs-UY0wei0addMZY_-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="导航SKILL" vertex="1">
+          <mxGeometry height="40" width="157.63" x="670" y="-120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

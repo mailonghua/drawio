@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="AqDmRzZVIJ-5uyctXJOA">
-    <mxGraphModel dx="927" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,6 +186,9 @@
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="请&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;将我的工位上的红色水杯拿过来&lt;/font&gt;,完成后&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;再将我的快递取回来，&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;在这个过程中如果遇到熟人请打招呼&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="583" x="137" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务描述：" vertex="1">
+          <mxGeometry height="30" width="70" x="74" y="920" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -151,8 +151,14 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(下发1次)" vertex="1">
           <mxGeometry height="30" width="60" x="76.5" y="790" as="geometry" />
         </mxCell>
-        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="导航(办公室工位)" vertex="1">
-          <mxGeometry height="30" width="100" x="540" y="760" as="geometry" />
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="导航(邮局)" vertex="1">
+          <mxGeometry height="30" width="80" x="520" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="语音播报" vertex="1">
+          <mxGeometry height="30" width="80" x="600" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="抓取" vertex="1">
+          <mxGeometry height="30" width="80" x="680" y="750" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

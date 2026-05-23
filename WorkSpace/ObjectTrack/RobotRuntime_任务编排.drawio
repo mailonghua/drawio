@@ -277,6 +277,9 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="Greet_skill" vertex="1">
           <mxGeometry height="30" width="283" x="454" y="1150" as="geometry" />
         </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="（技能并行）" vertex="1">
+          <mxGeometry height="30" width="86.5" x="47.75" y="1160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

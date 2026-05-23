@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-15" edge="1" parent="1" source="TX6EBbOIm9mCNyf-wsjQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TX6EBbOIm9mCNyf-wsjQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="导航(办公室工位)" vertex="1">
           <mxGeometry height="30" width="100" x="120" y="370" as="geometry" />
         </mxCell>
@@ -13,14 +16,23 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务描述：" vertex="1">
           <mxGeometry height="30" width="70" x="56" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="请将我在办公室工位上的红色水杯拿过来" vertex="1">
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="请将办公室我的工位上的红色水杯拿过来" vertex="1">
           <mxGeometry height="30" width="220" x="120" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-16" edge="1" parent="1" source="TX6EBbOIm9mCNyf-wsjQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TX6EBbOIm9mCNyf-wsjQ-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="目标识别" vertex="1">
           <mxGeometry height="30" width="60" x="220" y="370" as="geometry" />
         </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-17" edge="1" parent="1" source="TX6EBbOIm9mCNyf-wsjQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TX6EBbOIm9mCNyf-wsjQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="抓取" vertex="1">
           <mxGeometry height="30" width="60" x="280" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-18" edge="1" parent="1" source="TX6EBbOIm9mCNyf-wsjQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TX6EBbOIm9mCNyf-wsjQ-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="导航-返航" vertex="1">
           <mxGeometry height="30" width="70" x="340" y="370" as="geometry" />
@@ -39,6 +51,12 @@
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(base)" vertex="1">
           <mxGeometry height="30" width="70" x="340" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="请将办公室我的工位上的红色水杯拿过来" vertex="1">
+          <mxGeometry height="30" width="220" x="120" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务描述：" vertex="1">
+          <mxGeometry height="30" width="70" x="56" y="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

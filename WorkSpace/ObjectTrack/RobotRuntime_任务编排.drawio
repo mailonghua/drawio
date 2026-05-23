@@ -184,6 +184,9 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(base)" vertex="1">
           <mxGeometry height="30" width="70" x="671" y="830" as="geometry" />
         </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="请&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;将我的工位上的红色水杯拿过来&lt;/font&gt;,完成后&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;再将我的快递取回来，&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;在这个过程中如果遇到熟人请打招呼&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="583" x="137" y="920" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

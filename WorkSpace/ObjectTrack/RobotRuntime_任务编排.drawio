@@ -103,10 +103,10 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(base)" vertex="1">
           <mxGeometry height="30" width="70" x="347" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(下发4次)" vertex="1">
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(下发技能)" vertex="1">
           <mxGeometry height="30" width="60" x="50" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(下发1次)" vertex="1">
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(下发任务)" vertex="1">
           <mxGeometry height="30" width="60" x="59.5" y="580" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
@@ -154,8 +154,8 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(base)" vertex="1">
           <mxGeometry height="30" width="70" x="364" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(下发2次)" vertex="1">
-          <mxGeometry height="30" width="60" x="76.5" y="790" as="geometry" />
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(依次下发任务)" vertex="1">
+          <mxGeometry height="30" width="86.5" x="50" y="790" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="导航(邮局)" vertex="1">
           <mxGeometry height="30" width="80" x="454" y="750" as="geometry" />

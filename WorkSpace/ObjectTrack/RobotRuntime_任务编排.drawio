@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="AqDmRzZVIJ-5uyctXJOA">
-    <mxGraphModel dx="1120" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,10 +185,10 @@
           <mxGeometry height="30" width="70" x="671" y="830" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="请&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;将我的工位上的红色水杯拿过来&lt;/font&gt;,&lt;font style=&quot;color: rgb(255, 51, 255);&quot;&gt;在这个过程中如果遇到熟人请打招呼&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="583" x="137" y="920" as="geometry" />
+          <mxGeometry height="30" width="583" x="137" y="930" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务描述：" vertex="1">
-          <mxGeometry height="30" width="70" x="74" y="920" as="geometry" />
+          <mxGeometry height="30" width="70" x="74" y="930" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="90" width="307" x="137" y="1100" as="geometry" />
@@ -235,7 +235,7 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="熟人打招呼" vertex="1">
           <mxGeometry height="30" width="283" x="147" y="1020" as="geometry" />
         </mxCell>
-        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="Greet_skill" vertex="1">
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Greet_skill" vertex="1">
           <mxGeometry height="30" width="283" x="149" y="1150" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#3333FF;fontStyle=1" value="（技能并行）" vertex="1">

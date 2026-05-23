@@ -58,6 +58,39 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务描述：" vertex="1">
           <mxGeometry height="30" width="70" x="56" y="500" as="geometry" />
         </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="导航(办公室工位)" vertex="1">
+          <mxGeometry height="30" width="100" x="120" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Agent:任务队列：" vertex="1">
+          <mxGeometry height="30" width="100" x="23" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="目标识别" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="抓取" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="导航-返航" vertex="1">
+          <mxGeometry height="30" width="70" x="340" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Runtime：" vertex="1">
+          <mxGeometry height="30" width="57" x="56" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(xxx)" vertex="1">
+          <mxGeometry height="30" width="100" x="120" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="detect(red)" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="grasp(xxx)" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(base)" vertex="1">
+          <mxGeometry height="30" width="70" x="340" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="(下发4次)" vertex="1">
+          <mxGeometry height="30" width="60" x="50" y="400" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

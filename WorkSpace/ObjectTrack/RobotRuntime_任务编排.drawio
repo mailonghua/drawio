@@ -236,7 +236,7 @@
           <mxGeometry height="30" width="70" x="364" y="1110" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(依次下发任务)" vertex="1">
-          <mxGeometry height="30" width="86.5" x="50" y="1020" as="geometry" />
+          <mxGeometry height="30" width="86.5" x="62.5" y="1060" as="geometry" />
         </mxCell>
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="导航(邮局)" vertex="1">
           <mxGeometry height="30" width="80" x="454" y="980" as="geometry" />

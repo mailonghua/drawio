@@ -190,6 +190,87 @@
         <mxCell id="TX6EBbOIm9mCNyf-wsjQ-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="任务描述：" vertex="1">
           <mxGeometry height="30" width="70" x="74" y="920" as="geometry" />
         </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-73" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="90" width="340" x="444" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-74" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="90" width="307" x="137" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-76" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="90" width="307" x="137" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-79" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="导航(办公室工位)" vertex="1">
+          <mxGeometry height="30" width="100" x="144" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-80" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Agent:任务队列：" vertex="1">
+          <mxGeometry height="30" width="100" x="40" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-81" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="目标识别" vertex="1">
+          <mxGeometry height="30" width="60" x="244" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="抓取" vertex="1">
+          <mxGeometry height="30" width="60" x="304" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-83" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="导航-返航" vertex="1">
+          <mxGeometry height="30" width="70" x="364" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Runtime：" vertex="1">
+          <mxGeometry height="30" width="57" x="79.5" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-85" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(xxx)" vertex="1">
+          <mxGeometry height="30" width="100" x="144" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="detect(red)" vertex="1">
+          <mxGeometry height="30" width="60" x="244" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-87" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="grasp(xxx)" vertex="1">
+          <mxGeometry height="30" width="60" x="304" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-88" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(base)" vertex="1">
+          <mxGeometry height="30" width="70" x="364" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#FF33FF;" value="(依次下发任务)" vertex="1">
+          <mxGeometry height="30" width="86.5" x="50" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-90" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="导航(邮局)" vertex="1">
+          <mxGeometry height="30" width="80" x="454" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-91" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="语音播报" vertex="1">
+          <mxGeometry height="30" width="80" x="534" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-92" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="抓取" vertex="1">
+          <mxGeometry height="30" width="80" x="614" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-93" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="返航" vertex="1">
+          <mxGeometry height="30" width="80" x="694" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-94" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="90" width="336" x="444" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(xxx)" vertex="1">
+          <mxGeometry height="30" width="100" x="451" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="play" vertex="1">
+          <mxGeometry height="30" width="60" x="551" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="grasp(xxx)" vertex="1">
+          <mxGeometry height="30" width="60" x="611" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="move(base)" vertex="1">
+          <mxGeometry height="30" width="70" x="671" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="熟人打招呼" vertex="1">
+          <mxGeometry height="30" width="283" x="147" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="熟人打招呼" vertex="1">
+          <mxGeometry height="30" width="322" x="454" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="Greet_skill" vertex="1">
+          <mxGeometry height="30" width="283" x="149" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="TX6EBbOIm9mCNyf-wsjQ-102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="Greet_skill" vertex="1">
+          <mxGeometry height="30" width="283" x="454" y="1150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

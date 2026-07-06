@@ -4,43 +4,53 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XuZmM4o7l536D6S7MHI1-1" parent="1" style="shape=table;startSize=70;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;fontSize=15;fontStyle=1;align=left;fontColor=#000000;" value="x-vla实验记录&#xa;1.增加了抓取餐盒和抓取盘子的数据集&#xa;(隐患：补充数据集存在多个小于30frame的情况，训练流程中可能存在数据没有使用的情况)&#xa;2.模型位置：G1D_Dex1_Organize_and_tidy_0703_binary_thr1.5_cosine_63k" vertex="1">
-          <mxGeometry height="220" width="620" x="60" y="150" as="geometry" />
+        <mxCell id="XuZmM4o7l536D6S7MHI1-1" parent="1" style="shape=table;startSize=320;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;fontSize=15;fontStyle=1;align=left;fontColor=#000000;" value="x-vla实验记录&#xa;1.增加了抓取餐盒和抓取盘子的数据集&#xa;(隐患：补充数据集存在多个小于30frame的情况，训练流程中可能存在数据没有使用的情况)&#xa;2.在数据集上增加了lang_aug_map的参数，也就是训练阶段动态选择目标指令(同一个指令的不同表述)&#xa;&quot;lang_aug_map&quot;: {&#xa;        &quot;Organize and tidy the items on the table.&quot;: [&#xa;            &quot;Organize and tidy the items on the table.&quot;,&#xa;            &quot;Put the items on the table in order.&quot;,&#xa;            &quot;Arrange the objects neatly on the tabletop.&quot;,&#xa;            &quot;Tidy up the things placed on the table.&quot;,&#xa;            &quot;Make the table organized by arranging all items.&quot;,&#xa;            &quot;Straighten up the items on the table and put them in their places.&quot;,&#xa;            &quot;Sort and straighten the objects on the table.&quot;,&#xa;            &quot;Get everything on the table neatly arranged.&quot;&#xa;        ]&#xa;    }&#xa;3.模型位置：G1D_Dex1_Organize_and_tidy_0703_binary_thr1.5_cosine_63k" vertex="1">
+          <mxGeometry height="530" width="829" x="60" y="10" as="geometry" />
         </mxCell>
         <mxCell id="XuZmM4o7l536D6S7MHI1-2" parent="XuZmM4o7l536D6S7MHI1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
-          <mxGeometry height="75" width="620" y="70" as="geometry" />
+          <mxGeometry height="80" width="829" y="320" as="geometry" />
         </mxCell>
         <mxCell id="XuZmM4o7l536D6S7MHI1-3" parent="XuZmM4o7l536D6S7MHI1-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;" value="检查点" vertex="1">
-          <mxGeometry height="75" width="151" as="geometry">
-            <mxRectangle height="75" width="151" as="alternateBounds" />
+          <mxGeometry height="80" width="151" as="geometry">
+            <mxRectangle height="80" width="151" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XuZmM4o7l536D6S7MHI1-5" parent="XuZmM4o7l536D6S7MHI1-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;" value="现象" vertex="1">
-          <mxGeometry height="75" width="179" x="151" as="geometry">
-            <mxRectangle height="75" width="179" as="alternateBounds" />
+          <mxGeometry height="80" width="209" x="151" as="geometry">
+            <mxRectangle height="80" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlROIRcF11BMMAdgQ0ig-1" parent="XuZmM4o7l536D6S7MHI1-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;" value="失败的现象" vertex="1">
+          <mxGeometry height="80" width="179" x="360" as="geometry">
+            <mxRectangle height="80" width="179" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XuZmM4o7l536D6S7MHI1-6" parent="XuZmM4o7l536D6S7MHI1-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;" value="备注" vertex="1">
-          <mxGeometry height="75" width="290" x="330" as="geometry">
-            <mxRectangle height="75" width="290" as="alternateBounds" />
+          <mxGeometry height="80" width="290" x="539" as="geometry">
+            <mxRectangle height="80" width="290" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XuZmM4o7l536D6S7MHI1-7" parent="XuZmM4o7l536D6S7MHI1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
-          <mxGeometry height="75" width="620" y="145" as="geometry" />
+          <mxGeometry height="130" width="829" y="400" as="geometry" />
         </mxCell>
         <mxCell id="XuZmM4o7l536D6S7MHI1-8" parent="XuZmM4o7l536D6S7MHI1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="30000" vertex="1">
-          <mxGeometry height="75" width="151" as="geometry">
-            <mxRectangle height="75" width="151" as="alternateBounds" />
+          <mxGeometry height="130" width="151" as="geometry">
+            <mxRectangle height="130" width="151" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XuZmM4o7l536D6S7MHI1-10" parent="XuZmM4o7l536D6S7MHI1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;连续实验3次均能成功&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;任务完成后能正常停止(存在几率，也会失败)&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
-          <mxGeometry height="75" width="179" x="151" as="geometry">
-            <mxRectangle height="75" width="179" as="alternateBounds" />
+        <mxCell id="XuZmM4o7l536D6S7MHI1-10" parent="XuZmM4o7l536D6S7MHI1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;连续实验3次均能成功&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;任务完成后能正常停止(存在几率，也会失败)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;变化位置也能正常识别和抓取&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="130" width="209" x="151" as="geometry">
+            <mxRectangle height="130" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zlROIRcF11BMMAdgQ0ig-2" parent="XuZmM4o7l536D6S7MHI1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="抓取盘子的位置不对，导致平移的时候出现带着盘子走的情况" vertex="1">
+          <mxGeometry height="130" width="179" x="360" as="geometry">
+            <mxRectangle height="130" width="179" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XuZmM4o7l536D6S7MHI1-11" parent="XuZmM4o7l536D6S7MHI1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="bash self_scripts/run_g1d_xvla.sh ~/ws/vla/X-VLA/outputs/G1D_Dex1_Organize_and_tidy_0703_binary_thr1.5_cosine_63k/ckpt-30000" vertex="1">
-          <mxGeometry height="75" width="290" x="330" as="geometry">
-            <mxRectangle height="75" width="290" as="alternateBounds" />
+          <mxGeometry height="130" width="290" x="539" as="geometry">
+            <mxRectangle height="130" width="290" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>

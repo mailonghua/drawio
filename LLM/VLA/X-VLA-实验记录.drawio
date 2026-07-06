@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XuZmM4o7l536D6S7MHI1-1" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;fontSize=15;" value="x-vla实验记录" vertex="1">
+        <mxCell id="XuZmM4o7l536D6S7MHI1-1" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;fontSize=15;fontStyle=1" value="x-vla实验记录" vertex="1">
           <mxGeometry height="130" width="630" x="120" y="120" as="geometry" />
         </mxCell>
         <mxCell id="XuZmM4o7l536D6S7MHI1-2" parent="XuZmM4o7l536D6S7MHI1-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">

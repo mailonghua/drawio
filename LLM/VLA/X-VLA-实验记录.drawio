@@ -38,7 +38,7 @@
             <mxRectangle height="50" width="158" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XuZmM4o7l536D6S7MHI1-9" parent="XuZmM4o7l536D6S7MHI1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="" vertex="1">
+        <mxCell id="XuZmM4o7l536D6S7MHI1-9" parent="XuZmM4o7l536D6S7MHI1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="增加了抓取餐盒和抓取盘子的数据集" vertex="1">
           <mxGeometry height="50" width="157" x="158" as="geometry">
             <mxRectangle height="50" width="157" as="alternateBounds" />
           </mxGeometry>

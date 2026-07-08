@@ -105,7 +105,7 @@
             <mxRectangle height="111" width="179" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mnZyqbVLp-0LM14dBYU4-11" parent="mnZyqbVLp-0LM14dBYU4-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="" vertex="1">
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-11" parent="mnZyqbVLp-0LM14dBYU4-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="lora微调" vertex="1">
           <mxGeometry height="111" width="290" x="539" as="geometry">
             <mxRectangle height="111" width="290" as="alternateBounds" />
           </mxGeometry>

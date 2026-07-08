@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" pages="2">
   <diagram name="第 1 页" id="bbv3KnApaKkcxtFHJsaO">
     <mxGraphModel dx="1344" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,63 @@
         <mxCell id="XuZmM4o7l536D6S7MHI1-11" parent="XuZmM4o7l536D6S7MHI1-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="bash self_scripts/run_g1d_xvla.sh ~/ws/vla/X-VLA/outputs/G1D_Dex1_Organize_and_tidy_0703_binary_thr1.5_cosine_63k/ckpt-30000" vertex="1">
           <mxGeometry height="130" width="290" x="539" as="geometry">
             <mxRectangle height="130" width="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kJAGoMQ2QiBHfT8pdyjs" name="第 2 页">
+    <mxGraphModel dx="1344" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-1" parent="1" style="shape=table;startSize=200;container=1;collapsible=0;childLayout=tableLayout;fixedHeader=1;fontSize=15;fontStyle=1;align=left;fontColor=#000000;" value="Pi0.5实验记录&#xa;1.指令：&#xa;bash  self_scripts/infer/run_g1d_pi05.sh &#xa;/home/oppo/ws/vla/openpi/checkpoints/pi05_g1d_joint_lora_delta_organized/g1d_delta_organized/25000 &#xa;pi05_g1d_joint_lora_delta_organized" vertex="1">
+          <mxGeometry height="380" width="829" x="170" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-2" parent="mnZyqbVLp-0LM14dBYU4-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="69" width="829" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-3" parent="mnZyqbVLp-0LM14dBYU4-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;" value="检查点" vertex="1">
+          <mxGeometry height="69" width="151" as="geometry">
+            <mxRectangle height="69" width="151" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-4" parent="mnZyqbVLp-0LM14dBYU4-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;" value="现象" vertex="1">
+          <mxGeometry height="69" width="209" x="151" as="geometry">
+            <mxRectangle height="69" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-5" parent="mnZyqbVLp-0LM14dBYU4-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;" value="失败的现象" vertex="1">
+          <mxGeometry height="69" width="179" x="360" as="geometry">
+            <mxRectangle height="69" width="179" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-6" parent="mnZyqbVLp-0LM14dBYU4-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=15;" value="备注" vertex="1">
+          <mxGeometry height="69" width="290" x="539" as="geometry">
+            <mxRectangle height="69" width="290" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-7" parent="mnZyqbVLp-0LM14dBYU4-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fixedHeader=1;" value="" vertex="1">
+          <mxGeometry height="111" width="829" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-8" parent="mnZyqbVLp-0LM14dBYU4-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" value="25000" vertex="1">
+          <mxGeometry height="111" width="151" as="geometry">
+            <mxRectangle height="111" width="151" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-9" parent="mnZyqbVLp-0LM14dBYU4-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="&lt;ol&gt;&lt;li&gt;上午和下午能够完成桌面整理&lt;/li&gt;&lt;/ol&gt;" vertex="1">
+          <mxGeometry height="111" width="209" x="151" as="geometry">
+            <mxRectangle height="111" width="209" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-10" parent="mnZyqbVLp-0LM14dBYU4-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="晚上的时候经常出现" vertex="1">
+          <mxGeometry height="111" width="179" x="360" as="geometry">
+            <mxRectangle height="111" width="179" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-11" parent="mnZyqbVLp-0LM14dBYU4-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="" vertex="1">
+          <mxGeometry height="111" width="290" x="539" as="geometry">
+            <mxRectangle height="111" width="290" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
       </root>

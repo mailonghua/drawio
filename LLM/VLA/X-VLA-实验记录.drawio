@@ -100,7 +100,7 @@
             <mxRectangle height="111" width="209" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mnZyqbVLp-0LM14dBYU4-10" parent="mnZyqbVLp-0LM14dBYU4-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="晚上的时候经常出现" vertex="1">
+        <mxCell id="mnZyqbVLp-0LM14dBYU4-10" parent="mnZyqbVLp-0LM14dBYU4-7" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;align=left;" value="1.晚上的时候经常出现失败，主要是成功率不稳定&lt;br&gt;2.当位置移动后，会出现失败" vertex="1">
           <mxGeometry height="111" width="179" x="360" as="geometry">
             <mxRectangle height="111" width="179" as="alternateBounds" />
           </mxGeometry>

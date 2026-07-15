@@ -25,6 +25,9 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进行随机采样&lt;br&gt;（采样出的就是残差action）" vertex="1">
           <mxGeometry height="50" width="100" x="380" y="300" as="geometry" />
         </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-19" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="5m5IZYSdE89hOnIhnB_D-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算残差的对数概率&lt;br&gt;(值越大该动作在策略分布越常见)" vertex="1">
           <mxGeometry height="50" width="120" x="700" y="390" as="geometry" />
         </mxCell>
@@ -52,8 +55,8 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Critic推理输出Q" vertex="1">
           <mxGeometry height="60" width="120" x="700" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算损失：SAC损失" vertex="1">
-          <mxGeometry height="60" width="120" x="880" y="345" as="geometry" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算损失：SAC损失&lt;br&gt;L=E[α⋅logπ(a∣s)−Q(s,a)]" vertex="1">
+          <mxGeometry height="60" width="150" x="880" y="345" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

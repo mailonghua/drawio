@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Xl2nalXjscSPXPMrPieM">
-    <mxGraphModel dx="273" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1223" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,14 +16,41 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="执行risidual actor网络前向推理得到參差分布" vertex="1">
           <mxGeometry height="50" width="100" x="240" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-7" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-6" value="">
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-7" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-14" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="进行随机采样&lt;br&gt;（采样出的就是残差action）" vertex="1">
           <mxGeometry height="50" width="100" x="380" y="300" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算残差的log&lt;br&gt;概率(值越大该动作在策略分布越常见)" vertex="1">
-          <mxGeometry height="50" width="80" x="500" y="230" as="geometry" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算残差的对数概率&lt;br&gt;(值越大该动作在策略分布越常见)" vertex="1">
+          <mxGeometry height="50" width="120" x="700" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-9" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Obaservation" vertex="1">
+          <mxGeometry height="40" width="90" x="-40" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-13" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="VLA action" vertex="1">
+          <mxGeometry height="40" width="90" x="385" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-16" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="累加：&lt;br&gt;原始动作+修正动作" vertex="1">
+          <mxGeometry height="60" width="110" x="530" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Critic推理输出Q" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算损失：SAC损失" vertex="1">
+          <mxGeometry height="60" width="120" x="870" y="345" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

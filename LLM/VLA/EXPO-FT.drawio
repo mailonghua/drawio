@@ -204,6 +204,15 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-51" parent="5m5IZYSdE89hOnIhnB_D-79" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="1.采样动作&lt;br&gt;sample_batch_actions" vertex="1">
           <mxGeometry height="30" width="220" x="15" y="8" as="geometry" />
         </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-82" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;" value="" vertex="1">
+          <mxGeometry height="90" width="60" x="440" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-83" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.uTurnArrow;dy=11;arrowHead=43;dx2=25;rotation=-180;" value="&amp;nbsp; " vertex="1">
+          <mxGeometry height="90" width="60" x="580" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" value="Bootstrap" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="490" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

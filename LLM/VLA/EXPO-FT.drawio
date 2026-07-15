@@ -147,7 +147,7 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="计算Q值&lt;br&gt;(使用target_critic)" vertex="1">
           <mxGeometry height="40" width="110" x="520" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="选取Q值最大的动作" vertex="1">
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="选取Q值最大的动作&lt;br&gt;的next actions" vertex="1">
           <mxGeometry height="40" width="110" x="650" y="620" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="1.采样动作&lt;br&gt;sample_batch_actions" vertex="1">

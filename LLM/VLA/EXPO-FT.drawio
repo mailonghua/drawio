@@ -46,11 +46,14 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="累加：&lt;br&gt;原始动作+修正动作" vertex="1">
           <mxGeometry height="60" width="110" x="530" y="295" as="geometry" />
         </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-18" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="5m5IZYSdE89hOnIhnB_D-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Critic推理输出Q" vertex="1">
           <mxGeometry height="60" width="120" x="700" y="295" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="计算损失：SAC损失" vertex="1">
-          <mxGeometry height="60" width="120" x="870" y="345" as="geometry" />
+          <mxGeometry height="60" width="120" x="880" y="345" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

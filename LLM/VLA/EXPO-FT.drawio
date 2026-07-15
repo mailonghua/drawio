@@ -173,8 +173,25 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="encoder" vertex="1">
           <mxGeometry height="40" width="55" x="135" y="800" as="geometry" />
         </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-64" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-65" connectable="0" parent="5m5IZYSdE89hOnIhnB_D-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="next_q" vertex="1">
+          <mxGeometry relative="1" x="-0.1202" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="随机选取Q函数&lt;br&gt;-&amp;gt;target critic&lt;div&gt;_-&amp;gt;计算Q值&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="220" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-67" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-66" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" value="&lt;b&gt;计算估计的真值&lt;/b&gt;&lt;br&gt;target_q= 当前真值 + 折扣因子* replan步数*batch_mask*next_q" vertex="1">
+          <mxGeometry height="40" width="240" x="390" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-66" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;strokeWidth=1;" value="计算损失" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

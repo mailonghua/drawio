@@ -55,8 +55,8 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Critic推理输出Q" vertex="1">
           <mxGeometry height="60" width="120" x="700" y="295" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="计算损失：SAC损失&lt;br&gt;L=E[α⋅logπ(a∣s)−Q(s,a)]&lt;div&gt;a.α是温度参数(表示)，温度越高越随机&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="150" x="880" y="345" as="geometry" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="计算损失：SAC损失&lt;br&gt;L=E[α⋅logπ(a∣s)−Q(s,a)]&lt;div&gt;a.α是温度参数(表示)，温度越高越随机&lt;br&gt;b.residual的对数概率&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="150" x="890" y="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

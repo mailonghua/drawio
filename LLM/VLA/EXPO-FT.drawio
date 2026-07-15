@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="160" width="785" x="-15" y="540" as="geometry" />
+        </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="90" width="135" x="135" y="900" as="geometry" />
         </mxCell>
@@ -96,11 +99,59 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="10个Q函数" vertex="1">
           <mxGeometry height="25" width="90" x="140" y="912" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;strokeWidth=2;" value="Next&lt;br&gt;Obaservation" vertex="1">
-          <mxGeometry height="40" width="90" y="580" as="geometry" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-39" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;strokeWidth=2;" value="VLA input&lt;br&gt;(image/state/prompt)" vertex="1">
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;strokeWidth=2;" value="Next&lt;br&gt;Obaservation" vertex="1">
+          <mxGeometry height="40" width="90" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-35" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;strokeWidth=2;" value="VLA input&lt;br&gt;(Next image/Next state/prompt)" vertex="1">
           <mxGeometry height="40" width="120" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-37" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="VLA(PI0.5)" vertex="1">
+          <mxGeometry height="40" width="70" x="160" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-44" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="选取前N个action" vertex="1">
+          <mxGeometry height="40" width="70" x="255" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-41" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-40" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="Critic encoder" vertex="1">
+          <mxGeometry height="40" width="70" x="160" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-45" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="输出N个残差动作" vertex="1">
+          <mxGeometry height="40" width="70" x="255" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-47" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="VLA action + (VLA action + risidual action)" vertex="1">
+          <mxGeometry height="40" width="130" x="360" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-49" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-48" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="计算Q值&lt;br&gt;(使用target_critic)" vertex="1">
+          <mxGeometry height="40" width="110" x="520" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="选取Q值最大的动作" vertex="1">
+          <mxGeometry height="40" width="110" x="650" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="1.采样动作&lt;br&gt;sample_batch_actions" vertex="1">
+          <mxGeometry height="30" width="220" y="548" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

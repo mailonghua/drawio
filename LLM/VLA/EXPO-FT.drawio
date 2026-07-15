@@ -213,6 +213,12 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-84" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" value="Bootstrap" vertex="1">
           <mxGeometry height="30" width="60" x="510" y="490" as="geometry" />
         </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-85" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#0000FF;fontSize=14;" value="critic" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-86" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#0000FF;fontSize=14;" value="rresidual" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="510" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

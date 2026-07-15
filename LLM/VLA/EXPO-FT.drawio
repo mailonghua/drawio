@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Xl2nalXjscSPXPMrPieM">
-    <mxGraphModel dx="1223" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1305" dy="1359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,9 +14,6 @@
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="160" width="785" x="-15" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="90" width="135" x="135" y="900" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="270" width="1285" x="-55" y="190" as="geometry" />
@@ -83,29 +80,6 @@
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=19;" value="&lt;br&gt;更新残差网络update_residual_actor" vertex="1">
           <mxGeometry height="30" width="220" x="-30" y="200" as="geometry" />
-        </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-28" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;strokeWidth=2;" value="Next&lt;br&gt;Obaservation" vertex="1">
-          <mxGeometry height="40" width="90" y="925" as="geometry" />
-        </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-30" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="965" />
-              <mxPoint x="240" y="945" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="随机选取Q函数" vertex="1">
-          <mxGeometry height="25" width="90" x="140" y="953" as="geometry" />
-        </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-29" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="10个Q函数" vertex="1">
-          <mxGeometry height="25" width="90" x="140" y="912" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-39" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-38">
           <mxGeometry relative="1" as="geometry" />
@@ -187,11 +161,33 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-67" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-66" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" value="&lt;b&gt;计算估计的真值&lt;/b&gt;&lt;br&gt;target_q= 当前真值 + 折扣因子* replan步数*batch_mask*next_q" vertex="1">
-          <mxGeometry height="40" width="240" x="390" y="800" as="geometry" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-70" connectable="0" parent="5m5IZYSdE89hOnIhnB_D-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="target_q" vertex="1">
+          <mxGeometry relative="1" x="-0.5152" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-66" parent="1" style="whiteSpace=wrap;html=1;align=left;rounded=1;strokeWidth=1;" value="计算损失" vertex="1">
-          <mxGeometry height="60" width="120" x="770" y="790" as="geometry" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" value="&lt;b&gt;计算估计的真值&lt;/b&gt;&lt;br&gt;target_q= 当前真值 + 折扣因子* replan步数*batch_mask*next_q" vertex="1">
+          <mxGeometry height="70" width="180" x="390" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-74" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-66" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-73" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-66" parent="1" style="whiteSpace=wrap;html=1;align=center;rounded=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="计算（均方误差）损失" vertex="1">
+          <mxGeometry height="40" width="75" x="640" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-69" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-68" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-72" connectable="0" parent="5m5IZYSdE89hOnIhnB_D-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="qs" vertex="1">
+          <mxGeometry relative="1" x="-0.1592" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="计算当前状态的Q值&lt;br&gt;self.critic" vertex="1">
+          <mxGeometry height="48" width="180" x="390" y="872" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-73" parent="1" style="whiteSpace=wrap;html=1;align=center;rounded=1;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="计算梯度&amp;amp;更新critic网络" vertex="1">
+          <mxGeometry height="40" width="75" x="745" y="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

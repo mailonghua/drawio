@@ -1,11 +1,14 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Xl2nalXjscSPXPMrPieM">
-    <mxGraphModel dx="4342" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2537" dy="2509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5m5IZYSdE89hOnIhnB_D-129" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="410" width="730" x="-1280" y="280" as="geometry" />
+          <mxGeometry height="410" width="730" x="-1280" y="287.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="160" width="690" x="-1270" y="505" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="160" width="690" x="-1270" y="330" as="geometry" />
@@ -281,11 +284,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-111" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-107" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="5m5IZYSdE89hOnIhnB_D-95">
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-133" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-107" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-112" connectable="0" parent="5m5IZYSdE89hOnIhnB_D-111" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="wrist" vertex="1">
-          <mxGeometry relative="1" x="-0.4996" y="-1" as="geometry">
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-134" connectable="0" parent="5m5IZYSdE89hOnIhnB_D-133" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="WRIST" vertex="1">
+          <mxGeometry relative="1" x="-0.3337" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -330,9 +333,6 @@
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-125" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Wrist和Base相机使用不同的RNG(随机因子)" vertex="1">
           <mxGeometry height="20" width="265" x="-1245" y="560" as="geometry" />
-        </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="160" width="690" x="-1270" y="505" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-130" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="图像数据增强处理" vertex="1">
           <mxGeometry height="30" width="170" x="-1279.5" y="295" as="geometry" />

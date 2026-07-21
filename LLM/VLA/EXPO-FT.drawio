@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Xl2nalXjscSPXPMrPieM">
-    <mxGraphModel dx="2173" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,10 +157,10 @@
           <mxGeometry height="40" width="110" x="860" y="900" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-79" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="160" width="785" x="70" y="600" as="geometry" />
+          <mxGeometry height="160" width="880" x="70" y="600" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-50" parent="5m5IZYSdE89hOnIhnB_D-79" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="160" width="785" as="geometry" />
+          <mxGeometry height="160" width="880" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-39" edge="1" parent="5m5IZYSdE89hOnIhnB_D-79" source="5m5IZYSdE89hOnIhnB_D-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5m5IZYSdE89hOnIhnB_D-38">
           <mxGeometry relative="1" as="geometry" />
@@ -207,11 +207,11 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-49" edge="1" parent="5m5IZYSdE89hOnIhnB_D-79" source="5m5IZYSdE89hOnIhnB_D-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-48" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-46" parent="5m5IZYSdE89hOnIhnB_D-79" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="计算Q值&lt;br&gt;(使用target_critic)" vertex="1">
-          <mxGeometry height="40" width="110" x="535" y="80" as="geometry" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-46" parent="5m5IZYSdE89hOnIhnB_D-79" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="计算Q值&lt;br&gt;(使用target_critic)&lt;br&gt;&lt;span style=&quot;color: rgb(255, 0, 255);&quot;&gt;输入：(下一状态)&lt;br&gt;（envoded_obs,states,候选动作）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="195" x="540" y="70" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-48" parent="5m5IZYSdE89hOnIhnB_D-79" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="选取Q值最大的动作&lt;br&gt;的next actions" vertex="1">
-          <mxGeometry height="40" width="110" x="665" y="80" as="geometry" />
+          <mxGeometry height="40" width="110" x="760" y="80" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-51" parent="5m5IZYSdE89hOnIhnB_D-79" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;" value="1.采样动作&lt;br&gt;sample_batch_actions" vertex="1">
           <mxGeometry height="30" width="220" x="15" y="8" as="geometry" />

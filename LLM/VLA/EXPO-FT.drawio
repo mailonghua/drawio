@@ -208,7 +208,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-46" parent="5m5IZYSdE89hOnIhnB_D-79" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="计算Q(s&#39;,a&#39;)值&lt;br&gt;(使用target_critic)&lt;br&gt;&lt;span style=&quot;color: rgb(255, 0, 255);&quot;&gt;输入：(下一状态)&lt;br&gt;（envoded_obs,states,候选动作）&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="195" x="540" y="70" as="geometry" />
+          <mxGeometry height="60" width="185" x="550" y="70" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-48" parent="5m5IZYSdE89hOnIhnB_D-79" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="选取Q值最大的动作&lt;br&gt;的next actions" vertex="1">
           <mxGeometry height="40" width="110" x="760" y="80" as="geometry" />

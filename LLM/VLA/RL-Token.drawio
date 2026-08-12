@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="04WiKV0m33YQr20LDDyH">
-    <mxGraphModel dx="273" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="322" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,25 +40,28 @@
           <mxGeometry height="30" width="140" x="80" y="80" as="geometry" />
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="在线RL" vertex="1">
-          <mxGeometry height="30" width="140" x="80" y="200" as="geometry" />
+          <mxGeometry height="30" width="140" x="80" y="290" as="geometry" />
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-21" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-20" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eEWxWTqdjjwpgo_qZAXY-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Critirc网络训练&lt;br&gt;(采用TD时序差分方法)" vertex="1">
-          <mxGeometry height="40" width="130" x="250" y="260" as="geometry" />
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Critirc网络训练&lt;br&gt;(采用TD时序差分方法)&lt;br&gt;&lt;span style=&quot;color: rgb(255, 0, 255);&quot;&gt;（正常推理不使用，其主要作用是在rollout阶段帮助actor更新参数）&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="240" y="320" as="geometry" />
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-19" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-18" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="机器人交互数据" vertex="1">
-          <mxGeometry height="40" width="50" x="90" y="260" as="geometry" />
+          <mxGeometry height="40" width="50" x="80" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-22" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eEWxWTqdjjwpgo_qZAXY-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Replay Buffer" vertex="1">
-          <mxGeometry height="40" width="50" x="170" y="260" as="geometry" />
+          <mxGeometry height="40" width="50" x="160" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="eEWxWTqdjjwpgo_qZAXY-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Critirc网络指导Actor网络更新参数" vertex="1">
-          <mxGeometry height="40" width="130" x="430" y="260" as="geometry" />
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Critirc网络指导Actor网络更新参数&lt;br&gt;（-Q+行为约束项）" vertex="1">
+          <mxGeometry height="40" width="190" x="409" y="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

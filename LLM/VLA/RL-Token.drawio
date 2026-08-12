@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="04WiKV0m33YQr20LDDyH">
-    <mxGraphModel dx="383" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="396" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,6 +65,39 @@
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="完整流程" vertex="1">
           <mxGeometry height="30" width="140" x="80" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-26" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="示范数据" vertex="1">
+          <mxGeometry height="40" width="80" x="80" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-28" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="训练RL token编码器" vertex="1">
+          <mxGeometry height="40" width="80" x="200" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-30" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="冻结VLA与编码器" vertex="1">
+          <mxGeometry height="40" width="80" x="320" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-32" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="机器人在线交互&lt;br&gt;Rollout" vertex="1">
+          <mxGeometry height="40" width="80" x="450" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-34" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TD更新Critic" vertex="1">
+          <mxGeometry height="40" width="70" x="570" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="更新Actor" vertex="1">
+          <mxGeometry height="40" width="70" x="680" y="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

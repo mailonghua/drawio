@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="04WiKV0m33YQr20LDDyH">
-    <mxGraphModel dx="322" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="383" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,8 +60,11 @@
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Replay Buffer" vertex="1">
           <mxGeometry height="40" width="50" x="160" y="340" as="geometry" />
         </mxCell>
-        <mxCell id="eEWxWTqdjjwpgo_qZAXY-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Critirc网络指导Actor网络更新参数&lt;br&gt;（-Q+行为约束项）" vertex="1">
-          <mxGeometry height="40" width="190" x="409" y="340" as="geometry" />
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Critirc网络指导Actor网络更新参数&lt;br&gt;（Loss = -Q+行为约束项）&lt;br&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;目的：最小化-Q，并且要求Actor的动作不要离VLA的参考动作太远&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="190" x="409" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="完整流程" vertex="1">
+          <mxGeometry height="30" width="140" x="80" y="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -132,11 +132,16 @@
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-47" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-46" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-48" connectable="0" parent="eEWxWTqdjjwpgo_qZAXY-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="动作" vertex="1">
+          <mxGeometry relative="1" x="0.1059" y="2" as="geometry">
+            <mxPoint x="-7" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Actor" vertex="1">
           <mxGeometry height="80" width="80" x="400" y="640" as="geometry" />
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="机器人" vertex="1">
-          <mxGeometry height="80" width="80" x="519" y="640" as="geometry" />
+          <mxGeometry height="80" width="80" x="565" y="640" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

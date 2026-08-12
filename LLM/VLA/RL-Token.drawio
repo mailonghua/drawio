@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="04WiKV0m33YQr20LDDyH">
-    <mxGraphModel dx="396" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="820" dy="2330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,7 +75,7 @@
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-28" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-27" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eEWxWTqdjjwpgo_qZAXY-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="训练RL token编码器" vertex="1">
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="训练RL token编码器" vertex="1">
           <mxGeometry height="40" width="80" x="200" y="510" as="geometry" />
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-30" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-27" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-29" value="">
@@ -93,10 +93,10 @@
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-34" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-33" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eEWxWTqdjjwpgo_qZAXY-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="TD更新Critic" vertex="1">
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="TD更新Critic" vertex="1">
           <mxGeometry height="40" width="70" x="570" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="eEWxWTqdjjwpgo_qZAXY-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="更新Actor" vertex="1">
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="更新Actor" vertex="1">
           <mxGeometry height="40" width="70" x="680" y="510" as="geometry" />
         </mxCell>
       </root>

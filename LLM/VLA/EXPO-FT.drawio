@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Xl2nalXjscSPXPMrPieM">
-    <mxGraphModel dx="2307" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2228" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,8 +84,8 @@
         <mxCell id="5m5IZYSdE89hOnIhnB_D-21" edge="1" parent="1" source="5m5IZYSdE89hOnIhnB_D-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5m5IZYSdE89hOnIhnB_D-20" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5m5IZYSdE89hOnIhnB_D-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="计算损失：SAC损失&lt;br&gt;L=E[α⋅logπ(a∣s)−Q(s,a)]&lt;div&gt;a.α是温度参数(表示)，温度越高越随机&lt;br&gt;b.residual的对数概率&lt;br&gt;目的：最大化Q并且最小化随机性&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="150" x="890" y="307.5" as="geometry" />
+        <mxCell id="5m5IZYSdE89hOnIhnB_D-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="计算损失：SAC损失&lt;br&gt;L=E[α⋅logπ(a∣s)−Q(s,a)]&lt;div&gt;a.α是温度参数(表示)，温度越高越随机&lt;br&gt;b.residual的对数概率&lt;br&gt;目的：最大化Q并且最小化随机性&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;目的：最大化Q,也就是最小化-Q&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="152.5" width="150" x="890" y="291.25" as="geometry" />
         </mxCell>
         <mxCell id="5m5IZYSdE89hOnIhnB_D-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="反向传播，更新residual的模型的参数" vertex="1">
           <mxGeometry height="55" width="90" x="1120" y="340" as="geometry" />

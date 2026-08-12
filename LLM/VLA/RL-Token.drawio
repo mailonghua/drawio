@@ -99,6 +99,45 @@
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="更新Actor" vertex="1">
           <mxGeometry height="40" width="70" x="680" y="510" as="geometry" />
         </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="推理" vertex="1">
+          <mxGeometry height="30" width="140" x="80" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-38" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eEWxWTqdjjwpgo_qZAXY-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-42" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eEWxWTqdjjwpgo_qZAXY-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="VLA" vertex="1">
+          <mxGeometry height="80" width="80" x="80" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-40" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-37" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-39" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="RL token编码器" vertex="1">
+          <mxGeometry height="40" width="50" x="210" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-44" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="eEWxWTqdjjwpgo_qZAXY-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RL token" vertex="1">
+          <mxGeometry height="40" width="50" x="300" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-45" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="eEWxWTqdjjwpgo_qZAXY-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="动作快" vertex="1">
+          <mxGeometry height="40" width="50" x="210" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-47" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-46" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Actor" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="机器人" vertex="1">
+          <mxGeometry height="80" width="80" x="519" y="640" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

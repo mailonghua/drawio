@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="04WiKV0m33YQr20LDDyH">
-    <mxGraphModel dx="328" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="675" dy="1919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,10 @@
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="VLA" vertex="1">
           <mxGeometry height="40" width="50" x="80" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="eEWxWTqdjjwpgo_qZAXY-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RL Token编码器g&lt;br&gt;（向量压缩）" vertex="1">
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-10" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-2" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="RL Token编码器g&lt;br&gt;（向量压缩）" vertex="1">
           <mxGeometry height="40" width="100" x="414" y="130" as="geometry" />
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-8" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eEWxWTqdjjwpgo_qZAXY-2">
@@ -23,6 +26,21 @@
         </mxCell>
         <mxCell id="eEWxWTqdjjwpgo_qZAXY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;align=left;" value="{z1,z2,...,zn,&lt;b style=&quot;color: rgb(255, 0, 0);&quot;&gt;el&lt;/b&gt;}&lt;br&gt;Zn:状态向量(根据输入更新)&lt;br&gt;el:就是RL token（推理阶段固定的）" vertex="1">
           <mxGeometry height="60" width="190" x="180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-12" edge="1" parent="1" source="eEWxWTqdjjwpgo_qZAXY-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eEWxWTqdjjwpgo_qZAXY-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="压缩向量：&lt;br&gt;{z1&#39;,z2‘,....,zn&#39;.el&#39;}" vertex="1">
+          <mxGeometry height="40" width="100" x="550" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="RL token解码器&lt;br&gt;（只为了训练编码器）" vertex="1">
+          <mxGeometry height="40" width="120" x="700" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="任务适配/RL token训练" vertex="1">
+          <mxGeometry height="30" width="140" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eEWxWTqdjjwpgo_qZAXY-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="在线RL" vertex="1">
+          <mxGeometry height="30" width="140" x="80" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

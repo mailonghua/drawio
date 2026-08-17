@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="470" x="150" y="930" as="geometry" />
+        </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="260" width="870" x="90" y="170" as="geometry" />
         </mxCell>
@@ -125,7 +128,7 @@
             <mxPoint x="160" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbEvo9ENkHkFzKbmve6u-52" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(prompt,obs)" vertex="1">
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-52" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(prompt,obs,state)" vertex="1">
           <mxGeometry relative="1" x="0.0303" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -155,6 +158,39 @@
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;div&gt;R&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;t&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;= L− t − 1（剩余步数）&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="147" x="440" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="每一帧的G_t&lt;br&gt;(成败，R_t)" vertex="1">
+          <mxGeometry height="43" width="90" x="160" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-62" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-63" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(prompt,obs,state)" vertex="1">
+          <mxGeometry relative="1" x="0.0303" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-64" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DbEvo9ENkHkFzKbmve6u-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="999.8235294117649" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Policy" vertex="1">
+          <mxGeometry height="80" width="160" x="330" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-68" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-69" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="DbEvo9ENkHkFzKbmve6u-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="Advantage: positive" vertex="1">
+          <mxGeometry height="30" width="110" x="170" y="1005.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="action" vertex="1">
+          <mxGeometry height="60" width="63" x="547" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="真机推理" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="930" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

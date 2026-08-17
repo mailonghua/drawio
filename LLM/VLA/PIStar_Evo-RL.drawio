@@ -10,6 +10,11 @@
         <mxCell id="DbEvo9ENkHkFzKbmve6u-98" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-95" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DbEvo9ENkHkFzKbmve6u-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-106" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-98" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="根据上面处理完的数据(带有Negative&amp;amp;Positive)标签的数据" vertex="1">
+          <mxGeometry relative="1" x="-0.1304" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="93" width="770" x="270" y="590" as="geometry" />
         </mxCell>

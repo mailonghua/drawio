@@ -38,7 +38,7 @@
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-6" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(prompt,obs)" vertex="1">
           <mxGeometry relative="1" x="0.1336" y="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据" vertex="1">

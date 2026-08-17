@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="rpiUE-9Qk1Ho6Ac0wk6p">
-    <mxGraphModel dx="768" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1120" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -216,8 +216,8 @@
         <mxCell id="DbEvo9ENkHkFzKbmve6u-97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="训练Policy" vertex="1">
           <mxGeometry height="30" width="243" x="341" y="729" as="geometry" />
         </mxCell>
-        <mxCell id="DbEvo9ENkHkFzKbmve6u-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=14;" value="机器人Rollout" vertex="1">
-          <mxGeometry height="30" width="110" x="50" y="467" as="geometry" />
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="整轮闭环" vertex="1">
+          <mxGeometry height="30" width="70" x="50" y="467" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

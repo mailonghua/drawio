@@ -41,8 +41,8 @@
             <mxPoint y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DbEvo9ENkHkFzKbmve6u-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="数据" vertex="1">
-          <mxGeometry height="30" width="40" x="393" y="160" as="geometry" />
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="数据" vertex="1">
+          <mxGeometry height="30" width="40" x="394" y="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

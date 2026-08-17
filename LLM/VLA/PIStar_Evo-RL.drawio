@@ -96,9 +96,9 @@
           <mxGeometry height="73" width="493" x="440" y="200" as="geometry" />
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="成功就不会减去Cfail" vertex="1">
-          <mxGeometry height="30" width="140" x="660" y="290" as="geometry" />
+          <mxGeometry height="30" width="140" x="670" y="290" as="geometry" />
         </mxCell>
-        <mxCell id="DbEvo9ENkHkFzKbmve6u-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="成功就会减去固定Cfail" vertex="1">
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;失败就会减去固定Cfail&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="140" x="677" y="380" as="geometry" />
         </mxCell>
       </root>

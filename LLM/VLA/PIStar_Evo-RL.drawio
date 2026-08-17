@@ -44,6 +44,21 @@
         <mxCell id="DbEvo9ENkHkFzKbmve6u-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=13;" value="数据" vertex="1">
           <mxGeometry height="30" width="40" x="394" y="160" as="geometry" />
         </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Frame&lt;br&gt;1" vertex="1">
+          <mxGeometry height="60" width="40" x="120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Frame&lt;br&gt;2" vertex="1">
+          <mxGeometry height="60" width="40" x="170" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Frame&lt;br&gt;3" vertex="1">
+          <mxGeometry height="60" width="40" x="220" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Frame&lt;br&gt;..." vertex="1">
+          <mxGeometry height="60" width="40" x="270" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="Frame&lt;br&gt;N" vertex="1">
+          <mxGeometry height="60" width="40" x="320" y="250" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

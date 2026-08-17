@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="rpiUE-9Qk1Ho6Ac0wk6p">
-    <mxGraphModel dx="1120" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="448" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
           <mxGeometry height="93" width="770" x="270" y="590" as="geometry" />
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-84" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="73" width="420" x="140" y="497" as="geometry" />
+          <mxGeometry height="73" width="540" x="140" y="497" as="geometry" />
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-71" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="120" width="470" x="160" y="1090" as="geometry" />
@@ -172,6 +172,9 @@
         <mxCell id="DbEvo9ENkHkFzKbmve6u-80" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="&lt;span style=&quot;color: rgb(102, 102, 255);&quot;&gt;&lt;b&gt;人为标记episode是成功(1)还是失败(-1)&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="43" width="90" x="280" y="517" as="geometry" />
         </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-109" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-82" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DbEvo9ENkHkFzKbmve6u-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-82" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="根据上面的公式计算每个Frame的期望回报G(t)" vertex="1">
           <mxGeometry height="43" width="138.5" x="410" y="517" as="geometry" />
         </mxCell>
@@ -186,6 +189,11 @@
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-88" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-87" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.132;entryY=1.012;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="DbEvo9ENkHkFzKbmve6u-84">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-110" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="根据数据池数据" vertex="1">
+          <mxGeometry relative="1" x="0.3515" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-92" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-89" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DbEvo9ENkHkFzKbmve6u-91" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -223,6 +231,9 @@
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-105" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="整轮闭环" vertex="1">
           <mxGeometry height="30" width="70" x="50" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-107" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="将新数据并入数据池" vertex="1">
+          <mxGeometry height="43" width="67" x="600" y="517" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

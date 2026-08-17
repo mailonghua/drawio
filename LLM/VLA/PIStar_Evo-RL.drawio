@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="rpiUE-9Qk1Ho6Ac0wk6p">
-    <mxGraphModel dx="1920" dy="1091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
         <mxCell id="DbEvo9ENkHkFzKbmve6u-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;失败就会减去固定Cfail,范围大概在(-1,-0.5]&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="233" x="631.25" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="DbEvo9ENkHkFzKbmve6u-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="根据Episode的结果，计算每一帧的期望回报" vertex="1">
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="根据人工标记Episode的结果，计算每一帧的期望回报Gt" vertex="1">
           <mxGeometry height="30" width="250" x="64.25" y="170" as="geometry" />
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="&lt;div&gt;R&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;t&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;= L− t − 1（剩余步数）&lt;/span&gt;&lt;/div&gt;" vertex="1">
@@ -126,8 +126,8 @@
         <mxCell id="DbEvo9ENkHkFzKbmve6u-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="action" vertex="1">
           <mxGeometry height="60" width="63" x="437" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="DbEvo9ENkHkFzKbmve6u-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="真机推理" vertex="1">
-          <mxGeometry height="30" width="60" x="50" y="790" as="geometry" />
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="真机推理" vertex="1">
+          <mxGeometry height="30" width="80" x="50" y="790" as="geometry" />
         </mxCell>
         <mxCell id="DbEvo9ENkHkFzKbmve6u-83" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-80" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DbEvo9ENkHkFzKbmve6u-82" value="">
           <mxGeometry relative="1" as="geometry" />

@@ -1,11 +1,45 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="rpiUE-9Qk1Ho6Ac0wk6p">
-    <mxGraphModel dx="574" dy="1631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="478" dy="1359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DbEvo9ENkHkFzKbmve6u-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="160" y="130" as="geometry" />
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Critic" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-7" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="187.66666666666674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-8" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="action" vertex="1">
+          <mxGeometry relative="1" x="-0.1978" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-9" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="162.66666666666674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-10" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(成功，失败)" vertex="1">
+          <mxGeometry relative="1" x="-0.1608" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Policy" vertex="1">
+          <mxGeometry height="50" width="90" x="200" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-5" edge="1" parent="1" source="DbEvo9ENkHkFzKbmve6u-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="174.91333333333327" as="sourcePoint" />
+            <mxPoint x="90" y="174.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DbEvo9ENkHkFzKbmve6u-6" connectable="0" parent="DbEvo9ENkHkFzKbmve6u-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="(prompt,obs)" vertex="1">
+          <mxGeometry relative="1" x="0.1336" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

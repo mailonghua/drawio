@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="Jbu9uNQjyExmTwhqMaZK">
+    <mxGraphModel dx="343" dy="194" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="110" width="140" x="110" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-3" edge="1" parent="1" source="IOE4wwZ6aRdzxoM4Ghcl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOE4wwZ6aRdzxoM4Ghcl-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-4" connectable="0" parent="IOE4wwZ6aRdzxoM4Ghcl-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" value="有" vertex="1">
+          <mxGeometry relative="1" x="0.05" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-6" edge="1" parent="1" source="IOE4wwZ6aRdzxoM4Ghcl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOE4wwZ6aRdzxoM4Ghcl-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-7" connectable="0" parent="IOE4wwZ6aRdzxoM4Ghcl-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=17;" value="没有" vertex="1">
+          <mxGeometry relative="1" x="-0.22" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="明确产品IDEA？" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;dashed=1;" value="第一优先级" vertex="1">
+          <mxGeometry height="30" width="100" x="364" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-9" edge="1" parent="1" source="IOE4wwZ6aRdzxoM4Ghcl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOE4wwZ6aRdzxoM4Ghcl-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-10" connectable="0" parent="IOE4wwZ6aRdzxoM4Ghcl-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" value="有" vertex="1">
+          <mxGeometry relative="1" x="-0.192" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" value="公司内部机器人产品制作" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-12" edge="1" parent="1" source="IOE4wwZ6aRdzxoM4Ghcl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="IOE4wwZ6aRdzxoM4Ghcl-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-13" connectable="0" parent="IOE4wwZ6aRdzxoM4Ghcl-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" value="满足" vertex="1">
+          <mxGeometry relative="1" x="-0.175" y="-4" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" value="能力&amp;amp;时间是否满足？" vertex="1">
+          <mxGeometry height="60" width="110" x="330" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" value="第二优先级" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="自主决策-人形" vertex="1">
+          <mxGeometry height="20" width="80" x="120" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Agent" vertex="1">
+          <mxGeometry height="30" width="50" x="120" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Runtime" vertex="1">
+          <mxGeometry height="30" width="50" x="190" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="运控" vertex="1">
+          <mxGeometry height="30" width="50" x="120" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="操作" vertex="1">
+          <mxGeometry height="30" width="50" x="190" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="110" width="140" x="290" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="自主决策-轮式" vertex="1">
+          <mxGeometry height="20" width="80" x="300" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Agent" vertex="1">
+          <mxGeometry height="30" width="50" x="300" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Runtime" vertex="1">
+          <mxGeometry height="30" width="50" x="370" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="IOE4wwZ6aRdzxoM4Ghcl-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="操作" vertex="1">
+          <mxGeometry height="30" width="50" x="370" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

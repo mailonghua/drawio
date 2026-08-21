@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Jbu9uNQjyExmTwhqMaZK">
-    <mxGraphModel dx="1120" dy="637" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="589" dy="356" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -119,6 +119,56 @@
         </mxCell>
         <mxCell id="-8cggi7KjkAELmVwqAKP-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;" value="安全边界" vertex="1">
           <mxGeometry height="35" width="80" x="434" y="616" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;strokeColor=#CC00CC;" value="" vertex="1">
+          <mxGeometry height="77" width="186" x="93" y="796" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="经典运控" vertex="1">
+          <mxGeometry height="30" width="60" x="110" y="801" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="实时系统" vertex="1">
+          <mxGeometry height="27" width="60" x="199" y="801" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SLAM/导航" vertex="1">
+          <mxGeometry height="27" width="66" x="98" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="电机驱动" vertex="1">
+          <mxGeometry height="27" width="66" x="203" y="828" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="本体" vertex="1">
+          <mxGeometry height="17" width="66" x="153" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2022年仿人交互阶段业界的技术" vertex="1">
+          <mxGeometry height="30" width="183" x="98" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;strokeColor=#00CC00;" value="" vertex="1">
+          <mxGeometry height="77" width="186" x="398" y="796" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="强化运控" vertex="1">
+          <mxGeometry height="27" width="60" x="425" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="那些改变了？" vertex="1">
+          <mxGeometry height="23" width="110" x="440" y="765.5" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="一条通往构建大脑的路出现" vertex="1">
+          <mxGeometry height="30" width="110" x="432" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="341.62" y="890.14" as="sourcePoint" />
+            <mxPoint x="341.62" y="770.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-13" connectable="0" parent="sTgjFglL0t4F5tfDVpHi-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" value="ChatGPT" vertex="1">
+          <mxGeometry relative="1" x="0.1444" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sTgjFglL0t4F5tfDVpHi-14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="102.38" y="893.19" as="sourcePoint" />
+            <mxPoint x="601.86" y="891.66" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

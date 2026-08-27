@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="rpiUE-9Qk1Ho6Ac0wk6p">
-    <mxGraphModel dx="387" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="273" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,9 +199,9 @@
           <mxGeometry height="43" width="67" x="600" y="517" as="geometry" />
         </mxCell>
         <mxCell id="4v26lCjo4an7eSc_Se4l-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=19;" value="PiStar" vertex="1">
-          <mxGeometry height="30" width="60" x="4.25" y="1020" as="geometry" />
+          <mxGeometry height="30" width="60" x="14.25" y="990" as="geometry" />
         </mxCell>
-        <mxCell id="4v26lCjo4an7eSc_Se4l-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" value="reward_label:这一步立刻能够拿到的奖励rt&lt;br&gt;value_label:从这一步一直加到结束的回报（类似期望回报了）" vertex="1">
+        <mxCell id="4v26lCjo4an7eSc_Se4l-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=15;" value="reward:只区分成功还是失败（成功的episode最后一帧为1,前面全是0,失败：全0）&lt;br&gt;reward_label:这一步立刻能够拿到的奖励rt&lt;br&gt;value_label:从这一步一直加到结束的回报（类似期望回报了）" vertex="1">
           <mxGeometry height="30" width="500" x="25" y="1050" as="geometry" />
         </mxCell>
         <mxCell id="4v26lCjo4an7eSc_Se4l-5" edge="1" parent="1" source="4v26lCjo4an7eSc_Se4l-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4v26lCjo4an7eSc_Se4l-4" value="">
@@ -251,6 +251,9 @@
         </mxCell>
         <mxCell id="4v26lCjo4an7eSc_Se4l-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;br&gt;当前rollout的episode&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;成功(t=0,....,T-1)：Vt = - (T-1-t)/T&lt;br&gt;&lt;/span&gt;失败：整条都是惩罚值&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="204.25" x="74.25" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="4v26lCjo4an7eSc_Se4l-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;中间帧：每步 -1/T（时间代价）&lt;/div&gt;&lt;div&gt;最后一帧：成功 0，失败 -1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="80" y="1385" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

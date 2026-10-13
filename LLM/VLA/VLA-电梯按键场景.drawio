@@ -19,7 +19,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-1" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=11;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="TASK：15个按键面板&lt;br&gt;数据：两次数据采集(每个按键50/100)&lt;br&gt;现象：语意丢失，准确率低&lt;br&gt;训练：Lora(*2)，Full，KI&lt;br&gt;结论：当前面板不适合，数据切换到定制面板" vertex="1">
-          <mxGeometry height="80" width="260" x="-20" y="163" as="geometry" />
+          <mxGeometry height="80" width="205" x="-20" y="163" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-2" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-1" value="">
           <mxGeometry relative="1" as="geometry">

@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IL8gH82R5feMHzvAi9zs-2" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=9;" value="TASK：滨海湾客梯外部面板&lt;br&gt;数据：确定数据采集方式，对上下按键各采集200条&lt;br&gt;训练方式：Lora，Full，KI&lt;br&gt;结论：Full和Lora表现较好，能够正常点按&lt;br&gt;问题：&lt;b&gt;当其他按键点亮时，无法正常点按目标&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="102" width="140" x="200" y="368" as="geometry" />
+          <mxGeometry height="102" width="140" x="190" y="340" as="geometry" />
         </mxCell>
         <mxCell id="IL8gH82R5feMHzvAi9zs-3" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IL8gH82R5feMHzvAi9zs-2" value="">
           <mxGeometry relative="1" as="geometry">
@@ -36,6 +36,17 @@
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;fontStyle=1" value="PE_OUT:V1" vertex="1">
           <mxGeometry height="20" width="60" x="210" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="friLPvO7Kgt0SGddMDpL-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="TASK：15个按键面板&lt;br&gt;数据：两次数据采集(每个按键50/100)&lt;br&gt;现象：语意丢失，准确率低&lt;br&gt;训练：Lora(*2)，Full，KI&lt;br&gt;结论：代码复用，当前面板不适合，数据切换到定制面板" vertex="1">
+          <mxGeometry height="70" width="170" x="244" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="friLPvO7Kgt0SGddMDpL-7" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="friLPvO7Kgt0SGddMDpL-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;fontStyle=1" value="PE_OUT:V2" vertex="1">
+          <mxGeometry height="20" width="60" x="270" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

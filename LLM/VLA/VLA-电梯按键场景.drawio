@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="GZUxjOleeXOxKtdZI38w">
-    <mxGraphModel dx="916" dy="531" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="762" dy="842" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="friLPvO7Kgt0SGddMDpL-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
-          <mxGeometry height="60" width="178" x="720" y="246" as="geometry" />
+          <mxGeometry height="60" width="178" x="911" y="54" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="" vertex="1">
           <mxGeometry height="60" width="480" x="180" y="246" as="geometry" />
@@ -59,8 +59,8 @@
         <mxCell id="friLPvO7Kgt0SGddMDpL-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;fontStyle=1" value="PE_IN Data&lt;br&gt;(10-12)" vertex="1">
           <mxGeometry height="20" width="60" x="320" y="258" as="geometry" />
         </mxCell>
-        <mxCell id="friLPvO7Kgt0SGddMDpL-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;fillColor=#ffe6cc;strokeColor=#d79b00;" value="数据：补充采集异常数据（100*2）V3&lt;br&gt;训练方式：Lora,Full&lt;br&gt;&lt;span style=&quot;color: rgb(255, 51, 255);&quot;&gt;结论：正在训练&lt;br&gt;5090：Lora&lt;br&gt;2*A100：Full&lt;/span&gt;" vertex="1">
-          <mxGeometry height="70" width="100" x="380" y="133" as="geometry" />
+        <mxCell id="friLPvO7Kgt0SGddMDpL-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;" value="数据：补充采集异常数据（100*2）V3&lt;br&gt;训练方式：Lora,Full&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;结论：正在训练&lt;br&gt;5090：Lora&lt;br&gt;2*A100：Full&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="97" x="380" y="133" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-13" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-12" value="">
           <mxGeometry relative="1" as="geometry">
@@ -70,7 +70,7 @@
         <mxCell id="friLPvO7Kgt0SGddMDpL-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;fontStyle=1" value="PE_OUT:V3&lt;br&gt;(10-13)" vertex="1">
           <mxGeometry height="20" width="60" x="370" y="282" as="geometry" />
         </mxCell>
-        <mxCell id="friLPvO7Kgt0SGddMDpL-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;" value="PI*star:Full train start&lt;br&gt;内部面板训练任务开始(7个任务)&lt;br&gt;&lt;span style=&quot;color: rgb(255, 51, 255);&quot;&gt;正在创建在A800-PAI环节上配置pistart的环境&lt;/span&gt;" vertex="1">
+        <mxCell id="friLPvO7Kgt0SGddMDpL-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;" value="PI*star:Full train start&lt;br&gt;内部面板训练任务开始(7个任务)&lt;br&gt;&lt;span style=&quot;&quot;&gt;正在创建在A800-PAI环节上配置pistart的环境&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="100" x="450" y="350" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-16" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-15" value="">
@@ -82,14 +82,14 @@
           <mxGeometry height="20" width="60" x="420" y="258" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-18" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;fillColor=#FF0000;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="610" y="260" as="geometry" />
+          <mxGeometry height="20" width="20" x="672" y="259" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-21" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;" value="客梯外部面板解决异常问题&amp;amp;成功率达到90%" vertex="1">
-          <mxGeometry height="40" width="100" x="500" y="140" as="geometry" />
+          <mxGeometry height="40" width="100" x="771" y="142" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-22" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-21" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="280" as="sourcePoint" />
+            <mxPoint x="791" y="282" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#3333FF;" value="Stage1:SFT" vertex="1">
@@ -98,55 +98,55 @@
         <mxCell id="IL8gH82R5feMHzvAi9zs-1" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;curved=1;strokeWidth=3;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="80" y="280" as="sourcePoint" />
-            <mxPoint x="920" y="280" as="targetPoint" />
+            <mxPoint x="1179.04" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-20" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;fillColor=#FF8000;strokeColor=none;" value="" vertex="1">
-          <mxGeometry height="20" width="20" x="460" y="226" as="geometry" />
+          <mxGeometry height="20" width="20" x="646" y="51" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-33" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;" value="客梯内部面板7个任务成功率达到90%" vertex="1">
-          <mxGeometry height="30" width="90" x="560" y="355" as="geometry" />
+          <mxGeometry height="30" width="90" x="831" y="357" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-34" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-33" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="280" as="sourcePoint" />
+            <mxPoint x="831" y="282" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontColor=#3333FF;" value="Stage2:RL" vertex="1">
-          <mxGeometry height="20" width="70" x="722" y="246" as="geometry" />
+          <mxGeometry height="20" width="70" x="1139" y="45" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-38" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;" value="离线强化：成功率稳定在95%&lt;br&gt;9个任务需要训练9个价值网络" vertex="1">
-          <mxGeometry height="40" width="150" x="720" y="174" as="geometry" />
+          <mxGeometry height="40" width="150" x="1137" y="-27" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-39" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-38" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="803" y="278" as="sourcePoint" />
-            <mxPoint x="790" y="195.0000000000001" as="targetPoint" />
+            <mxPoint x="1220" y="77" as="sourcePoint" />
+            <mxPoint x="1207" y="-5.999999999999886" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-40" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;" value="9个Task&lt;b&gt;混合&lt;/b&gt;训练，成功率保持" vertex="1">
-          <mxGeometry height="30" width="90" x="610" y="145" as="geometry" />
+          <mxGeometry height="30" width="90" x="881" y="147" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-41" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-40" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="280" as="sourcePoint" />
+            <mxPoint x="901" y="282" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-42" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;" value="在线强化：RL token&lt;br&gt;模型在真实环境更鲁棒" vertex="1">
-          <mxGeometry height="40" width="130" x="722" y="340" as="geometry" />
+          <mxGeometry height="40" width="130" x="1139" y="139" as="geometry" />
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-43" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="friLPvO7Kgt0SGddMDpL-42" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="840" y="282" as="sourcePoint" />
+            <mxPoint x="1257" y="81" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="friLPvO7Kgt0SGddMDpL-44" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;curved=1;strokeWidth=3;dashed=1;strokeColor=#9933FF;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
-              <mxPoint x="470" y="306" />
+              <mxPoint x="731" y="101" />
             </Array>
-            <mxPoint x="470" y="306" as="sourcePoint" />
-            <mxPoint x="470" y="246" as="targetPoint" />
+            <mxPoint x="731" y="101" as="sourcePoint" />
+            <mxPoint x="731" y="41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

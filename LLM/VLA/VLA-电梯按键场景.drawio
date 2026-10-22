@@ -150,7 +150,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yC7vtdBTPP0HvK_Nb-1p-3" parent="1" style="whiteSpace=wrap;html=1;rounded=0;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};fontSize=9;" value="电梯内部面板V1&lt;br&gt;1.5090-lora开始训练&lt;br&gt;2.Full版本-A800*2云服务器开始训练" vertex="1">
-          <mxGeometry height="48" width="90" x="493" y="346" as="geometry" />
+          <mxGeometry height="48" width="90" x="461" y="346" as="geometry" />
         </mxCell>
         <mxCell id="yC7vtdBTPP0HvK_Nb-1p-4" edge="1" parent="1" style="startArrow=none;endArrow=none;segment=10;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="yC7vtdBTPP0HvK_Nb-1p-3" value="">
           <mxGeometry relative="1" as="geometry">

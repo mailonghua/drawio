@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="U6WUpQG4fDAtpphUVfao">
-    <mxGraphModel dx="1319" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="455" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;相关概念：&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;HVX和HMX都可以单独的进行矩阵乘法&lt;/li&gt;&lt;li&gt;HMX进行矩阵乘，此时HVX就会干HMX不会做的事情：把Q4/Q8等权重反量化成FP16tile,再把HMX吐出的数据转换成FP32&lt;/li&gt;&lt;li&gt;HMX只吃FP16的数据,&lt;/li&gt;&lt;li&gt;HVX可以使用多种数据类型：Q4_0、Q4_1、Q4_K、Q8_0、Q5_K、Q6_K、Q3_K、Q2_K、Q2_0、Q1_0、IQ4_NL、MXFP4，另外还有 F16、F32、BF16&lt;/li&gt;&lt;li&gt;在llama.cpp中即实现了HMX的矩阵乘法算子，又实现了HVX的矩阵乘法算子(kparams-&amp;gt;n_hmx参数控制)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="250" width="380" x="130" y="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

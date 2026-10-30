@@ -1,11 +1,152 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="U6WUpQG4fDAtpphUVfao">
-    <mxGraphModel dx="455" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="949" dy="1965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2AXg5rdfTnBB7JXDY2-q-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;相关概念：&lt;/span&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;HVX和HMX都可以单独的进行矩阵乘法&lt;/li&gt;&lt;li&gt;HMX进行矩阵乘，此时HVX就会干HMX不会做的事情：把Q4/Q8等权重反量化成FP16tile,再把HMX吐出的数据转换成FP32&lt;/li&gt;&lt;li&gt;HMX只吃FP16的数据,&lt;/li&gt;&lt;li&gt;HVX可以使用多种数据类型：Q4_0、Q4_1、Q4_K、Q8_0、Q5_K、Q6_K、Q3_K、Q2_K、Q2_0、Q1_0、IQ4_NL、MXFP4，另外还有 F16、F32、BF16&lt;/li&gt;&lt;li&gt;在llama.cpp中即实现了HMX的矩阵乘法算子，又实现了HVX的矩阵乘法算子(kparams-&amp;gt;n_hmx参数控制)&lt;/li&gt;&lt;/ul&gt;" vertex="1">
           <mxGeometry height="250" width="380" x="130" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-3" parent="1" style="rounded=1;dashed=1;dashPattern=8 4;strokeWidth=2;strokeColor=#d79b00;fillColor=#fff8ef;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=12;spacingTop=8;fontSize=13;fontStyle=1;fontColor=#9c6b00;" value="循环 i：一段权重通道 n_chunk。r 和 c 结束后，这一块就写回 DDR，不等下一批激活" vertex="1">
+          <mxGeometry height="1160" width="760" x="160" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-4" parent="1" style="rounded=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#6c8ebf;fillColor=#f7fbff;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontStyle=1;fontColor=#3d5a80;" value="循环 r：当前这批激活里，每次 32 行" vertex="1">
+          <mxGeometry height="600" width="560" x="190" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-5" parent="1" style="rounded=1;dashed=1;dashPattern=6 4;strokeWidth=2;strokeColor=#9673a6;fillColor=#fbf7fc;html=1;whiteSpace=wrap;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontSize=13;fontStyle=1;fontColor=#6b4c7a;" value="循环 c：当前这段权重里，每次 32 个通道" vertex="1">
+          <mxGeometry height="370" width="500" x="220" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-6" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;" value="入口 hmx_mm_2d_f32" vertex="1">
+          <mxGeometry height="46" width="240" x="410" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-7" parent="1" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" value="mr：还有下一批激活行？" vertex="1">
+          <mxGeometry height="110" width="280" x="390" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-8" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;" value="各块都已写回&#xa;DDR 上是完整矩阵" vertex="1">
+          <mxGeometry height="70" width="200" x="980" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-9" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" value="从 DDR 搬入这一批 m_chunk 行&#xa;HVX 收成 FP16 tile&#xa;这批激活留在 VTCM，供下面每一段权重复用" vertex="1">
+          <mxGeometry height="90" width="360" x="350" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-10" parent="1" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;" value="i：还有下一段输出通道？" vertex="1">
+          <mxGeometry height="110" width="280" x="370" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-11" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" value="从 DDR 搬入这一段 n_chunk 权重&#xa;HVX 反量化并排成 FP16 tile" vertex="1">
+          <mxGeometry height="64" width="340" x="350" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-12" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="提交一次 HMX 任务&#xa;这一批激活 × 这一段权重" vertex="1">
+          <mxGeometry height="52" width="300" x="370" y="944" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-13" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="r：取当前激活中的 32 行&#xa;指针停在 VTCM" vertex="1">
+          <mxGeometry height="48" width="280" x="330" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-14" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="c：取当前权重中的 32 个通道" vertex="1">
+          <mxGeometry height="44" width="300" x="320" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-15" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" value="HMX 沿完整 K 乘加&#xa;得到 32 行 × 32 通道" vertex="1">
+          <mxGeometry height="56" width="260" x="340" y="1224" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-16" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" value="这一个 32×32 的 FP16 结果&#xa;写入 VTCM 输出缓冲" vertex="1">
+          <mxGeometry height="56" width="320" x="310" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-17" parent="1" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="c 还有下一个通道块？" vertex="1">
+          <mxGeometry height="80" width="240" x="350" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-18" parent="1" style="rhombus;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;" value="r 还有下一组 32 行？&lt;br&gt;(激活块)" vertex="1">
+          <mxGeometry height="80" width="240" x="350" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-19" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="r 和 c 都结束：这块 m_chunk × n_chunk 已齐&#xa;HVX 转成 FP32 并加 bias，写入 DDR 对应行列&#xa;VTCM 输出缓冲只留这一块，下一段复用" vertex="1">
+          <mxGeometry height="84" width="460" x="250" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-20" parent="1" style="rounded=0;html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13;" value="流水线打开时写回晚一拍&#xa;HMX 算第 i 段时，HVX 写第 i-1 段&#xa;片上仍只有相邻两块输出，不是整张矩阵" vertex="1">
+          <mxGeometry height="70" width="420" x="270" y="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-21" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=#FF3333;dashed=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="430" width="28" x="940" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#FF3333;fontSize=14;" value="外部的两个循环&lt;br&gt;1.激活的行块是否循环完&lt;br&gt;2.权重的列块是否循环完" vertex="1">
+          <mxGeometry height="72" width="250" x="978" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-23" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;strokeColor=#FF3333;dashed=1;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="600" width="28" x="940" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontColor=#FF3333;fontSize=14;" value="内部的&lt;b&gt;两个循环&lt;/b&gt;&lt;br&gt;也就是搬运到VTCM中的激活的行循环和权重的列循环(已经重排)" vertex="1">
+          <mxGeometry height="90" width="250" x="978" y="1058" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-25" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;" target="2AXg5rdfTnBB7JXDY2-q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-26" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;fontSize=14;" target="2AXg5rdfTnBB7JXDY2-q-9" value="有">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-27" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;fontSize=14;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="2AXg5rdfTnBB7JXDY2-q-8" value="没有">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-28" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-9" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;" target="2AXg5rdfTnBB7JXDY2-q-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-29" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;fontSize=14;" target="2AXg5rdfTnBB7JXDY2-q-11" value="有">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-30" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;" target="2AXg5rdfTnBB7JXDY2-q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-31" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;" target="2AXg5rdfTnBB7JXDY2-q-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-32" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;" target="2AXg5rdfTnBB7JXDY2-q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-33" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;" target="2AXg5rdfTnBB7JXDY2-q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-34" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;" target="2AXg5rdfTnBB7JXDY2-q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-35" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;" target="2AXg5rdfTnBB7JXDY2-q-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-36" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#6c8ebf;fontSize=13;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="2AXg5rdfTnBB7JXDY2-q-14" value="有，下一个 32 通道">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1410" />
+              <mxPoint x="240" y="1182" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-37" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;fontSize=14;" target="2AXg5rdfTnBB7JXDY2-q-18" value="没有">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-38" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#6c8ebf;fontSize=13;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="2AXg5rdfTnBB7JXDY2-q-13" value="有，下一组 32 行">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="1540" />
+              <mxPoint x="735" y="1074" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-39" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#333333;fontSize=14;" target="2AXg5rdfTnBB7JXDY2-q-19" value="没有">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-40" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#82b366;strokeWidth=2;fontSize=13;exitX=1;exitY=0.5;entryX=1;entryY=0.85;labelBackgroundColor=#fff8ef;" target="2AXg5rdfTnBB7JXDY2-q-10" value="写完这一段，回到 i">
+          <mxGeometry relative="1" x="-0.78" y="-18" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="1672" />
+              <mxPoint x="860" y="814" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-41" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=block;endSize=8;strokeColor=#d79b00;strokeWidth=2;fontSize=13;exitX=1;exitY=0.5;entryX=1;entryY=1;labelBackgroundColor=#ffffff;entryDx=0;entryDy=0;" target="2AXg5rdfTnBB7JXDY2-q-7" value="没有：这批激活的通道都写完了">
+          <mxGeometry relative="1" x="-0.7538" y="-16" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="775" />
+              <mxPoint x="820" y="509.29999999999995" />
+              <mxPoint x="600" y="509.29999999999995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2AXg5rdfTnBB7JXDY2-q-42" edge="1" parent="1" source="2AXg5rdfTnBB7JXDY2-q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;dashed=1;endArrow=block;endSize=8;strokeColor=#666666;" target="2AXg5rdfTnBB7JXDY2-q-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
